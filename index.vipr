@@ -1,0 +1,42 @@
+[Self]
+Self.Name=LevyLab Packages
+Self.URL=file:///c:/user/patrick/git/packages
+Release.Number=3
+Release.Date=Fri, 26 Apr 2019 09:55:37 -0400
+Self.ID=56f76da7e5ec9f2d1b9870c4c5be6336
+Client.GlobalAccess=TRUE
+
+[Package levylab_lib_general_afm_lithography-8.1.0.16]
+Package.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.vip
+Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.bmp
+Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.spec
+Package.MD5=6641cd72852473bfa38990f1a4f0f418
+Package.Release Date=Fri, 26 Apr 2019 09:55:10 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_ibwtolv>=1.0.0.1,levylab_lib_lvtoitx>=2.0.0.10
+Package.Display Name=General AFM Lithography
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_ibwtolv-1.0.0.2]
+Package.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.vip
+Icon.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.bmp
+Spec.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.spec
+Package.MD5=e1bbc3c16f17280436b8f32bd32f40ac
+Package.Release Date=Fri, 26 Apr 2019 09:55:26 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=IBWtoLV
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_lvtoitx-2.6.8.25]
+Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.vip
+Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.bmp
+Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.spec
+Package.MD5=0f71afc428cb6f0497613147d7194392
+Package.Release Date=Fri, 26 Apr 2019 09:55:37 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_colorutillities>=1.0.0.2,levylab_lib_fileutilities>=1.2.1.7,levylab_lib_graph_utilities>=1.0.1.6,levylab_lib_ibwtolv>=1.0.0.2,levylab_lib_control_vi>=1.1.1.4
+Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017

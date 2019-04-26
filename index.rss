@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>LevyLab Packages</title>
+    <description>LevyLab Packages</description>
+    <pubDate>Fri, 26 Apr 2019 09:55:37 -0400</pubDate>
+    <link>file:///c:/user/patrick/git/packages</link>
+    <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LVtoITX v2.6.8.25</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LVtoITX v2.6.8.25&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 26 Apr 2019 09:55:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
+&lt;br&gt;
+Release Notes: bug fixes:&lt;br&gt;- update DAT to LV to better format comments from DAT files&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Apr 2019 09:55:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-2.6.8.25</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>IBWtoLV v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: IBWtoLV v1.0.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 26 Apr 2019 09:55:26 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: utilities for opening Igor Binary Wave (IBW) files in Labview&lt;br&gt;
+&lt;br&gt;
+Release Notes: - new LevyLab function category&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Apr 2019 09:55:26 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ibwtolv-1.0.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>General AFM Lithography v8.1.0.16</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: General AFM Lithography v8.1.0.16&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 26 Apr 2019 09:55:10 -0400&lt;br&gt;
+Packager: Shicheng Lu&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: add function generator&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Apr 2019 09:55:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.1.0.16</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+  </channel>
+</rss>
