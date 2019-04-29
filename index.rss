@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab Packages</title>
     <description>LevyLab Packages</description>
-    <pubDate>Fri, 26 Apr 2019 09:55:37 -0400</pubDate>
+    <pubDate>Mon, 29 Apr 2019 10:55:45 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v1.1.0.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-1.1.0.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v1.1.0.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 29 Apr 2019 10:55:44 -0400&lt;br&gt;
+Packager: Patrick&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: - organize in project.&lt;br&gt;- new algorithm for interpolating color table&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 29 Apr 2019 10:55:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-1.1.0.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>LVtoITX v2.6.8.25</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.bmp"&gt;&lt;br&gt;

@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=3
-Release.Date=Fri, 26 Apr 2019 09:55:37 -0400
-Self.ID=56f76da7e5ec9f2d1b9870c4c5be6336
+Release.Number=4
+Release.Date=Mon, 29 Apr 2019 10:55:45 -0400
+Self.ID=36104cb5efa2560b87dc5675617cf87e
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.1.0.16]
@@ -39,4 +39,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_colorutillities>=1.0.0.2,levylab_lib_fileutilities>=1.2.1.7,levylab_lib_graph_utilities>=1.0.1.6,levylab_lib_ibwtolv>=1.0.0.2,levylab_lib_control_vi>=1.1.1.4
 Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_graph_utilities-1.1.0.7]
+Package.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-1.1.0.7.vip
+Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-1.1.0.7.bmp
+Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-1.1.0.7.spec
+Package.MD5=f873f2fc7aa0fdd666e6b1d19be741f0
+Package.Release Date=Mon, 29 Apr 2019 10:55:44 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
