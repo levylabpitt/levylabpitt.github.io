@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=4
-Release.Date=Mon, 29 Apr 2019 10:55:45 -0400
-Self.ID=36104cb5efa2560b87dc5675617cf87e
+Release.Number=5
+Release.Date=Mon, 29 Apr 2019 11:28:33 -0400
+Self.ID=c66587e73b062c20bcda06bfe64f6573
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.1.0.16]
@@ -50,4 +50,16 @@ Package.Release Date=Mon, 29 Apr 2019 10:55:44 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Graph Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lvtoitx-2.6.9.26]
+Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.vip
+Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.bmp
+Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.spec
+Package.MD5=67ced9433f7ba98760a0a808cff0661a
+Package.Release Date=Mon, 29 Apr 2019 11:28:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_fileutilities>=1.2.2.8,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_ibwtolv>=1.0.0.2,oglib_string>=4.1.0.12
+Package.Display Name=LVtoITX
 Platform.Exclusive_VIPM_Version=2017
