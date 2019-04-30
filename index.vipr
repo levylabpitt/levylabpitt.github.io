@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=7
-Release.Date=Mon, 29 Apr 2019 11:59:24 -0400
-Self.ID=13affdbbbe4ebe31a9c72e5c57b9233b
+Release.Number=8
+Release.Date=Tue, 30 Apr 2019 16:55:48 -0400
+Self.ID=817472a157f9a6c85029da66ec23b47c
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.1.0.16]
@@ -84,4 +84,15 @@ Package.Release Date=Mon, 29 Apr 2019 11:59:24 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=IBWtoLV
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_fileutilities-1.2.3.9]
+Package.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.3.9.vip
+Icon.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.3.9.bmp
+Spec.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.3.9.spec
+Package.MD5=53d01f8929c7dc2c02f2bc8579527823
+Package.Release Date=Tue, 30 Apr 2019 16:55:48 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=FileUtilities
 Platform.Exclusive_VIPM_Version=2017
