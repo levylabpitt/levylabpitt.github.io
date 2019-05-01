@@ -1,45 +1,10 @@
 [Self]
 Self.Name=LevyLab Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=9
-Release.Date=Wed, 01 May 2019 12:58:58 -0400
-Self.ID=3eaeb76a04c8d2fa9d51d6c431a987c2
+Release.Number=12
+Release.Date=Wed, 01 May 2019 13:01:06 -0400
+Self.ID=9ee669954cc6f0dc97c36792fa6df56e
 Client.GlobalAccess=TRUE
-
-[Package levylab_lib_general_afm_lithography-8.1.0.16]
-Package.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.vip
-Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.bmp
-Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.spec
-Package.MD5=6641cd72852473bfa38990f1a4f0f418
-Package.Release Date=Fri, 26 Apr 2019 09:55:10 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_ibwtolv>=1.0.0.1,levylab_lib_lvtoitx>=2.0.0.10
-Package.Display Name=General AFM Lithography
-Platform.Exclusive_VIPM_Version=2010
-
-[Package levylab_lib_ibwtolv-1.0.0.2]
-Package.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.vip
-Icon.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.bmp
-Spec.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.spec
-Package.MD5=e1bbc3c16f17280436b8f32bd32f40ac
-Package.Release Date=Fri, 26 Apr 2019 09:55:26 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=IBWtoLV
-Platform.Exclusive_VIPM_Version=2014
-
-[Package levylab_lib_lvtoitx-2.6.8.25]
-Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.vip
-Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.bmp
-Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.spec
-Package.MD5=0f71afc428cb6f0497613147d7194392
-Package.Release Date=Fri, 26 Apr 2019 09:55:37 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_colorutillities>=1.0.0.2,levylab_lib_fileutilities>=1.2.1.7,levylab_lib_graph_utilities>=1.0.1.6,levylab_lib_ibwtolv>=1.0.0.2,levylab_lib_control_vi>=1.1.1.4
-Package.Display Name=LVtoITX
-Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_graph_utilities-1.1.0.7]
 Package.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-1.1.0.7.vip
@@ -52,18 +17,6 @@ Platform.Exclusive_OS=ALL
 Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lvtoitx-2.6.9.26]
-Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.vip
-Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.bmp
-Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.spec
-Package.MD5=67ced9433f7ba98760a0a808cff0661a
-Package.Release Date=Mon, 29 Apr 2019 11:28:33 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_fileutilities>=1.2.2.8,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_ibwtolv>=1.0.0.2,oglib_string>=4.1.0.12
-Package.Display Name=LVtoITX
-Platform.Exclusive_VIPM_Version=2017
-
 [Package andreas_wirsing_lib_lvarray2ibw-1.0.0.1]
 Package.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.vip
 Icon.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.bmp
@@ -73,17 +26,6 @@ Package.Release Date=Mon, 29 Apr 2019 11:54:57 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=lvarray2ibw
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_ibwtolv-1.0.1.3]
-Package.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.1.3.vip
-Icon.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.1.3.bmp
-Spec.URL=packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.1.3.spec
-Package.MD5=40a1b3be2a1ea57a0728efa11117910f
-Package.Release Date=Mon, 29 Apr 2019 11:59:24 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=IBWtoLV
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_fileutilities-1.2.3.9]

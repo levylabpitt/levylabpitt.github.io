@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab Packages</title>
     <description>LevyLab Packages</description>
-    <pubDate>Wed, 01 May 2019 12:58:58 -0400</pubDate>
+    <pubDate>Wed, 01 May 2019 13:01:06 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -43,24 +43,6 @@ Release Notes: [1.2.3.9]&lt;br&gt;- update icons&lt;br&gt;- add LICENSE&lt;br&gt
       
     </item>
     <item>
-      <title>IBWtoLV v1.0.1.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.1.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: IBWtoLV v1.0.1.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 29 Apr 2019 11:59:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: utilities for opening Igor Binary Wave (IBW) files in Labview&lt;br&gt;
-&lt;br&gt;
-Release Notes: - organize files in a lvproj&lt;br&gt;- remove lvarray2ibw (igorBinV5.llb) (it is now its own, separate package)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 29 Apr 2019 11:59:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ibwtolv-1.0.1.3</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
       <title>lvarray2ibw v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -79,24 +61,6 @@ Release Notes: initial build of _only_ lvarray2ibw.llb (was previously part of I
       <link>http://https://www.wavemetrics.com/project-releases/1129</link>
     </item>
     <item>
-      <title>LVtoITX v2.6.9.26</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.9.26.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.6.9.26&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 29 Apr 2019 11:28:33 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: - remove calls to color utilities package&lt;br&gt;- remove color utilities and control experiment dependencies&lt;br&gt;- update Help icons&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 29 Apr 2019 11:28:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.6.9.26</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
       <title>Graph Utilities v1.1.0.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-1.1.0.7.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -112,60 +76,6 @@ Release Notes: - organize in project.&lt;br&gt;- new algorithm for interpolating
       <pubDate>Mon, 29 Apr 2019 10:55:44 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-1.1.0.7</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v2.6.8.25</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.6.8.25.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.6.8.25&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 26 Apr 2019 09:55:37 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: bug fixes:&lt;br&gt;- update DAT to LV to better format comments from DAT files&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 26 Apr 2019 09:55:37 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.6.8.25</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>IBWtoLV v1.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ibwtolv/levylab_lib_ibwtolv-1.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: IBWtoLV v1.0.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 26 Apr 2019 09:55:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: utilities for opening Igor Binary Wave (IBW) files in Labview&lt;br&gt;
-&lt;br&gt;
-Release Notes: - new LevyLab function category&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 26 Apr 2019 09:55:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ibwtolv-1.0.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>General AFM Lithography v8.1.0.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.1.0.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v8.1.0.16&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 26 Apr 2019 09:55:10 -0400&lt;br&gt;
-Packager: Shicheng Lu&lt;br&gt;
-&lt;br&gt;
-Description: &lt;br&gt;
-&lt;br&gt;
-Release Notes: add function generator&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 26 Apr 2019 09:55:10 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.1.0.16</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
