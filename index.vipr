@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=8
-Release.Date=Tue, 30 Apr 2019 16:55:48 -0400
-Self.ID=817472a157f9a6c85029da66ec23b47c
+Release.Number=9
+Release.Date=Wed, 01 May 2019 12:58:58 -0400
+Self.ID=3eaeb76a04c8d2fa9d51d6c431a987c2
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.1.0.16]
@@ -95,4 +95,16 @@ Package.Release Date=Tue, 30 Apr 2019 16:55:48 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=FileUtilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_general_afm_lithography-8.3.1.28]
+Package.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.3.1.28.vip
+Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.3.1.28.bmp
+Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.3.1.28.spec
+Package.MD5=48c87e691fde03da13f1bad143a6e64f
+Package.Release Date=Wed, 01 May 2019 12:58:57 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.3.9
+Package.Display Name=General AFM Lithography
 Platform.Exclusive_VIPM_Version=2017

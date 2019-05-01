@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab Packages</title>
     <description>LevyLab Packages</description>
-    <pubDate>Tue, 30 Apr 2019 16:55:48 -0400</pubDate>
+    <pubDate>Wed, 01 May 2019 12:58:58 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>General AFM Lithography v8.3.1.28</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.3.1.28.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: General AFM Lithography v8.3.1.28&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 01 May 2019 12:58:57 -0400&lt;br&gt;
+Packager: LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [8.3.1.28]&lt;br&gt;- update package dependencies&lt;br&gt;- check for Vision Development Module to be installed&lt;br&gt;- add License and Readme&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 01 May 2019 12:58:57 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.3.1.28</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>FileUtilities v1.2.3.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.3.9.bmp"&gt;&lt;br&gt;
