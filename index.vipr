@@ -1,9 +1,9 @@
 [Self]
-Self.Name=LevyLab Packages
+Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
 Release.Number=13
 Release.Date=Wed, 01 May 2019 13:02:14 -0400
-Self.ID=622c8e0ccaaa307bb7e7fd127b351e8a
+Self.ID=a0d44a34b128222f540454cf81ce3df6
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]

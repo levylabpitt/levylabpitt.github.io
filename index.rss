@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>LevyLab Packages</title>
-    <description>LevyLab Packages</description>
+    <title>LevyLab GitHub Packages</title>
+    <description>LevyLab GitHub Packages</description>
     <pubDate>Wed, 01 May 2019 13:02:14 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
