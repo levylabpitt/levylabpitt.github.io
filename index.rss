@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 15 Oct 2019 21:51:56 -0400</pubDate>
+    <pubDate>Wed, 16 Oct 2019 11:34:12 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.1.10.41</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.1.10.41.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.1.10.41&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 16 Oct 2019 11:34:12 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.10.41]&lt;br&gt;- add APIs to read *experiment*.json descriptor files&lt;br&gt;&lt;br&gt;Lockin_Vsg&lt;br&gt;- Fix issue where initial wait time would not be set properly&lt;br&gt;- Update front panel controls for Experiment Folder and Experiment when called as subVI of Sweep Control&lt;br&gt;&lt;br&gt;Lockin_Sweep&lt;br&gt;- Modify to support newest Lockin sweep mode (sweeps multiple channels)&lt;br&gt;&lt;br&gt;Continuous B Sweep.vi&lt;br&gt;- Fix issue where notifier was not added to data cluster&lt;br&gt;&lt;br&gt;Control Experiment.lvclass&lt;br&gt;- Add accessor Read Experiment Description.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 16 Oct 2019 11:34:12 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.1.10.41</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Lockin-Multichannel v2.8.2.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.2.6.bmp"&gt;&lt;br&gt;
