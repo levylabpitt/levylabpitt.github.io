@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 17 Oct 2019 13:44:56 -0400</pubDate>
+    <pubDate>Thu, 17 Oct 2019 14:52:56 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.8.5.11</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.5.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.8.5.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 17 Oct 2019 14:52:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.8.5.11]&lt;br&gt;Add 5 s overhead time to sweep end condition check&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 17 Oct 2019 14:52:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.8.5.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Transport v1.1.11.42</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.1.11.42.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.1.11.42&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 17 Oct 2019 14:39:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.11.42]&lt;br&gt;Continuous B Sweep.vi and Sweep Control.vi&lt;br&gt;- Add calls to Lockin_Sweep&lt;br&gt;&lt;br&gt;Lockin_Sweep&lt;br&gt;- Fix issue that would not properly reset graphs&lt;br&gt;- Update the way final sweep results are calculated and displayed&lt;br&gt;&lt;br&gt;Control Experiment.vi&lt;br&gt;- Change fonts to (hopefully) be more uniform across operating systems&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 17 Oct 2019 14:39:22 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.1.11.42</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.8.4.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.10.bmp"&gt;&lt;br&gt;
@@ -147,24 +183,6 @@ Release Notes: [8.3.1.28]&lt;br&gt;- update package dependencies&lt;br&gt;- chec
 &lt;br&gt;</description>
       <pubDate>Wed, 01 May 2019 12:58:57 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.3.1.28</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>FileUtilities v1.2.3.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.3.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: FileUtilities v1.2.3.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 30 Apr 2019 16:55:48 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with files and folders&lt;br&gt;&lt;br&gt;* DirExists-NoThenCreate.vi&lt;br&gt;  * Checks if a directory exists, if not one is created&lt;br&gt;* Format number_123.vi&lt;br&gt;  * takes a number and appends zeros to make 3 digits long (1 becomes 001, 25 becomes 025, 531 remains 531.)&lt;br&gt;* Format number_123456.vi&lt;br&gt;  * takes a number and appends zeros to make 6 digits long (1 becomes 000001, 25 becomes 000025, 531 becomes 000531, etc)&lt;br&gt;* Format number_1234567890.vi&lt;br&gt;  * same idea as previous but has a control for how many digits to add&lt;br&gt;* Ignore Hidden Files.vi&lt;br&gt;  * Removes hidden files (.hidden) from an array of files names&lt;br&gt;* increment filename.vi&lt;br&gt;  * If file.0.txt already exists change the path to file.1.txt, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3.9]&lt;br&gt;- update icons&lt;br&gt;- add LICENSE&lt;br&gt;- add README&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 30 Apr 2019 16:55:48 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_fileutilities-1.2.3.9</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
