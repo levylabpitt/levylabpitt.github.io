@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 16 Oct 2019 15:28:21 -0400</pubDate>
+    <pubDate>Thu, 17 Oct 2019 13:44:56 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.8.4.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.8.4.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 17 Oct 2019 13:44:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.8.4.10]&lt;br&gt;Improve Waveguide Modeling&lt;br&gt;- Now model V+ and V-&lt;br&gt;- Indices are hardcoded [0: Vs / I, 1: Vsg, 2: V+, 3: V-]&lt;br&gt;- Parse Waveguide Model--Cluster.ctl inside LockinDAQ.Simulate Waveguide.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 17 Oct 2019 13:44:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.8.4.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.8.4.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.8.4.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 17 Oct 2019 12:33:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.8.4.8]&lt;br&gt;Improve Waveguide Modeling&lt;br&gt;- Now model V+ and V-&lt;br&gt;- Indices are hardcoded [0: Vs / I, 1: Vsg, 2: V+, 3: V-]&lt;br&gt;- Parse Waveguide Model--Cluster.ctl inside LockinDAQ.Simulate Waveguide.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 17 Oct 2019 12:33:21 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.8.4.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.8.3.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.3.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.8.3.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 16 Oct 2019 21:16:31 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.8.3.7]&lt;br&gt;- revert to &amp;quot;static&amp;quot; AO/AI (configured for only up to 4 DAQ cards)&lt;br&gt;- change sampling of results to Fs in sweep mode&lt;br&gt;- update V resolution when calling setSweep remotely&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 16 Oct 2019 21:16:31 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.8.3.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.1.10.41</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.1.10.41.bmp"&gt;&lt;br&gt;
