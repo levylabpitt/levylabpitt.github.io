@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=24
-Release.Date=Thu, 17 Oct 2019 14:52:56 -0400
-Self.ID=b8f9abc77fb411608f7ed73576dfb525
+Release.Number=30
+Release.Date=Tue, 22 Oct 2019 14:38:21 -0400
+Self.ID=6e13d3fda1a569646ba357a7e75ee99e
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -135,4 +135,52 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-1.1.12.43]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.1.12.43.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.1.12.43.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.1.12.43.spec
+Package.MD5=beb7f42e0f18344c9c4d50538e564f39
+Package.Release Date=Fri, 18 Oct 2019 15:48:22 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_krohn_hite_7008>=1.4.9.26,levylab_lib_leiden_tools>=1.2.2.16,levylab_lib_lockin_multichannel>=2.8.4.10,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,levylab_lib_voltage_update>=1.0.0.1
+Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms2_instrument-1.3.3.17]
+Package.URL=packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.3.17.vip
+Icon.URL=packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.3.17.bmp
+Spec.URL=packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.3.17.spec
+Package.MD5=1380cee9afa421eeb9b78118131ba6c8
+Package.Release Date=Tue, 22 Oct 2019 12:59:24 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_statemachineobjects>=1.3.0.56,oglib_appcontrol>=4.1.0.7,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.2.4.37
+Package.Display Name=PPMS2 Instrument
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms2_instrument-1.3.4.18]
+Package.URL=packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.4.18.vip
+Icon.URL=packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.4.18.bmp
+Spec.URL=packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.4.18.spec
+Package.MD5=c2cafc02d92d6aa7c1a4f98f2e6974c5
+Package.Release Date=Tue, 22 Oct 2019 14:12:15 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_statemachineobjects>=1.3.0.56,oglib_appcontrol>=4.1.0.7,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.2.4.37
+Package.Display Name=PPMS2 Instrument
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.0.0.2]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.0.2.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.0.2.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.0.2.spec
+Package.MD5=8968cc052892c1206faa441b0f64bf10
+Package.Release Date=Tue, 22 Oct 2019 14:37:18 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
+Package.Display Name=PPMS Instrument
 Platform.Exclusive_VIPM_Version=2017
