@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 23 Oct 2019 21:48:52 -0400</pubDate>
+    <pubDate>Wed, 23 Oct 2019 22:38:04 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.1.13.46</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.1.13.46.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.1.13.46&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 23 Oct 2019 22:38:04 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.13.46]&lt;br&gt;- Update to support PPMS&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Oct 2019 22:38:04 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.1.13.46</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Transport v1.1.13.45</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.1.13.45.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.1.13.45&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 23 Oct 2019 22:30:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.13.45]&lt;br&gt;- Update to support PPMS&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Oct 2019 22:30:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.1.13.45</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.4.0.22</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.0.22.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.0.0.3]&lt;br&gt;- Build after rearranging folder&lt;br&gt;- Ne
 &lt;br&gt;</description>
       <pubDate>Wed, 23 Oct 2019 09:47:19 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Instrument v1.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Instrument v1.0.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 22 Oct 2019 14:37:18 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Files for controlling PPMS Field, Temperature, etc. and logging to DSC&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0.2]&lt;br&gt;- First build for PPMS system.&lt;br&gt;- Based on PPMS2 v1.3.4.18&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Oct 2019 14:37:18 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS2 Instrument v1.3.4.18</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.4.18.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS2 Instrument v1.3.4.18&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 22 Oct 2019 14:12:15 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Files for controlling PPMS2 Field, Temperature, etc. and logging to DSC&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.4.18]&lt;br&gt;- add license&lt;br&gt;- update package icon&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Oct 2019 14:12:15 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms2_instrument-1.3.4.18</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
