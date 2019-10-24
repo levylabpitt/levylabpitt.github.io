@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 23 Oct 2019 14:01:32 -0400</pubDate>
+    <pubDate>Wed, 23 Oct 2019 21:48:52 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.4.0.22</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.0.22.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.0.22&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 23 Oct 2019 21:48:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.0.22]&lt;br&gt;- Now opens PPMS or PPMS2 UI depending on user choice.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Oct 2019 21:48:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.0.22</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS2 Monitor and Control v1.3.5.21</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.5.21.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.3.4.18]&lt;br&gt;- add license&lt;br&gt;- update package icon&
 &lt;br&gt;</description>
       <pubDate>Tue, 22 Oct 2019 14:12:15 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms2_instrument-1.3.4.18</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS2 Instrument v1.3.3.17</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms2_instrument/levylab_lib_ppms2_instrument-1.3.3.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS2 Instrument v1.3.3.17&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 22 Oct 2019 12:59:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Files for controlling PPMS2 Field, Temperature, etc. and logging to DSC&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.3.17]&lt;br&gt;update icons and panels to distinguish better from PPMS Instrument&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Oct 2019 12:59:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms2_instrument-1.3.3.17</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
