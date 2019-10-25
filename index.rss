@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 23 Oct 2019 22:38:04 -0400</pubDate>
+    <pubDate>Fri, 25 Oct 2019 18:15:01 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.8.6.15</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.6.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.8.6.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 25 Oct 2019 18:15:01 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.8.6.15]&lt;br&gt;- Change default max/min for aux out to be +/- 10 V&lt;br&gt;- Fix error that would not write DC values to AO waveform when task is created&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 25 Oct 2019 18:15:01 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.8.6.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.1.13.46</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.1.13.46.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.1.5]&lt;br&gt;- New Post Build Script and lvclass&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 23 Oct 2019 12:52:09 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.1.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.0.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.0.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Oct 2019 09:47:19 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Files for controlling the PPMS Magnet , Temperature, etc. and logging to the DSC.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0.3]&lt;br&gt;- Build after rearranging folder&lt;br&gt;- New Product Name&lt;br&gt;- Post-build action now includes prepping 7z.bat and config.txt&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Oct 2019 09:47:19 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
