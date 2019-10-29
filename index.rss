@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 29 Oct 2019 13:04:57 -0400</pubDate>
+    <pubDate>Tue, 29 Oct 2019 13:05:28 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.2.9.43</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.9.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.2.9.43&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 29 Oct 2019 13:05:28 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.9.43]&lt;br&gt;- Fix error that would prevent configuration from being written to the class wire&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 29 Oct 2019 13:05:28 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.2.9.43</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.8.6.15</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.6.15.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.1.6]&lt;br&gt;- New Post Build Script and lvclass&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 23 Oct 2019 13:02:30 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.1.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.0.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.0.1.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Oct 2019 12:52:09 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Files for controlling the PPMS Magnet , Temperature, etc. and logging to the DSC.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1.5]&lt;br&gt;- New Post Build Script and lvclass&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Oct 2019 12:52:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.1.5</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
