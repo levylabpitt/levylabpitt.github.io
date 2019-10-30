@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 29 Oct 2019 13:05:28 -0400</pubDate>
+    <pubDate>Tue, 29 Oct 2019 23:06:12 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.4.1.23</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.1.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.1.23&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 29 Oct 2019 23:06:12 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.1.23]&lt;br&gt;Many bug fixes to get PPMS/PPMS2 to work&lt;br&gt;- Fix show/hide PPMS Monitor and Control Launcher&lt;br&gt;- Fix configuration being passed to instrument class wire&lt;br&gt;- Fix self-terminate and stop instrument properly&lt;br&gt;Misc. UI improvements&lt;br&gt;&lt;br&gt;note: Read Level? is not supported for the PPMS 1 in this release&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 29 Oct 2019 23:06:12 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.1.23</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.2.9.43</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.9.43.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.2.8]&lt;br&gt;- remove angle set/get from front panel&lt;br&
 &lt;br&gt;</description>
       <pubDate>Wed, 23 Oct 2019 13:29:46 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.2.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.0.1.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.0.1.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.0.1.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Oct 2019 13:02:30 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Files for controlling the PPMS Magnet , Temperature, etc. and logging to the DSC.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1.6]&lt;br&gt;- New Post Build Script and lvclass&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Oct 2019 13:02:30 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.0.1.6</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
