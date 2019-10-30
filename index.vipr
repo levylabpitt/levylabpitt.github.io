@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=46
-Release.Date=Wed, 30 Oct 2019 09:29:46 -0400
-Self.ID=52d5bbe3088038dc535b538718182110
+Release.Number=47
+Release.Date=Wed, 30 Oct 2019 13:19:24 -0400
+Self.ID=a7bf7799fbd471703b3e5333deeb3c58
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -347,6 +347,18 @@ Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.2.
 Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.2.24.spec
 Package.MD5=fb91e4bc8c8ec81c333e7c659e91bd8b
 Package.Release Date=Wed, 30 Oct 2019 09:29:46 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
+Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.4.2.25]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.2.25.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.2.25.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.2.25.spec
+Package.MD5=6a2e30502ba59f0346b40e00b5f6bf57
+Package.Release Date=Wed, 30 Oct 2019 13:19:24 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
