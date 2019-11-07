@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 04 Nov 2019 10:39:07 -0500</pubDate>
+    <pubDate>Thu, 07 Nov 2019 17:48:58 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LVtoITX v2.7.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.7.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LVtoITX v2.7.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 07 Nov 2019 17:48:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.7.0.1]&lt;br&gt;- add functionality for writing and reading TDMS files and converting ITX to TDMS&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 07 Nov 2019 17:48:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.8.9.19</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.9.19.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.4.2.24]&lt;br&gt;- Change UI window appearance settings&lt;br&
 &lt;br&gt;</description>
       <pubDate>Wed, 30 Oct 2019 09:29:46 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.2.24</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.4.1.23</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.1.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.4.1.23&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 29 Oct 2019 23:06:12 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.1.23]&lt;br&gt;Many bug fixes to get PPMS/PPMS2 to work&lt;br&gt;- Fix show/hide PPMS Monitor and Control Launcher&lt;br&gt;- Fix configuration being passed to instrument class wire&lt;br&gt;- Fix self-terminate and stop instrument properly&lt;br&gt;Misc. UI improvements&lt;br&gt;&lt;br&gt;note: Read Level? is not supported for the PPMS 1 in this release&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 29 Oct 2019 23:06:12 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.1.23</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
