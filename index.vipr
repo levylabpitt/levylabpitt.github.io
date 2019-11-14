@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=63
-Release.Date=Thu, 14 Nov 2019 13:23:22 -0500
-Self.ID=66de489c7cb8026d9ef6e8927f3934fb
+Release.Number=64
+Release.Date=Thu, 14 Nov 2019 14:02:06 -0500
+Self.ID=aa6ade29f7496e7e7fb44c775d3c99ef
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -554,4 +554,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_ibwtolv>=1.0.1.3,oglib_string>=4.1.0.12
 Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-1.2.1.2]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.1.2.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.1.2.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.1.2.spec
+Package.MD5=70159c934459731c1dee83375987fc62
+Package.Release Date=Thu, 14 Nov 2019 14:02:06 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_krohn_hite_7008>=1.4.9.26,levylab_lib_leiden_tools>=1.2.2.16,levylab_lib_lockin_multichannel>=2.8.11.22,levylab_lib_lvtoitx>=2.7.1.5,lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,levylab_lib_voltage_update>=1.0.0.1
+Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017

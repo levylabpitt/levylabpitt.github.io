@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 14 Nov 2019 13:23:22 -0500</pubDate>
+    <pubDate>Thu, 14 Nov 2019 14:02:06 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.2.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.2.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.2.1.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 14 Nov 2019 14:02:06 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.1.2]&lt;br&gt;Bug fixes:&lt;br&gt;- save in Lockin_time&lt;br&gt;- TDMS save&lt;br&gt;- wiring comments in Control Experiment.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 14 Nov 2019 14:02:06 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.2.1.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>LVtoITX v2.7.1.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.7.1.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.7.0.1]&lt;br&gt;- add functionality for writing and reading TD
 &lt;br&gt;</description>
       <pubDate>Thu, 07 Nov 2019 17:48:58 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.8.9.19</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.9.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.8.9.19&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 04 Nov 2019 10:39:07 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.8.9.19]&lt;br&gt;Added Package Dependencies:&lt;br&gt;- Instruments&lt;br&gt;- ZeroMQ&lt;br&gt;- GUID&lt;br&gt;- Voltage Update&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 04 Nov 2019 10:39:07 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.8.9.19</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
