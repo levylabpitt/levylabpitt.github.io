@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=70
-Release.Date=Wed, 20 Nov 2019 22:22:12 -0500
-Self.ID=cb0b5e58afc77350c434ab3d6aefa769
+Release.Number=72
+Release.Date=Thu, 21 Nov 2019 08:56:25 -0500
+Self.ID=9a7fc2d79a72ddd73e43d8882b9bcbf7
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -633,7 +633,7 @@ Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.3.5.vip
 Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.3.5.bmp
 Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.3.5.spec
 Package.MD5=1a025518445e08e8f48ab563a463885c
-Package.Release Date=Wed, 20 Nov 2019 22:22:12 -0500
+Package.Release Date=Thu, 21 Nov 2019 08:56:25 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_krohn_hite_7008>=1.4.9.26,levylab_lib_leiden_tools>=1.2.2.16,levylab_lib_lockin_multichannel>=2.9.0.1,levylab_lib_lvtoitx>=2.7.1.5,lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,levylab_lib_voltage_update>=1.0.0.1
