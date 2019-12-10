@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 06 Dec 2019 10:58:24 -0500</pubDate>
+    <pubDate>Tue, 10 Dec 2019 13:24:42 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.0.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.0.1.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 10 Dec 2019 13:24:42 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- Arithmetic: Add, Subtract, Multiply, Divide&lt;br&gt;- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y&lt;br&gt;- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Add Square.vi function&lt;br&gt;- Add Multiply and Divide XY (multiply or divide XY-data by another XY-data)&lt;br&gt;- Fix bugs in Derivative.vi and now allow user to choose units of dertivative interval&lt;br&gt;- Fix bugs in Add.vi and Subtract.vi when x or y input has an empty x or y array&lt;br&gt;- Update Subset Slider display&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 10 Dec 2019 13:24:42 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.1.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.2.1.2]&lt;br&gt;Bug fixes:&lt;br&gt;- save in Lockin_time&lt;b
       <pubDate>Thu, 14 Nov 2019 14:02:06 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.2.1.2</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v2.7.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.7.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.7.1.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 14 Nov 2019 13:23:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.7.1.5]&lt;br&gt;- fix bugs in TDMS Write&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 14 Nov 2019 13:23:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.1.5</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
