@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=75
-Release.Date=Tue, 10 Dec 2019 13:24:42 -0500
-Self.ID=7f0bd69a0050f6d1b7360a0f63ffb3cc
+Release.Number=76
+Release.Date=Tue, 10 Dec 2019 16:51:58 -0500
+Self.ID=3ce8b25ca2b1f03e30d14f9321e7461b
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -673,4 +673,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11
 Package.Display Name=XY Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.0.0.3]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.0.3.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.0.3.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.0.3.spec
+Package.MD5=5932df78164a4fdcd83145f91ca46b78
+Package.Release Date=Tue, 10 Dec 2019 16:51:58 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
+Package.Display Name=Cryostation
 Platform.Exclusive_VIPM_Version=2017
