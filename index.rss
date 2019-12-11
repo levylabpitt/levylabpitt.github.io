@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 10 Dec 2019 16:51:58 -0500</pubDate>
+    <pubDate>Wed, 11 Dec 2019 08:57:09 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -12,14 +12,14 @@
 &lt;br&gt;
 Product: Cryostation v1.0.0.3&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Tue, 10 Dec 2019 16:51:58 -0500&lt;br&gt;
+Release Date: Wed, 11 Dec 2019 08:57:09 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
 &lt;br&gt;
 Release Notes: [1.0.0.3]&lt;br&gt;- Initial build of Cryostation Monitor application and APIs&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 10 Dec 2019 16:51:58 -0500</pubDate>
+      <pubDate>Wed, 11 Dec 2019 08:57:09 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.0.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       

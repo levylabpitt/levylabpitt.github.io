@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=76
-Release.Date=Tue, 10 Dec 2019 16:51:58 -0500
-Self.ID=3ce8b25ca2b1f03e30d14f9321e7461b
+Release.Number=78
+Release.Date=Wed, 11 Dec 2019 08:57:09 -0500
+Self.ID=98edbdda502fce26bf09ed94c778e5ae
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -680,7 +680,7 @@ Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_
 Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.0.3.bmp
 Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.0.3.spec
 Package.MD5=5932df78164a4fdcd83145f91ca46b78
-Package.Release Date=Tue, 10 Dec 2019 16:51:58 -0500
+Package.Release Date=Wed, 11 Dec 2019 08:57:09 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
