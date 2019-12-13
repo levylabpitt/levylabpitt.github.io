@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 11 Dec 2019 11:20:55 -0500</pubDate>
+    <pubDate>Thu, 12 Dec 2019 15:41:46 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.2.12.46</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.12.46.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.2.12.46&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 12 Dec 2019 15:41:46 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.12.46]&lt;br&gt;- Add dialog window when Instrument or Remote Control process have an error: give user the choice to try to reconnect or shutdown.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Dec 2019 15:41:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.2.12.46</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.2.4.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.2.4.6.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.2.3.4]&lt;br&gt;- Fix bugs in Lockin_Vsg and IV_Sweep&lt;br&gt
       <pubDate>Thu, 21 Nov 2019 08:56:25 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.2.3.5</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.4.6.29</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.6.29.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.4.6.29&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 20 Nov 2019 22:04:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.6.29]&lt;br&gt;- update API enums to be typedefs&lt;br&gt;- change PPMS(2) Client rentrancy&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 Nov 2019 22:04:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.6.29</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
