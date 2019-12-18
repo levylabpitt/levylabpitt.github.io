@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 12 Dec 2019 15:41:46 -0500</pubDate>
+    <pubDate>Wed, 18 Dec 2019 16:15:11 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.3.0.47</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.0.47.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.3.0.47&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 18 Dec 2019 16:15:11 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.0.47]&lt;br&gt;- Major changes to RemoteControl.STM  to speed up communications 10x&lt;br&gt;- Improved error handling in RemoteControl&lt;br&gt;- Add error handling to Instrument process&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Dec 2019 16:15:11 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.3.0.47</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.2.12.46</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.12.46.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.0.0.1]&lt;br&gt;(*_*) Complete overhaul of Graph Utilities (*_
       <pubDate>Tue, 26 Nov 2019 16:46:28 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.2.3.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.2.3.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.2.3.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 21 Nov 2019 08:56:25 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3.4]&lt;br&gt;- Fix bugs in Lockin_Vsg and IV_Sweep&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 Nov 2019 08:56:25 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.2.3.5</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>

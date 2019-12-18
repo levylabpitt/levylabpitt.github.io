@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=85
-Release.Date=Thu, 12 Dec 2019 15:41:46 -0500
-Self.ID=0d5c6f0dfc4554f1209856ae334e9dd3
+Release.Number=86
+Release.Date=Wed, 18 Dec 2019 16:15:11 -0500
+Self.ID=a5c71f6fd64f2c8ad4bb75800d0a4d13
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -741,6 +741,18 @@ Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instrument
 Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.12.46.spec
 Package.MD5=38fe066b002e43465140880f80b8203c
 Package.Release Date=Thu, 12 Dec 2019 15:41:46 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.3.0.47]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.0.47.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.0.47.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.0.47.spec
+Package.MD5=7f5c8cc8786f4c5fe86e51ebe4ea7ead
+Package.Release Date=Wed, 18 Dec 2019 16:15:11 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
