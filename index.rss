@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 18 Dec 2019 16:50:02 -0500</pubDate>
+    <pubDate>Wed, 18 Dec 2019 17:48:35 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.9.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.9.1.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 18 Dec 2019 17:48:35 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.9.1.3]&lt;br&gt;- build w/ Instrument.lvclass v1.3.0.47&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Dec 2019 17:48:35 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.1.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.4.7.31</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.7.31.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.7.2.6]&lt;br&gt;- update to work with Graph Utilities v2.0.0.1
 &lt;br&gt;</description>
       <pubDate>Wed, 11 Dec 2019 09:15:40 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.2.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.0.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.0.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 11 Dec 2019 08:57:09 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0.3]&lt;br&gt;- Initial build of Cryostation Monitor application and APIs&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 11 Dec 2019 08:57:09 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.0.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
