@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 18 Dec 2019 16:15:11 -0500</pubDate>
+    <pubDate>Wed, 18 Dec 2019 16:50:02 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.4.7.31</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.7.31.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.7.31&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 18 Dec 2019 16:50:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.7.31]&lt;br&gt;- build w/ Instrument.lvclass v1.3.0.47&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Dec 2019 16:50:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.7.31</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>PPMS Monitor and Control v1.4.6.30</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.6.30.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.6.30&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 18 Dec 2019 16:44:56 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.7.30]&lt;br&gt;- build w/ Instrument.lvclass v1.3.0.47&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Dec 2019 16:44:56 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.6.30</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Cryostation v1.0.2.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.2.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.0.2.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 18 Dec 2019 16:36:39 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.2.5]&lt;br&gt;- build w/ Instrument.lvclass v1.3.0.47&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Dec 2019 16:36:39 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.0.2.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.3.0.47</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.0.47.bmp"&gt;&lt;br&gt;
@@ -129,60 +183,6 @@ Release Notes: [1.0.0.3]&lt;br&gt;- Initial build of Cryostation Monitor applica
 &lt;br&gt;</description>
       <pubDate>Wed, 11 Dec 2019 08:57:09 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.0.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>XY Utilities v1.0.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.0.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 10 Dec 2019 13:24:42 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- Arithmetic: Add, Subtract, Multiply, Divide&lt;br&gt;- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y&lt;br&gt;- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Add Square.vi function&lt;br&gt;- Add Multiply and Divide XY (multiply or divide XY-data by another XY-data)&lt;br&gt;- Fix bugs in Derivative.vi and now allow user to choose units of dertivative interval&lt;br&gt;- Fix bugs in Add.vi and Subtract.vi when x or y input has an empty x or y array&lt;br&gt;- Update Subset Slider display&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 10 Dec 2019 13:24:42 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.1.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>XY Utilities v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Dec 2019 10:58:24 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- Arithmetic: Add, Subtract, Multiply, Divide&lt;br&gt;- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y&lt;br&gt;- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum&lt;br&gt;
-&lt;br&gt;
-Release Notes: Initial build&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Dec 2019 10:58:24 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 26 Nov 2019 16:46:28 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0.1]&lt;br&gt;(*_*) Complete overhaul of Graph Utilities (*_*)&lt;br&gt;- VIs are now contained in class.&lt;br&gt;- Many low level VIs are basically wrappers for property nodes to modify, for example, graph labels.&lt;br&gt;- High level VIs will convert back and forth between Intensity Graphs and XY Graphs. Note: these operate directly on the graph object _by reference_&lt;br&gt;- Also functions are provided to take linecuts of an Intensity Graph with a defined width&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 26 Nov 2019 16:46:28 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
