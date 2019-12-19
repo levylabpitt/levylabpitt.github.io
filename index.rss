@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 18 Dec 2019 17:48:35 -0500</pubDate>
+    <pubDate>Thu, 19 Dec 2019 15:26:43 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.3.1.48</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.1.48.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.3.1.48&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 19 Dec 2019 15:26:43 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.1.48]&lt;br&gt;- RemoteControl process should now stay hidden when started&lt;br&gt;- fix bug that would not properly set port for STM listener&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 19 Dec 2019 15:26:43 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.3.1.48</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.9.1.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.1.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.1.4]&lt;br&gt;- Change install location&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 11 Dec 2019 09:23:44 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.0.1.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v2.7.2.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.7.2.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.7.2.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 11 Dec 2019 09:15:40 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.7.2.6]&lt;br&gt;- update to work with Graph Utilities v2.0.0.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 11 Dec 2019 09:15:40 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.2.6</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
