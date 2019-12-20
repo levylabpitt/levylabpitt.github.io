@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 20 Dec 2019 07:00:18 -0500</pubDate>
+    <pubDate>Fri, 20 Dec 2019 07:17:10 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.4.8.32</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.8.32.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.8.32&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 20 Dec 2019 07:17:10 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.8.32]&lt;br&gt;- build w/ Instrument.lvclass v1.3.2.49&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 20 Dec 2019 07:17:10 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.8.32</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.9.2.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.2.4.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.12.46]&lt;br&gt;- Add dialog window when Instrument or Remot
 &lt;br&gt;</description>
       <pubDate>Thu, 12 Dec 2019 15:41:46 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.2.12.46</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.2.4.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.2.4.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.2.4.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 11 Dec 2019 11:20:55 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.4.6]&lt;br&gt;- Add support for THz (Cryostation)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 11 Dec 2019 11:20:55 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.2.4.6</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

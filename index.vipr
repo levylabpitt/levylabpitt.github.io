@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=93
-Release.Date=Fri, 20 Dec 2019 07:00:18 -0500
-Self.ID=570e8ab904c23e306e1d1b343eb8fd8d
+Release.Number=94
+Release.Date=Fri, 20 Dec 2019 07:17:10 -0500
+Self.ID=c93562fd184312ee7f9ff51c1eb68b00
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -841,4 +841,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.0.1,levylab_lib_lvtoitx>=2.7.3.7,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.3.0.47,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.4.8.32]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.8.32.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.8.32.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.8.32.spec
+Package.MD5=d8cff361af18ebc2406bf637ddc3bd2f
+Package.Release Date=Fri, 20 Dec 2019 07:17:10 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.3.0.47
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
