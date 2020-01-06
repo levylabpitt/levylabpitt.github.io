@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 06 Jan 2020 17:23:35 -0500</pubDate>
+    <pubDate>Mon, 06 Jan 2020 17:43:24 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.4.0.51</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.0.51.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.4.0.51&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 06 Jan 2020 17:43:24 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.0.51]&lt;br&gt;This release defines several new instrument types and new abstract API methods:&lt;br&gt;&lt;br&gt;Capacitance Bridge:&lt;br&gt;- Get Capacitance&lt;br&gt;- Set Capacitance&lt;br&gt;&lt;br&gt;Strain Cell:&lt;br&gt;- Get Strain&lt;br&gt;- Set Strain&lt;br&gt;&lt;br&gt;Optical Delay Line:&lt;br&gt;- Get Delay&lt;br&gt;- Set Delay&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 06 Jan 2020 17:43:24 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.0.51</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.4.0.50</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.0.50.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.4.7.30]&lt;br&gt;- build w/ Instrument.lvclass v1.3.0.47&lt;br
 &lt;br&gt;</description>
       <pubDate>Wed, 18 Dec 2019 16:44:56 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.6.30</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.0.2.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.0.2.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.0.2.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 18 Dec 2019 16:36:39 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2.5]&lt;br&gt;- build w/ Instrument.lvclass v1.3.0.47&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 18 Dec 2019 16:36:39 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.0.2.5</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
