@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 07 Jan 2020 14:26:57 -0500</pubDate>
+    <pubDate>Wed, 08 Jan 2020 15:29:11 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford IPS120 v1.3.0.15</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/oxford_lib_ips120/oxford_lib_ips120-1.3.0.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford IPS120 v1.3.0.15&lt;br&gt;
+Company: Oxford&lt;br&gt;
+Release Date: Wed, 08 Jan 2020 15:29:11 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Application and drivers for Oxford IPS 120-10 superconducting magnet power supply that is used on the DR200 dilution refrigerator.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.0.15]&lt;br&gt;- update IPS120.lvclass to inherit from Instrument.Cryostat.lvclass&lt;br&gt;- override Get and Set Magnet Field methods defined by parent class&lt;br&gt;- automate exe and installer build&lt;br&gt;- update application icon&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jan 2020 15:29:11 -0500</pubDate>
+      <guid isPermaLink="false">oxford_lib_ips120-1.3.0.15</guid>
+      <dc:creator>Oxford</dc:creator>
+      
+    </item>
+    <item>
+      <title>PPMS Monitor and Control v1.4.9.33</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.9.33.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.9.33&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jan 2020 13:07:54 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.9.33]&lt;br&gt;- build w/ Instrument.lvclass v1.4.1.51&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jan 2020 13:07:54 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.9.33</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford IPS120 v1.3.0.14</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/oxford_lib_ips120/oxford_lib_ips120-1.3.0.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford IPS120 v1.3.0.14&lt;br&gt;
+Company: Oxford&lt;br&gt;
+Release Date: Wed, 08 Jan 2020 09:54:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Application and drivers for Oxford IPS 120-10 superconducting magnet power supply that is used on the DR200 dilution refrigerator.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.0.14]&lt;br&gt;- update IPS120.lvclass to inherit from Instrument.Cryostat.lvclass&lt;br&gt;- override Get and Set Magnet Field methods defined by parent class&lt;br&gt;- automate exe and installer build&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jan 2020 09:54:31 -0500</pubDate>
+      <guid isPermaLink="false">oxford_lib_ips120-1.3.0.14</guid>
+      <dc:creator>Oxford</dc:creator>
+      
+    </item>
     <item>
       <title>AH2500A v1.1.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.0.3.bmp"&gt;&lt;br&gt;
@@ -130,60 +184,6 @@ Release Notes: [1.4.8.32]&lt;br&gt;- build w/ Instrument.lvclass v1.3.2.49&lt;br
       <pubDate>Fri, 20 Dec 2019 07:17:10 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.8.32</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.9.2.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.2.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.9.2.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 20 Dec 2019 07:00:17 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.9.2.4]&lt;br&gt;- build w/ Instrument.lvclass v1.3.2.49&lt;br&gt;-- change how RemoteControl process is started&lt;br&gt;- fix several bugs in API&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 20 Dec 2019 07:00:17 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.2.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.3.2.49</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.2.49.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.3.2.49&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 19 Dec 2019 16:57:40 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.2.49]&lt;br&gt;- RemoteControl process should now stay hidden when started&lt;br&gt;- Fix bug that would not properly set port for STM listener&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 19 Dec 2019 16:57:40 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.3.2.49</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.3.1.48</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.1.48.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.3.1.48&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 19 Dec 2019 15:26:43 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.1.48]&lt;br&gt;- RemoteControl process should now stay hidden when started&lt;br&gt;- fix bug that would not properly set port for STM listener&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 19 Dec 2019 15:26:43 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.3.1.48</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
