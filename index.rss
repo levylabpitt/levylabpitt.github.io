@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 09 Jan 2020 11:09:37 -0500</pubDate>
+    <pubDate>Thu, 09 Jan 2020 12:53:03 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LVtoITX v2.7.4.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.7.4.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LVtoITX v2.7.4.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 09 Jan 2020 12:53:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.7.4.8]&lt;br&gt;- add variant to array subVI to TDMS write&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 09 Jan 2020 12:53:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.4.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Transport v1.3.0.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.3.0.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.3.0.7&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 09 Jan 2020 12:45:23 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.0.7]&lt;br&gt;- Device and User strings are written to DSC processes (configured for PPMS1, PPMS2, MNK, DR200, THz1, MFP3D, Cypher) by Control Experiment.vi&lt;br&gt;- Cryostat class is configured for:&lt;br&gt;-- PPMS1 (Magnet, Temperature)&lt;br&gt;-- PPMS2 (Magnet, Temperature, Rotator)&lt;br&gt;-- MNK (Magnet, Temperature)&lt;br&gt;-- DR200 (Magnet)&lt;br&gt;-- THz1 (Temperature)&lt;br&gt;- Transport and Sweep Control VIs save TDMS files by default&lt;br&gt;-- Use dictionaries to store intermediate values of parameters before saving&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 09 Jan 2020 12:45:23 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.3.0.7</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford IPS120 v1.3.1.16</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/oxford_lib_ips120/oxford_lib_ips120-1.3.1.16.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [1.4.0.51]&lt;br&gt;This release defines several new instrument t
       <pubDate>Mon, 06 Jan 2020 17:43:24 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.0.51</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.4.0.50</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.0.50.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.4.0.50&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 06 Jan 2020 17:23:35 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.0.50]&lt;br&gt;This release defines several new instrument types and new abstract API methods:&lt;br&gt;&lt;br&gt;Capacitance Bridge:&lt;br&gt;- Get Capacitance&lt;br&gt;- Set Capacitance&lt;br&gt;&lt;br&gt;Strain Cell:&lt;br&gt;- Get Strain&lt;br&gt;- Set Strain&lt;br&gt;&lt;br&gt;Optical Delay Line:&lt;br&gt;- Get Delay&lt;br&gt;- Set Delay&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 06 Jan 2020 17:23:35 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.0.50</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.1.0.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.0.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.1.0.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 06 Jan 2020 16:45:11 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0.6]&lt;br&gt;- now monitoring all temperature stages and chamber pressure&lt;br&gt;- build w/ Instrument.lvclass v1.3.2.49&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 06 Jan 2020 16:45:11 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.0.6</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
