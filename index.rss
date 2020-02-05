@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 05 Feb 2020 14:31:06 -0500</pubDate>
+    <pubDate>Wed, 05 Feb 2020 16:58:54 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aerotech Delay v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.0.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 05 Feb 2020 16:58:54 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for setting delay with Aerotech delay line&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0.1]&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 05 Feb 2020 16:58:54 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.0.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.9.4.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.4.6.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.7.4.8]&lt;br&gt;- add variant to array subVI to TDMS write&lt;
       <pubDate>Thu, 09 Jan 2020 12:53:03 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.4.8</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.3.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.3.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.3.0.7&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 09 Jan 2020 12:45:23 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.0.7]&lt;br&gt;- Device and User strings are written to DSC processes (configured for PPMS1, PPMS2, MNK, DR200, THz1, MFP3D, Cypher) by Control Experiment.vi&lt;br&gt;- Cryostat class is configured for:&lt;br&gt;-- PPMS1 (Magnet, Temperature)&lt;br&gt;-- PPMS2 (Magnet, Temperature, Rotator)&lt;br&gt;-- MNK (Magnet, Temperature)&lt;br&gt;-- DR200 (Magnet)&lt;br&gt;-- THz1 (Temperature)&lt;br&gt;- Transport and Sweep Control VIs save TDMS files by default&lt;br&gt;-- Use dictionaries to store intermediate values of parameters before saving&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 09 Jan 2020 12:45:23 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.3.0.7</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
