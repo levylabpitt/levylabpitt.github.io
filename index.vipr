@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=115
-Release.Date=Thu, 23 Jan 2020 11:15:07 -0500
-Self.ID=314c7511ed15286ba958890cfa70f3ee
+Release.Number=116
+Release.Date=Wed, 05 Feb 2020 10:48:12 -0500
+Self.ID=b7c6b6a7345bfc7223d2c1b4c059ca12
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -984,4 +984,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11
 Package.Display Name=XY Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.4.2.53]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.2.53.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.2.53.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.2.53.spec
+Package.MD5=df15949c9d760b152ccfdc5ae0247322
+Package.Release Date=Wed, 05 Feb 2020 10:48:12 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
 Platform.Exclusive_VIPM_Version=2017
