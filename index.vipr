@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=119
-Release.Date=Wed, 05 Feb 2020 16:58:54 -0500
-Self.ID=a3df49d1e29a82ed12ebd02d957b489b
+Release.Number=120
+Release.Date=Wed, 05 Feb 2020 17:41:49 -0500
+Self.ID=0f0a277c10d7efddf108a099ae13b3c8
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1028,6 +1028,18 @@ Icon.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrumen
 Spec.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.0.1.spec
 Package.MD5=65904dd475de029c21d2b1aa8d84e5f7
 Package.Release Date=Wed, 05 Feb 2020 16:58:54 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.4.1.52
+Package.Display Name=Aerotech Delay
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_aerotech_instrument-1.0.1.2]
+Package.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.1.2.vip
+Icon.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.1.2.bmp
+Spec.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.1.2.spec
+Package.MD5=795adb8fff2c5aa56656045749c02904
+Package.Release Date=Wed, 05 Feb 2020 17:41:48 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.4.1.52

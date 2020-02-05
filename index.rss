@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 05 Feb 2020 16:58:54 -0500</pubDate>
+    <pubDate>Wed, 05 Feb 2020 17:41:49 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aerotech Delay v1.0.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.0.1.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 05 Feb 2020 17:41:48 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for setting delay with Aerotech delay line&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1.2]&lt;br&gt;- adds open and close methods&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 05 Feb 2020 17:41:48 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.0.1.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Aerotech Delay v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.9.3.5]&lt;br&gt;- build w/ Instrument.lvclass v1.4.1.52&lt;br&
 &lt;br&gt;</description>
       <pubDate>Tue, 14 Jan 2020 11:45:09 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.3.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v2.7.4.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.7.4.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.7.4.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 09 Jan 2020 12:53:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.7.4.8]&lt;br&gt;- add variant to array subVI to TDMS write&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 09 Jan 2020 12:53:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.7.4.8</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
