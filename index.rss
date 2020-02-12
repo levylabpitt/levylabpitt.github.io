@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 12 Feb 2020 16:24:25 -0500</pubDate>
+    <pubDate>Wed, 12 Feb 2020 18:01:06 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.4.5.56</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.5.56.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.4.5.56&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 12 Feb 2020 18:01:06 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.5.56]&lt;br&gt;- Rearrange VIs on disk&lt;br&gt;- update Remote Client.vi&lt;br&gt;- remove unused methods&lt;br&gt;- fix dynamic dispatch terminals in private-scope VIs&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 12 Feb 2020 18:01:06 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.5.56</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.4.4.55</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.4.55.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.1.2]&lt;br&gt;Bug Fixes:&lt;br&gt;- Issue #1: Misc. bug fixe
 &lt;br&gt;</description>
       <pubDate>Thu, 23 Jan 2020 10:48:01 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.0.1.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v2.8.0.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.8.0.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.8.0.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 22 Jan 2020 17:18:18 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.8.0.9]&lt;br&gt;New APIs for reading TDMS files:&lt;br&gt;- Read TDMS Wavenames into Rings.vi (reads TDMS channel names and populates ring control(s)&lt;br&gt;- Read TDMS XYN.vi (read three waves X,Y,N from TDMS file or folder of TDMS files)&lt;br&gt;&lt;br&gt;Igor Graph VIs&lt;br&gt;- LV to ITX Graph.vi renamed LV to Igor Graph (UI).vi. UI that lets user copy data and write ITX file for loading into Igor&lt;br&gt;- Intensity Graph to Igor Graph.vi and XY Graph to Igor Graph.vi: call as subVI with graph reference to write ITX files&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 22 Jan 2020 17:18:18 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.8.0.9</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
