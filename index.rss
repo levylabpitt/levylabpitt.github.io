@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 12 Feb 2020 09:54:30 -0500</pubDate>
+    <pubDate>Wed, 12 Feb 2020 16:24:25 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.4.4.55</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.4.55.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.4.4.55&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 12 Feb 2020 16:24:25 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.4.55]&lt;br&gt;- Rearrange VIs on disk&lt;br&gt;- update Remote Client.vi&lt;br&gt;- remove unused methods&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 12 Feb 2020 16:24:25 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.4.55</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.4.3.54</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.3.54.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.8.0.9]&lt;br&gt;New APIs for reading TDMS files:&lt;br&gt;- Re
       <pubDate>Wed, 22 Jan 2020 17:18:18 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-2.8.0.9</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.3.2.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_transport/levylab_lib_transport-1.3.2.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.3.2.9&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 14 Jan 2020 12:33:04 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.2.9]&lt;br&gt;- misc. bug fixes related to saving TDMS files&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 14 Jan 2020 12:33:04 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.3.2.9</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
