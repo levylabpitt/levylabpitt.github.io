@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 12 Feb 2020 18:01:06 -0500</pubDate>
+    <pubDate>Thu, 13 Feb 2020 12:34:01 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.5.0.57</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.0.57.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.5.0.57&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 13 Feb 2020 12:34:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.0.57]&lt;br&gt;- Templates are now included in the Instrument package&lt;br&gt;- Lots of other changes such as move files on disk, change scope, etc&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 13 Feb 2020 12:34:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.0.57</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.4.5.56</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.5.56.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.2.3]&lt;br&gt;- Add Symmetrize.vi&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 23 Jan 2020 11:15:07 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.2.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.0.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.0.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 23 Jan 2020 10:48:01 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.1.2]&lt;br&gt;Bug Fixes:&lt;br&gt;- Issue #1: Misc. bug fixes when converting an XY Graph to Intensity Graph&lt;br&gt;- Issue #3: Linecut width defaults to 1 pixel if user enters &amp;quot;0&amp;quot;&lt;br&gt;&lt;br&gt;New Methods:&lt;br&gt;- Get/Set XY Graph X (Y) Mapping.vi (Get/Set Linear or Logarithmic XY Scales)&lt;br&gt;- Get/Set XY Graph Plot Names.vi&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 23 Jan 2020 10:48:01 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.0.1.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
