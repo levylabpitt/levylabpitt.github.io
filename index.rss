@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 13 Feb 2020 12:34:01 -0500</pubDate>
+    <pubDate>Thu, 13 Feb 2020 16:51:06 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.5.1.58</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.1.58.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.5.1.58&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 13 Feb 2020 16:51:05 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.1.58]&lt;br&gt;- new Instrument UI.lvclass and related changes (e.g. Create UI method is now here)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 13 Feb 2020 16:51:05 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.1.58</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.5.0.57</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.0.57.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.4.2.53]&lt;br&gt;- Add &amp;quot;Finished?&amp;quot; boolean t
       <pubDate>Wed, 05 Feb 2020 10:48:12 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.2.53</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>XY Utilities v1.0.2.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.2.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.0.2.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 23 Jan 2020 11:15:07 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- Arithmetic: Add, Subtract, Multiply, Divide&lt;br&gt;- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y&lt;br&gt;- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2.3]&lt;br&gt;- Add Symmetrize.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 23 Jan 2020 11:15:07 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.2.3</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
