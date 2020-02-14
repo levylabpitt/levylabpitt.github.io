@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 13 Feb 2020 16:51:06 -0500</pubDate>
+    <pubDate>Fri, 14 Feb 2020 09:31:59 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.5.2.59</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.2.59.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.5.2.59&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 14 Feb 2020 09:31:59 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract instrument.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.2.58]&lt;br&gt;- bug fixes in new Instrument UI.lvclass&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 14 Feb 2020 09:31:59 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.2.59</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.5.1.58</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.1.58.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.1.1.7]&lt;br&gt;- update the way Cryostation Client.vi handles
       <pubDate>Wed, 05 Feb 2020 11:31:03 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.1.7</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.4.2.53</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.2.53.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.4.2.53&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 05 Feb 2020 10:48:12 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.2.53]&lt;br&gt;- Add &amp;quot;Finished?&amp;quot; boolean to Get Magnet/Temperature/Delay&lt;br&gt;- Change the way the Instrument SMO is configured (dev must override SMO Name/Port/Public API/RC Tyle - constant.vi)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 05 Feb 2020 10:48:12 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.4.2.53</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
