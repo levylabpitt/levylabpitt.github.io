@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=126
-Release.Date=Fri, 14 Feb 2020 09:31:59 -0500
-Self.ID=a7dad250d413b7da01c4b891022bb54b
+Release.Number=134
+Release.Date=Mon, 17 Feb 2020 20:11:17 -0500
+Self.ID=f66acfc8edc9612c91edc45310c97188
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1115,5 +1115,101 @@ Package.Release Date=Fri, 14 Feb 2020 09:31:59 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.3.60]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.3.60.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.3.60.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.3.60.spec
+Package.MD5=efa28254ca22f467b543560009cea509
+Package.Release Date=Fri, 14 Feb 2020 11:35:40 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.4.61]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.4.61.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.4.61.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.4.61.spec
+Package.MD5=48fece7797f5ab7e565d30940d497098
+Package.Release Date=Sun, 16 Feb 2020 07:07:37 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.4.63]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.4.63.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.4.63.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.4.63.spec
+Package.MD5=b6a4f4bf10267e9e07df787d8974ae12
+Package.Release Date=Sun, 16 Feb 2020 08:24:48 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.5.64]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.64.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.64.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.64.spec
+Package.MD5=382df8bcf6c940d2c0890a88575f1030
+Package.Release Date=Sun, 16 Feb 2020 13:48:55 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.5.65]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.65.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.65.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.65.spec
+Package.MD5=98998f1fabfd728c3574cba817e6b2e1
+Package.Release Date=Sun, 16 Feb 2020 15:37:14 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.5.66]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.66.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.66.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.5.66.spec
+Package.MD5=5ae3b2fe192facc68bce8f6ff6775b3a
+Package.Release Date=Sun, 16 Feb 2020 15:53:29 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.6.67]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.6.67.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.6.67.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.6.67.spec
+Package.MD5=e12add11c397218221302b406ff53f17
+Package.Release Date=Mon, 17 Feb 2020 13:41:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jdp_science_lib_common_utilities>=1.1.1.7,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
+Package.Display Name=Instruments
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.7.68]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.7.68.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.7.68.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.7.68.spec
+Package.MD5=13f10fbae9522c94f133fb130712c48f
+Package.Release Date=Mon, 17 Feb 2020 20:11:16 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jdp_science_lib_common_utilities>=1.1.1.7,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
 Package.Display Name=Instruments
 Platform.Exclusive_VIPM_Version=2017
