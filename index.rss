@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 19 Feb 2020 10:39:19 -0500</pubDate>
+    <pubDate>Wed, 19 Feb 2020 11:32:42 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aerotech Delay v1.0.2.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.2.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.0.2.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 19 Feb 2020 11:32:41 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for setting delay with Aerotech delay line&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.2.3]&lt;br&gt;- update to work with Instruments v1.5.8.70&lt;br&gt;- add conversion to/from um/ps&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 19 Feb 2020 11:32:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.0.2.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.9.6.11</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.9.6.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 19 Feb 2020 11:03:20 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.9.6.11]&lt;br&gt;- build w/ Instrument.lvclass v1.5.8.70&lt;br&gt;- update API and Lockin Client&lt;br&gt;- build using new &amp;quot;Build Support&amp;quot; package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 19 Feb 2020 11:03:20 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.6.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [2.9.5.9]&lt;br&gt;- build w/ Instrument.lvclass v1.5.7.68&lt;br&
       <pubDate>Tue, 18 Feb 2020 07:59:16 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.5.9</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.5.7.68</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.7.68.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.5.7.68&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 17 Feb 2020 20:11:16 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.7.68]&lt;br&gt;- update names:&lt;br&gt;Open Instrument --&amp;gt; Open&lt;br&gt;Close Instrument --&amp;gt; Close&lt;br&gt;Create Instrument --&amp;gt; Create SMO&lt;br&gt;- add methods to public scope (Open, Close, Read/Write Hardware Address)&lt;br&gt;- update ProjectSetup.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 17 Feb 2020 20:11:16 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.7.68</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.5.6.67</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.6.67.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.5.6.67&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 17 Feb 2020 13:41:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.6.67]&lt;br&gt;- ProjectSetup.vi executes when opened&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 17 Feb 2020 13:41:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.6.67</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
