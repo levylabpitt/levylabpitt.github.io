@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=178
-Release.Date=Mon, 24 Feb 2020 10:33:48 -0500
-Self.ID=04d097ead05b7b890e89a61b5c516e43
+Release.Number=180
+Release.Date=Mon, 24 Feb 2020 11:02:43 -0500
+Self.ID=f355ccafa1ade7057c128beecdae7e0a
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1652,17 +1652,6 @@ Platform.Exclusive_OS=Windows NT
 Package.Display Name=PythonVIEW
 Platform.Exclusive_VIPM_Version=2014
 
-[Package andreas_wirsing_lib_lvarray2ibw-1.0.0.1]
-Package.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.vip
-Icon.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.bmp
-Spec.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.spec
-Package.MD5=ccce08d095bde3c6dfc678a07c89f8f8
-Package.Release Date=Mon, 24 Feb 2020 10:24:15 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=lvarray2ibw
-Platform.Exclusive_VIPM_Version=2017
-
 [Package h5labview2-2.13.1.143]
 Package.URL=packages/h5labview2/h5labview2-2.13.1.143.vip
 Icon.URL=packages/h5labview2/h5labview2-2.13.1.143.bmp
@@ -1694,17 +1683,6 @@ Package.Release Date=Mon, 24 Feb 2020 10:24:26 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
 Platform.Exclusive_OS=Windows NT,Linux
 Package.Display Name=ZeroMQ Socket Library
-Platform.Exclusive_VIPM_Version=2010
-
-[Package ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1]
-Package.URL=packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.vip
-Icon.URL=packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.bmp
-Spec.URL=packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.spec
-Package.MD5=8f0d88aec7ef74ac7fdd3a0e59f9fdfe
-Package.Release Date=Mon, 24 Feb 2020 10:33:42 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=8.6
-Platform.Exclusive_OS=ALL
-Package.Display Name=UI Control Suite: System Controls 2.0
 Platform.Exclusive_VIPM_Version=2010
 
 [Package drjdpowell_lib_messenging-1.10.6.112]

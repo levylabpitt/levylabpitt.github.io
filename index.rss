@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 24 Feb 2020 10:33:48 -0500</pubDate>
+    <pubDate>Mon, 24 Feb 2020 11:02:43 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -23,24 +23,6 @@ Release Notes: *&amp;quot;Startup Parameters&amp;quot; Variant added to &amp;quo
       <guid isPermaLink="false">drjdpowell_lib_messenging-1.10.6.112</guid>
       <dc:creator>JDP Science</dc:creator>
       <link>https://lavag.org/files/file/220-messenger-library/</link>
-    </item>
-    <item>
-      <title>UI Control Suite: System Controls 2.0 v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: UI Control Suite: System Controls 2.0 v1.0.0.1&lt;br&gt;
-Company: NI&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:33:42 -0500&lt;br&gt;
-Packager: Jervin Justin&lt;br&gt;
-&lt;br&gt;
-Description: Description&lt;br&gt;The LabVIEW system controls are great for developing user interfaces because they change appearance depending on which platform you run the VI. When you run the VI on a different platform, the system controls adapt their color and appearance to match the standard dialog box controls for that platform. This provides users a more familiar interface in LabVIEW.&lt;br&gt;&lt;br&gt;However, not all controls are available within the system palette, particularly the special LabVIEW controls and indicators used in many applications such as graphs, clusters, arrays, etc. The System Control Suite download provides additional LabVIEW controls customized to fit in well with the default Windows operating system controls. You can use these controls directly or you can use them to develop more customized controls as you enhance application user-interfaces.&lt;br&gt;&lt;br&gt;New additions to the system control palette include graphs, charts, gauges, arrays, clusters as well as several icon-based buttons.&lt;br&gt;&lt;br&gt;System Requirements&lt;br&gt;Application Software: LabVIEW Development System 2009 or later&lt;br&gt;&lt;br&gt;Additional Information&lt;br&gt;The Control Suite referenced here was created by the UI Interest group and is provided as is. All icons used come from the Open Icon Library Project. Links to detailed information and support for this suite and to the UI Interest group are included in the Resources tab.&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:33:42 -0500</pubDate>
-      <guid isPermaLink="false">ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1</guid>
-      <dc:creator>NI</dc:creator>
-      <link>http://sine.ni.com/nips/cds/view/p/lang/en/nid/209118</link>
     </item>
     <item>
       <title>ZeroMQ Socket Library v3.5.1.109</title>
@@ -95,24 +77,6 @@ Release Notes: &amp;lt;b&amp;gt;Now supports &amp;lt;u&amp;gt;timestamps and ana
       <guid isPermaLink="false">h5labview2-2.13.1.143</guid>
       <dc:creator>Martijn Jasperse</dc:creator>
       <link>http://h5labview.sourceforge.net/</link>
-    </item>
-    <item>
-      <title>lvarray2ibw v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: lvarray2ibw v1.0.0.1&lt;br&gt;
-Company: Andreas Wirsing&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:24:15 -0500&lt;br&gt;
-Packager: Andreas Wirsing&lt;br&gt;
-&lt;br&gt;
-Description: igorBinV5.llb&lt;br&gt;&lt;br&gt;LabVIEW library to store arrays as Igor Binary Waves on disk.&lt;br&gt;Most of the features of IGOR Binary Waves are supported.&lt;br&gt;The waves are stored in IGOR Binary Wave file version 5 even if this is not required.&lt;br&gt;Because IGOR Binary Wave file version 5 was introduced in IGOR 3.0 the ibw files cannot be read with earlier versions of IGOR.&lt;br&gt;&lt;br&gt;Restrictions:&lt;br&gt;The library was developed under LabVIEW 7.1 on a Windows 2000 machine. It will not run on LabVIEW versions below 7.1.&lt;br&gt;It is also successfully tested on a Win XP machine and LV 7.1.&lt;br&gt;It is neither known if Mac LV versions nor if LV version higher than 7.1 are supported.&lt;br&gt;Up to now it is not possible to read IGOR Binary Wave files into LV arrays.&lt;br&gt;&lt;br&gt;Usage:&lt;br&gt;The library contains - among many other VIs - a VI called Array2ibw.vi. This is a Polymorphic VI, that chooses the the right sub VI depending on the data type that is connected to &#39;array in&#39;. So only this VI is actually needed.&lt;br&gt;Copy the library to the user.lib directory inside the LabVIEW 7.1 directory to make the VI accessable via the User Libraries entry of the palletteMenu.&lt;br&gt;&lt;br&gt;IMPORTANT: THERE IS A SIGNIFICANT DIFFERENCE HOW DIMENSION INDECES ARE HANDLED IN IGOR AND LABVIEW!&lt;br&gt;IN LABVIEW THE HIGHEST DIMENSION IS STATED FIRST WHEREAS IN IGOR THE FIRST DIMENSION IS THE ROW DIMENSION.&lt;br&gt;&lt;br&gt;Example: If you concatenate two 1-dimensional waves of the same length (and without the /NP flag) in IGOR you&#39;ll get an 2-dimensional wave. Using IGOR&#39;s DimSize function to reveal the dimension size you get for dimNumber 0 the number of points of the two original waves and for dimNumber 1 DimSize returns 2. Doing the same in LabVIEW with two 1-dimensional arrays and the Build Array VI and using the Array Size VI to reveal the dimension size, you get a 2 point array whose first entry is 2 and the second contains the number of points of the original arrays.&lt;br&gt;This VI considers this difference. An 2-dimensional array created via the Build Array VI as explained above can simply be connected to this VI, for arrays created via the Initialize Array VI for example, one has to pay particular attention on this difference. If not an IGOR binary file is created that does not reflect the data in the original LabVIEW array.&lt;br&gt;&lt;br&gt;Thanks:&lt;br&gt;Gary W. Johnson for his great work on the first version of such a LabVIEW library several years ago.&lt;br&gt;_______________&lt;br&gt;&lt;br&gt;If you find any bugs or have comments or feature requests, contact me or make a request on the IgorExchange site.&lt;br&gt;&lt;br&gt;Andreas Wirsing, FU Berlin&lt;br&gt;awirsing@zedat.fu-berlin.de&lt;br&gt;Oktober 2010&lt;br&gt;
-&lt;br&gt;
-Release Notes: initial build of _only_ lvarray2ibw.llb (was previously part of IBWtoLV package)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:24:15 -0500</pubDate>
-      <guid isPermaLink="false">andreas_wirsing_lib_lvarray2ibw-1.0.0.1</guid>
-      <dc:creator>Andreas Wirsing</dc:creator>
-      <link>https://www.wavemetrics.com/project-releases/1129</link>
     </item>
     <item>
       <title>PythonVIEW v1.0.1.2</title>
@@ -184,6 +148,42 @@ Release Notes: Wraps a .NET call for generating unique IDs in a VI&lt;br&gt;
       <pubDate>Mon, 24 Feb 2020 10:24:00 -0500</pubDate>
       <guid isPermaLink="false">national_instruments_lib_guid_generator-1.0.2.3</guid>
       <dc:creator>National Instruments</dc:creator>
+      
+    </item>
+    <item>
+      <title>msgpack v0.10.1.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/msgpack/msgpack-0.10.1.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: msgpack v0.10.1.7&lt;br&gt;
+Company: Martijn Jasperse&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:23:56 -0500&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:23:56 -0500</pubDate>
+      <guid isPermaLink="false">msgpack-0.10.1.7</guid>
+      <dc:creator>Martijn Jasperse</dc:creator>
+      <link>http://sourceforge.net/p/msgpack-labview/wiki/Home/</link>
+    </item>
+    <item>
+      <title>Wiltron 66xxB v1.1.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_wiltron_66xxb/levylab_lib_wiltron_66xxb-1.1.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Wiltron 66xxB v1.1.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:23:51 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: Changed ON/OFF color&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:23:51 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_wiltron_66xxb-1.1.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
