@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=181
-Release.Date=Mon, 24 Feb 2020 11:25:19 -0500
-Self.ID=ccc8495dc1ba889f71809681ac4bae1f
+Release.Number=182
+Release.Date=Mon, 24 Feb 2020 11:29:39 -0500
+Self.ID=b0171e5268433d69d237091326cb8e09
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1662,17 +1662,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Hierarchical Data Format (HDF5)
 Platform.Exclusive_VIPM_Version=2010
-
-[Package jki_lib_flat_controls-1.0.0.7]
-Package.URL=packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.vip
-Icon.URL=packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.bmp
-Spec.URL=packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.spec
-Package.MD5=42c171c3bb49bf9f8ddfc2274ce2aeb2
-Package.Release Date=Mon, 24 Feb 2020 10:24:22 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=14.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=JKI Flat UI Controls
-Platform.Exclusive_VIPM_Version=2014
 
 [Package labview-zmq-3.5.1.109]
 Package.URL=packages/labview-zmq/labview-zmq-3.5.1.109.vip

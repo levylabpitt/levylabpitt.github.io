@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 24 Feb 2020 11:25:19 -0500</pubDate>
+    <pubDate>Mon, 24 Feb 2020 11:29:39 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -23,24 +23,6 @@ Release Notes: Binds against libzmq-1.2.5&lt;br&gt;
       <guid isPermaLink="false">labview-zmq-3.5.1.109</guid>
       <dc:creator>Martijn Jasperse</dc:creator>
       <link>http://labview-zmq.sf.net</link>
-    </item>
-    <item>
-      <title>JKI Flat UI Controls v1.0.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JKI Flat UI Controls v1.0.0.7&lt;br&gt;
-Company: JKI&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:24:22 -0500&lt;br&gt;
-Packager: Eric Welden&lt;br&gt;
-&lt;br&gt;
-Description: JKI Flat UI Controls for LabVIEW provides a set of flat UI controls designed by JKI with a dark and light color theme.&lt;br&gt;
-&lt;br&gt;
-Release Notes: Initial release.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:24:22 -0500</pubDate>
-      <guid isPermaLink="false">jki_lib_flat_controls-1.0.0.7</guid>
-      <dc:creator>JKI</dc:creator>
-      <link>http://jki.net/tools#flatui</link>
     </item>
     <item>
       <title>Hierarchical Data Format (HDF5) v2.13.1.143</title>
@@ -184,6 +166,24 @@ Release Notes: These are levylab-coded SR830/810 drivers &amp;amp; utilities.&lt
       <pubDate>Mon, 24 Feb 2020 10:23:46 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_sr830_-_levy_tools-1.0.0.2</guid>
       <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Splitting analysis v1.1.1.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_splitting_analysis/levylab_lib_splitting_analysis-1.1.1.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Splitting analysis v1.1.1.7&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:12:07 -0500&lt;br&gt;
+Packager: Guanglei Cheng&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:12:07 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_splitting_analysis-1.1.1.7</guid>
+      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
