@@ -3,187 +3,187 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 21 Feb 2020 16:13:50 -0500</pubDate>
+    <pubDate>Mon, 24 Feb 2020 10:33:48 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Leiden Tools v1.2.3.17</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tools/levylab_lib_leiden_tools-1.2.3.17.bmp"&gt;&lt;br&gt;
+      <title>Messenger Library v1.10.6.112</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Leiden Tools v1.2.3.17&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 21 Feb 2020 16:13:50 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
+Product: Messenger Library v1.10.6.112&lt;br&gt;
+Company: JDP Science&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:33:47 -0500&lt;br&gt;
+Packager: James David Powell, drjdpowell&lt;br&gt;
 &lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC) and Front Panel (FP).&lt;br&gt;&lt;br&gt;[FP to DSC]&lt;br&gt;- Add FP_to_DSC.vi to the FP.vi source code to write data to the DSC. Works for CF or MNK.&lt;br&gt;&lt;br&gt;[TC to DSC]&lt;br&gt;- Add TC_to_DSC.vi to the TC.vi source code to write data to the DSC. Works for CF or MNK.&lt;br&gt;&lt;br&gt;[Instrument.MNK_TC.lvclass]&lt;br&gt;- API that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;&lt;br&gt;[Instrument.MNK_FP.lclass]&lt;br&gt;[Instrument.CF_TC.lvclass]&lt;br&gt;[Instrument.CF_FP.lclass]&lt;br&gt;- possible future functions&lt;br&gt;
+Description: A library for passing messages between parallel processes.  Uses LVOOP to generalize the communication method, allowing the message sender to use the method provided by the receiver.  Supported communication methods include wrappings of simple queues, user events, and notifiers, as well a more complex channels such as a TCP server and client.  &lt;br&gt;&lt;br&gt;Comunication patterns supported include request-reply, where the reply is sent to a &amp;quot;reply address&amp;quot; attached to the request, and publish-subscribe or the &amp;quot;Observer Pattern&amp;quot; where one process sends a registration message to another in order to subscribe to published messages.&lt;br&gt;&lt;br&gt;A framework for dynamically-launched VI &amp;quot;actors&amp;quot; is also provided (and is used for building the TCP server/client and publish-subscribe functionality).  An &amp;quot;Actor Manager&amp;quot; debug tool is installed under the Tools menu.&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.2.3.17]&lt;br&gt;- update to latest Instrument (v1.5.9.71)&lt;br&gt;
+Release Notes: *&amp;quot;Startup Parameters&amp;quot; Variant added to &amp;quot;Launch Actor&amp;quot;&lt;br&gt;*Used to impliment preregistration messages in DEV template (Issue 13: to register for error in &amp;quot;Self: Initialize)&lt;br&gt;*Fix issue 14: Observer Registry not dropping dead addresses&lt;br&gt;*Better Error info in Query Timeouts&lt;br&gt;*Timeout Watchdog, to react to failure of something to happen&lt;br&gt;*Issue 9: modified way of launching Non-Reentrant Actors to reduce issue&lt;br&gt;*&amp;quot;Busy&amp;quot; Async Dialog (Beta; off palette)&lt;br&gt;*Fix issues with Cancellable Observer (Issue 18)&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Fri, 21 Feb 2020 16:13:50 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_tools-1.2.3.17</guid>
-      <dc:creator>LevyLab</dc:creator>
+      <pubDate>Mon, 24 Feb 2020 10:33:47 -0500</pubDate>
+      <guid isPermaLink="false">drjdpowell_lib_messenging-1.10.6.112</guid>
+      <dc:creator>JDP Science</dc:creator>
+      <link>https://lavag.org/files/file/220-messenger-library/</link>
+    </item>
+    <item>
+      <title>UI Control Suite: System Controls 2.0 v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: UI Control Suite: System Controls 2.0 v1.0.0.1&lt;br&gt;
+Company: NI&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:33:42 -0500&lt;br&gt;
+Packager: Jervin Justin&lt;br&gt;
+&lt;br&gt;
+Description: Description&lt;br&gt;The LabVIEW system controls are great for developing user interfaces because they change appearance depending on which platform you run the VI. When you run the VI on a different platform, the system controls adapt their color and appearance to match the standard dialog box controls for that platform. This provides users a more familiar interface in LabVIEW.&lt;br&gt;&lt;br&gt;However, not all controls are available within the system palette, particularly the special LabVIEW controls and indicators used in many applications such as graphs, clusters, arrays, etc. The System Control Suite download provides additional LabVIEW controls customized to fit in well with the default Windows operating system controls. You can use these controls directly or you can use them to develop more customized controls as you enhance application user-interfaces.&lt;br&gt;&lt;br&gt;New additions to the system control palette include graphs, charts, gauges, arrays, clusters as well as several icon-based buttons.&lt;br&gt;&lt;br&gt;System Requirements&lt;br&gt;Application Software: LabVIEW Development System 2009 or later&lt;br&gt;&lt;br&gt;Additional Information&lt;br&gt;The Control Suite referenced here was created by the UI Interest group and is provided as is. All icons used come from the Open Icon Library Project. Links to detailed information and support for this suite and to the UI Interest group are included in the Resources tab.&lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:33:42 -0500</pubDate>
+      <guid isPermaLink="false">ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1</guid>
+      <dc:creator>NI</dc:creator>
+      <link>http://sine.ni.com/nips/cds/view/p/lang/en/nid/209118</link>
+    </item>
+    <item>
+      <title>ZeroMQ Socket Library v3.5.1.109</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.5.1.109.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: ZeroMQ Socket Library v3.5.1.109&lt;br&gt;
+Company: Martijn Jasperse&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:26 -0500&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Binds against libzmq-1.2.5&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:26 -0500</pubDate>
+      <guid isPermaLink="false">labview-zmq-3.5.1.109</guid>
+      <dc:creator>Martijn Jasperse</dc:creator>
+      <link>http://labview-zmq.sf.net</link>
+    </item>
+    <item>
+      <title>JKI Flat UI Controls v1.0.0.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JKI Flat UI Controls v1.0.0.7&lt;br&gt;
+Company: JKI&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:22 -0500&lt;br&gt;
+Packager: Eric Welden&lt;br&gt;
+&lt;br&gt;
+Description: JKI Flat UI Controls for LabVIEW provides a set of flat UI controls designed by JKI with a dark and light color theme.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Initial release.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:22 -0500</pubDate>
+      <guid isPermaLink="false">jki_lib_flat_controls-1.0.0.7</guid>
+      <dc:creator>JKI</dc:creator>
+      <link>http://jki.net/tools#flatui</link>
+    </item>
+    <item>
+      <title>Hierarchical Data Format (HDF5) v2.13.1.143</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/h5labview2/h5labview2-2.13.1.143.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Hierarchical Data Format (HDF5) v2.13.1.143&lt;br&gt;
+Company: Martijn Jasperse&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:18 -0500&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: This library provides a simple interface to read and write data stored in the Heirarchical Data Format (HDF), version 5. This is a multi-lingual cross-platform format permitting storage of data with descriptive meta-data in an object hierarchy within a single file. See http://www.hdfgroup.org/why_hdf/ for more information.&lt;br&gt;
+&lt;br&gt;
+Release Notes: &amp;lt;b&amp;gt;Now supports &amp;lt;u&amp;gt;timestamps and analog waveforms&amp;lt;/u&amp;gt;&amp;lt;/b&amp;gt;&lt;br&gt;&lt;br&gt;Requires &amp;lt;b&amp;gt;HDF5 v1.8.14&amp;lt;/b&amp;gt;. You may need to uninstall earlier versions if the installer fails, see the FAQ for more details.&lt;br&gt;&lt;br&gt;See &amp;lt;i&amp;gt;CHANGES.TXT&amp;lt;/i&amp;gt; for a description of changes since the last version.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:18 -0500</pubDate>
+      <guid isPermaLink="false">h5labview2-2.13.1.143</guid>
+      <dc:creator>Martijn Jasperse</dc:creator>
+      <link>http://h5labview.sourceforge.net/</link>
+    </item>
+    <item>
+      <title>lvarray2ibw v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: lvarray2ibw v1.0.0.1&lt;br&gt;
+Company: Andreas Wirsing&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:15 -0500&lt;br&gt;
+Packager: Andreas Wirsing&lt;br&gt;
+&lt;br&gt;
+Description: igorBinV5.llb&lt;br&gt;&lt;br&gt;LabVIEW library to store arrays as Igor Binary Waves on disk.&lt;br&gt;Most of the features of IGOR Binary Waves are supported.&lt;br&gt;The waves are stored in IGOR Binary Wave file version 5 even if this is not required.&lt;br&gt;Because IGOR Binary Wave file version 5 was introduced in IGOR 3.0 the ibw files cannot be read with earlier versions of IGOR.&lt;br&gt;&lt;br&gt;Restrictions:&lt;br&gt;The library was developed under LabVIEW 7.1 on a Windows 2000 machine. It will not run on LabVIEW versions below 7.1.&lt;br&gt;It is also successfully tested on a Win XP machine and LV 7.1.&lt;br&gt;It is neither known if Mac LV versions nor if LV version higher than 7.1 are supported.&lt;br&gt;Up to now it is not possible to read IGOR Binary Wave files into LV arrays.&lt;br&gt;&lt;br&gt;Usage:&lt;br&gt;The library contains - among many other VIs - a VI called Array2ibw.vi. This is a Polymorphic VI, that chooses the the right sub VI depending on the data type that is connected to &#39;array in&#39;. So only this VI is actually needed.&lt;br&gt;Copy the library to the user.lib directory inside the LabVIEW 7.1 directory to make the VI accessable via the User Libraries entry of the palletteMenu.&lt;br&gt;&lt;br&gt;IMPORTANT: THERE IS A SIGNIFICANT DIFFERENCE HOW DIMENSION INDECES ARE HANDLED IN IGOR AND LABVIEW!&lt;br&gt;IN LABVIEW THE HIGHEST DIMENSION IS STATED FIRST WHEREAS IN IGOR THE FIRST DIMENSION IS THE ROW DIMENSION.&lt;br&gt;&lt;br&gt;Example: If you concatenate two 1-dimensional waves of the same length (and without the /NP flag) in IGOR you&#39;ll get an 2-dimensional wave. Using IGOR&#39;s DimSize function to reveal the dimension size you get for dimNumber 0 the number of points of the two original waves and for dimNumber 1 DimSize returns 2. Doing the same in LabVIEW with two 1-dimensional arrays and the Build Array VI and using the Array Size VI to reveal the dimension size, you get a 2 point array whose first entry is 2 and the second contains the number of points of the original arrays.&lt;br&gt;This VI considers this difference. An 2-dimensional array created via the Build Array VI as explained above can simply be connected to this VI, for arrays created via the Initialize Array VI for example, one has to pay particular attention on this difference. If not an IGOR binary file is created that does not reflect the data in the original LabVIEW array.&lt;br&gt;&lt;br&gt;Thanks:&lt;br&gt;Gary W. Johnson for his great work on the first version of such a LabVIEW library several years ago.&lt;br&gt;_______________&lt;br&gt;&lt;br&gt;If you find any bugs or have comments or feature requests, contact me or make a request on the IgorExchange site.&lt;br&gt;&lt;br&gt;Andreas Wirsing, FU Berlin&lt;br&gt;awirsing@zedat.fu-berlin.de&lt;br&gt;Oktober 2010&lt;br&gt;
+&lt;br&gt;
+Release Notes: initial build of _only_ lvarray2ibw.llb (was previously part of IBWtoLV package)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:15 -0500</pubDate>
+      <guid isPermaLink="false">andreas_wirsing_lib_lvarray2ibw-1.0.0.1</guid>
+      <dc:creator>Andreas Wirsing</dc:creator>
+      <link>https://www.wavemetrics.com/project-releases/1129</link>
+    </item>
+    <item>
+      <title>PythonVIEW v1.0.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/3t_lib_pythonview/3t_lib_pythonview-1.0.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PythonVIEW v1.0.1.2&lt;br&gt;
+Company: 3T&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:11 -0500&lt;br&gt;
+Packager: 3T &amp;amp; LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: PythonVIEW is a software library designed to connect LabVIEW and Python. It enables LabVIEW applications to execute Python scripts but also provides LabVIEW functionality to Python scripts in standard way.&lt;br&gt;
+&lt;br&gt;
+Release Notes: PythonVIEW v1.8&lt;br&gt;&lt;br&gt;- disable check for python installation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:11 -0500</pubDate>
+      <guid isPermaLink="false">3t_lib_pythonview-1.0.1.2</guid>
+      <dc:creator>3T</dc:creator>
+      <link>https://3t.nl/en/pythonview/</link>
+    </item>
+    <item>
+      <title>PyByWire v1.2.3.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/pybywire/pybywire-1.2.3.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PyByWire v1.2.3.5&lt;br&gt;
+Company: Monash University&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:07 -0500&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:07 -0500</pubDate>
+      <guid isPermaLink="false">pybywire-1.2.3.5</guid>
+      <dc:creator>Monash University</dc:creator>
+      <link>http://pybywire.sf.net</link>
+    </item>
+    <item>
+      <title>SR830 - NI v1.0.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ni_lib_sr830/ni_lib_sr830-1.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: SR830 - NI v1.0.0.3&lt;br&gt;
+Company: NI&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:04 -0500&lt;br&gt;
+Packager: Alexandre Gauthier&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:24:04 -0500</pubDate>
+      <guid isPermaLink="false">ni_lib_sr830-1.0.0.3</guid>
+      <dc:creator>NI</dc:creator>
       
     </item>
     <item>
-      <title>Instruments v1.5.9.71</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.9.71.bmp"&gt;&lt;br&gt;
+      <title>GUID Generator v1.0.2.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/national_instruments_lib_guid_generator/national_instruments_lib_guid_generator-1.0.2.3.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Instruments v1.5.9.71&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 21 Feb 2020 11:34:28 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
+Product: GUID Generator v1.0.2.3&lt;br&gt;
+Company: National Instruments&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:24:00 -0500&lt;br&gt;
+Packager: Elijah Kerry&lt;br&gt;
 &lt;br&gt;
-Description: An object-oriented framework for LabVIEW based on JKI SMOs, developed for the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following responsibilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.&lt;br&gt;
+Description: &lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.5.9.71]&lt;br&gt;- Update Open.vi now writes to Hardware.Address and SMO.Address&lt;br&gt;- Simplify Configuration VIs (make overridable methods, delete unnecessary accessors)&lt;br&gt;- Update Error Handling protocal in Instrument and RemoteControl processes&lt;br&gt;
+Release Notes: Wraps a .NET call for generating unique IDs in a VI&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Fri, 21 Feb 2020 11:34:28 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.9.71</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.1.2.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.2.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.1.2.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 20 Feb 2020 11:59:01 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.2.8]&lt;br&gt;- update to work with Instrument v1.5.8.70&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 20 Feb 2020 11:59:01 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.2.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Aerotech Delay v1.0.2.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.2.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Aerotech Delay v1.0.2.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 19 Feb 2020 11:32:41 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for setting delay with Aerotech delay line&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2.3]&lt;br&gt;- update to work with Instruments v1.5.8.70&lt;br&gt;- add conversion to/from um/ps&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 19 Feb 2020 11:32:41 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.0.2.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.9.6.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.9.6.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 19 Feb 2020 11:03:20 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.9.6.11]&lt;br&gt;- build w/ Instrument.lvclass v1.5.8.70&lt;br&gt;- update API and Lockin Client&lt;br&gt;- build using new &amp;quot;Build Support&amp;quot; package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 19 Feb 2020 11:03:20 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.6.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.0.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 19 Feb 2020 10:39:19 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellanious VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: first build&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 19 Feb 2020 10:39:19 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.0.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.3.4.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.3.4.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.3.4.12&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 18 Feb 2020 18:32:41 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.4.12]&lt;br&gt;- update to work with latest Instrument (v1.5.8.60)&lt;br&gt;- update to latest lockin (v2.9.6.10)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 18 Feb 2020 18:32:41 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.3.4.12</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.9.6.10</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.9.6.10&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 18 Feb 2020 16:30:48 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.9.6.10]&lt;br&gt;- build w/ Instrument.lvclass v1.5.8.70&lt;br&gt;- update API and Lockin Client&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 18 Feb 2020 16:30:48 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.6.10</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.5.8.70</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.8.70.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.5.8.70&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 18 Feb 2020 15:51:56 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Abstract instrument.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.8.70]&lt;br&gt;- Update Open.vi to include address&lt;br&gt;- Update Remote Client.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 18 Feb 2020 15:51:56 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.8.70</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford 1820 API v1.1.3.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.1.3.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford 1820 API v1.1.3.11&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 18 Feb 2020 15:10:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: build with Instrument v1.5.7.69&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 18 Feb 2020 15:10:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.1.3.11</guid>
-      <dc:creator>Levylab</dc:creator>
+      <pubDate>Mon, 24 Feb 2020 10:24:00 -0500</pubDate>
+      <guid isPermaLink="false">national_instruments_lib_guid_generator-1.0.2.3</guid>
+      <dc:creator>National Instruments</dc:creator>
       
     </item>
   </channel>

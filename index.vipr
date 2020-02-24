@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=147
-Release.Date=Fri, 21 Feb 2020 16:13:50 -0500
-Self.ID=c8b78d36f29d4a0e3cae328dbe619ac7
+Release.Number=178
+Release.Date=Mon, 24 Feb 2020 10:33:48 -0500
+Self.ID=04d097ead05b7b890e89a61b5c516e43
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1368,4 +1368,353 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.5.38
 Package.Display Name=Leiden Tools
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_afm_writing_viewer-1.0.0.4]
+Package.URL=packages/levylab_lib_afm_writing_viewer/levylab_lib_afm_writing_viewer-1.0.0.4.vip
+Icon.URL=packages/levylab_lib_afm_writing_viewer/levylab_lib_afm_writing_viewer-1.0.0.4.bmp
+Spec.URL=packages/levylab_lib_afm_writing_viewer/levylab_lib_afm_writing_viewer-1.0.0.4.spec
+Package.MD5=706133b81ca6267bf9f76b2c383e3b40
+Package.Release Date=Mon, 24 Feb 2020 10:04:59 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=AFM_writing Viewer
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_asana_api-1.4.1.2]
+Package.URL=packages/levylab_lib_asana_api/levylab_lib_asana_api-1.4.1.2.vip
+Icon.URL=packages/levylab_lib_asana_api/levylab_lib_asana_api-1.4.1.2.bmp
+Spec.URL=packages/levylab_lib_asana_api/levylab_lib_asana_api-1.4.1.2.spec
+Package.MD5=51755089cb338e52e6a9cf7001f48973
+Package.Release Date=Mon, 24 Feb 2020 10:06:41 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=i3_json>=1.0.0.10,jki_lib_json_serialization>=1.1.10.37,jki_lib_rest_client>=1.3.2.21
+Package.Display Name=Asana API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_asylum_afm_api-1.0.0.1]
+Package.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.1.vip
+Icon.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.1.bmp
+Spec.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.1.spec
+Package.MD5=c104bed1d9502705f8f6ec0aee773a0a
+Package.Release Date=Mon, 24 Feb 2020 10:06:55 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Asylum AFM API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_control_vi-1.3.0.11]
+Package.URL=packages/levylab_lib_control_vi/levylab_lib_control_vi-1.3.0.11.vip
+Icon.URL=packages/levylab_lib_control_vi/levylab_lib_control_vi-1.3.0.11.bmp
+Spec.URL=packages/levylab_lib_control_vi/levylab_lib_control_vi-1.3.0.11.spec
+Package.MD5=b25f6387b4683b6cc40a9a904b08560a
+Package.Release Date=Mon, 24 Feb 2020 10:07:07 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Control VI
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_datastate-1.0.0.1]
+Package.URL=packages/levylab_lib_datastate/levylab_lib_datastate-1.0.0.1.vip
+Icon.URL=packages/levylab_lib_datastate/levylab_lib_datastate-1.0.0.1.bmp
+Spec.URL=packages/levylab_lib_datastate/levylab_lib_datastate-1.0.0.1.spec
+Package.MD5=2bc85af1042a165c7e94f3cbc2fc4204
+Package.Release Date=Mon, 24 Feb 2020 10:07:19 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=11.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=DataState
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_keysight_vna-1.0.0.2]
+Package.URL=packages/levylab_lib_keysight_vna/levylab_lib_keysight_vna-1.0.0.2.vip
+Icon.URL=packages/levylab_lib_keysight_vna/levylab_lib_keysight_vna-1.0.0.2.bmp
+Spec.URL=packages/levylab_lib_keysight_vna/levylab_lib_keysight_vna-1.0.0.2.spec
+Package.MD5=10c8f41dc177a0cc1289ddf943a4c49f
+Package.Release Date=Mon, 24 Feb 2020 10:07:29 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_lvtoitx>=2.6.4.19
+Package.Display Name=Keysight VNA
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-1.4.9.26]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.4.9.26.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.4.9.26.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.4.9.26.spec
+Package.MD5=c468526d874625dcbd02b8e3774275d5
+Package.Release Date=Mon, 24 Feb 2020 10:08:04 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,oglib_appcontrol>=4.1.0.7,oglib_file>=4.0.1.22,levylab_lib_levylab_instruments>=1.2.4.37
+Package.Display Name=Krohn-Hite 7008 Drivers
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_linecut_linefit-2.1.4.21]
+Package.URL=packages/levylab_lib_linecut_linefit/levylab_lib_linecut_linefit-2.1.4.21.vip
+Icon.URL=packages/levylab_lib_linecut_linefit/levylab_lib_linecut_linefit-2.1.4.21.bmp
+Spec.URL=packages/levylab_lib_linecut_linefit/levylab_lib_linecut_linefit-2.1.4.21.spec
+Package.MD5=22ddb91a6bfaa750ca0d52b716692193
+Package.Release Date=Mon, 24 Feb 2020 10:08:14 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Linecut Linefit
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_marconi_2024-1.2.2.5]
+Package.URL=packages/levylab_lib_marconi_2024/levylab_lib_marconi_2024-1.2.2.5.vip
+Icon.URL=packages/levylab_lib_marconi_2024/levylab_lib_marconi_2024-1.2.2.5.bmp
+Spec.URL=packages/levylab_lib_marconi_2024/levylab_lib_marconi_2024-1.2.2.5.spec
+Package.MD5=9cf2582f4c451cf5ef0473e39c3daf08
+Package.Release Date=Mon, 24 Feb 2020 10:08:18 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Marconi 2024
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_monitor_conductance-1.1.1.7]
+Package.URL=packages/levylab_lib_monitor_conductance/levylab_lib_monitor_conductance-1.1.1.7.vip
+Icon.URL=packages/levylab_lib_monitor_conductance/levylab_lib_monitor_conductance-1.1.1.7.bmp
+Spec.URL=packages/levylab_lib_monitor_conductance/levylab_lib_monitor_conductance-1.1.1.7.spec
+Package.MD5=4308419e4dcbc48e3af22e0fe03f1ff2
+Package.Release Date=Mon, 24 Feb 2020 10:08:26 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_linecut_linefit>=2.1.4.21,levylab_lib_lvtoitx>=2.4.1.7
+Package.Display Name=Monitor Conductance
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_newport_stage-2.0.1.8]
+Package.URL=packages/levylab_lib_newport_stage/levylab_lib_newport_stage-2.0.1.8.vip
+Icon.URL=packages/levylab_lib_newport_stage/levylab_lib_newport_stage-2.0.1.8.bmp
+Spec.URL=packages/levylab_lib_newport_stage/levylab_lib_newport_stage-2.0.1.8.spec
+Package.MD5=049729cce13770b802cb552002ab7144
+Package.Release Date=Mon, 24 Feb 2020 10:08:33 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Newport Stage
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_pickering-4.0.1.8]
+Package.URL=packages/levylab_lib_pickering/levylab_lib_pickering-4.0.1.8.vip
+Icon.URL=packages/levylab_lib_pickering/levylab_lib_pickering-4.0.1.8.bmp
+Spec.URL=packages/levylab_lib_pickering/levylab_lib_pickering-4.0.1.8.spec
+Package.MD5=ba9169003ffb136b6c5c308141b2820c
+Package.Release Date=Mon, 24 Feb 2020 10:08:50 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Pickering
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_daq_femto-1.1.0.3]
+Package.URL=packages/levylab_lib_ppms_daq_femto/levylab_lib_ppms_daq_femto-1.1.0.3.vip
+Icon.URL=packages/levylab_lib_ppms_daq_femto/levylab_lib_ppms_daq_femto-1.1.0.3.bmp
+Spec.URL=packages/levylab_lib_ppms_daq_femto/levylab_lib_ppms_daq_femto-1.1.0.3.spec
+Package.MD5=1fb8cfa6fb5dcaa3a2c3cbb54ef3b82a
+Package.Release Date=Mon, 24 Feb 2020 10:09:08 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=PPMS DAQ Femto
+Platform.Exclusive_VIPM_Version=2014
+
+[Package levylab_lib_ppms_data_analysis-3.2.0.16]
+Package.URL=packages/levylab_lib_ppms_data_analysis/levylab_lib_ppms_data_analysis-3.2.0.16.vip
+Icon.URL=packages/levylab_lib_ppms_data_analysis/levylab_lib_ppms_data_analysis-3.2.0.16.bmp
+Spec.URL=packages/levylab_lib_ppms_data_analysis/levylab_lib_ppms_data_analysis-3.2.0.16.spec
+Package.MD5=7b39b8bff2333685c6bd884251af19c6
+Package.Release Date=Mon, 24 Feb 2020 10:11:22 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=11.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=PPMS Data Analysis
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_ppms_vi-2.0.3.3]
+Package.URL=packages/levylab_lib_ppms_vi/levylab_lib_ppms_vi-2.0.3.3.vip
+Icon.URL=packages/levylab_lib_ppms_vi/levylab_lib_ppms_vi-2.0.3.3.bmp
+Spec.URL=packages/levylab_lib_ppms_vi/levylab_lib_ppms_vi-2.0.3.3.spec
+Package.MD5=d4f9ba730e06388192915bcc274fbbf8
+Package.Release Date=Mon, 24 Feb 2020 10:11:29 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=11.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_daq_lockin_subvi>=2.0.0.2,levylab_lib_pickering>=4.0.0.7,levylab_lib_ppms_daq_femto>=1.0.0.2,levylab_lib_ppms_remote>=2.0.1.3
+Package.Display Name=PPMS VI
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_relay_box-1.1.0.8]
+Package.URL=packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.0.8.vip
+Icon.URL=packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.0.8.bmp
+Spec.URL=packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.0.8.spec
+Package.MD5=31f6d29fe2d41ee7190a178a79196aae
+Package.Release Date=Mon, 24 Feb 2020 10:11:57 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Relay Box
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_sc_curve_tools-1.0.0.1]
+Package.URL=packages/levylab_lib_sc_curve_tools/levylab_lib_sc_curve_tools-1.0.0.1.vip
+Icon.URL=packages/levylab_lib_sc_curve_tools/levylab_lib_sc_curve_tools-1.0.0.1.bmp
+Spec.URL=packages/levylab_lib_sc_curve_tools/levylab_lib_sc_curve_tools-1.0.0.1.spec
+Package.MD5=9f58ecadd51cf088fa063a3f0400e3ba
+Package.Release Date=Mon, 24 Feb 2020 10:12:02 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=SC Curve Tools
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_splitting_analysis-1.1.1.7]
+Package.URL=packages/levylab_lib_splitting_analysis/levylab_lib_splitting_analysis-1.1.1.7.vip
+Icon.URL=packages/levylab_lib_splitting_analysis/levylab_lib_splitting_analysis-1.1.1.7.bmp
+Spec.URL=packages/levylab_lib_splitting_analysis/levylab_lib_splitting_analysis-1.1.1.7.spec
+Package.MD5=198f1a18409f3aca8de9db78a136ecb2
+Package.Release Date=Mon, 24 Feb 2020 10:12:07 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Splitting analysis
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_sr830_-_levy_tools-1.0.0.2]
+Package.URL=packages/levylab_lib_sr830_-_levy_tools/levylab_lib_sr830_-_levy_tools-1.0.0.2.vip
+Icon.URL=packages/levylab_lib_sr830_-_levy_tools/levylab_lib_sr830_-_levy_tools-1.0.0.2.bmp
+Spec.URL=packages/levylab_lib_sr830_-_levy_tools/levylab_lib_sr830_-_levy_tools-1.0.0.2.spec
+Package.MD5=8533d8444dc377f95cc45677722b762c
+Package.Release Date=Mon, 24 Feb 2020 10:23:46 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=SR830 - Levy Tools
+Platform.Exclusive_VIPM_Version=2010
+
+[Package levylab_lib_wiltron_66xxb-1.1.0.1]
+Package.URL=packages/levylab_lib_wiltron_66xxb/levylab_lib_wiltron_66xxb-1.1.0.1.vip
+Icon.URL=packages/levylab_lib_wiltron_66xxb/levylab_lib_wiltron_66xxb-1.1.0.1.bmp
+Spec.URL=packages/levylab_lib_wiltron_66xxb/levylab_lib_wiltron_66xxb-1.1.0.1.spec
+Package.MD5=7db43d06cca29beea520128566a56b94
+Package.Release Date=Mon, 24 Feb 2020 10:23:51 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=9.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Wiltron 66xxB
+Platform.Exclusive_VIPM_Version=2010
+
+[Package msgpack-0.10.1.7]
+Package.URL=packages/msgpack/msgpack-0.10.1.7.vip
+Icon.URL=packages/msgpack/msgpack-0.10.1.7.bmp
+Spec.URL=packages/msgpack/msgpack-0.10.1.7.spec
+Package.MD5=751e1df18f8840e155f0a9b3fbba57ac
+Package.Release Date=Mon, 24 Feb 2020 10:23:56 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=Windows NT
+Dependencies.Requires=oglib_lvdata>=4.2.0.21
+Package.Display Name=msgpack
+Platform.Exclusive_VIPM_Version=2010
+
+[Package national_instruments_lib_guid_generator-1.0.2.3]
+Package.URL=packages/national_instruments_lib_guid_generator/national_instruments_lib_guid_generator-1.0.2.3.vip
+Icon.URL=packages/national_instruments_lib_guid_generator/national_instruments_lib_guid_generator-1.0.2.3.bmp
+Spec.URL=packages/national_instruments_lib_guid_generator/national_instruments_lib_guid_generator-1.0.2.3.spec
+Package.MD5=21a5fc28542a131acf3a344752fed2df
+Package.Release Date=Mon, 24 Feb 2020 10:24:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=GUID Generator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ni_lib_sr830-1.0.0.3]
+Package.URL=packages/ni_lib_sr830/ni_lib_sr830-1.0.0.3.vip
+Icon.URL=packages/ni_lib_sr830/ni_lib_sr830-1.0.0.3.bmp
+Spec.URL=packages/ni_lib_sr830/ni_lib_sr830-1.0.0.3.spec
+Package.MD5=868ba749e9ecf209d114506f5f85ac1c
+Package.Release Date=Mon, 24 Feb 2020 10:24:04 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=11.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=SR830 - NI
+Platform.Exclusive_VIPM_Version=2010
+
+[Package pybywire-1.2.3.5]
+Package.URL=packages/pybywire/pybywire-1.2.3.5.vip
+Icon.URL=packages/pybywire/pybywire-1.2.3.5.bmp
+Spec.URL=packages/pybywire/pybywire-1.2.3.5.spec
+Package.MD5=b87dc0c8f8301f064b4a70e10a1df067
+Package.Release Date=Mon, 24 Feb 2020 10:24:07 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=labview-zmq>=1.4.5.78,msgpack>=0.9.4.3
+Package.Display Name=PyByWire
+Platform.Exclusive_VIPM_Version=2010
+
+[Package 3t_lib_pythonview-1.0.1.2]
+Package.URL=packages/3t_lib_pythonview/3t_lib_pythonview-1.0.1.2.vip
+Icon.URL=packages/3t_lib_pythonview/3t_lib_pythonview-1.0.1.2.bmp
+Spec.URL=packages/3t_lib_pythonview/3t_lib_pythonview-1.0.1.2.spec
+Package.MD5=8cee2063700e6da43e2d714baca9146f
+Package.Release Date=Mon, 24 Feb 2020 10:24:11 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=Windows NT
+Package.Display Name=PythonVIEW
+Platform.Exclusive_VIPM_Version=2014
+
+[Package andreas_wirsing_lib_lvarray2ibw-1.0.0.1]
+Package.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.vip
+Icon.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.bmp
+Spec.URL=packages/andreas_wirsing_lib_lvarray2ibw/andreas_wirsing_lib_lvarray2ibw-1.0.0.1.spec
+Package.MD5=ccce08d095bde3c6dfc678a07c89f8f8
+Package.Release Date=Mon, 24 Feb 2020 10:24:15 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=lvarray2ibw
+Platform.Exclusive_VIPM_Version=2017
+
+[Package h5labview2-2.13.1.143]
+Package.URL=packages/h5labview2/h5labview2-2.13.1.143.vip
+Icon.URL=packages/h5labview2/h5labview2-2.13.1.143.bmp
+Spec.URL=packages/h5labview2/h5labview2-2.13.1.143.spec
+Package.MD5=942db0cb136be3bea46259ed600cfc53
+Package.Release Date=Mon, 24 Feb 2020 10:24:18 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Hierarchical Data Format (HDF5)
+Platform.Exclusive_VIPM_Version=2010
+
+[Package jki_lib_flat_controls-1.0.0.7]
+Package.URL=packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.vip
+Icon.URL=packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.bmp
+Spec.URL=packages/jki_lib_flat_controls/jki_lib_flat_controls-1.0.0.7.spec
+Package.MD5=42c171c3bb49bf9f8ddfc2274ce2aeb2
+Package.Release Date=Mon, 24 Feb 2020 10:24:22 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=14.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=JKI Flat UI Controls
+Platform.Exclusive_VIPM_Version=2014
+
+[Package labview-zmq-3.5.1.109]
+Package.URL=packages/labview-zmq/labview-zmq-3.5.1.109.vip
+Icon.URL=packages/labview-zmq/labview-zmq-3.5.1.109.bmp
+Spec.URL=packages/labview-zmq/labview-zmq-3.5.1.109.spec
+Package.MD5=7832bf603073a0d96a8404bed817e934
+Package.Release Date=Mon, 24 Feb 2020 10:24:26 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
+Platform.Exclusive_OS=Windows NT,Linux
+Package.Display Name=ZeroMQ Socket Library
+Platform.Exclusive_VIPM_Version=2010
+
+[Package ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1]
+Package.URL=packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.vip
+Icon.URL=packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.bmp
+Spec.URL=packages/ni_lib_ui_control_suite-_system_controls_2.0/ni_lib_ui_control_suite-_system_controls_2.0-1.0.0.1.spec
+Package.MD5=8f0d88aec7ef74ac7fdd3a0e59f9fdfe
+Package.Release Date=Mon, 24 Feb 2020 10:33:42 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=8.6
+Platform.Exclusive_OS=ALL
+Package.Display Name=UI Control Suite: System Controls 2.0
+Platform.Exclusive_VIPM_Version=2010
+
+[Package drjdpowell_lib_messenging-1.10.6.112]
+Package.URL=packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.vip
+Icon.URL=packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.bmp
+Spec.URL=packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.spec
+Package.MD5=13d51d01211c1c43482dd52855c208ff
+Package.Release Date=Mon, 24 Feb 2020 10:33:47 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=drjdpowell_lib_cyclic_table_probes>=1.1.0.8,jdp_science_lib_common_utilities>=1.1.1.7,jki_lib_state_machine>=2.0.0,oglib_lvzip>=4.0.0
+Package.Display Name=Messenger Library
 Platform.Exclusive_VIPM_Version=2017
