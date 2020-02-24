@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=180
-Release.Date=Mon, 24 Feb 2020 11:02:43 -0500
-Self.ID=f355ccafa1ade7057c128beecdae7e0a
+Release.Number=181
+Release.Date=Mon, 24 Feb 2020 11:25:19 -0500
+Self.ID=ccc8495dc1ba889f71809681ac4bae1f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1684,15 +1684,3 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=10.0
 Platform.Exclusive_OS=Windows NT,Linux
 Package.Display Name=ZeroMQ Socket Library
 Platform.Exclusive_VIPM_Version=2010
-
-[Package drjdpowell_lib_messenging-1.10.6.112]
-Package.URL=packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.vip
-Icon.URL=packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.bmp
-Spec.URL=packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.spec
-Package.MD5=13d51d01211c1c43482dd52855c208ff
-Package.Release Date=Mon, 24 Feb 2020 10:33:47 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=13.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=drjdpowell_lib_cyclic_table_probes>=1.1.0.8,jdp_science_lib_common_utilities>=1.1.1.7,jki_lib_state_machine>=2.0.0,oglib_lvzip>=4.0.0
-Package.Display Name=Messenger Library
-Platform.Exclusive_VIPM_Version=2017

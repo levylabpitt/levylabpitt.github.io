@@ -3,27 +3,9 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 24 Feb 2020 11:02:43 -0500</pubDate>
+    <pubDate>Mon, 24 Feb 2020 11:25:19 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>Messenger Library v1.10.6.112</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/drjdpowell_lib_messenging/drjdpowell_lib_messenging-1.10.6.112.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Messenger Library v1.10.6.112&lt;br&gt;
-Company: JDP Science&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:33:47 -0500&lt;br&gt;
-Packager: James David Powell, drjdpowell&lt;br&gt;
-&lt;br&gt;
-Description: A library for passing messages between parallel processes.  Uses LVOOP to generalize the communication method, allowing the message sender to use the method provided by the receiver.  Supported communication methods include wrappings of simple queues, user events, and notifiers, as well a more complex channels such as a TCP server and client.  &lt;br&gt;&lt;br&gt;Comunication patterns supported include request-reply, where the reply is sent to a &amp;quot;reply address&amp;quot; attached to the request, and publish-subscribe or the &amp;quot;Observer Pattern&amp;quot; where one process sends a registration message to another in order to subscribe to published messages.&lt;br&gt;&lt;br&gt;A framework for dynamically-launched VI &amp;quot;actors&amp;quot; is also provided (and is used for building the TCP server/client and publish-subscribe functionality).  An &amp;quot;Actor Manager&amp;quot; debug tool is installed under the Tools menu.&lt;br&gt;
-&lt;br&gt;
-Release Notes: *&amp;quot;Startup Parameters&amp;quot; Variant added to &amp;quot;Launch Actor&amp;quot;&lt;br&gt;*Used to impliment preregistration messages in DEV template (Issue 13: to register for error in &amp;quot;Self: Initialize)&lt;br&gt;*Fix issue 14: Observer Registry not dropping dead addresses&lt;br&gt;*Better Error info in Query Timeouts&lt;br&gt;*Timeout Watchdog, to react to failure of something to happen&lt;br&gt;*Issue 9: modified way of launching Non-Reentrant Actors to reduce issue&lt;br&gt;*&amp;quot;Busy&amp;quot; Async Dialog (Beta; off palette)&lt;br&gt;*Fix issues with Cancellable Observer (Issue 18)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:33:47 -0500</pubDate>
-      <guid isPermaLink="false">drjdpowell_lib_messenging-1.10.6.112</guid>
-      <dc:creator>JDP Science</dc:creator>
-      <link>https://lavag.org/files/file/220-messenger-library/</link>
-    </item>
     <item>
       <title>ZeroMQ Socket Library v3.5.1.109</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.5.1.109.bmp"&gt;&lt;br&gt;
@@ -183,6 +165,24 @@ Release Notes: Changed ON/OFF color&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 24 Feb 2020 10:23:51 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_wiltron_66xxb-1.1.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>SR830 - Levy Tools v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sr830_-_levy_tools/levylab_lib_sr830_-_levy_tools-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: SR830 - Levy Tools v1.0.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 24 Feb 2020 10:23:46 -0500&lt;br&gt;
+Packager: voodoo&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: These are levylab-coded SR830/810 drivers &amp;amp; utilities.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Feb 2020 10:23:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_sr830_-_levy_tools-1.0.0.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
