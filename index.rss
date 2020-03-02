@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 26 Feb 2020 14:09:51 -0500</pubDate>
+    <pubDate>Mon, 02 Mar 2020 11:04:36 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aerotech Delay v1.0.3.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.3.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.0.3.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 02 Mar 2020 11:04:35 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for setting delay with Aerotech delay line&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.3.4]&lt;br&gt;- Add error check to Get Delay.&lt;br&gt;- Add convert ps to um (speed).vi&lt;br&gt;- Update install location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 02 Mar 2020 11:04:35 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.0.3.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
+    </item>
     <item>
       <title>XY Utilities v1.0.3.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.3.4.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: &lt;br&gt;
       <pubDate>Mon, 24 Feb 2020 10:24:04 -0500</pubDate>
       <guid isPermaLink="false">ni_lib_sr830-1.0.0.3</guid>
       <dc:creator>NI</dc:creator>
-      
-    </item>
-    <item>
-      <title>GUID Generator v1.0.2.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/national_instruments_lib_guid_generator/national_instruments_lib_guid_generator-1.0.2.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: GUID Generator v1.0.2.3&lt;br&gt;
-Company: National Instruments&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:24:00 -0500&lt;br&gt;
-Packager: Elijah Kerry&lt;br&gt;
-&lt;br&gt;
-Description: &lt;br&gt;
-&lt;br&gt;
-Release Notes: Wraps a .NET call for generating unique IDs in a VI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:24:00 -0500</pubDate>
-      <guid isPermaLink="false">national_instruments_lib_guid_generator-1.0.2.3</guid>
-      <dc:creator>National Instruments</dc:creator>
       
     </item>
   </channel>
