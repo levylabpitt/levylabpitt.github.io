@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 02 Mar 2020 11:04:36 -0500</pubDate>
+    <pubDate>Tue, 03 Mar 2020 15:42:24 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite 7008 Drivers v1.5.0.26</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.5.0.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite 7008 Drivers v1.5.0.26&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 03 Mar 2020 15:42:24 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.0.26]&lt;br&gt;- Remove KH_Control.ctl and replace with SetAll&lt;br&gt;- No longer automatically sets bandwidth=ON and coupling=DC&lt;br&gt;- Remove FGVs&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 03 Mar 2020 15:42:24 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.5.0.26</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Aerotech Delay v1.0.3.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.3.4.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: &lt;br&gt;
       <guid isPermaLink="false">pybywire-1.2.3.5</guid>
       <dc:creator>Monash University</dc:creator>
       <link>http://pybywire.sf.net</link>
-    </item>
-    <item>
-      <title>SR830 - NI v1.0.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ni_lib_sr830/ni_lib_sr830-1.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: SR830 - NI v1.0.0.3&lt;br&gt;
-Company: NI&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:24:04 -0500&lt;br&gt;
-Packager: Alexandre Gauthier&lt;br&gt;
-&lt;br&gt;
-Description: &lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:24:04 -0500</pubDate>
-      <guid isPermaLink="false">ni_lib_sr830-1.0.0.3</guid>
-      <dc:creator>NI</dc:creator>
-      
     </item>
   </channel>
 </rss>
