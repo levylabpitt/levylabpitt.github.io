@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 03 Mar 2020 15:42:24 -0500</pubDate>
+    <pubDate>Wed, 04 Mar 2020 16:36:31 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.9.7.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.7.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.9.7.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 04 Mar 2020 16:36:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.9.7.13]&lt;br&gt;- UI updates&lt;br&gt;- Bug fix Sweep Mode &amp;quot;return to start&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 04 Mar 2020 16:36:31 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.7.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Krohn-Hite 7008 Drivers v1.5.0.26</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.5.0.26.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: PythonVIEW v1.8&lt;br&gt;&lt;br&gt;- disable check for python ins
       <guid isPermaLink="false">3t_lib_pythonview-1.0.1.2</guid>
       <dc:creator>3T</dc:creator>
       <link>https://3t.nl/en/pythonview/</link>
-    </item>
-    <item>
-      <title>PyByWire v1.2.3.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/pybywire/pybywire-1.2.3.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PyByWire v1.2.3.5&lt;br&gt;
-Company: Monash University&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:24:07 -0500&lt;br&gt;
-Packager: Martijn Jasperse&lt;br&gt;
-&lt;br&gt;
-Description: &lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:24:07 -0500</pubDate>
-      <guid isPermaLink="false">pybywire-1.2.3.5</guid>
-      <dc:creator>Monash University</dc:creator>
-      <link>http://pybywire.sf.net</link>
     </item>
   </channel>
 </rss>
