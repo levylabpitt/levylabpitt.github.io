@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 04 Mar 2020 16:36:31 -0500</pubDate>
+    <pubDate>Wed, 04 Mar 2020 22:49:43 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cryostation v1.1.3.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.3.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.1.3.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 04 Mar 2020 22:49:43 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.3.9]&lt;br&gt;- Move files on disk&lt;br&gt;- add Open.vi&lt;br&gt;- fix instrument.Cryostation.Client.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 04 Mar 2020 22:49:43 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.3.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.9.7.13</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.7.13.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: &amp;lt;b&amp;gt;Now supports &amp;lt;u&amp;gt;timestamps and ana
       <guid isPermaLink="false">h5labview2-2.13.1.143</guid>
       <dc:creator>Martijn Jasperse</dc:creator>
       <link>http://h5labview.sourceforge.net/</link>
-    </item>
-    <item>
-      <title>PythonVIEW v1.0.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/3t_lib_pythonview/3t_lib_pythonview-1.0.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PythonVIEW v1.0.1.2&lt;br&gt;
-Company: 3T&lt;br&gt;
-Release Date: Mon, 24 Feb 2020 10:24:11 -0500&lt;br&gt;
-Packager: 3T &amp;amp; LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: PythonVIEW is a software library designed to connect LabVIEW and Python. It enables LabVIEW applications to execute Python scripts but also provides LabVIEW functionality to Python scripts in standard way.&lt;br&gt;
-&lt;br&gt;
-Release Notes: PythonVIEW v1.8&lt;br&gt;&lt;br&gt;- disable check for python installation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Feb 2020 10:24:11 -0500</pubDate>
-      <guid isPermaLink="false">3t_lib_pythonview-1.0.1.2</guid>
-      <dc:creator>3T</dc:creator>
-      <link>https://3t.nl/en/pythonview/</link>
     </item>
   </channel>
 </rss>
