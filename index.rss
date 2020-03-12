@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 12 Mar 2020 13:03:50 -0400</pubDate>
+    <pubDate>Thu, 12 Mar 2020 16:53:26 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.9.9.16</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.9.16.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.9.9.16&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 12 Mar 2020 16:53:26 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.9.9.16]&lt;br&gt;- Enable decimation with averaging&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Mar 2020 16:53:26 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.9.16</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.9.8.15</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.8.15.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.8.2.13]&lt;br&gt;- Variant to Array will now return an error i
 &lt;br&gt;</description>
       <pubDate>Thu, 05 Mar 2020 17:29:41 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-2.8.2.13</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v2.8.2.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-2.8.2.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v2.8.2.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Mar 2020 17:08:34 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.8.2.12]&lt;br&gt;- Variant to Array will now return an error if the data type is unsupported&lt;br&gt;- Rename files in /util&lt;br&gt;- Remove unused or redundant methods&lt;br&gt;- Format Path and Filename should now support different filenames in the same directory&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Mar 2020 17:08:34 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-2.8.2.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
