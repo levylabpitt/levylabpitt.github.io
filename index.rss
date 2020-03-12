@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 11 Mar 2020 14:21:39 -0400</pubDate>
+    <pubDate>Wed, 11 Mar 2020 22:34:02 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.4.11.37</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.11.37.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.11.37&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 11 Mar 2020 22:34:02 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.11.37]&lt;br&gt;- build w/ Instrument.lvclass v1.5.11.73&lt;br&gt;- convert command list to enum&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 11 Mar 2020 22:34:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.11.37</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instruments v1.5.11.73</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.11.73.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.9.7.13]&lt;br&gt;- UI updates&lt;br&gt;- Bug fix Sweep Mode &a
 &lt;br&gt;</description>
       <pubDate>Wed, 04 Mar 2020 16:36:31 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.7.13</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite 7008 Drivers v1.5.0.26</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.5.0.26.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite 7008 Drivers v1.5.0.26&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 03 Mar 2020 15:42:24 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.0.26]&lt;br&gt;- Remove KH_Control.ctl and replace with SetAll&lt;br&gt;- No longer automatically sets bandwidth=ON and coupling=DC&lt;br&gt;- Remove FGVs&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 03 Mar 2020 15:42:24 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.5.0.26</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
