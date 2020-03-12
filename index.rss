@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 10 Mar 2020 12:21:36 -0400</pubDate>
+    <pubDate>Wed, 11 Mar 2020 14:21:39 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instruments v1.5.11.73</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.11.73.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.5.11.73&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 11 Mar 2020 14:21:38 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework for LabVIEW based on JKI SMOs, developed for the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following responsibilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.11.73]&lt;br&gt;- fix issue with getAll command not being sent properly&lt;br&gt;- add enum to string conversion, allowing all commands to be stored in typedef enum&lt;br&gt;- fix issue with remote control receive message loop not terminating on error&lt;br&gt;- update Templates to match&lt;br&gt;- misc. organizing of files including moving on disk and renaming&lt;br&gt;- rename GET_ALL --&amp;gt; GET ALL and Create SMO --&amp;gt; Create Instrument SMO&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 11 Mar 2020 14:21:38 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.11.73</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Instruments v1.5.10.72</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.10.72.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instruments v1.5.10.72&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 11 Mar 2020 13:41:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework for LabVIEW based on JKI SMOs, developed for the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following responsibilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.10.72]&lt;br&gt;- fix issue with getAll command not being sent properly&lt;br&gt;- add enum to string conversion, allowing all commands to be stored in typedef enum&lt;br&gt;- fix issue with remote control receive message loop not terminating on error&lt;br&gt;- update Templates to match&lt;br&gt;- misc. organizing of files including moving on disk and renaming&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 11 Mar 2020 13:41:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.10.72</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.4.10.36</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.10.36.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.5.0.26]&lt;br&gt;- Remove KH_Control.ctl and replace with SetA
 &lt;br&gt;</description>
       <pubDate>Tue, 03 Mar 2020 15:42:24 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.5.0.26</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Aerotech Delay v1.0.3.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.3.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Aerotech Delay v1.0.3.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 02 Mar 2020 11:04:35 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for setting delay with Aerotech delay line&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.3.4]&lt;br&gt;- Add error check to Get Delay.&lt;br&gt;- Add convert ps to um (speed).vi&lt;br&gt;- Update install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 02 Mar 2020 11:04:35 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.0.3.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
-    </item>
-    <item>
-      <title>XY Utilities v1.0.3.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.3.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.0.3.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 26 Feb 2020 14:09:51 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- Arithmetic: Add, Subtract, Multiply, Divide&lt;br&gt;- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y, Append, Waveform to XY&lt;br&gt;- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.3.4]&lt;br&gt;New methods:&lt;br&gt;- Waveforrm to XY.vi&lt;br&gt;- Append.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 26 Feb 2020 14:09:51 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.3.4</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
