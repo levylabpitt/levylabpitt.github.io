@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 13 Mar 2020 07:23:25 -0400</pubDate>
+    <pubDate>Wed, 18 Mar 2020 11:59:35 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FileUtilities v1.2.4.11</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.4.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: FileUtilities v1.2.4.11&lt;br&gt;
+Company: 3T&lt;br&gt;
+Release Date: Wed, 18 Mar 2020 11:59:35 -0400&lt;br&gt;
+Packager: 3T &amp;amp; LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: PythonVIEW is a software library designed to connect LabVIEW and Python. It enables LabVIEW applications to execute Python scripts but also provides LabVIEW functionality to Python scripts in standard way.&lt;br&gt;
+&lt;br&gt;
+Release Notes: PythonVIEW v1.8&lt;br&gt;&lt;br&gt;- disable check for python installation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Mar 2020 11:59:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_fileutilities-1.2.4.11</guid>
+      <dc:creator>3T</dc:creator>
+      <link>https://3t.nl/en/pythonview/</link>
+    </item>
     <item>
       <title>Multichannel Lockin v2.9.10.17</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.10.17.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.4.10.36]&lt;br&gt;- build w/ Instrument.lvclass v1.5.9.71&lt;b
       <pubDate>Tue, 10 Mar 2020 12:21:36 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.10.36</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.3.7.15</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.3.7.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.3.7.15&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 05 Mar 2020 21:49:25 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.7.15]&lt;br&gt;- Control Experiment:&lt;br&gt;-- bug fixes&lt;br&gt;-- updated UI&lt;br&gt;-- class data now saved to XML file rather than FGV shift registers&lt;br&gt;-- option to configure Krohn Hite input coupling and bandwidth filter&lt;br&gt;- Add THz_TimeDelay.vi experiment type&lt;br&gt;- Bug fixes re: JSON saving, trim whitespace in folder names&lt;br&gt;- Remove functions added to XY_Utilities (Append Arrays, Resample, etc)&lt;br&gt;- Find File.vi case insesitive&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Mar 2020 21:49:25 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.3.7.15</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
