@@ -3,26 +3,44 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 18 Mar 2020 11:59:35 -0400</pubDate>
+    <pubDate>Wed, 18 Mar 2020 13:13:03 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>FileUtilities v1.2.4.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.4.11.bmp"&gt;&lt;br&gt;
+      <title>XY Utilities v1.0.4.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: FileUtilities v1.2.4.11&lt;br&gt;
+Product: XY Utilities v1.0.4.5&lt;br&gt;
 Company: 3T&lt;br&gt;
-Release Date: Wed, 18 Mar 2020 11:59:35 -0400&lt;br&gt;
+Release Date: Wed, 18 Mar 2020 13:13:03 -0400&lt;br&gt;
 Packager: 3T &amp;amp; LevyLab&lt;br&gt;
 &lt;br&gt;
 Description: PythonVIEW is a software library designed to connect LabVIEW and Python. It enables LabVIEW applications to execute Python scripts but also provides LabVIEW functionality to Python scripts in standard way.&lt;br&gt;
 &lt;br&gt;
 Release Notes: PythonVIEW v1.8&lt;br&gt;&lt;br&gt;- disable check for python installation&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Wed, 18 Mar 2020 11:59:35 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_fileutilities-1.2.4.11</guid>
+      <pubDate>Wed, 18 Mar 2020 13:13:03 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.0.4.5</guid>
       <dc:creator>3T</dc:creator>
       <link>https://3t.nl/en/pythonview/</link>
+    </item>
+    <item>
+      <title>FileUtilities v1.2.4.11</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.4.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: FileUtilities v1.2.4.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 18 Mar 2020 11:59:35 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.4.11]&lt;br&gt;- Fix bugs in Increment Filename.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 18 Mar 2020 11:59:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_fileutilities-1.2.4.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
     </item>
     <item>
       <title>Multichannel Lockin v2.9.10.17</title>
@@ -166,24 +184,6 @@ Release Notes: [1.5.10.72]&lt;br&gt;- fix issue with getAll command not being se
       <pubDate>Wed, 11 Mar 2020 13:41:17 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.10.72</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.4.10.36</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.10.36.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.4.10.36&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 10 Mar 2020 12:21:36 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.10.36]&lt;br&gt;- build w/ Instrument.lvclass v1.5.9.71&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 10 Mar 2020 12:21:36 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.10.36</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>

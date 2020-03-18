@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=209
-Release.Date=Wed, 18 Mar 2020 11:59:35 -0400
-Self.ID=d5c037e94b3061e843a353216dfa3b8f
+Release.Number=210
+Release.Date=Wed, 18 Mar 2020 13:13:03 -0400
+Self.ID=19837d6fc30d434e264336c7cc5547b6
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -1934,4 +1934,16 @@ Package.Release Date=Wed, 18 Mar 2020 11:59:35 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=FileUtilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xy_utilities-1.0.4.5]
+Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.vip
+Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.bmp
+Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.spec
+Package.MD5=cfb6bf96275394a7452734760346ed00
+Package.Release Date=Wed, 18 Mar 2020 13:13:03 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,oglib_string>=4.1.0.12
+Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
