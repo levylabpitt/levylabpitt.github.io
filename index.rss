@@ -3,26 +3,44 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 18 Mar 2020 13:26:56 -0400</pubDate>
+    <pubDate>Mon, 23 Mar 2020 12:26:13 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.0.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.0.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.0.1.3&lt;br&gt;
+Company: 3T&lt;br&gt;
+Release Date: Mon, 23 Mar 2020 12:26:13 -0400&lt;br&gt;
+Packager: 3T &amp;amp; LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 23 Mar 2020 12:26:13 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.0.1.3</guid>
+      <dc:creator>3T</dc:creator>
+      <link>https://3t.nl/en/pythonview/</link>
+    </item>
     <item>
       <title>Graph Utilities v2.0.3.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.3.3.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
 Product: Graph Utilities v2.0.3.3&lt;br&gt;
-Company: 3T&lt;br&gt;
+Company: LevyLab&lt;br&gt;
 Release Date: Wed, 18 Mar 2020 13:26:56 -0400&lt;br&gt;
-Packager: 3T &amp;amp; LevyLab&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: PythonVIEW is a software library designed to connect LabVIEW and Python. It enables LabVIEW applications to execute Python scripts but also provides LabVIEW functionality to Python scripts in standard way.&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
 &lt;br&gt;
-Release Notes: PythonVIEW v1.8&lt;br&gt;&lt;br&gt;- disable check for python installation&lt;br&gt;
+Release Notes: [2.0.3.3]&lt;br&gt;Bug Fixes:&lt;br&gt;- Issue #4: Change appearance of class wire&lt;br&gt;Update package dependencies&lt;br&gt;&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 18 Mar 2020 13:26:56 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.0.3.3</guid>
-      <dc:creator>3T</dc:creator>
-      <link>https://3t.nl/en/pythonview/</link>
+      <dc:creator>LevyLab</dc:creator>
+      
     </item>
     <item>
       <title>XY Utilities v1.0.4.5</title>
@@ -166,24 +184,6 @@ Release Notes: [1.4.11.37]&lt;br&gt;- build w/ Instrument.lvclass v1.5.11.73&lt;
       <pubDate>Wed, 11 Mar 2020 22:34:02 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.11.37</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instruments v1.5.11.73</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.11.73.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instruments v1.5.11.73&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 11 Mar 2020 14:21:38 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework for LabVIEW based on JKI SMOs, developed for the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following responsibilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.11.73]&lt;br&gt;- fix issue with getAll command not being sent properly&lt;br&gt;- add enum to string conversion, allowing all commands to be stored in typedef enum&lt;br&gt;- fix issue with remote control receive message loop not terminating on error&lt;br&gt;- update Templates to match&lt;br&gt;- misc. organizing of files including moving on disk and renaming&lt;br&gt;- rename GET_ALL --&amp;gt; GET ALL and Create SMO --&amp;gt; Create Instrument SMO&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 11 Mar 2020 14:21:38 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.11.73</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
