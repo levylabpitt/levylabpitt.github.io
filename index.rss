@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 09 Apr 2020 11:49:27 -0400</pubDate>
+    <pubDate>Thu, 09 Apr 2020 13:09:41 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.0.1.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.0.1.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.0.1.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 09 Apr 2020 13:09:41 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.2.4]&lt;br&gt;Change install location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 09 Apr 2020 13:09:41 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.0.1.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Graph Utilities v2.0.4.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.4.4.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.9.10.17]&lt;br&gt;Decimation improvements:&lt;br&gt;- order is
 &lt;br&gt;</description>
       <pubDate>Fri, 13 Mar 2020 07:23:25 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.10.17</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.9.9.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.9.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.9.9.16&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 12 Mar 2020 16:53:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.9.9.16]&lt;br&gt;- Enable decimation with averaging&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 12 Mar 2020 16:53:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.9.16</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
