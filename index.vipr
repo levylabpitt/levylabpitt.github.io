@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=217
-Release.Date=Thu, 09 Apr 2020 10:33:28 -0400
-Self.ID=4d89fe828d34681a0fc528ec4e141e38
+Release.Number=218
+Release.Date=Thu, 09 Apr 2020 10:34:14 -0400
+Self.ID=9347422e392f264b64d77fb92fc90a29
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2004,4 +2004,16 @@ Package.Release Date=Fri, 27 Mar 2020 14:50:20 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Data Analaysis Template
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_graph_utilities-2.0.4.4]
+Package.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.4.4.vip
+Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.4.4.bmp
+Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.0.4.4.spec
+Package.MD5=9a6b90e9922eedb68ad3ede39ca37b22
+Package.Release Date=Thu, 09 Apr 2020 10:34:14 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_xy_utilities>=1.0.4.5
+Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
