@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 09 May 2020 10:49:46 -0400</pubDate>
+    <pubDate>Tue, 12 May 2020 16:20:38 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.1.0.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.1.0.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 12 May 2020 16:20:38 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- Arithmetic: Add, Subtract, Multiply, Divide&lt;br&gt;- Array: Sort, Reverse, Decimate, Subset, Sway X and Y, Get X and Y, Append, Waveform to XY&lt;br&gt;- DSP: Derivative, Average, Interpolate, Resample, FFT Spectrum, FFT Power Spectrum&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0.6]&lt;br&gt;New methods:&lt;br&gt;- Interpolate Parameter.vi: interpolate along &amp;quot;parameter&amp;quot; dimension&lt;br&gt;- Interpolate Y.vi: for a given x value interpolate and return a fractional Y value&lt;br&gt;- Shift Zero.vi: adjust zero value for a given fractional x index (useful for magnetic field sweeps)&lt;br&gt;Bug Fixes:&lt;br&gt;- Interpolate.vi: now also interpolates the x array&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 12 May 2020 16:20:38 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.1.0.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>MAUI v1.0.0.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_maui/levylab_lib_maui-1.0.0.10.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.0.4.4]&lt;br&gt;Bug Fixes:&lt;br&gt;- Issue #6: change graph r
       <pubDate>Thu, 09 Apr 2020 11:49:27 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.0.4.4</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Data Analaysis Template v1.0.1.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.1.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Data Analaysis Template v1.0.1.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 27 Mar 2020 14:50:20 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Template for building data analysis programs&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2.3]&lt;br&gt;- Minor UI changes&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 27 Mar 2020 14:50:20 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.1.3</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
