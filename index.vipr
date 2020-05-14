@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=229
-Release.Date=Tue, 12 May 2020 16:20:38 -0400
-Self.ID=f07adfd1a301d0b7bf89e7bc5eaf6a5c
+Release.Number=233
+Release.Date=Thu, 14 May 2020 10:16:40 -0400
+Self.ID=717fab1ac702648ce5f279eec38be202
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2063,50 +2063,6 @@ Package.Release Date=Mon, 20 Apr 2020 11:27:31 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=FileUtilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_embedded_smo_ui-1.0.0.10]
-Package.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.0.10.vip
-Icon.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.0.10.bmp
-Spec.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.0.10.spec
-Package.MD5=8183700ec88842e717807f5455b5012e
-Package.Release Date=Sat, 09 May 2020 10:49:34 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=Embedded SMO UI
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_maui_template-1.0.0.6]
-Package.URL=packages/levylab_lib_maui_template/levylab_lib_maui_template-1.0.0.6.vip
-Icon.URL=packages/levylab_lib_maui_template/levylab_lib_maui_template-1.0.0.6.bmp
-Spec.URL=packages/levylab_lib_maui_template/levylab_lib_maui_template-1.0.0.6.spec
-Package.MD5=9f6ec481de25c64a966e8dd07890739d
-Package.Release Date=Sat, 09 May 2020 10:49:36 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=MAUI Template
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_smo_embeddedui-1.0.0.7]
-Package.URL=packages/levylab_lib_smo_embeddedui/levylab_lib_smo_embeddedui-1.0.0.7.vip
-Icon.URL=packages/levylab_lib_smo_embeddedui/levylab_lib_smo_embeddedui-1.0.0.7.bmp
-Spec.URL=packages/levylab_lib_smo_embeddedui/levylab_lib_smo_embeddedui-1.0.0.7.spec
-Package.MD5=b0fc57d5a9376566fa7dffdc736cf93e
-Package.Release Date=Sat, 09 May 2020 10:49:41 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=SMO.EmbeddedUI
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_maui-1.0.0.10]
-Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.0.0.10.vip
-Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.0.0.10.bmp
-Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.0.0.10.spec
-Package.MD5=d487978554f83604cc459f67d920d02e
-Package.Release Date=Sat, 09 May 2020 10:49:45 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=MAUI
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_xy_utilities-1.1.0.6]
