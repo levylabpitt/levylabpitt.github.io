@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 14 May 2020 16:08:05 -0400</pubDate>
+    <pubDate>Thu, 14 May 2020 16:23:16 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.1.0.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.1.0.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 14 May 2020 16:23:16 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize, Shift Zero&lt;br&gt;- &amp;lt;b&amp;gt;Waveform Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform&lt;br&gt;
+&lt;br&gt;
+Release Notes: New methods:&lt;br&gt;- Decimate Array: decimates an array of XY-Data, leaving the X&amp;amp;Y arrays intact&lt;br&gt;- Interpolate Parameter.vi: interpolate along &amp;quot;parameter&amp;quot; dimension&lt;br&gt;- Interpolate Y.vi: for a given x value interpolate and return a fractional Y value&lt;br&gt;- Shift Zero.vi: adjust zero value for a given fractional x index (useful for magnetic field sweeps)&lt;br&gt;Bug Fixes:&lt;br&gt;- Interpolate.vi: now also interpolates the x array&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 14 May 2020 16:23:16 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.1.0.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>XY Utilities v1.1.0.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.1.0.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 14 May 2020 16:19:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize, Shift Zero&lt;br&gt;- &amp;lt;b&amp;gt;Waveform Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0.7]&lt;br&gt;New methods:&lt;br&gt;- Decimate Array: decimates an array of XY-Data, leaving the X&amp;amp;Y arrays intact&lt;br&gt;- Interpolate Parameter.vi: interpolate along &amp;quot;parameter&amp;quot; dimension&lt;br&gt;- Interpolate Y.vi: for a given x value interpolate and return a fractional Y value&lt;br&gt;- Shift Zero.vi: adjust zero value for a given fractional x index (useful for magnetic field sweeps)&lt;br&gt;Bug Fixes:&lt;br&gt;- Interpolate.vi: now also interpolates the x array&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 14 May 2020 16:19:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.1.0.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.1.0.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.7.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [2.9.11.19]&lt;br&gt;- Build version automatically updated on fro
       <pubDate>Thu, 09 Apr 2020 13:55:17 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.11.19</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.0.2.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.0.2.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.0.2.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 09 Apr 2020 13:18:15 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2.5]&lt;br&gt;Change install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 09 Apr 2020 13:18:15 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.0.2.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.0.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.0.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.0.1.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 09 Apr 2020 13:09:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2.4]&lt;br&gt;Change install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 09 Apr 2020 13:09:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.0.1.4</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
