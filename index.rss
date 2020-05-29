@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 14 May 2020 16:23:16 -0400</pubDate>
+    <pubDate>Fri, 29 May 2020 13:08:11 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PostgreSQL Library v0.1.1.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.1.1.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PostgreSQL Library v0.1.1.10&lt;br&gt;
+Company: JDP Science&lt;br&gt;
+Release Date: Fri, 29 May 2020 13:08:10 -0400&lt;br&gt;
+Packager: James Powell&lt;br&gt;
+&lt;br&gt;
+Description: Wrapping of libPQ for PostgreSQL access.  Higher-level than libPQ itself.  See Examples.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Allow clusters of parameters to include subcluster structure (which is flattened away before binding) as a conveniance.&lt;br&gt;Add user and password fields to connection string of examples&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 29 May 2020 13:08:10 -0400</pubDate>
+      <guid isPermaLink="false">jdp_science_postgresql-0.1.1.10</guid>
+      <dc:creator>JDP Science</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.1.0.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.9.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.5.12]&lt;br&gt;- Issue #2: Improve Increment Filename.vi to 
 &lt;br&gt;</description>
       <pubDate>Mon, 20 Apr 2020 11:27:31 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_fileutilities-1.2.5.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.9.11.19</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.11.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.9.11.19&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 09 Apr 2020 13:55:17 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 8) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 8) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.9.11.19]&lt;br&gt;- Build version automatically updated on front panel&lt;br&gt;- Remove LVtoIBW from package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 09 Apr 2020 13:55:17 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.11.19</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
