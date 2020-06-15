@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 29 May 2020 13:08:11 -0400</pubDate>
+    <pubDate>Mon, 15 Jun 2020 12:54:08 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>General AFM Lithography v8.4.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.4.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: General AFM Lithography v8.4.1.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 15 Jun 2020 12:54:08 -0400&lt;br&gt;
+Packager: LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - UI improvements&lt;br&gt;- update package dependencies&lt;br&gt;- update to LabVIEW 2020 and Vision 2020&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 15 Jun 2020 12:54:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.4.1.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PostgreSQL Library v0.1.1.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.1.1.10.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.0.6]&lt;br&gt;New methods:&lt;br&gt;- Interpolate Parameter.
 &lt;br&gt;</description>
       <pubDate>Tue, 12 May 2020 16:20:38 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.1.0.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>FileUtilities v1.2.5.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.5.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: FileUtilities v1.2.5.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 20 Apr 2020 11:27:31 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: &lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.5.12]&lt;br&gt;- Issue #2: Improve Increment Filename.vi to better handle special cases such as Filemame.YYYMMDD.txt&lt;br&gt;- Add VI documentation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 20 Apr 2020 11:27:31 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_fileutilities-1.2.5.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
