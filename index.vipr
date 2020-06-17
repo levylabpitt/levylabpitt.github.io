@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=251
-Release.Date=Wed, 17 Jun 2020 14:11:26 -0400
-Self.ID=5667518ee3ce077d101e3a408018aeee
+Release.Number=252
+Release.Date=Wed, 17 Jun 2020 16:19:33 -0400
+Self.ID=5b1e81af1977c16ec4e84c738bed1c04
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2286,6 +2286,18 @@ Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_li
 Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.5.11.spec
 Package.MD5=3f14a5f14632665d15a086842c4e4699
 Package.Release Date=Wed, 17 Jun 2020 14:11:25 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_relay_box>=1.1.0.8,oglib_appcontrol>=4.1.0.7
+Package.Display Name=General AFM Lithography
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_general_afm_lithography-8.5.6.12]
+Package.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.6.12.vip
+Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.6.12.bmp
+Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.6.12.spec
+Package.MD5=16c456951d3600eea8b6f8a27fb9b083
+Package.Release Date=Wed, 17 Jun 2020 16:19:33 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_relay_box>=1.1.0.8,oglib_appcontrol>=4.1.0.7
