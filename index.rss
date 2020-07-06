@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 01 Jul 2020 13:47:23 -0400</pubDate>
+    <pubDate>Mon, 06 Jul 2020 09:54:24 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Asylum AFM API v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Asylum AFM API v1.0.0.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 06 Jul 2020 09:54:23 -0400&lt;br&gt;
+Packager: Joseph Albro&lt;br&gt;
+&lt;br&gt;
+Description: This is a LabVIEW wrapper meant to facilitate the use of the text based Asylum Instruments ActiveX API. These are the lowest level commands. Please note that these commands may be out of date. This package will need to be updated as time goes on and new functionality is needed.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Added a way to set a debug mode that wont send commands to the instrument, but rather would open up the Debug window.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 06 Jul 2020 09:54:23 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.0.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/Monkeymerlot/Asylum-API</link>
+    </item>
+    <item>
+      <title>General AFM Lithography v8.6.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: General AFM Lithography v8.6.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 02 Jul 2020 10:53:30 -0400&lt;br&gt;
+Packager: LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - test build&lt;br&gt;- update package dependencies&lt;br&gt;- this build uses Joe&#39;s new AFM Driver Manager and Asylum driver&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 02 Jul 2020 10:53:30 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.6.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.4.0.16</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.0.16.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: - change AFM subpanel, tip.wrl directory&lt;br&gt;- change surfac
 &lt;br&gt;</description>
       <pubDate>Wed, 17 Jun 2020 12:08:15 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.5.4.10</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>General AFM Lithography v8.5.3.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.3.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v8.5.3.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 17 Jun 2020 10:15:59 -0400&lt;br&gt;
-Packager: LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - change AFM subpanel directory&lt;br&gt;- change surfacepic.jpg path&lt;br&gt;- other block diagram cleanup&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 17 Jun 2020 10:15:59 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.5.3.9</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>General AFM Lithography v8.5.2.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.2.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v8.5.2.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 16 Jun 2020 13:45:19 -0400&lt;br&gt;
-Packager: LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - check if file exist and prompt user&lt;br&gt;- changes to underlying state calls&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 16 Jun 2020 13:45:19 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.5.2.8</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
