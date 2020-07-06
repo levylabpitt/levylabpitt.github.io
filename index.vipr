@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=260
-Release.Date=Mon, 06 Jul 2020 15:27:14 -0400
-Self.ID=fe242e8a37afa6028159eeb19b34c858
+Release.Number=261
+Release.Date=Mon, 06 Jul 2020 19:15:48 -0400
+Self.ID=2517e2da50632d2a2fa8d0193c239a32
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2393,6 +2393,18 @@ Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_li
 Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.4.spec
 Package.MD5=2a420fe0e307ba690e1aa2d327cde57a
 Package.Release Date=Mon, 06 Jul 2020 15:27:14 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_asylum_afm_api>=1.0.0.2,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_relay_box>=1.1.0.8,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,levylab_lib_build_support>=1.0.3.6,levylab_lib_levylab_instruments>=1.5.11.73
+Package.Display Name=General AFM Lithography
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_general_afm_lithography-8.6.0.7]
+Package.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.7.vip
+Icon.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.7.bmp
+Spec.URL=packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.7.spec
+Package.MD5=ccb9ad5728d846ef0074b21b6cfb0032
+Package.Release Date=Mon, 06 Jul 2020 19:15:48 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_asylum_afm_api>=1.0.0.2,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_relay_box>=1.1.0.8,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,levylab_lib_build_support>=1.0.3.6,levylab_lib_levylab_instruments>=1.5.11.73
