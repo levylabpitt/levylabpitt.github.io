@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 06 Jul 2020 19:15:48 -0400</pubDate>
+    <pubDate>Wed, 08 Jul 2020 16:29:44 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v2.1.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jul 2020 16:29:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.0.1]&lt;br&gt;New Feature!&lt;br&gt;- &amp;lt;b&amp;gt;Intensity Graph Histogram Control.vi&amp;lt;/b&amp;gt;: easily set the z scale of your intensity graph based on where most of the data is&lt;br&gt;&lt;br&gt;New Methods&lt;br&gt;- &amp;lt;b&amp;gt;Set XY Graph X/Y Range.vi&amp;lt;/b&amp;gt;: set min/max of the X/Y scale&lt;br&gt;- &amp;lt;b&amp;gt;Set Intensity Graph X/Y Scale [Array] OR [Min and Max].vi&amp;lt;/b&amp;gt;: You can set the axis scaling (offset and multiplier) using either an [Array] or [Min and Max] values&lt;br&gt;- &amp;lt;b&amp;gt;Set Intensity Graph X/Y/Z Range.vi&amp;lt;/b&amp;gt;: set min/max of the X/Y/Z scales&lt;br&gt;- &amp;lt;b&amp;gt;Get * Reference.vi&amp;lt;/b&amp;gt;: Accessors to read graph references&lt;br&gt;&lt;br&gt;Removed:&lt;br&gt;- &amp;lt;b&amp;gt;Set Intensity Graph Scales (Start and End).vi&amp;lt;/b&amp;gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jul 2020 16:29:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>General AFM Lithography v8.6.0.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.9.12.21]&lt;br&gt;- enable scrollbars in all FP graphs&lt;br&g
 &lt;br&gt;</description>
       <pubDate>Thu, 25 Jun 2020 17:35:27 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.9.12.21</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>General AFM Lithography v8.5.6.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.5.6.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v8.5.6.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 17 Jun 2020 16:19:33 -0400&lt;br&gt;
-Packager: LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - bug fix write surfacepic.jpg (Issue #11)&lt;br&gt;- misc. UI improvements&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 17 Jun 2020 16:19:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.5.6.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
