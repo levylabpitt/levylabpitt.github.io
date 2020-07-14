@@ -3,9 +3,81 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 13 Jul 2020 18:35:46 -0400</pubDate>
+    <pubDate>Tue, 14 Jul 2020 15:08:40 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.11.2.28</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.28.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.11.2.28&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 14 Jul 2020 15:08:39 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.11.2.28]&lt;br&gt;- Max Fs mode does not update decimation setting automatically&lt;br&gt;&lt;br&gt;[2.11.1.26]&lt;br&gt;- Fix issue where exe would not shut down properly (#4)&lt;br&gt;&lt;br&gt;[2.11.0.24]&lt;br&gt;- Update the way the user choosing the sampling frequency (Fs) and number of samples (N) (issues #7 #26)&lt;br&gt;  - Manual: user&#39;s choice&lt;br&gt;  - Auto: Fs = N*F1&lt;br&gt;  - max Fs: Fs = maximum, decimation = 100, LP filter = Fs/100/4, N = Fs/refresh rate&lt;br&gt;- Fix issues where incorrect results would be given if more than one demodulation frequency is choses (issue #27)&lt;br&gt;- New AI simulation modes:&lt;br&gt;  - HW simulation configured by MAX&lt;br&gt;  - AI = noise*AO&lt;br&gt;  - AI = simulate electron waveguide (https://github.com/levylabpitt/Multichannel-Lockin#simulation-mode)&lt;br&gt;    - AO1 = source voltage&lt;br&gt;    - AO2 = gate voltage&lt;br&gt;    - AI1  = drain current&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 14 Jul 2020 15:08:39 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.2.28</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.11.2.27</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.27.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.11.2.27&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 14 Jul 2020 14:37:59 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.11.2.27]&lt;br&gt;- Max Fs mode does not update decimation setting automatically&lt;br&gt;&lt;br&gt;[2.11.1.26]&lt;br&gt;- Fix issue where exe would not shut down properly (#4)&lt;br&gt;&lt;br&gt;[2.11.0.24]&lt;br&gt;- Update the way the user choosing the sampling frequency (Fs) and number of samples (N) (issues #7 #26)&lt;br&gt;  - Manual: user&#39;s choice&lt;br&gt;  - Auto: Fs = N*F1&lt;br&gt;  - max Fs: Fs = maximum, decimation = 100, LP filter = Fs/100/4, N = Fs/refresh rate&lt;br&gt;- Fix issues where incorrect results would be given if more than one demodulation frequency is choses (issue #27)&lt;br&gt;- New AI simulation modes:&lt;br&gt;  - HW simulation configured by MAX&lt;br&gt;  - AI = noise*AO&lt;br&gt;  - AI = simulate electron waveguide (https://github.com/levylabpitt/Multichannel-Lockin#simulation-mode)&lt;br&gt;    - AO1 = source voltage&lt;br&gt;    - AO2 = gate voltage&lt;br&gt;    - AI1  = drain current&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 14 Jul 2020 14:37:59 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.2.27</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.11.1.26</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.11.1.26&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 14 Jul 2020 10:02:50 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.11.1.26]&lt;br&gt;- Fix issue where exe would not shut down properly (#4)&lt;br&gt;&lt;br&gt;[2.11.0.24]&lt;br&gt;- Update the way the user choosing the sampling frequency (Fs) and number of samples (N) (issues #7 #26)&lt;br&gt;  - Manual: user&#39;s choice&lt;br&gt;  - Auto: Fs = N*F1&lt;br&gt;  - max Fs: Fs = maximum, decimation = 100, LP filter = Fs/100/4, N = Fs/refresh rate&lt;br&gt;- Fix issues where incorrect results would be given if more than one demodulation frequency is choses (issue #27)&lt;br&gt;- New AI simulation modes:&lt;br&gt;  - HW simulation configured by MAX&lt;br&gt;  - AI = noise*AO&lt;br&gt;  - AI = simulate electron waveguide (https://github.com/levylabpitt/Multichannel-Lockin#simulation-mode)&lt;br&gt;    - AO1 = source voltage&lt;br&gt;    - AO2 = gate voltage&lt;br&gt;    - AI1  = drain current&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 14 Jul 2020 10:02:50 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.1.26</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.11.1.25</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.25.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.11.1.25&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 14 Jul 2020 09:43:35 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.11.1.25]&lt;br&gt;- Fix issue where exe would not shutting down properly (#4)&lt;br&gt;&lt;br&gt;[2.11.0.24]&lt;br&gt;- Update the way the user choosing the sampling frequency (Fs) and number of samples (N) (issues #7 #26)&lt;br&gt;  - Manual: user&#39;s choice&lt;br&gt;  - Auto: Fs = N*F1&lt;br&gt;  - max Fs: Fs = maximum, decimation = 100, LP filter = Fs/100/4, N = Fs/refresh rate&lt;br&gt;- Fix issues where incorrect results would be given if more than one demodulation frequency is choses (issue #27)&lt;br&gt;- New AI simulation modes:&lt;br&gt;  - HW simulation configured by MAX&lt;br&gt;  - AI = noise*AO&lt;br&gt;  - AI = simulate electron waveguide (https://github.com/levylabpitt/Multichannel-Lockin#simulation-mode)&lt;br&gt;    - AO1 = source voltage&lt;br&gt;    - AO2 = gate voltage&lt;br&gt;    - AI1  = drain current&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 14 Jul 2020 09:43:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.1.25</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.11.0.24</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.0.24.bmp"&gt;&lt;br&gt;
@@ -111,78 +183,6 @@ Release Notes: - test build&lt;br&gt;- update package dependencies&lt;br&gt;- th
 &lt;br&gt;</description>
       <pubDate>Thu, 02 Jul 2020 10:53:30 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.6.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.4.0.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.0.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.4.0.16&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 01 Jul 2020 13:47:23 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.0.16]&lt;br&gt;- Issue #2: Open Me.vi shortcuts to transport VIs&lt;br&gt;- Issue #3: Fix KH channel initialization issue&lt;br&gt;- Issue #9: Move YAML code to YAML/PLYM package&lt;br&gt;- Issue #10: Improve the way AI and KH channels are updated on front panel&lt;br&gt;- New build using LabVIEW 2020&lt;br&gt;- Updated package dependencies&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 01 Jul 2020 13:47:23 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.4.0.16</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PLYM v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_plym/levylab_lib_plym-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PLYM v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 01 Jul 2020 11:01:49 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: PLYM (is a) LabVIEW YAML Parser&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 01 Jul 2020 11:01:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_plym-1.0.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.10.1.23</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.1.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.10.1.23&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 30 Jun 2020 20:31:18 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.10.1.23]&lt;br&gt;- Issue #21: fix lockin channel ring control&lt;br&gt;- Issue #24: fix issues with setting multiple reference frequencies&lt;br&gt;- Change handling of mouse events inside cluster controls&lt;br&gt;- Change AI graph labels&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 30 Jun 2020 20:31:18 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.10.1.23</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.10.0.22</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.0.22.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.10.0.22&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 26 Jun 2020 15:26:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.10.0.22]&lt;br&gt;- update AO/AI DAQ loops to parallel loops with 16 instances, allowing dynamic scaling to maximum 16 DAQ cards (32 synchronized AO/AI when using 4461 cards)&lt;br&gt;- new APIs:&lt;br&gt;  - setAIDAQ: configure AI DAQ hardware&lt;br&gt;  - setAODAQ: configure AO DAQ hardware&lt;br&gt;  - getRefreshTime: get the lockin refresh time&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 26 Jun 2020 15:26:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.10.0.22</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
