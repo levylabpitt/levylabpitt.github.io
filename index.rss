@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 28 Jul 2020 15:19:22 -0400</pubDate>
+    <pubDate>Tue, 28 Jul 2020 15:50:08 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.4.13.39</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.13.39.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.4.13.39&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 28 Jul 2020 15:50:07 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.13.39]&lt;br&gt;- build w/ Instrument.lvclass v1.5.15.77&lt;br&gt;- installer now adds a start menu shortcut&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 Jul 2020 15:50:07 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.4.13.39</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Instrument Framework v1.5.15.77</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.77.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.11.0.24]&lt;br&gt;- Update the way the user choosing the sampl
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Jul 2020 18:35:45 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.0.24</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 08 Jul 2020 16:29:44 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.0.1]&lt;br&gt;New Feature!&lt;br&gt;- &amp;lt;b&amp;gt;Intensity Graph Histogram Control.vi&amp;lt;/b&amp;gt;: easily set the z scale of your intensity graph based on where most of the data is&lt;br&gt;&lt;br&gt;New Methods&lt;br&gt;- &amp;lt;b&amp;gt;Set XY Graph X/Y Range.vi&amp;lt;/b&amp;gt;: set min/max of the X/Y scale&lt;br&gt;- &amp;lt;b&amp;gt;Set Intensity Graph X/Y Scale [Array] OR [Min and Max].vi&amp;lt;/b&amp;gt;: You can set the axis scaling (offset and multiplier) using either an [Array] or [Min and Max] values&lt;br&gt;- &amp;lt;b&amp;gt;Set Intensity Graph X/Y/Z Range.vi&amp;lt;/b&amp;gt;: set min/max of the X/Y/Z scales&lt;br&gt;- &amp;lt;b&amp;gt;Get * Reference.vi&amp;lt;/b&amp;gt;: Accessors to read graph references&lt;br&gt;&lt;br&gt;Removed:&lt;br&gt;- &amp;lt;b&amp;gt;Set Intensity Graph Scales (Start and End).vi&amp;lt;/b&amp;gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 08 Jul 2020 16:29:44 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>

@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=271
-Release.Date=Tue, 28 Jul 2020 15:19:22 -0400
-Self.ID=2ee33983811f8f42cc66f7ebb3c72b19
+Release.Number=272
+Release.Date=Tue, 28 Jul 2020 15:50:08 -0400
+Self.ID=6100bb1da0052a6b10e9e6482c9978af
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2529,4 +2529,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
 Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.4.13.39]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.13.39.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.13.39.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.4.13.39.spec
+Package.MD5=53405fef1688544c3c72925fa2d5204d
+Package.Release Date=Tue, 28 Jul 2020 15:50:07 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.5.13.75
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
