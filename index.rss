@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 28 Jul 2020 14:53:01 -0400</pubDate>
+    <pubDate>Tue, 28 Jul 2020 15:19:22 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.5.15.77</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.77.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.5.15.77&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 28 Jul 2020 15:19:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.15.77]&lt;br&gt;- Change reentrant executation of Remote Client.vi (Issue #21)&lt;br&gt;- Open.vi and Close.vi now Open and Close the TCP connection&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 Jul 2020 15:19:21 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.15.77</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.5.15.76</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.76.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.1.0.1]&lt;br&gt;New Feature!&lt;br&gt;- &amp;lt;b&amp;gt;Inten
 &lt;br&gt;</description>
       <pubDate>Wed, 08 Jul 2020 16:29:44 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>General AFM Lithography v8.6.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-8.6.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v8.6.0.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 06 Jul 2020 19:15:48 -0400&lt;br&gt;
-Packager: LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update package dependencies&lt;br&gt;- this build uses Joe&#39;s new AFM Driver Manager and Asylum driver&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 06 Jul 2020 19:15:48 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-8.6.0.7</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
