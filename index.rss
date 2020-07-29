@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 29 Jul 2020 00:55:06 -0400</pubDate>
+    <pubDate>Wed, 29 Jul 2020 06:52:36 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.5.15.80</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.80.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.5.15.80&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 29 Jul 2020 06:52:36 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.15.80]&lt;br&gt;- Build with LV2019&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 29 Jul 2020 06:52:36 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.15.80</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.5.15.79</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.79.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.11.2.28]&lt;br&gt;- Max Fs mode does not update decimation set
 &lt;br&gt;</description>
       <pubDate>Tue, 14 Jul 2020 15:08:39 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.2.28</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.11.2.27</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.11.2.27&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 14 Jul 2020 14:37:59 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.11.2.27]&lt;br&gt;- Max Fs mode does not update decimation setting automatically&lt;br&gt;&lt;br&gt;[2.11.1.26]&lt;br&gt;- Fix issue where exe would not shut down properly (#4)&lt;br&gt;&lt;br&gt;[2.11.0.24]&lt;br&gt;- Update the way the user choosing the sampling frequency (Fs) and number of samples (N) (issues #7 #26)&lt;br&gt;  - Manual: user&#39;s choice&lt;br&gt;  - Auto: Fs = N*F1&lt;br&gt;  - max Fs: Fs = maximum, decimation = 100, LP filter = Fs/100/4, N = Fs/refresh rate&lt;br&gt;- Fix issues where incorrect results would be given if more than one demodulation frequency is choses (issue #27)&lt;br&gt;- New AI simulation modes:&lt;br&gt;  - HW simulation configured by MAX&lt;br&gt;  - AI = noise*AO&lt;br&gt;  - AI = simulate electron waveguide (https://github.com/levylabpitt/Multichannel-Lockin#simulation-mode)&lt;br&gt;    - AO1 = source voltage&lt;br&gt;    - AO2 = gate voltage&lt;br&gt;    - AI1  = drain current&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 14 Jul 2020 14:37:59 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.2.27</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
