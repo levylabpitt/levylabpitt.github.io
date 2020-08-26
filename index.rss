@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 26 Aug 2020 09:28:47 -0400</pubDate>
+    <pubDate>Wed, 26 Aug 2020 12:19:58 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LVtoITX v3.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LVtoITX v3.0.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 26 Aug 2020 12:19:57 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read Igor Text Files (*.itx) and text-based spreadsheet data files (*.dat).&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.0.0]&lt;br&gt;---&amp;gt; beta release! This is a major rewrite; code is still being tested and examples are being written &amp;lt;---&lt;br&gt;- DATA.lvclass parent class&lt;br&gt;- Supports DAT (TSV), ITX, TDMS files&lt;br&gt;- Conversion utilities for going between filetypes&lt;br&gt;- Refactored DAT and ITX code&lt;br&gt;- ITX class includes generalized support for embedding macro commands into ITX file&lt;br&gt;- New TDMS capabilities&lt;br&gt;- Built with LV2016&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 26 Aug 2020 12:19:57 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.11.7.37</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.37.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.5.15.80]&lt;br&gt;- Build with LV2019&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 29 Jul 2020 06:52:36 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.15.80</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.5.15.79</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.79.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.5.15.79&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 29 Jul 2020 00:55:06 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.15.79]&lt;br&gt;- Build with LV2019&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 29 Jul 2020 00:55:06 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.5.15.79</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
