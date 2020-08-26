@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=292
-Release.Date=Tue, 25 Aug 2020 18:49:42 -0400
-Self.ID=7c080e4d0560b5eb31a157502bb0f7eb
+Release.Number=296
+Release.Date=Wed, 26 Aug 2020 09:28:47 -0400
+Self.ID=fb6dc50d40181b347526818dd0871719
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -41,42 +41,6 @@ Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobje
 Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.8.3.7]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.3.7.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.3.7.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.3.7.spec
-Package.MD5=a8f5c65fe3b0ae8a4af771db159d591f
-Package.Release Date=Wed, 16 Oct 2019 21:16:31 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.4.8]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.8.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.8.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.8.spec
-Package.MD5=8fe9e1280fac7f8ee1561242ee9dc944
-Package.Release Date=Thu, 17 Oct 2019 12:33:21 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.4.10]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.10.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.10.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.4.10.spec
-Package.MD5=e8b9daff583cfb9ddc8a69c028eda027
-Package.Release Date=Thu, 17 Oct 2019 13:44:56 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_transport-1.1.11.42]
 Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.1.11.42.vip
 Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.1.11.42.bmp
@@ -87,18 +51,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_krohn_hite_7008>=1.4.9.26,levylab_lib_leiden_tools>=1.2.2.16,levylab_lib_lockin_multichannel>=2.8.4.10,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,levylab_lib_voltage_update>=1.0.0.1
 Package.Display Name=Transport
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.5.11]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.5.11.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.5.11.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.5.11.spec
-Package.MD5=4bc3fa9016803e00475d5d0b9d236a68
-Package.Release Date=Thu, 17 Oct 2019 14:52:56 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_transport-1.1.12.43]
@@ -197,18 +149,6 @@ Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobje
 Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.8.6.15]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.6.15.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.6.15.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.6.15.spec
-Package.MD5=925a24ec29ea5be5f5a31a2c63911808
-Package.Release Date=Fri, 25 Oct 2019 18:15:01 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.2.9.43]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.9.43.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.9.43.bmp
@@ -257,18 +197,6 @@ Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
 Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.8.7.16]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.7.16.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.7.16.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.7.16.spec
-Package.MD5=c5837fd9413293dab2c2b846d55051d2
-Package.Release Date=Wed, 30 Oct 2019 14:11:21 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.2.10.44]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.10.44.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.2.10.44.bmp
@@ -290,18 +218,6 @@ Package.Release Date=Thu, 31 Oct 2019 10:19:39 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Voltage Update
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.8.17]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.8.17.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.8.17.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.8.17.spec
-Package.MD5=4fca3e1fe50a54c66821c45cdec354c1
-Package.Release Date=Thu, 31 Oct 2019 14:50:08 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_ppms_instrument-1.4.3.26]
@@ -326,18 +242,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_krohn_hite_7008>=1.4.9.26,levylab_lib_leiden_tools>=1.2.2.16,levylab_lib_lockin_multichannel>=2.8.8.17,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,levylab_lib_voltage_update>=1.0.0.1
 Package.Display Name=Transport
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.9.19]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.9.19.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.9.19.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.9.19.spec
-Package.MD5=2f2de6af8afbfe43910ee629aff3914c
-Package.Release Date=Mon, 04 Nov 2019 10:39:07 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.6.13.30,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.2.10.44,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_lvtoitx-2.7.0.1]
@@ -374,30 +278,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_ibwtolv>=1.0.1.3,oglib_string>=4.1.0.12
 Package.Display Name=LVtoITX
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.10.21]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.10.21.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.10.21.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.10.21.spec
-Package.MD5=2a7ac1a679b518943169bf159f70884e
-Package.Release Date=Mon, 11 Nov 2019 14:00:21 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.7.0.3,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.2.10.44,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.8.11.22]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.11.22.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.11.22.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.8.11.22.spec
-Package.MD5=752b484d1ba6372a21ad04e6b777d533
-Package.Release Date=Tue, 12 Nov 2019 13:18:48 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.7.0.3,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.2.10.44,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_ppms_instrument-1.4.4.27]
@@ -472,18 +352,6 @@ Dependencies.Requires=levylab_lib_levylab_instruments>=1.2.4.37
 Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.0.1]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.0.1.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.0.1.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.0.1.spec
-Package.MD5=23f1758c296ecfbc31031170c3140a34
-Package.Release Date=Fri, 15 Nov 2019 16:51:52 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=1.1.0.7,levylab_lib_lvtoitx>=2.7.1.5,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.2.10.44,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_transport-1.2.2.3]
 Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.2.3.vip
 Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.2.2.3.bmp
@@ -541,30 +409,6 @@ Package.Release Date=Tue, 26 Nov 2019 16:46:28 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Graph Utilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.0.0.1]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.0.1.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.0.1.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.0.1.spec
-Package.MD5=81a29fa86f927de3a15dc2d83612ca7a
-Package.Release Date=Fri, 06 Dec 2019 10:58:24 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11
-Package.Display Name=XY Utilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.0.1.2]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.1.2.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.1.2.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.1.2.spec
-Package.MD5=d759379074523f6cbf0b09e455d05c5f
-Package.Release Date=Tue, 10 Dec 2019 13:24:42 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11
-Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_cryostation_instrument-1.0.0.3]
@@ -687,18 +531,6 @@ Dependencies.Requires=levylab_lib_levylab_instruments>=1.3.0.47
 Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.1.3]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.1.3.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.1.3.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.1.3.spec
-Package.MD5=812461841bc1ae8d35795e8a183563ea
-Package.Release Date=Wed, 18 Dec 2019 17:48:35 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.0.1,levylab_lib_lvtoitx>=2.7.3.7,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.3.0.47,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.3.1.48]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.1.48.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.3.1.48.bmp
@@ -721,18 +553,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
 Package.Display Name=Instruments
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.9.2.4]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.2.4.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.2.4.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.2.4.spec
-Package.MD5=71fd0695c3fd2736d38cb52acb893239
-Package.Release Date=Fri, 20 Dec 2019 07:00:17 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.0.1,levylab_lib_lvtoitx>=2.7.3.7,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.3.0.47,levylab_lib_voltage_update>=1.0.3.5,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_ppms_instrument-1.4.8.32]
@@ -891,18 +711,6 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutiliti
 Package.Display Name=LVtoITX
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.3.5]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.3.5.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.3.5.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.3.5.spec
-Package.MD5=f981714eff497a8b6bca3b5eef84ed02
-Package.Release Date=Tue, 14 Jan 2020 11:45:09 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.0.1,levylab_lib_lvtoitx>=2.7.4.8,levylab_lib_voltage_update>=1.0.3.5,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.4.1.52,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_transport-1.3.2.9]
 Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.3.2.9.vip
 Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.3.2.9.bmp
@@ -938,18 +746,6 @@ Platform.Exclusive_OS=ALL
 Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_xy_utilities-1.0.2.3]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.2.3.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.2.3.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.2.3.spec
-Package.MD5=61c3148905cb4296069fdfab6dddb5d0
-Package.Release Date=Thu, 23 Jan 2020 11:15:07 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11
-Package.Display Name=XY Utilities
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.4.2.53]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.2.53.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.4.2.53.bmp
@@ -972,18 +768,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.4.1.52
 Package.Display Name=Cryostation
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.9.4.6]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.4.6.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.4.6.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.4.6.spec
-Package.MD5=4986ad1ff4880234a4d3ffb6b5acd1c4
-Package.Release Date=Wed, 05 Feb 2020 14:31:06 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_lvtoitx>=2.8.0.9,levylab_lib_voltage_update>=1.0.3.5,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.4.2.53,national_instruments_lib_guid_generator>=1.0.2.3
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_aerotech_instrument-1.0.0.1]
@@ -1178,18 +962,6 @@ Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jdp_science_lib_comm
 Package.Display Name=Instruments
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.5.9]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.5.9.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.5.9.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.5.9.spec
-Package.MD5=58b5c71077add75344a953a80a63b6b5
-Package.Release Date=Tue, 18 Feb 2020 07:59:16 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.0.9,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.2.3,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.7.68
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_transport-1.3.3.10]
 Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.3.3.10.vip
 Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.3.3.10.bmp
@@ -1238,18 +1010,6 @@ Dependencies.Requires=drjdpowell_lib_messenging>=1.10.9.115,jdp_science_lib_comm
 Package.Display Name=Instruments
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.6.10]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.10.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.10.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.10.spec
-Package.MD5=f294af34cbdf64677258dfedc0878070
-Package.Release Date=Tue, 18 Feb 2020 16:30:48 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.0.9,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.2.3,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.8.70
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_transport-1.3.4.12]
 Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.3.4.12.vip
 Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.3.4.12.bmp
@@ -1272,18 +1032,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=mgi_lib_file>=1.1.0.4,mgi_lib_timing>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_file>=4.0.1.22,oglib_time>=4.0.1.3,wireflow_ab_lib_wf_progressbar>=1.0.2.56
 Package.Display Name=Build Support
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.9.6.11]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.11.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.11.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.6.11.spec
-Package.MD5=95b10bcfa648022642f7599616dba656
-Package.Release Date=Wed, 19 Feb 2020 11:03:20 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.0.9,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.2.3,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.8.70
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_aerotech_instrument-1.0.2.3]
@@ -1674,18 +1422,6 @@ Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_rest_client>
 Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_xy_utilities-1.0.3.4]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.3.4.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.3.4.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.3.4.spec
-Package.MD5=f57a38ece356d6307a06b23f83c9f5a6
-Package.Release Date=Wed, 26 Feb 2020 14:09:51 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,oglib_string>=4.1.0.12
-Package.Display Name=XY Utilities
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_aerotech_instrument-1.0.3.4]
 Package.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.3.4.vip
 Icon.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.0.3.4.bmp
@@ -1708,18 +1444,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=lvh_toolbox>=2.0.0.35,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,oglib_appcontrol>=4.1.0.7,oglib_file>=4.0.1.22,levylab_lib_levylab_instruments>=1.5.9.71
 Package.Display Name=Krohn-Hite 7008 Drivers
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.9.7.13]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.7.13.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.7.13.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.7.13.spec
-Package.MD5=530a04ace7e5ec4f71c8f3cb6f9eedf8
-Package.Release Date=Wed, 04 Mar 2020 16:36:31 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.9,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.1.11,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.3.4,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.9.71
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_cryostation_instrument-1.1.3.9]
@@ -1853,42 +1577,6 @@ Dependencies.Requires=jki_lib_caraya>=0.6.3.54,jki_lib_state_machine>=2018.0.7.4
 Package.Display Name=Cryostation
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.8.15]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.8.15.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.8.15.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.8.15.spec
-Package.MD5=9376a47693a24bc4af72e1a589dcdbe8
-Package.Release Date=Thu, 12 Mar 2020 13:03:49 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.10,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.3.4,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.9.9.16]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.9.16.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.9.16.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.9.16.spec
-Package.MD5=26f3d556ae1c7ed5922a53517375be73
-Package.Release Date=Thu, 12 Mar 2020 16:53:26 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.10,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.3.4,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.9.10.17]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.10.17.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.10.17.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.10.17.spec
-Package.MD5=ea6b54db13e792da9df7654cb2e08435
-Package.Release Date=Fri, 13 Mar 2020 07:23:25 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.3.10,levylab_lib_graph_utilities>=2.0.1.2,levylab_lib_ibwtolv>=1.0.1.3,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.3.4,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_fileutilities-1.2.4.11]
 Package.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.4.11.vip
 Icon.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.4.11.bmp
@@ -1898,18 +1586,6 @@ Package.Release Date=Wed, 18 Mar 2020 11:59:35 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=FileUtilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.0.4.5]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.0.4.5.spec
-Package.MD5=cfb6bf96275394a7452734760346ed00
-Package.Release Date=Wed, 18 Mar 2020 13:13:03 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,oglib_string>=4.1.0.12
-Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_graph_utilities-2.0.3.3]
@@ -2006,18 +1682,6 @@ Dependencies.Requires=mgi_lib_file>=1.1.0.4,mgi_lib_timing>=1.1.0.2,oglib_appcon
 Package.Display Name=Build Support
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.11.19]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.11.19.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.11.19.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.11.19.spec
-Package.MD5=44eda2d353e635a9368d0cb7403b97b8
-Package.Release Date=Thu, 09 Apr 2020 13:55:17 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.4.11,levylab_lib_graph_utilities>=2.0.4.4,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.0.4.5,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_fileutilities-1.2.5.12]
 Package.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.5.12.vip
 Icon.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.5.12.bmp
@@ -2027,18 +1691,6 @@ Package.Release Date=Mon, 20 Apr 2020 11:27:31 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=FileUtilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.1.0.6]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.6.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.6.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.6.spec
-Package.MD5=7a8e511ba9dd53185af8bf4122c2af85
-Package.Release Date=Tue, 12 May 2020 16:20:38 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11,oglib_array>=4.1.1.14,oglib_string>=4.1.0.12
-Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_maui_template-1.0.0.10]
@@ -2087,42 +1739,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_smo_templates>=1.4.0.15,jki_statemachineobjects>=1.3.0.56
 Package.Display Name=SMO.UI.Embedded
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.1.0.7]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.7.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.7.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.7.spec
-Package.MD5=2f4ff6a4f41ac2ebb27141de94347e18
-Package.Release Date=Thu, 14 May 2020 16:08:04 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11,oglib_array>=4.1.1.14,oglib_string>=4.1.0.12
-Package.Display Name=XY Utilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.1.0.8]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.8.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.8.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.8.spec
-Package.MD5=b0a3759cb4bf2fa1b64c313b0b4259fe
-Package.Release Date=Thu, 14 May 2020 16:19:56 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11,oglib_array>=4.1.1.14,oglib_string>=4.1.0.12
-Package.Display Name=XY Utilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_xy_utilities-1.1.0.9]
-Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.9.vip
-Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.9.bmp
-Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.1.0.9.spec
-Package.MD5=2f622b50f2630ace84b2cfbadea80a8e
-Package.Release Date=Thu, 14 May 2020 16:23:16 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11,oglib_array>=4.1.1.14,oglib_string>=4.1.0.12
-Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
 
 [Package jdp_science_postgresql-0.1.1.10]
@@ -2268,42 +1884,6 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutiliti
 Package.Display Name=General AFM Lithography
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.9.12.21]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.12.21.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.12.21.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.9.12.21.spec
-Package.MD5=1b6b31c3400e4a86b6d4a42a392e5e92
-Package.Release Date=Thu, 25 Jun 2020 17:35:27 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.0.4.4,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.10.0.22]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.0.22.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.0.22.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.0.22.spec
-Package.MD5=a5222375c1b0a06c22da174f941bdd2a
-Package.Release Date=Fri, 26 Jun 2020 15:26:52 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.0.4.4,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.10.1.23]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.1.23.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.1.23.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.10.1.23.spec
-Package.MD5=b418c6d65762a06089c599bfb95e4440
-Package.Release Date=Tue, 30 Jun 2020 20:31:18 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.0.4.4,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_plym-1.0.0.1]
 Package.URL=packages/levylab_lib_plym/levylab_lib_plym-1.0.0.1.vip
 Icon.URL=packages/levylab_lib_plym/levylab_lib_plym-1.0.0.1.bmp
@@ -2387,66 +1967,6 @@ Dependencies.Requires=levylab_lib_xy_utilities>=1.1.0.9,jki_lib_state_machine>=2
 Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.11.0.24]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.0.24.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.0.24.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.0.24.spec
-Package.MD5=98e8c4265d0427bc61453f25a42b7394
-Package.Release Date=Mon, 13 Jul 2020 18:35:45 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.0.1,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.11.1.25]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.25.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.25.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.25.spec
-Package.MD5=9992f19f3bfe3cf6fb404020fdfba170
-Package.Release Date=Tue, 14 Jul 2020 09:43:35 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.0.1,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.11.1.26]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.26.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.26.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.1.26.spec
-Package.MD5=d4efaffc881ed2e80348d465dce84e5d
-Package.Release Date=Tue, 14 Jul 2020 10:02:50 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.0.1,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.11.2.27]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.27.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.27.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.27.spec
-Package.MD5=4d26ae29078db59bc0123838c0aba1ad
-Package.Release Date=Tue, 14 Jul 2020 14:37:59 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.0.1,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.11.2.28]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.28.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.28.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.2.28.spec
-Package.MD5=c487155294b32d7c1c5a29c25ed342fa
-Package.Release Date=Tue, 14 Jul 2020 15:08:39 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.0.1,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.11.73
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.5.12.74]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.12.74.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.12.74.bmp
@@ -2507,18 +2027,6 @@ Dependencies.Requires=levylab_lib_levylab_instruments>=1.5.13.75
 Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.11.4.30]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.4.30.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.4.30.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.4.30.spec
-Package.MD5=e9b5961778c9899028d2f000c97fd9ee
-Package.Release Date=Tue, 28 Jul 2020 17:39:45 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.0.1,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.15.77
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.5.15.78]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.78.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.15.78.bmp
@@ -2555,18 +2063,6 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects
 Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.11.5.31]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.5.31.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.5.31.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.5.31.spec
-Package.MD5=843def58b57dcbf6c0263dd98ec86953
-Package.Release Date=Thu, 30 Jul 2020 18:20:57 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.15.77
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_levylab_instruments-1.5.16.82]
 Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.16.82.vip
 Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.16.82.bmp
@@ -2577,18 +2073,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
 Package.Display Name=Instrument Framework
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.11.6.32]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.6.32.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.6.32.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.6.32.spec
-Package.MD5=563ac0476abfe41d82aa5589050a7534
-Package.Release Date=Mon, 17 Aug 2020 12:05:11 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.0.9,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.15.77
-Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_plym-1.0.0.2]
@@ -2651,30 +2135,6 @@ Dependencies.Requires=levylab_lib_xy_utilities>=1.1.1.10,jki_lib_state_machine>=
 Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.11.7.33]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.33.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.33.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.33.spec
-Package.MD5=59ee85ee195edc128919e1542f76d6e1
-Package.Release Date=Thu, 20 Aug 2020 17:26:10 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.1.10,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.15.77
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lockin_multichannel-2.11.7.35]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.35.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.35.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.35.spec
-Package.MD5=7b64c555d8b08cb588ab795baf600e11
-Package.Release Date=Sat, 22 Aug 2020 12:21:16 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.1.10,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.15.77
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_lvtoitx-3.0.0.1]
 Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.0.1.vip
 Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.0.1.bmp
@@ -2685,4 +2145,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.1.2,levylab_lib_xy_utilities>=1.1.1.10,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
 Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.11.7.37]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.37.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.37.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.7.37.spec
+Package.MD5=87d41ece265fee6b67e58dd265f8584f
+Package.Release Date=Wed, 26 Aug 2020 09:28:03 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_lvtoitx>=2.8.2.13,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.1.10,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,labview-zmq>=3.5.1.109,levylab_lib_levylab_instruments>=1.5.15.77
+Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
