@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=297
-Release.Date=Wed, 26 Aug 2020 12:19:58 -0400
-Self.ID=c78805a2e5deb2bb60aebce2cb27551f
+Release.Number=299
+Release.Date=Fri, 11 Sep 2020 14:49:14 -0400
+Self.ID=28e99b13424923bb5616575e8a0e026d
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2169,4 +2169,28 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.1.2,levylab_lib_xy_utilities>=1.1.1.10,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
 Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.5.18.85]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.18.85.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.18.85.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.5.18.85.spec
+Package.MD5=1092219dfaf28aae9a9ef3a4e44b2c0e
+Package.Release Date=Fri, 11 Sep 2020 14:49:09 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
+Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-1.4.1.18]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.4.1.18.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.4.1.18.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.4.1.18.spec
+Package.MD5=7f77f3d59bc8b4d2a3c28e351271dccd
+Package.Release Date=Fri, 11 Sep 2020 14:49:13 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_lib_common_utilities>=1.2.0.11,jki_lib_caraya>=1.0.2.115,jki_lib_json_serialization>=1.1.10.37,jki_lib_rest_client>=1.3.3.25,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,levylab_lib_aerotech_instrument>=1.0.3.4,levylab_lib_control_vi>=1.3.0.11,levylab_lib_cryostation_instrument>=1.1.4.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.1.2,levylab_lib_krohn_hite_7008>=1.5.0.26,levylab_lib_leiden_tools>=1.2.3.17,levylab_lib_levylab_instruments>=1.5.18.85,levylab_lib_lockin_multichannel>=2.11.7.37,levylab_lib_lvtoitx>=3.0.0.2,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.1.1.10,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,levylab_lib_asana_api>=1.4.1.2
+Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
