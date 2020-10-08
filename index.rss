@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 08 Oct 2020 12:41:03 -0400</pubDate>
+    <pubDate>Thu, 08 Oct 2020 13:10:14 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v2.1.2.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.2.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.2.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 08 Oct 2020 13:10:14 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.2]&lt;br&gt;- Update Control typedefs&lt;br&gt;- Set XY Graph Value: Value is now polymorphic&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 08 Oct 2020 13:10:14 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.2.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.2.0.11</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.0.11.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [3.0.0]&lt;br&gt;---&amp;gt; beta release! This is a major rewrit
 &lt;br&gt;</description>
       <pubDate>Tue, 25 Aug 2020 18:49:41 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 20 Aug 2020 17:26:06 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.1]&lt;br&gt;- Save for LabVIEW 2016&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 20 Aug 2020 17:26:06 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.1.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
