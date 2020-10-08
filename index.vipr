@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=302
-Release.Date=Fri, 25 Sep 2020 09:03:13 -0400
-Self.ID=b118500cdcb355aaae3f8bff64b8203d
+Release.Number=303
+Release.Date=Thu, 08 Oct 2020 12:41:03 -0400
+Self.ID=788ef66375b63a9160f275275475f67f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2229,4 +2229,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.1.2,levylab_lib_xy_utilities>=1.1.1.10,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
 Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xy_utilities-1.2.0.11]
+Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.0.11.vip
+Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.0.11.bmp
+Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.0.11.spec
+Package.MD5=697f3084a09457615b3ffb20166c1ce9
+Package.Release Date=Thu, 08 Oct 2020 12:41:02 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11,oglib_array>=4.1.1.14,oglib_string>=4.1.0.12
+Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
