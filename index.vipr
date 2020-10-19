@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=308
-Release.Date=Fri, 16 Oct 2020 09:23:03 -0400
-Self.ID=8ae91dfbf55f694bb696dc5d8ff933f6
+Release.Number=309
+Release.Date=Mon, 19 Oct 2020 12:30:46 -0400
+Self.ID=d5f44f66c70afb7bf573c261dc3764bf
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2273,6 +2273,18 @@ Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.2.4.bmp
 Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.2.4.spec
 Package.MD5=ae70702a39b18aeada89af672a64e42e
 Package.Release Date=Fri, 16 Oct 2020 09:23:03 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_xy_utilities>=1.2.0.12,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
+Package.Display Name=LVtoITX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lvtoitx-3.0.3.5]
+Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.3.5.vip
+Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.3.5.bmp
+Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.3.5.spec
+Package.MD5=7acb4ba2400253bec946250053bac616
+Package.Release Date=Mon, 19 Oct 2020 12:30:46 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_xy_utilities>=1.2.0.12,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
