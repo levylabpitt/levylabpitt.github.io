@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=316
-Release.Date=Wed, 21 Oct 2020 11:34:01 -0400
-Self.ID=78332b1cc05f99fe5efd90f48e0ced98
+Release.Number=317
+Release.Date=Wed, 21 Oct 2020 11:34:23 -0400
+Self.ID=c68d0009fecbf487f6c53e8b88783bdf
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2301,4 +2301,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,levylab_lib_levylab_instruments>=1.5.8.70
 Package.Display Name=Aerotech Delay
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lvtoitx-3.0.4.9]
+Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.9.vip
+Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.9.bmp
+Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.9.spec
+Package.MD5=9a38f67d42992ddfe5b51c1f5eb71f72
+Package.Release Date=Wed, 21 Oct 2020 11:34:23 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_xy_utilities>=1.2.0.12,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
+Package.Display Name=LVtoITX
 Platform.Exclusive_VIPM_Version=2017
