@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=319
-Release.Date=Wed, 21 Oct 2020 12:13:58 -0400
-Self.ID=c32169b207e2c5215c4f98dd49f46117
+Release.Number=321
+Release.Date=Wed, 21 Oct 2020 12:52:42 -0400
+Self.ID=2a6621ba8165b6210892de20a55576d8
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2303,12 +2303,12 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects
 Package.Display Name=Aerotech Delay
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lvtoitx-3.0.4.10]
-Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.10.vip
-Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.10.bmp
-Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.10.spec
-Package.MD5=13f6cc5e67b279b909c8242ffc6a0aa4
-Package.Release Date=Wed, 21 Oct 2020 12:13:52 -0400
+[Package levylab_lib_lvtoitx-3.0.4.11]
+Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.11.vip
+Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.11.bmp
+Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.11.spec
+Package.MD5=3a527700040f8a3da8de28f1720d0195
+Package.Release Date=Wed, 21 Oct 2020 12:52:42 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_xy_utilities>=1.2.0.12,oglib_appcontrol>=4.1.0.7,oglib_dictionary>=4.0.0.4,oglib_file>=4.0.1.22,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
