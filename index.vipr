@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=322
-Release.Date=Wed, 21 Oct 2020 17:24:01 -0400
-Self.ID=fe70f0a2aa32f70d8ef03d9e561950d9
+Release.Number=323
+Release.Date=Wed, 21 Oct 2020 21:46:44 -0400
+Self.ID=60ebf2088bc1a75a368e2be15be5678f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2325,4 +2325,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_postgresql>=0.1.1.10,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_lvtoitx>=3.0.4.11,levylab_lib_xy_utilities>=1.2.0.12,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_lvzip>=4.0.0,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
 Package.Display Name=postgreSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_postgresql-1.0.0.2]
+Package.URL=packages/levylab_lib_postgresql/levylab_lib_postgresql-1.0.0.2.vip
+Icon.URL=packages/levylab_lib_postgresql/levylab_lib_postgresql-1.0.0.2.bmp
+Spec.URL=packages/levylab_lib_postgresql/levylab_lib_postgresql-1.0.0.2.spec
+Package.MD5=2bd542871d6ae6c4a72e927eb2228033
+Package.Release Date=Wed, 21 Oct 2020 21:46:44 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_postgresql>=0.1.1.10,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_lvtoitx>=3.0.4.11,levylab_lib_xy_utilities>=1.2.0.12,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3
+Package.Display Name=postgreSQL/timescaleDB
 Platform.Exclusive_VIPM_Version=2017

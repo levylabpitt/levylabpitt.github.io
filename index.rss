@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 21 Oct 2020 17:24:01 -0400</pubDate>
+    <pubDate>Wed, 21 Oct 2020 21:46:44 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>postgreSQL/timescaleDB v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB v1.0.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 21 Oct 2020 21:46:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /timescaleDB&lt;br&gt;
+&lt;br&gt;
+Release Notes: first build&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 21 Oct 2020 21:46:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.0.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>postgreSQL v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [3.0.1]&lt;br&gt;---&amp;gt; beta release! This is a major rewrit
       <pubDate>Fri, 25 Sep 2020 09:03:13 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.1.3</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.4.2.19</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.2.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.4.2.19&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 18 Sep 2020 12:03:31 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.2]&lt;br&gt;- Update Control Experiment to support 500/10M variants of KH7008&lt;br&gt;- Update *.ini and *.xml save locations to be inside user.lib (rather than C:\ProgramData)&lt;br&gt;&lt;br&gt;[1.4.1]&lt;br&gt;- build with LV 2016&lt;br&gt;- build with Instruments Framework 1.5.18&lt;br&gt;&lt;br&gt;[1.4.0.16]&lt;br&gt;- Issue #2: Open Me.vi shortcuts to transport VIs&lt;br&gt;- Issue #3: Fix KH channel initialization issue&lt;br&gt;- Issue #9: Move YAML code to YAML/PLYM package&lt;br&gt;- Issue #10: Improve the way AI and KH channels are updated on front panel&lt;br&gt;- New build using LabVIEW 2020&lt;br&gt;- Updated package dependencies&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 18 Sep 2020 12:03:31 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.4.2.19</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
