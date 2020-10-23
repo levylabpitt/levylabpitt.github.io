@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 23 Oct 2020 11:47:50 -0400</pubDate>
+    <pubDate>Fri, 23 Oct 2020 11:48:50 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -97,24 +97,6 @@ Release Notes: first build&lt;br&gt;
       
     </item>
     <item>
-      <title>postgreSQL v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 21 Oct 2020 17:24:01 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /timescaleDB&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 21 Oct 2020 17:24:01 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.0.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
       <title>LVtoITX v3.0.4.11</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.4.11.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -183,6 +165,24 @@ Release Notes: [3.0.2]&lt;br&gt;---&amp;gt; beta release! This is a major rewrit
 &lt;br&gt;</description>
       <pubDate>Fri, 16 Oct 2020 09:23:03 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.2.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>XY Utilities v1.2.0.12</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.0.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.2.0.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 09 Oct 2020 05:59:51 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize, Shift Zero&lt;br&gt;- &amp;lt;b&amp;gt;Waveform Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform&lt;br&gt;
+&lt;br&gt;
+Release Notes: New Methods&lt;br&gt;- Restrict X Range.vi&lt;br&gt;- Remove Outliers.vi&lt;br&gt;- Zero Phase Lowpass Filter.vi&lt;br&gt;- Moving Average.vi&lt;br&gt;- Savitsky Golay Filter.vi&lt;br&gt;&lt;br&gt;Enhanced Methods&lt;br&gt;- Append.vi: Now allows appending arrays and scalers; Allows has reset flag&lt;br&gt;- Derivative.vi: Now uses built-in 2nd Order Central derivative method&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 09 Oct 2020 05:59:51 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.2.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
