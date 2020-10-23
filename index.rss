@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 23 Oct 2020 15:10:31 -0400</pubDate>
+    <pubDate>Fri, 23 Oct 2020 16:29:12 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.11.8.39</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.8.39.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.11.8.39&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 23 Oct 2020 16:29:11 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.11.8]&lt;br&gt;- Build with Instrument Framework v1.6.0 (should enable cross-LV communication)&lt;br&gt;- Disable automatic LP filter when Max Fs is chosen&lt;br&gt;- Update pallete icon&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 23 Oct 2020 16:29:11 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.8.39</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.6.0.89</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.0.89.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [3.0.3]&lt;br&gt;---&amp;gt; beta release! This is a major rewrit
 &lt;br&gt;</description>
       <pubDate>Tue, 20 Oct 2020 10:13:19 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.3.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v3.0.2.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.2.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v3.0.2.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 16 Oct 2020 09:23:03 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), and TDMS&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.0.2]&lt;br&gt;---&amp;gt; beta release! This is a major rewrite; code is still being tested and examples are being written &amp;lt;---&lt;br&gt;- Bug fixes in ITX codebase: Issues #41, #41&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 16 Oct 2020 09:23:03 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.2.4</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
