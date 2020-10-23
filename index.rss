@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 23 Oct 2020 10:41:54 -0400</pubDate>
+    <pubDate>Fri, 23 Oct 2020 11:47:50 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.6.0.87</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.0.87.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.6.0.87&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 23 Oct 2020 11:47:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.0]&lt;br&gt;- STM: Send Message.vi flattens variant to vLV2013&lt;br&gt;- Instrument:Process.vi can now log to DSC or postgreSQL/timescaleDB. Configure with &amp;quot;Write Data Logger.vi&amp;quot;&lt;br&gt;- update package dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 23 Oct 2020 11:47:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.0.87</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.6.0.86</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.0.86.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [3.0.2]&lt;br&gt;---&amp;gt; beta release! This is a major rewrit
 &lt;br&gt;</description>
       <pubDate>Fri, 16 Oct 2020 09:23:03 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.2.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>XY Utilities v1.2.0.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.0.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.2.0.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 09 Oct 2020 05:59:51 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize, Shift Zero&lt;br&gt;- &amp;lt;b&amp;gt;Waveform Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform&lt;br&gt;
-&lt;br&gt;
-Release Notes: New Methods&lt;br&gt;- Restrict X Range.vi&lt;br&gt;- Remove Outliers.vi&lt;br&gt;- Zero Phase Lowpass Filter.vi&lt;br&gt;- Moving Average.vi&lt;br&gt;- Savitsky Golay Filter.vi&lt;br&gt;&lt;br&gt;Enhanced Methods&lt;br&gt;- Append.vi: Now allows appending arrays and scalers; Allows has reset flag&lt;br&gt;- Derivative.vi: Now uses built-in 2nd Order Central derivative method&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 09 Oct 2020 05:59:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.2.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
