@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 05 Nov 2020 15:02:51 -0500</pubDate>
+    <pubDate>Thu, 05 Nov 2020 15:52:48 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.6.3.94</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.3.94.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.6.3.94&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 05 Nov 2020 15:52:48 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.3]&lt;br&gt;- Fix Logger.PGSQL open credentials&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 05 Nov 2020 15:52:48 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.3.94</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.6.2.93</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.2.93.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.6.0]&lt;br&gt;- STM: Send Message.vi flattens variant to vLV20
 &lt;br&gt;</description>
       <pubDate>Fri, 23 Oct 2020 11:47:49 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.0.87</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.6.0.86</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.0.86.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.6.0.86&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 23 Oct 2020 10:41:53 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.0]&lt;br&gt;- STM: Send Message.vi flattens variant to vLV2013&lt;br&gt;- Instrument:Process.vi can now log to DSC or postgreSQL/timescaleDB. Configure with &amp;quot;Write Data Logger.vi&amp;quot;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 23 Oct 2020 10:41:53 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.0.86</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
