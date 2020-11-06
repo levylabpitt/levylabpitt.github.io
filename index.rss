@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 06 Nov 2020 07:26:49 -0500</pubDate>
+    <pubDate>Fri, 06 Nov 2020 14:51:40 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.5.2.42</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.5.2.42.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.5.2.42&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 06 Nov 2020 14:51:40 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.2]&lt;br&gt;- Add delay to shutdown to help close .NET reference to QD Instrument Server&lt;br&gt;- Update UI FP version numbers&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 06 Nov 2020 14:51:40 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.5.2.42</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.5.1.41</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.5.1.41.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.6.0]&lt;br&gt;- STM: Send Message.vi flattens variant to vLV20
       <pubDate>Sat, 24 Oct 2020 14:08:01 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.0.90</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.11.8.40</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.8.40.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.11.8.40&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 24 Oct 2020 14:07:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.11.8]&lt;br&gt;- Build with Instrument Framework v1.6.0 (should enable cross-LV communication)&lt;br&gt;- Disable automatic LP filter when Max Fs is chosen&lt;br&gt;- Update pallete icon&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 24 Oct 2020 14:07:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.8.40</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
