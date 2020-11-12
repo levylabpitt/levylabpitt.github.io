@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 12 Nov 2020 12:46:46 -0500</pubDate>
+    <pubDate>Thu, 12 Nov 2020 14:40:59 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.11.10.43</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.10.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.11.10.43&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 12 Nov 2020 14:40:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.11.10]&lt;br&gt;- Bug fix Issue #33 Sweep mode&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Nov 2020 14:40:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.10.43</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>PPMS Monitor and Control v1.5.3.43</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.5.3.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.5.3.43&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 12 Nov 2020 14:40:53 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.3]&lt;br&gt;1. Bug fixes in PPMS2 APIs&lt;br&gt;2. Updated B field limits:&lt;br&gt;- PPMS LHe (%)&lt;br&gt;  - 0 - 50: B = 0 T&lt;br&gt;  - 51 - 60: B &amp;lt; 1 T&lt;br&gt;  - 61 - 100: B &amp;lt; 9 T&lt;br&gt;&lt;br&gt;- PPMS 2 LHe (%)&lt;br&gt;  - 0 - 70: B = 0 T&lt;br&gt;  - 71 - 100: B &amp;lt; 1 T&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Nov 2020 14:40:53 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.5.3.43</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>File Utilities v1.2.6.13</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.6.13.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [1.6.3]&lt;br&gt;- Fix Logger.PGSQL open credentials&lt;br&gt;
       <pubDate>Thu, 05 Nov 2020 15:52:48 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.3.94</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.6.2.93</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.2.93.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.6.2.93&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 05 Nov 2020 15:02:51 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.2]&lt;br&gt;- Fix error in Instrument:process.vi Macro: Initialize&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Nov 2020 15:02:51 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.2.93</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.1.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.1.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.1.1.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Nov 2020 15:02:47 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /timescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Fix error in Handle INSERT Error (Issue #43)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Nov 2020 15:02:47 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.1.1.5</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
