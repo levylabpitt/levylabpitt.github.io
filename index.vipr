@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=343
-Release.Date=Mon, 09 Nov 2020 19:59:52 -0500
-Self.ID=e5d5d0aaabcf711496e1eb2436a67790
+Release.Number=344
+Release.Date=Thu, 12 Nov 2020 12:46:46 -0500
+Self.ID=97f8ded681841e58374f22574e6597d2
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2553,4 +2553,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_lib_common_utilities>=1.2.1.12,jdp_science_postgresql>=0.1.1.10,jki_lib_json_serialization>=1.1.10.37,jki_lib_rest_client>=1.3.3.25,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.3.0.56,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.5.12,levylab_lib_graph_utilities>=2.1.2.4,levylab_lib_krohn_hite_7008>=1.6.0.27,levylab_lib_leiden_tools>=1.2.3.17,levylab_lib_levylab_instruments>=1.6.3.94,levylab_lib_lockin_multichannel>=2.11.9.41,levylab_lib_lvtoitx>=3.0.5.13,levylab_lib_plym>=1.0.1.3,levylab_lib_postgresql>=1.1.2.6,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.2.0.12,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,levylab_lib_asana_api>=1.4.1.2
 Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_fileutilities-1.2.6.13]
+Package.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.6.13.vip
+Icon.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.6.13.bmp
+Spec.URL=packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.6.13.spec
+Package.MD5=3a05e4fa138b8c142bd63b25a430b144
+Package.Release Date=Thu, 12 Nov 2020 12:46:46 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=File Utilities
 Platform.Exclusive_VIPM_Version=2017

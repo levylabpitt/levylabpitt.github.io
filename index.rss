@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 09 Nov 2020 19:59:52 -0500</pubDate>
+    <pubDate>Thu, 12 Nov 2020 12:46:46 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>File Utilities v1.2.6.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_fileutilities/levylab_lib_fileutilities-1.2.6.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: File Utilities v1.2.6.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 12 Nov 2020 12:46:46 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for formatting file names&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.6]&lt;br&gt;- Bug fix in Increment Filename&lt;br&gt;- Add &amp;quot;FILE UTIL&amp;quot; banner to icons&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Nov 2020 12:46:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_fileutilities-1.2.6.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.4.3.20</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.3.20.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Fix error in Handle INSERT Error (Issue #43)&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 05 Nov 2020 15:02:47 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_postgresql-1.1.1.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.1.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.1.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.1.0.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Nov 2020 10:00:00 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /timescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Add Data.S3.lvclass for intereacting with AWS S3&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Nov 2020 10:00:00 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.1.0.4</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
