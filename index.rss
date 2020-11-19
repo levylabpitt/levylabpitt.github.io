@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 12 Nov 2020 14:40:59 -0500</pubDate>
+    <pubDate>Thu, 19 Nov 2020 15:04:57 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>postgreSQL/timescaleDB/S3 v1.1.3.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.1.3.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.1.3.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 19 Nov 2020 15:04:57 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /timescaleDB/S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Add &amp;quot;Read SQL.vi&amp;quot; API for executing arbitrary SQL commands&lt;br&gt;- Update Read Trace.vi to output executed SQL command&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 19 Nov 2020 15:04:57 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.1.3.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.11.10.43</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.10.43.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.5.0]&lt;br&gt;- build w/ Instrument.lvclass v1.6.3&lt;br&gt;- 
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.5.0.40</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.6.3.94</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.6.3.94.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.6.3.94&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 05 Nov 2020 15:52:48 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.3]&lt;br&gt;- Fix Logger.PGSQL open credentials&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Nov 2020 15:52:48 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.6.3.94</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
