@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 20 Nov 2020 12:59:20 -0500</pubDate>
+    <pubDate>Fri, 20 Nov 2020 16:56:48 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>postgreSQL/timescaleDB/S3 v1.1.4.10</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.1.4.10.bmp"&gt;&lt;br&gt;
+      <title>postgreSQL/timescaleDB/S3 v1.1.5.11</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.1.5.11.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.1.4.10&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.1.5.11&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Fri, 20 Nov 2020 12:59:15 -0500&lt;br&gt;
+Release Date: Fri, 20 Nov 2020 16:56:43 -0500&lt;br&gt;
 Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
 &lt;br&gt;
 Description: VIs for interacting with postgreSQL /timescaleDB/S3&lt;br&gt;
 &lt;br&gt;
-Release Notes: - Organize VI hierarchy and permissions&lt;br&gt;- Update palette and icons&lt;br&gt;
+Release Notes: - Organize VI hierarchy and permissions&lt;br&gt;- Update palette and icons&lt;br&gt;- Add time_bucket() function to Read Trace.vi&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Fri, 20 Nov 2020 12:59:15 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.1.4.10</guid>
+      <pubDate>Fri, 20 Nov 2020 16:56:43 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.1.5.11</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>

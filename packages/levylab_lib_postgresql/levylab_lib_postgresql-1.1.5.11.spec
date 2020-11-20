@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_postgresql"
-Version="1.1.4.10"
+Version="1.1.5.11"
 Release=""
-ID=cf9cf06a3a820dabac09a0c02010dc6d
+ID=636879ef7101c8f4e97d9155920a9c54
 File Format="vip"
 Format Version="2017"
 Display Name="postgreSQL/timescaleDB/S3"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL=""
 Packager="Patrick Irvin, Jack Maier, Phil Shenk"
 Demo="FALSE"
-Release Notes="- Organize VI hierarchy and permissions\0A- Update palette and icons"
+Release Notes="- Organize VI hierarchy and permissions\0A- Update palette and icons\0A- Add time_bucket() function to Read Trace.vi"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
@@ -66,7 +66,7 @@ Namespaces=""
 [File Group 0]
 Target Dir="<application>"
 Replace Mode="Always"
-Num Files=65
+Num Files=66
 File 0="user.lib/LevyLab/postgreSQL-timescaleDB/Data.S3/Data.S3.lvclass"
 File 1="user.lib/LevyLab/postgreSQL-timescaleDB/Data.S3/Tree.vi"
 File 2="user.lib/LevyLab/postgreSQL-timescaleDB/Data.S3/private/recursively populate tree ctl.vi"
@@ -125,13 +125,14 @@ File 54="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Open.vi"
 File 55="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Parse path.vi"
 File 56="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Read SQL.vi"
 File 57="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Read Trace.vi"
-File 58="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Read Variable.vi"
-File 59="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Set Connection Info.vi"
-File 60="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Write Variable.vi"
-File 61="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Administer Tables UI.vi"
-File 62="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Create User UI.vi"
-File 63="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Get Path UI.vi"
-File 64="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Get Paths Array UI.vi"
+File 58="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Read Traces.vi"
+File 59="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Read Variable.vi"
+File 60="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Set Connection Info.vi"
+File 61="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/API/Write Variable.vi"
+File 62="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Administer Tables UI.vi"
+File 63="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Create User UI.vi"
+File 64="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Get Path UI.vi"
+File 65="user.lib/LevyLab/postgreSQL-timescaleDB/Data.PG/admin/Get Paths Array UI.vi"
 
 
 [File Group 1]
