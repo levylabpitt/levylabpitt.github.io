@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 23 Nov 2020 16:51:59 -0500</pubDate>
+    <pubDate>Wed, 25 Nov 2020 07:40:39 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>postgreSQL/timescaleDB/S3 v1.2.0.12</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.0.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.2.0.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 25 Nov 2020 07:40:39 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Read Variable.vi is polymorphic:  user chooses double (default), boolean, or string data type&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 25 Nov 2020 07:40:39 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.2.0.12</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.1.0.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.1.0.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.5.2]&lt;br&gt;- Add delay to shutdown to help close .NET refer
 &lt;br&gt;</description>
       <pubDate>Fri, 06 Nov 2020 14:51:40 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.5.2.42</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.5.1.41</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.5.1.41.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.5.1.41&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Nov 2020 07:26:49 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.1]&lt;br&gt;- build with updated pgsql package that fixes credentials issue.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Nov 2020 07:26:49 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.5.1.41</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
