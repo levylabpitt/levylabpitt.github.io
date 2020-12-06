@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 06 Dec 2020 12:40:52 -0500</pubDate>
+    <pubDate>Sun, 06 Dec 2020 14:07:47 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.12.0.47</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.12.0.47.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.12.0.47&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 06 Dec 2020 14:07:46 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.12.0]&lt;br&gt;&lt;br&gt;- Change Main window appearance settings&lt;br&gt;- Updated to work with multiple PXI chassis&lt;br&gt;- Update DAQ control&lt;br&gt;- Auto populate DAQ control with all 44xx devices configured in MAX&lt;br&gt;- Add calibration methods (check and set)&lt;br&gt;- Misc. bug fixes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 06 Dec 2020 14:07:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.0.47</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.2.1.14</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.1.14.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Add &amp;quot;Read SQL.vi&amp;quot; API for executing arbitrary
 &lt;br&gt;</description>
       <pubDate>Thu, 19 Nov 2020 15:04:57 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_postgresql-1.1.3.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.11.10.43</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.11.10.43.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.11.10.43&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 12 Nov 2020 14:40:58 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.11.10]&lt;br&gt;- Bug fix Issue #33 Sweep mode&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 12 Nov 2020 14:40:58 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.10.43</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
