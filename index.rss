@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 06 Dec 2020 09:27:10 -0500</pubDate>
+    <pubDate>Sun, 06 Dec 2020 12:40:52 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.2.1.14</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.1.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.2.1.14&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sun, 06 Dec 2020 12:40:52 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update Get Magnet Field API&lt;br&gt;- Update 1820 Monitor UI Window appearance&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 06 Dec 2020 12:40:52 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.2.1.14</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Leiden MNK v1.4.0.19</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-1.4.0.19.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.11.10]&lt;br&gt;- Bug fix Issue #33 Sweep mode&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.11.10.43</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.5.3.43</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.5.3.43.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.5.3.43&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 12 Nov 2020 14:40:53 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.3]&lt;br&gt;1. Bug fixes in PPMS2 APIs&lt;br&gt;2. Updated B field limits:&lt;br&gt;- PPMS LHe (%)&lt;br&gt;  - 0 - 50: B = 0 T&lt;br&gt;  - 51 - 60: B &amp;lt; 1 T&lt;br&gt;  - 61 - 100: B &amp;lt; 9 T&lt;br&gt;&lt;br&gt;- PPMS 2 LHe (%)&lt;br&gt;  - 0 - 70: B = 0 T&lt;br&gt;  - 71 - 100: B &amp;lt; 1 T&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 12 Nov 2020 14:40:53 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.5.3.43</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
