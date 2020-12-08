@@ -22,6 +22,20 @@ html[data-theme="dark"] {
 	--button-primary-color: white;
 }
 
+/* This is stuff from "style.css" */
+
+body {font-family: Franklin Gothic Book, Source Sans Pro, Helvetica Neue, sans-serif; margin: 0 auto; background: #efefef; line-height: 1.8em; padding: 12px; box-sizing: border-box; color: #333;}
+body, html {height: 100%;}
+
+a {color: #777; text-decoration: none; border-bottom: 1px solid #CCFF26;}
+a:hover {border-bottom: 1px solid #CCFF26; color: #222}
+p {font-weight: 200; font-size: 20px;}
+
+.meta {text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
+.meta a:hover {border-bottom: 1px solid #CCFF26; color: #333;}
+
+/* This is stuff from "style.css" */
+
 /* when prefers-color-scheme supported, these can be in single media query with above */
 html[data-theme="dark"]	img.value-img {
 	filter: invert(0.8);
