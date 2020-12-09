@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 08 Dec 2020 20:34:17 -0500</pubDate>
+    <pubDate>Wed, 09 Dec 2020 16:04:49 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.7.0.95</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.7.0.95.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.7.0.95&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 09 Dec 2020 16:04:48 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Knows how to communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a DSC database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Currently provided by National Instruments&#39; Simple Messaging Library (STM), however a cross-platform protocol is developed using 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- Add &amp;quot;Read Instrument&amp;quot; method to Instrument.UI.lvclass. This needs to be called to inject the Instrument.lvclass reference into the UI process&lt;br&gt;- Remove LevyLab.lvclass and add &amp;quot;Handle Error&amp;quot; overrides to specific processes that need them&lt;br&gt;- Update Templates with changes outlined above&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 09 Dec 2020 16:04:48 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.7.0.95</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Leiden MNK v1.4.0.20</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-1.4.0.20.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.1.0]&lt;br&gt;- Add Self Update to check repository for update
       <pubDate>Mon, 23 Nov 2020 16:51:59 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.1.0.7</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.1.5.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.1.5.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.1.5.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 20 Nov 2020 16:56:43 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /timescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Organize VI hierarchy and permissions&lt;br&gt;- Update palette and icons&lt;br&gt;- Add time_bucket() function to Read Trace.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 20 Nov 2020 16:56:43 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.1.5.11</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
