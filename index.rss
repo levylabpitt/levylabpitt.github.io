@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 07 Dec 2020 06:18:14 -0500</pubDate>
+    <pubDate>Tue, 08 Dec 2020 20:34:17 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Leiden MNK v1.4.0.20</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-1.4.0.20.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Leiden MNK v1.4.0.20&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 08 Dec 2020 20:34:11 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden MNK Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.MNK_TC.lvclass]&lt;br&gt;- API that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.0]&lt;br&gt;- read T from PGSQL DB&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 08 Dec 2020 20:34:11 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_mnk-1.4.0.20</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.4.4.21</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.4.21.bmp"&gt;&lt;br&gt;
@@ -58,24 +76,6 @@ Release Notes: - Update Get Magnet Field API&lt;br&gt;- Update 1820 Monitor UI W
       <pubDate>Sun, 06 Dec 2020 12:40:52 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.2.1.14</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Leiden MNK v1.4.0.19</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-1.4.0.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Leiden MNK v1.4.0.19&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 06 Dec 2020 09:27:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden MNK Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.MNK_TC.lvclass]&lt;br&gt;- API that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.0]&lt;br&gt;- read T from PGSQL DB&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 06 Dec 2020 09:27:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_mnk-1.4.0.19</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
     <item>

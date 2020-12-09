@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_leiden_mnk"
-Version="1.4.0.19"
+Version="1.4.0.20"
 Release=""
-ID=df14709d81157bb388e05baa641d886c
+ID=634f69b094aaae0735a7827b48506368
 File Format="vip"
 Format Version="2017"
 Display Name="Leiden MNK"
