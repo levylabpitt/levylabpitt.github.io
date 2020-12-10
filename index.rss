@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 09 Dec 2020 16:04:49 -0500</pubDate>
+    <pubDate>Thu, 10 Dec 2020 16:08:26 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>postgreSQL/timescaleDB/S3 v1.2.2.14</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.2.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.2.2.14&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 10 Dec 2020 16:08:26 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Issue #57: PGSQL requires &amp;quot;&#39;NaN&#39;&amp;quot; instead of &amp;quot;NaN&amp;quot;&lt;br&gt;- Related, Push Backup to DB has been changed to not keep opening connections every time it runs&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 10 Dec 2020 16:08:26 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.2.2.14</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.7.0.95</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.7.0.95.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - Read Variable.vi is polymorphic:  user chooses double (default)
       <pubDate>Wed, 25 Nov 2020 07:40:39 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_postgresql-1.2.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.1.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.1.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.1.0.7&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 23 Nov 2020 16:51:59 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Add Self Update to check repository for updates and update if desired&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 23 Nov 2020 16:51:59 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.1.0.7</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
