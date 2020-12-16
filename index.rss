@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 16 Dec 2020 10:32:50 -0500</pubDate>
+    <pubDate>Wed, 16 Dec 2020 18:58:42 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Multichannel Lockin v2.12.1.48</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.12.1.48.bmp"&gt;&lt;br&gt;
+      <title>Multichannel Lockin v2.12.1.49</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.12.1.49.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Multichannel Lockin v2.12.1.48&lt;br&gt;
+Product: Multichannel Lockin v2.12.1.49&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Wed, 16 Dec 2020 10:32:49 -0500&lt;br&gt;
+Release Date: Wed, 16 Dec 2020 18:58:41 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
 &lt;br&gt;
-Release Notes: [2.12.1]&lt;br&gt;&lt;br&gt;- Update to Instrument Framework v1.7 (fixes missing LevyLab.lvclass issue)&lt;br&gt;- Change the way Lockin Engine handles waveform arrays (applies low pass filter to interleved X and Y channels rather than parallel low pass filters)&lt;br&gt;- Lockin Engine organized into subVIs&lt;br&gt;
+Release Notes: [2.12.1]&lt;br&gt;&lt;br&gt;- Update to Instrument Framework v1.7 (fixes missing LevyLab.lvclass issue)&lt;br&gt;- Change the way Lockin Engine handles waveform arrays (applies low pass filter to interleved X and Y channels rather than parallel low pass filters)&lt;br&gt;- Lockin Engine organized into subVIs&lt;br&gt;- fix Sweep issue&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Wed, 16 Dec 2020 10:32:49 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.1.48</guid>
+      <pubDate>Wed, 16 Dec 2020 18:58:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.1.49</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
@@ -97,24 +97,6 @@ Release Notes: [1.4.4]&lt;br&gt;- Issue #14: Add upload to S3&lt;br&gt;- Add Ope
       
     </item>
     <item>
-      <title>Multichannel Lockin v2.12.0.47</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.12.0.47.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.12.0.47&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 06 Dec 2020 14:07:46 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.12.0]&lt;br&gt;&lt;br&gt;- Change Main window appearance settings&lt;br&gt;- Updated to work with multiple PXI chassis&lt;br&gt;- Update DAQ control&lt;br&gt;- Auto populate DAQ control with all 44xx devices configured in MAX&lt;br&gt;- Add calibration methods (check and set)&lt;br&gt;- Misc. bug fixes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 06 Dec 2020 14:07:46 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.0.47</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
       <title>Oxford-1820 v1.2.1.14</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.1.14.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -183,6 +165,24 @@ Release Notes: [2.12.0]&lt;br&gt;- Updated to work with multiple PXI chassis&lt;
 &lt;br&gt;</description>
       <pubDate>Wed, 02 Dec 2020 15:31:19 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.0.46</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>postgreSQL/timescaleDB/S3 v1.2.0.12</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.0.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.2.0.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 25 Nov 2020 07:40:39 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Read Variable.vi is polymorphic:  user chooses double (default), boolean, or string data type&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 25 Nov 2020 07:40:39 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.2.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
