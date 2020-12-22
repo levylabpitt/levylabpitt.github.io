@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 16 Dec 2020 18:58:42 -0500</pubDate>
+    <pubDate>Tue, 22 Dec 2020 10:07:30 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>postgreSQL/timescaleDB/S3 v1.2.3.15</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.3.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.2.3.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 22 Dec 2020 10:07:30 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Issue #58: Clear 5001 errors in Read Variable (hack)&lt;br&gt;- Issue #59: Log failed uploads to S3&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 22 Dec 2020 10:07:30 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.2.3.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.12.1.49</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.12.1.49.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.12.0]&lt;br&gt;- Updated to work with multiple PXI chassis&lt;
 &lt;br&gt;</description>
       <pubDate>Wed, 02 Dec 2020 15:31:19 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.0.46</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.2.0.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.0.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.2.0.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 25 Nov 2020 07:40:39 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Read Variable.vi is polymorphic:  user chooses double (default), boolean, or string data type&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 25 Nov 2020 07:40:39 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.2.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
