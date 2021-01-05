@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 28 Dec 2020 10:47:19 -0500</pubDate>
+    <pubDate>Tue, 05 Jan 2021 13:41:37 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.2.1.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.1.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.2.1.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 05 Jan 2021 13:41:36 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize, Shift Zero&lt;br&gt;- &amp;lt;b&amp;gt;Waveform Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform&lt;br&gt;
+&lt;br&gt;
+Release Notes: New Methods&lt;br&gt;- XY to 2D.vi&lt;br&gt;- 2D to XY.vi&lt;br&gt;&lt;br&gt;Changes&lt;br&gt;- Bug fixes in interpolation and determining dx&lt;br&gt;- Interpolate Parameter calls above methods&lt;br&gt;- Remove implied calls to Sort in some methods&lt;br&gt;- Derivative automatically calculates &amp;quot;dx&amp;quot; from X-Array (h is no longer a parameter)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 05 Jan 2021 13:41:36 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.2.1.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.6.0.44</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.6.0.44.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - Fix bug in Read Variable.vi that would in some instances not re
       <pubDate>Sun, 06 Dec 2020 08:48:11 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_postgresql-1.2.1.13</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.2.0.13</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.0.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.2.0.13&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 04 Dec 2020 13:02:23 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with Instrument v1.6.3&lt;br&gt;- updated 1820 Monitor UI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 04 Dec 2020 13:02:23 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.2.0.13</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>

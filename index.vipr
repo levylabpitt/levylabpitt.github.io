@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=375
-Release.Date=Mon, 28 Dec 2020 10:47:19 -0500
-Self.ID=aa01d66a198e2b5ebccfba5c6cb19e76
+Release.Number=376
+Release.Date=Tue, 05 Jan 2021 13:41:37 -0500
+Self.ID=614958d08cc6e2c3a4eee5f5e2b93116
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2768,4 +2768,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.7.0.95
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xy_utilities-1.2.1.13]
+Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.1.13.vip
+Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.1.13.bmp
+Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.2.1.13.spec
+Package.MD5=d958aab7fabdda8faa7ea5d49c61feba
+Package.Release Date=Tue, 05 Jan 2021 13:41:36 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_control_vi>=1.3.0.11,oglib_array>=4.1.1.14,oglib_string>=4.1.0.12
+Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017
