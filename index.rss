@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 08 Jan 2021 12:13:13 -0500</pubDate>
+    <pubDate>Sat, 09 Jan 2021 10:10:14 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.3.1.15</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.3.1.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.3.1.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 09 Jan 2021 10:10:13 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: New Methods&lt;br&gt;&lt;br&gt;Changes&lt;br&gt;&lt;br&gt;Bug Fixes&lt;br&gt;- Fix Derivative.vi polymorphism&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 09 Jan 2021 10:10:13 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.3.1.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.3.0.14</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.3.0.14.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.4.4]&lt;br&gt;- Issue #14: Add upload to S3&lt;br&gt;- Add Ope
 &lt;br&gt;</description>
       <pubDate>Mon, 07 Dec 2020 06:18:14 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.4.4.21</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.2.1.14</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.1.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.2.1.14&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Sun, 06 Dec 2020 12:40:52 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update Get Magnet Field API&lt;br&gt;- Update 1820 Monitor UI Window appearance&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 06 Dec 2020 12:40:52 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.2.1.14</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
