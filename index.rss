@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 09 Jan 2021 10:10:14 -0500</pubDate>
+    <pubDate>Mon, 11 Jan 2021 14:51:24 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.3.2.16</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.3.2.16.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.3.2.16&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 11 Jan 2021 14:51:23 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: New Methods&lt;br&gt;&lt;br&gt;Changes&lt;br&gt;- Change Difference Quotient.vi Algorithm&lt;br&gt;- Add Pointers to Sort.vi&lt;br&gt;&lt;br&gt;Bug Fixes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 11 Jan 2021 14:51:23 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.3.2.16</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.3.1.15</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.3.1.15.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.4.0]&lt;br&gt;- read T from PGSQL DB&lt;br&gt;
       <pubDate>Tue, 08 Dec 2020 20:34:11 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_leiden_mnk-1.4.0.20</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.4.4.21</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.4.21.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.4.4.21&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 07 Dec 2020 06:18:14 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.4]&lt;br&gt;- Issue #14: Add upload to S3&lt;br&gt;- Add Open VI feature to Control Experiment.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 07 Dec 2020 06:18:14 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.4.4.21</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
