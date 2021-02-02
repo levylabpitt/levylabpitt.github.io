@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 02 Feb 2021 16:27:58 -0500</pubDate>
+    <pubDate>Tue, 02 Feb 2021 18:20:29 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v1.2.1.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.1.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v1.2.1.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 02 Feb 2021 18:20:29 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.1.5]&lt;br&gt;- Issue #1: Add RST method&lt;br&gt;- Issue #2: Calling Source V1(2) or Set Strain always enables output&lt;br&gt;- Issue #3: Add Error case structure to all methods&lt;br&gt;- Add VISA RW subVI to handle VISA read and write. Can be used to send arbitrary commands, for example for debugging, checking errors&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 02 Feb 2021 18:20:29 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.2.1.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.7.0.45</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.7.0.45.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.6.0]&lt;br&gt;- Enable control of PPMS&lt;br&gt;- Update to la
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.6.0.44</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.2.3.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.3.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.2.3.16&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 22 Dec 2020 10:32:11 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #58: Clear 5001 errors in Read Variable (hack)&lt;br&gt;- Issue #59: Log failed uploads to S3&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Dec 2020 10:32:11 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.2.3.16</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
