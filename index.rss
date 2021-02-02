@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 30 Jan 2021 12:15:24 -0500</pubDate>
+    <pubDate>Tue, 02 Feb 2021 13:47:04 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.8.1.97</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.1.97.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.8.1.97&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 02 Feb 2021 13:47:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.1]&lt;br&gt;**updating will require changing your instrument projects**&lt;br&gt;- Fix Issues #29, #30, #31&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 02 Feb 2021 13:47:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.1.97</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.2.2.15</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.2.15.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.12.1]&lt;br&gt;&lt;br&gt;- Update to Instrument Framework v1.7
 &lt;br&gt;</description>
       <pubDate>Wed, 16 Dec 2020 18:58:41 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.12.1.49</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.2.2.14</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.2.2.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.2.2.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 10 Dec 2020 16:08:26 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #57: PGSQL requires &amp;quot;&#39;NaN&#39;&amp;quot; instead of &amp;quot;NaN&amp;quot;&lt;br&gt;- Related, Push Backup to DB has been changed to not keep opening connections every time it runs&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 10 Dec 2020 16:08:26 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.2.2.14</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
