@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 02 Feb 2021 18:20:29 -0500</pubDate>
+    <pubDate>Wed, 03 Feb 2021 15:01:22 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cryostation v1.1.6.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.6.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.1.6.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 03 Feb 2021 15:01:22 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.5]&lt;br&gt;- Update to Instrument v1.8.1&lt;br&gt;- Update port number (55446)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 03 Feb 2021 15:01:22 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.6.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v1.2.1.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.1.5.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: New Methods&lt;br&gt;- XY to 2D.vi&lt;br&gt;- 2D to XY.vi&lt;br&g
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.2.1.13</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.6.0.44</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.6.0.44.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.6.0.44&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 28 Dec 2020 10:47:18 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.0]&lt;br&gt;- Enable control of PPMS&lt;br&gt;- Update to latest Instrument Framework (v1.7.0)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 28 Dec 2020 10:47:18 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.6.0.44</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
