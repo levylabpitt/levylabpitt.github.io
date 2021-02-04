@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=387
-Release.Date=Wed, 03 Feb 2021 15:01:22 -0500
-Self.ID=90be2f681bcc1796506874368454ba93
+Release.Number=388
+Release.Date=Thu, 04 Feb 2021 11:35:09 -0500
+Self.ID=708ffdc3fd489af6a27ef1f7ac4d9745
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -2888,4 +2888,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_caraya>=1.0.2.115,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,lava_lib_ui_tools>=1.4.1.74,lvh_toolbox>=2.0.0.35,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,levylab_lib_levylab_instruments>=1.5.18.85
 Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_build_support-1.1.1.8]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.1.1.8.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.1.1.8.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.1.1.8.spec
+Package.MD5=99bdbdd22083d5c30b922c11ddf6f54f
+Package.Release Date=Thu, 04 Feb 2021 11:35:08 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=mgi_lib_file>=1.1.0.4,mgi_lib_timing>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_file>=4.0.1.22,oglib_time>=4.0.1.3,wireflow_ab_lib_wf_progressbar>=1.0.2.56
+Package.Display Name=Build Support
 Platform.Exclusive_VIPM_Version=2017
