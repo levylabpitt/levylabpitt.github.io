@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 19 Feb 2021 18:44:43 -0500</pubDate>
+    <pubDate>Sun, 21 Feb 2021 09:48:59 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.13.2.53</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.13.2.53.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.13.2.53&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 21 Feb 2021 09:48:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.13.2]&lt;br&gt;- New and improved sweep modes:&lt;br&gt;  - Ramp /&lt;br&gt;  - Ramp /\&lt;br&gt;  - Smooth Ramp _/&lt;br&gt;  - Smooth Ramp _/\_&lt;br&gt;  - Freqeuncy&lt;br&gt;&lt;br&gt;- New APIs:&lt;br&gt;  - waitStatusCreated&lt;br&gt;  - wai StatusIdle&lt;br&gt;  - waitStatusStarted&lt;br&gt;  - waitStatusStopped&lt;br&gt;  - waitStatusSweepStarted&lt;br&gt;  - waitStatusSweepStopped&lt;br&gt;  - getSweepWaveforms (see above)&lt;br&gt;  - setInputGains&lt;br&gt;  - setOutputGains&lt;br&gt;  - getInputGains&lt;br&gt;  - getOutputGains&lt;br&gt;&lt;br&gt;- Add support for amplifiers connected to output channels&lt;br&gt;- During a sweep the lockin will buffer and save AO and AI waveforms&lt;br&gt;- improved plot naming&lt;br&gt;- code refactoring related to UI elements&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 21 Feb 2021 09:48:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.13.2.53</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.13.2.52</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.13.2.52.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.1.5]&lt;br&gt;- Issue #1: Add RST method&lt;br&gt;- Issue #2
       <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.2.1.5</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.7.0.45</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.7.0.45.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.7.0.45&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 02 Feb 2021 16:27:57 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the DSC. Provides a UI and API for controlling the magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- Add support for PPMS3 and simulated PPMS (Must install MultiVu Simulation Mode and QD Instrument Server)&lt;br&gt;- Major reorganization of project hierarchy&lt;br&gt;- Update to latest Instrument Framework (v1.8.1)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 02 Feb 2021 16:27:57 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.7.0.45</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
