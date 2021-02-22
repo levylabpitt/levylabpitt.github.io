@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 21 Feb 2021 09:48:59 -0500</pubDate>
+    <pubDate>Mon, 22 Feb 2021 14:16:42 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.13.2.54</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.13.2.54.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.13.2.54&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 22 Feb 2021 14:16:41 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.13.2]&lt;br&gt;- New and improved sweep modes:&lt;br&gt;  - Ramp /&lt;br&gt;  - Ramp /\&lt;br&gt;  - Smooth Ramp _/&lt;br&gt;  - Smooth Ramp _/\_&lt;br&gt;  - Freqeuncy&lt;br&gt;&lt;br&gt;- New APIs:&lt;br&gt;  - waitStatusCreated&lt;br&gt;  - wai StatusIdle&lt;br&gt;  - waitStatusStarted&lt;br&gt;  - waitStatusStopped&lt;br&gt;  - waitStatusSweepStarted&lt;br&gt;  - waitStatusSweepStopped&lt;br&gt;  - getSweepWaveforms (see above)&lt;br&gt;  - setInputGains&lt;br&gt;  - setOutputGains&lt;br&gt;  - getInputGains&lt;br&gt;  - getOutputGains&lt;br&gt;&lt;br&gt;- Add support for amplifiers connected to output channels&lt;br&gt;- During a sweep the lockin will buffer and save AO and AI waveforms&lt;br&gt;- improved plot naming&lt;br&gt;- code refactoring related to UI elements&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 22 Feb 2021 14:16:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.13.2.54</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.13.2.53</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.13.2.53.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.1.5]&lt;br&gt;- Update to Instrument v1.8.1&lt;br&gt;- Update 
       <pubDate>Wed, 03 Feb 2021 15:01:22 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.6.13</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v1.2.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v1.2.1.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 02 Feb 2021 18:20:29 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1.5]&lt;br&gt;- Issue #1: Add RST method&lt;br&gt;- Issue #2: Calling Source V1(2) or Set Strain always enables output&lt;br&gt;- Issue #3: Add Error case structure to all methods&lt;br&gt;- Add VISA RW subVI to handle VISA read and write. Can be used to send arbitrary commands, for example for debugging, checking errors&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 02 Feb 2021 18:20:29 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.2.1.5</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
