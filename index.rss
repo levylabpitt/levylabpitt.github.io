@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 23 Feb 2021 12:14:53 -0500</pubDate>
+    <pubDate>Wed, 24 Feb 2021 09:26:00 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>postgreSQL/timescaleDB/S3 v1.3.0.17</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.3.0.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: postgreSQL/timescaleDB/S3 v1.3.0.17&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 24 Feb 2021 09:26:00 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
+&lt;br&gt;
+Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: - postgreSQL configuration now stored in configuration.ini&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 24 Feb 2021 09:26:00 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_postgresql-1.3.0.17</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.13.2.56</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.13.2.56.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.13.0]&lt;br&gt;- Add Measure/Remove Offset API&lt;br&gt;&lt;br
       <pubDate>Sat, 06 Feb 2021 10:53:57 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.13.0.50</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.2.3.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.2.3.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.2.3.16&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 04 Feb 2021 14:59:43 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Instrument v1.8.1&lt;br&gt;  - fixes some issues with PGSQL logging&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 04 Feb 2021 14:59:43 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.2.3.16</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
