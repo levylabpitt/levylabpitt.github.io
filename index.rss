@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 24 Feb 2021 15:05:12 -0500</pubDate>
+    <pubDate>Thu, 25 Feb 2021 13:22:20 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.8.3.100</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.3.100.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.8.3.100&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 25 Feb 2021 13:22:19 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt;  - Bug fix Issue #32: Better handling of config files that have multiple sections&lt;br&gt;  - Read method now drops onto block diagram with data to variant included&lt;br&gt;  - New method &amp;quot;Default Path&amp;quot; provides path to User Application Data&lt;br&gt;  - [build 100: remove missing file from configuration.lvclass]&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 25 Feb 2021 13:22:19 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.100</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>AES v1.0.0.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/igortitov_lib_aes/igortitov_lib_aes-1.0.0.2.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.13.2]&lt;br&gt;- New and improved sweep modes:&lt;br&gt;  - Ra
 &lt;br&gt;</description>
       <pubDate>Mon, 22 Feb 2021 14:16:41 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.13.2.54</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.13.2.53</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.13.2.53.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.13.2.53&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 21 Feb 2021 09:48:58 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.13.2]&lt;br&gt;- New and improved sweep modes:&lt;br&gt;  - Ramp /&lt;br&gt;  - Ramp /\&lt;br&gt;  - Smooth Ramp _/&lt;br&gt;  - Smooth Ramp _/\_&lt;br&gt;  - Freqeuncy&lt;br&gt;&lt;br&gt;- New APIs:&lt;br&gt;  - waitStatusCreated&lt;br&gt;  - wai StatusIdle&lt;br&gt;  - waitStatusStarted&lt;br&gt;  - waitStatusStopped&lt;br&gt;  - waitStatusSweepStarted&lt;br&gt;  - waitStatusSweepStopped&lt;br&gt;  - getSweepWaveforms (see above)&lt;br&gt;  - setInputGains&lt;br&gt;  - setOutputGains&lt;br&gt;  - getInputGains&lt;br&gt;  - getOutputGains&lt;br&gt;&lt;br&gt;- Add support for amplifiers connected to output channels&lt;br&gt;- During a sweep the lockin will buffer and save AO and AI waveforms&lt;br&gt;- improved plot naming&lt;br&gt;- code refactoring related to UI elements&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 21 Feb 2021 09:48:58 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.13.2.53</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
