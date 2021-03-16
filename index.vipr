@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=413
-Release.Date=Mon, 15 Mar 2021 18:11:20 -0400
-Self.ID=293565f262f9d8bae3e0e1fa1fa30d97
+Release.Number=414
+Release.Date=Mon, 15 Mar 2021 23:16:26 -0400
+Self.ID=60d769c7c46534eee06392e1b152ea77
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -3038,6 +3038,18 @@ Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.4.
 Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.4.6.spec
 Package.MD5=bbeffa9778ac039f98fa9f75c48573ee
 Package.Release Date=Mon, 15 Mar 2021 18:11:20 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,jki_lib_state_machine>=2018.0.7.45
+Package.Display Name=Graph Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_graph_utilities-2.1.5.7]
+Package.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.vip
+Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.bmp
+Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.spec
+Package.MD5=296f0b8a5907b3b363fdf619d968fc7e
+Package.Release Date=Mon, 15 Mar 2021 23:16:26 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,jki_lib_state_machine>=2018.0.7.45

@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 15 Mar 2021 18:11:20 -0400</pubDate>
+    <pubDate>Mon, 15 Mar 2021 23:16:26 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v2.1.5.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.5.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 15 Mar 2021 23:16:26 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.5]&lt;br&gt;- Add API method &amp;quot;Choose Color Table&amp;quot;&lt;br&gt;- Default Color Table is now Viridis&lt;br&gt;- Change Access scope and name of Create Custom Color Scale&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 15 Mar 2021 23:16:26 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.5.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Graph Utilities v2.1.4.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.4.6.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: &lt;br&gt;
       <pubDate>Wed, 24 Feb 2021 15:04:10 -0500</pubDate>
       <guid isPermaLink="false">igortitov_lib_aes-1.0.0.1</guid>
       <dc:creator>IgorTitov</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.8.3.99</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.3.99.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.8.3.99&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 24 Feb 2021 13:26:14 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt;  - Bug fix Issue #32: Better handling of config files that have multiple sections&lt;br&gt;  - Read method now drops onto block diagram with data to variant included&lt;br&gt;  - New method &amp;quot;Default Path&amp;quot; provides path to User Application Data&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Feb 2021 13:26:14 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.99</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
