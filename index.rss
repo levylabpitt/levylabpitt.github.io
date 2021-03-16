@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 15 Mar 2021 23:16:26 -0400</pubDate>
+    <pubDate>Mon, 15 Mar 2021 23:39:33 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v2.1.6.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.6.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 15 Mar 2021 23:39:32 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.6]&lt;br&gt;- Add Number control to &amp;quot;Choose Color Table&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 15 Mar 2021 23:39:32 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.6.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Graph Utilities v2.1.6.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.6.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 15 Mar 2021 23:37:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.6]&lt;br&gt;- Add Number control to &amp;quot;Choose Color Table&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 15 Mar 2021 23:37:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.6.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Graph Utilities v2.1.5.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt
       <pubDate>Thu, 25 Feb 2021 13:22:19 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.100</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AES v1.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/igortitov_lib_aes/igortitov_lib_aes-1.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AES v1.0.0.2&lt;br&gt;
-Company: IgorTitov&lt;br&gt;
-Release Date: Wed, 24 Feb 2021 15:05:12 -0500&lt;br&gt;
-Packager: IgorTitov&lt;br&gt;
-&lt;br&gt;
-Description: This is a native LabVIEW implementation of AES algorithm. It can run on Windows, Mac and Linux operating systems.&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Feb 2021 15:05:12 -0500</pubDate>
-      <guid isPermaLink="false">igortitov_lib_aes-1.0.0.2</guid>
-      <dc:creator>IgorTitov</dc:creator>
-      <link>https://github.com/IgorTitov/LabVIEW-Advanced-Encryption-Standard</link>
-    </item>
-    <item>
-      <title>AES v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/igortitov_lib_aes/igortitov_lib_aes-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AES v1.0.0.1&lt;br&gt;
-Company: IgorTitov&lt;br&gt;
-Release Date: Wed, 24 Feb 2021 15:04:10 -0500&lt;br&gt;
-Packager: IgorTitov&lt;br&gt;
-&lt;br&gt;
-Description: This is a native LabVIEW implementation of AES algorithm. It can run on Windows, Mac and Linux operating systems.&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Feb 2021 15:04:10 -0500</pubDate>
-      <guid isPermaLink="false">igortitov_lib_aes-1.0.0.1</guid>
-      <dc:creator>IgorTitov</dc:creator>
       
     </item>
   </channel>

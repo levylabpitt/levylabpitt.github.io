@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=414
-Release.Date=Mon, 15 Mar 2021 23:16:26 -0400
-Self.ID=60d769c7c46534eee06392e1b152ea77
+Release.Number=416
+Release.Date=Mon, 15 Mar 2021 23:39:33 -0400
+Self.ID=ffbf4b0be4bec86f3ebaef6cf3422933
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -3050,6 +3050,30 @@ Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.
 Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.spec
 Package.MD5=296f0b8a5907b3b363fdf619d968fc7e
 Package.Release Date=Mon, 15 Mar 2021 23:16:26 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,jki_lib_state_machine>=2018.0.7.45
+Package.Display Name=Graph Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_graph_utilities-2.1.6.8]
+Package.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.8.vip
+Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.8.bmp
+Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.8.spec
+Package.MD5=88adb713618e9ea4366a48d49092cf4d
+Package.Release Date=Mon, 15 Mar 2021 23:37:44 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,jki_lib_state_machine>=2018.0.7.45
+Package.Display Name=Graph Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_graph_utilities-2.1.6.9]
+Package.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.9.vip
+Icon.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.9.bmp
+Spec.URL=packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.9.spec
+Package.MD5=4d700bd69ef5bc4219bfe9c444ab8bee
+Package.Release Date=Mon, 15 Mar 2021 23:39:32 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,jki_lib_state_machine>=2018.0.7.45
