@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 26 Mar 2021 12:59:26 -0400</pubDate>
+    <pubDate>Fri, 26 Mar 2021 16:16:35 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v2.1.7.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.7.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.7.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 26 Mar 2021 16:16:34 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.7]&lt;br&gt;- Fix issue with setting Intensity Graph color table&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Mar 2021 16:16:34 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.7.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.14.0.62</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.0.62.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.1.6]&lt;br&gt;- Add Number control to &amp;quot;Choose Color T
 &lt;br&gt;</description>
       <pubDate>Mon, 15 Mar 2021 23:37:44 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.6.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.5.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.5.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.5.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 15 Mar 2021 23:16:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.5]&lt;br&gt;- Add API method &amp;quot;Choose Color Table&amp;quot;&lt;br&gt;- Default Color Table is now Viridis&lt;br&gt;- Change Access scope and name of Create Custom Color Scale&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 15 Mar 2021 23:16:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.5.7</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
