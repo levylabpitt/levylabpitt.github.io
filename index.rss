@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 25 Mar 2021 13:10:55 -0400</pubDate>
+    <pubDate>Thu, 25 Mar 2021 19:28:50 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.14.0.61</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.0.61.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.14.0.61&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 25 Mar 2021 19:28:50 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.14.0]&lt;br&gt;[beta build]&lt;br&gt;- Updated AO Channels, AI Channels, Reference Channels datatypes: Array of Clusters instead of Cluster of Arrays&lt;br&gt;- Updated Lockin Results datatyp: Dictionary; APIs are provided for parsing the dicrtionary&lt;br&gt;- Each reference channel has independent control of time constant (Maximum of 4 reference channels)\&lt;br&gt;- Individual choice for demodulating each AI Channel (e.g., demodulate each AI with choice of Reference channel, no demodulation, or all demodulation channels)&lt;br&gt;- Reset phase option: align AO and Reference phase without resetting DAQ tasks&lt;br&gt;- UI improvements&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 25 Mar 2021 19:28:50 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.0.61</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.14.0.60</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.0.60.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.1.4]&lt;br&gt;- Change Access scope and name of Create Custom 
 &lt;br&gt;</description>
       <pubDate>Mon, 15 Mar 2021 18:11:20 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.4.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>XY Utilities v1.4.0.17</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.4.0.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.4.0.17&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 12 Mar 2021 15:51:34 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: Note: Some terminals have changed to make more constitent. (e.g. unit selector always on same terminal across methods)&lt;br&gt;&lt;br&gt;New Methods&lt;br&gt;- Peak Detector.vi&lt;br&gt;- Flatten.vi&lt;br&gt;&lt;br&gt;Changes&lt;br&gt;- More consitent treatment of data and points units&lt;br&gt;- Note: Some terminals have changed to make more constitent. (e.g. unit selector always on same terminal across always methods)&lt;br&gt;- Some folder rearrangement&lt;br&gt;&lt;br&gt;Bug Fixes&lt;br&gt;- Data &amp;lt;--&amp;gt; Points conversion&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 12 Mar 2021 15:51:34 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.4.0.17</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
