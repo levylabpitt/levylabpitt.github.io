@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 26 Mar 2021 16:16:35 -0400</pubDate>
+    <pubDate>Tue, 30 Mar 2021 09:51:10 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.14.1.63</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.1.63.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.14.1.63&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 30 Mar 2021 09:51:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.14.1]&lt;br&gt;- Fix issue with outputs not maintaining value at startup&lt;br&gt;- UI changes and improvements&lt;br&gt;&lt;br&gt;[2.14.0]&lt;br&gt;- Updated AO Channels, AI Channels, Reference Channels datatypes: Array of Clusters instead of Cluster of Arrays&lt;br&gt;- Updated Lockin Results datatyp: Dictionary; APIs are provided for parsing the dicrtionary&lt;br&gt;- Each reference channel has independent control of time constant (Maximum of 4 reference channels)\&lt;br&gt;- Individual choice for demodulating each AI Channel (e.g., demodulate each AI with choice of Reference channel, no demodulation, or all demodulation channels)&lt;br&gt;- Reset phase option: align AO and Reference phase without resetting DAQ tasks&lt;br&gt;- UI improvements&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 30 Mar 2021 09:51:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.1.63</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Graph Utilities v2.1.7.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.7.10.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.1.6]&lt;br&gt;- Add Number control to &amp;quot;Choose Color T
 &lt;br&gt;</description>
       <pubDate>Mon, 15 Mar 2021 23:39:32 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.6.9</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.6.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.6.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.6.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 15 Mar 2021 23:37:44 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.6]&lt;br&gt;- Add Number control to &amp;quot;Choose Color Table&amp;quot;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 15 Mar 2021 23:37:44 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.6.8</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
