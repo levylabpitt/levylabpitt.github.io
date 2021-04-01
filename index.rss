@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 31 Mar 2021 15:13:52 -0400</pubDate>
+    <pubDate>Thu, 01 Apr 2021 16:16:16 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.8.3.101</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.3.101.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.8.3.101&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Apr 2021 16:16:15 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt;  - Bug fix Issue #32: Better handling of config files that have multiple sections&lt;br&gt;  - Read method now drops onto block diagram with data to variant included&lt;br&gt;  - New method &amp;quot;Default Path&amp;quot; provides path to User Application Data&lt;br&gt;  - [build 100: remove missing file from configuration.lvclass]&lt;br&gt;  - [build 101: change default configuration location to User Application Data]&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Apr 2021 16:16:15 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.101</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.14.1.64</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.1.64.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.14.0]&lt;br&gt;[beta build]&lt;br&gt;- Updated AO Channels, AI
 &lt;br&gt;</description>
       <pubDate>Tue, 23 Mar 2021 15:04:20 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.0.57</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LVtoITX v3.0.6.14</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.0.6.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LVtoITX v3.0.6.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 16 Mar 2021 00:02:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), and TDMS&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.0.6]&lt;br&gt;- update to latest graph_utilities (v2.0.6) with new Color Table features&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 16 Mar 2021 00:02:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.0.6.14</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
