@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 01 Apr 2021 22:39:17 -0400</pubDate>
+    <pubDate>Fri, 02 Apr 2021 10:32:25 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.8.3.102</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.3.102.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.8.3.102&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 02 Apr 2021 10:32:24 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt;  - Bug fix Issue #32: Better handling of config files that have multiple sections&lt;br&gt;  - Read method now drops onto block diagram with data to variant included&lt;br&gt;  - New method &amp;quot;Default Path&amp;quot; provides path to User Application Data&lt;br&gt;  - [build 100: remove missing file from configuration.lvclass]&lt;br&gt;  - [build 101: change default configuration location to User Application Data]&lt;br&gt;  - [build 102: fix issue with retention of class data from Handle Command.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 02 Apr 2021 10:32:24 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.102</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Cryostation v1.1.6.14</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.6.14.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.14.0]&lt;br&gt;[beta build]&lt;br&gt;- Updated AO Channels, AI
 &lt;br&gt;</description>
       <pubDate>Thu, 25 Mar 2021 10:44:34 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.0.59</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.14.0.58</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.0.58.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.14.0.58&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 23 Mar 2021 17:49:09 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.14.0]&lt;br&gt;[beta build]&lt;br&gt;- Updated AO Channels, AI Channels, Reference Channels datatypes: Array of Clusters instead of Cluster of Arrays&lt;br&gt;- Updated Lockin Results datatyp: Dictionary; APIs are provided for parsing the dicrtionary&lt;br&gt;- Each reference channel has independent control of time constant (Maximum of 4 reference channels)\&lt;br&gt;- Individual choice for demodulating each AI Channel (e.g., demodulate each AI with choice of Reference channel, no demodulation, or all demodulation channels)&lt;br&gt;- Reset phase option: align AO and Reference phase without resetting DAQ tasks&lt;br&gt;- UI improvements&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 23 Mar 2021 17:49:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.0.58</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
