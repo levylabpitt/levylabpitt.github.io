@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=431
-Release.Date=Fri, 09 Apr 2021 12:35:53 -0400
-Self.ID=474f569fb717e4049cb852e6a105a314
+Release.Number=435
+Release.Date=Wed, 28 Apr 2021 17:02:32 -0400
+Self.ID=5221cf24f7cd4630d8c528cd9fb9f1b9
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -3258,4 +3258,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_postgresql>=0.1.1.10,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.6.9,levylab_lib_lvtoitx>=3.0.6.14,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_error_handling>=1.1.1.3,mgi_lib_numeric>=1.1.0.2,ni_cloud_toolkit_for_aws>=1.1.0.1,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
 Package.Display Name=postgreSQL/timescaleDB/S3
+Platform.Exclusive_VIPM_Version=2017
+
+[Package jdp_science_postgresql-0.3.3.19]
+Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.3.19.vip
+Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.3.19.bmp
+Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.3.19.spec
+Package.MD5=195262e73c4ebf73182a148e34085576
+Package.Release Date=Wed, 28 Apr 2021 17:01:48 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=Windows NT,Linux
+Package.Display Name=PostgreSQL Library
 Platform.Exclusive_VIPM_Version=2017
