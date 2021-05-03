@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=435
-Release.Date=Wed, 28 Apr 2021 17:02:32 -0400
-Self.ID=5221cf24f7cd4630d8c528cd9fb9f1b9
+Release.Number=436
+Release.Date=Mon, 03 May 2021 13:02:56 -0400
+Self.ID=2d918009f4bb79c21fb676a62a045bea
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -3266,6 +3266,17 @@ Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.3.19.bmp
 Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.3.19.spec
 Package.MD5=195262e73c4ebf73182a148e34085576
 Package.Release Date=Wed, 28 Apr 2021 17:01:48 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=Windows NT,Linux
+Package.Display Name=PostgreSQL Library
+Platform.Exclusive_VIPM_Version=2017
+
+[Package jdp_science_postgresql-0.3.4.20]
+Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.4.20.vip
+Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.4.20.bmp
+Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.4.20.spec
+Package.MD5=015e7138c0610cb005249c12c75a1735
+Package.Release Date=Mon, 03 May 2021 13:02:55 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=Windows NT,Linux
 Package.Display Name=PostgreSQL Library
