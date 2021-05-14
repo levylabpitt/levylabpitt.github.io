@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 14 May 2021 13:10:31 -0400</pubDate>
+    <pubDate>Fri, 14 May 2021 15:20:13 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN TC v21.5.14.22</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-21.5.14.22.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN TC v21.5.14.22&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 14 May 2021 15:20:13 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden MNK Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.MNK_TC.lvclass]&lt;br&gt;- API that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [21.5.14]&lt;br&gt;- change name to instrument.TC.xx&lt;br&gt;- add TC.CF&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 14 May 2021 15:20:13 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_mnk-21.5.14.22</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford VRM API v21.5.14.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.5.14.3.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt
       <pubDate>Fri, 02 Apr 2021 10:32:24 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.102</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.1.6.14</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.6.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.1.6.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 01 Apr 2021 22:39:17 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the DSC. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.6]&lt;br&gt;- Update to Instrument v1.8.3&lt;br&gt;- fix UI issues&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Apr 2021 22:39:17 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.6.14</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
