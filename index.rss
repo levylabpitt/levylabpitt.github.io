@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 13 May 2021 07:26:49 -0400</pubDate>
+    <pubDate>Fri, 14 May 2021 13:10:31 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford VRM API v21.5.14.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.5.14.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford VRM API v21.5.14.3&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 14 May 2021 13:10:31 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - bug fixes in Get Magnet Field&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 14 May 2021 13:10:31 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-21.5.14.3</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-VRM v21.5.12.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.5.12.2.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.1.6]&lt;br&gt;- Update to Instrument v1.8.3&lt;br&gt;- fix UI 
       <pubDate>Thu, 01 Apr 2021 22:39:17 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.6.14</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.8.3.101</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.3.101.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.8.3.101&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 01 Apr 2021 16:16:15 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt;  - Bug fix Issue #32: Better handling of config files that have multiple sections&lt;br&gt;  - Read method now drops onto block diagram with data to variant included&lt;br&gt;  - New method &amp;quot;Default Path&amp;quot; provides path to User Application Data&lt;br&gt;  - [build 100: remove missing file from configuration.lvclass]&lt;br&gt;  - [build 101: change default configuration location to User Application Data]&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Apr 2021 16:16:15 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.101</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
