@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 21 May 2021 10:28:17 -0400</pubDate>
+    <pubDate>Fri, 21 May 2021 10:49:48 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Razorbill RP100 v21.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.1.bmp"&gt;&lt;br&gt;
+      <title>Razorbill RP100 v21.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.2.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Razorbill RP100 v21.0.0.1&lt;br&gt;
+Product: Razorbill RP100 v21.0.0.2&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Fri, 21 May 2021 10:28:17 -0400&lt;br&gt;
+Release Date: Fri, 21 May 2021 10:49:40 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
 &lt;br&gt;
 Release Notes: [21.0.0.1]&lt;br&gt;- adds SMO-based monitor and control process&lt;br&gt;- logs each channel&#39;s output state, level, slew, voltage, and current to the PGSQL database&lt;br&gt;APIs:&lt;br&gt;- Set Strain automatically sets V1 = -V2&lt;br&gt;- Set Level sets the level of a single, selectable output channel&lt;br&gt;- Get Strain returns the level for channel 1&lt;br&gt;- Get Level returns the level from the selected single channel&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Fri, 21 May 2021 10:28:17 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.0.0.1</guid>
+      <pubDate>Fri, 21 May 2021 10:49:40 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.0.0.2</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

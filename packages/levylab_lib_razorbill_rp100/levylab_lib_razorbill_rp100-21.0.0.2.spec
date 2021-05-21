@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_razorbill_rp100"
-Version="21.0.0.1"
+Version="21.0.0.2"
 Release=""
-ID=e5803c3a0e479bbcc00458b332a88937
+ID=ee688880c3ab55b7341341efeed8c941
 File Format="vip"
 Format Version="2017"
 Display Name="Razorbill RP100"
@@ -107,9 +107,8 @@ File 33="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Set Strain.vi"
 [File Group 1]
 Target Dir="<menus>/Categories/Levylab"
 Replace Mode="Always"
-Num Files=2
-File 0="_functions_levylab_lib_razorbill_rp100_1.mnu"
-File 1="functions_Levylab_lib_Razorbill_RP100.mnu"
+Num Files=1
+File 0="functions_Levylab_lib_Razorbill_RP100.mnu"
 
 
 [File Group 2]

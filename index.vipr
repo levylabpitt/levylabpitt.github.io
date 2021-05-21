@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=444
-Release.Date=Fri, 21 May 2021 10:28:17 -0400
-Self.ID=1093728cc07089995b478490854eb57d
+Release.Number=446
+Release.Date=Fri, 21 May 2021 10:49:48 -0400
+Self.ID=19625e5c54412b22dd7c4407e8222d33
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_fileutilities-1.2.3.9]
@@ -613,18 +613,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.3.0.56,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=4.2.0.21,oglib_numeric>=4.1.0.8,oglib_string>=4.1.0.12,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
 Package.Display Name=Instruments
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_razorbill_rp100-1.2.0.4]
-Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.0.4.vip
-Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.0.4.bmp
-Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.0.4.spec
-Package.MD5=100aefe7b19621f59e5db3776ef5ff28
-Package.Release Date=Tue, 07 Jan 2020 12:54:02 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=1.3.0.56,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.4.1.52
-Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_ah2500a-1.1.0.3]
@@ -2734,18 +2722,6 @@ Dependencies.Requires=jdp_science_postgresql>=0.1.1.10,jki_lib_json_serializatio
 Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_razorbill_rp100-1.2.1.5]
-Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.1.5.vip
-Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.1.5.bmp
-Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.2.1.5.spec
-Package.MD5=c3d24a6358d9a33dee544e88bffcca8f
-Package.Release Date=Tue, 02 Feb 2021 18:20:29 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=1.3.0.56,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.8.1.97
-Package.Display Name=Razorbill RP100
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_cryostation_instrument-1.1.6.13]
 Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.6.13.vip
 Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.1.6.13.bmp
@@ -3340,12 +3316,12 @@ Dependencies.Requires=jdp_science_postgresql>=0.3.4.22,jki_lib_json_serializatio
 Package.Display Name=LEIDEN TC
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_razorbill_rp100-21.0.0.1]
-Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.1.vip
-Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.1.bmp
-Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.1.spec
-Package.MD5=f114d12fc948e8b30ef94eb7a0220a77
-Package.Release Date=Fri, 21 May 2021 10:28:17 -0400
+[Package levylab_lib_razorbill_rp100-21.0.0.2]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.2.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.2.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.2.spec
+Package.MD5=bef80865a481b73c8a36dcb264d20a29
+Package.Release Date=Fri, 21 May 2021 10:49:40 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_statemachineobjects>=1.3.0.56,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.8.1.97
