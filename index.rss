@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 14 May 2021 15:20:13 -0400</pubDate>
+    <pubDate>Fri, 21 May 2021 10:28:17 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v21.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v21.0.0.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 21 May 2021 10:28:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: [21.0.0.1]&lt;br&gt;- adds SMO-based monitor and control process&lt;br&gt;- logs each channel&#39;s output state, level, slew, voltage, and current to the PGSQL database&lt;br&gt;APIs:&lt;br&gt;- Set Strain automatically sets V1 = -V2&lt;br&gt;- Set Level sets the level of a single, selectable output channel&lt;br&gt;- Get Strain returns the level for channel 1&lt;br&gt;- Get Level returns the level from the selected single channel&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 21 May 2021 10:28:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.0.0.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>LEIDEN TC v21.5.14.22</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-21.5.14.22.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.1.7]&lt;br&gt;- Update to Instrument v1.8.3.102&lt;br&gt;
       <pubDate>Fri, 02 Apr 2021 11:09:21 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.1.7.15</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.8.3.102</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.8.3.102.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.8.3.102&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 02 Apr 2021 10:32:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either National Instruments&#39; Simple Messaging Library (STM) or cross-platform protocol 0MQ)&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and JKI State Machine Objects.z&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.3]&lt;br&gt;- Improvments to Configuration.lvclass:&lt;br&gt;  - Bug fix Issue #32: Better handling of config files that have multiple sections&lt;br&gt;  - Read method now drops onto block diagram with data to variant included&lt;br&gt;  - New method &amp;quot;Default Path&amp;quot; provides path to User Application Data&lt;br&gt;  - [build 100: remove missing file from configuration.lvclass]&lt;br&gt;  - [build 101: change default configuration location to User Application Data]&lt;br&gt;  - [build 102: fix issue with retention of class data from Handle Command.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 02 Apr 2021 10:32:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.8.3.102</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
