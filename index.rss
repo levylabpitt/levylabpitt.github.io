@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 21 May 2021 13:19:40 -0400</pubDate>
+    <pubDate>Thu, 03 Jun 2021 21:26:55 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.4.5.22</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.5.22.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.4.5.22&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 03 Jun 2021 21:26:55 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.5]&lt;br&gt;- Hotfix for latest lockin version&lt;br&gt;- updated dependencies&lt;br&gt;- includes some changes from MNK&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 03 Jun 2021 21:26:55 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.4.5.22</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v21.0.1.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.0.1.3.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: 0.3.3:&lt;br&gt;- back save to LabVIEW 2016&lt;br&gt;- add suppor
       <guid isPermaLink="false">jdp_science_postgresql-0.3.3.19</guid>
       <dc:creator>JDP Science</dc:creator>
       <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
-    </item>
-    <item>
-      <title>postgreSQL/timescaleDB/S3 v1.4.0.22</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_postgresql/levylab_lib_postgresql-1.4.0.22.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: postgreSQL/timescaleDB/S3 v1.4.0.22&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 09 Apr 2021 12:35:53 -0400&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Phil Shenk&lt;br&gt;
-&lt;br&gt;
-Description: VIs for interacting with postgreSQL /TimescaleDB/S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Change AWS configuration:&lt;br&gt;  - &amp;quot;Read Credentials file.vi&amp;quot; is now &amp;quot;Read AWS Credentials File.vi&amp;quot;&lt;br&gt;  - User does not provide path to credentials file; library manages the file location; the user only provides necessary keys if the file is missing.&lt;br&gt;- Minor changes to Administer Tables UI.vi (preparing for new features in next release)&lt;br&gt;- Updated package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 09 Apr 2021 12:35:53 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_postgresql-1.4.0.22</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
