@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 03 Jun 2021 21:26:55 -0400</pubDate>
+    <pubDate>Thu, 26 Aug 2021 17:12:43 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Data Analaysis Template v1.0.4.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.4.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Data Analaysis Template v1.0.4.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 26 Aug 2021 17:12:43 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Template for building data analysis programs&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.4]&lt;br&gt;- Update dependencies (Graph Utilities v2.1.7, XY Utilities v1.4.0)&lt;br&gt;- Fix data read example subVI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 26 Aug 2021 17:12:43 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.4.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.4.5.22</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.5.22.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: 0.3.4:&lt;br&gt;- fix issues with PGPASS credentials UI&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 03 May 2021 13:02:55 -0400</pubDate>
       <guid isPermaLink="false">jdp_science_postgresql-0.3.4.20</guid>
-      <dc:creator>JDP Science</dc:creator>
-      <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
-    </item>
-    <item>
-      <title>PostgreSQL Library v0.3.3.19</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.3.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PostgreSQL Library v0.3.3.19&lt;br&gt;
-Company: JDP Science&lt;br&gt;
-Release Date: Wed, 28 Apr 2021 17:01:48 -0400&lt;br&gt;
-Packager: JDP Science&lt;br&gt;
-&lt;br&gt;
-Description: Wrapping of libPQ for PostgreSQL access.  Higher-level than libPQ itself.  See Examples.&lt;br&gt;&lt;br&gt;Follow this tutorial to install LibPQ on an NI Linux RT target :&lt;br&gt;https://forums.ni.com/t5/NI-Linux-Real-Time-Documents/Tutorial-PostgreSQL-with-LabVIEW/tac-p/4111331&lt;br&gt;
-&lt;br&gt;
-Release Notes: 0.3.3:&lt;br&gt;- back save to LabVIEW 2016&lt;br&gt;- add support for pgpass credentials files (Issue #4)&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;&lt;br&gt;Thanks to contributor Patrick Irvin (@ciozi137).&lt;br&gt;&lt;br&gt;New in 0.2.2 :&lt;br&gt;- switch to LabVIEW 2017&lt;br&gt;- resolved issue #1 : add support for NI Linux RT Targets&lt;br&gt;- resolved issue #2 : add support for boolean parameter when executing single  command with parameters&lt;br&gt;- resolved issue #3 : improved parameter detection&lt;br&gt;&lt;br&gt;Thanks to contributor Antoine Chalons (@antoinechalons) for their work on this release.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 28 Apr 2021 17:01:48 -0400</pubDate>
-      <guid isPermaLink="false">jdp_science_postgresql-0.3.3.19</guid>
       <dc:creator>JDP Science</dc:creator>
       <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
     </item>
