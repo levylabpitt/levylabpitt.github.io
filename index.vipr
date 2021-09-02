@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=471
-Release.Date=Wed, 01 Sep 2021 17:31:15 -0400
-Self.ID=17e51a129979e4331afde02de263cfe9
+Release.Number=473
+Release.Date=Thu, 02 Sep 2021 09:31:38 -0400
+Self.ID=4db7f8f6a9f26d13140681efaa5ff027
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1358,12 +1358,12 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45
 Package.Display Name=JKI State Machine Objects (SMO)
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_levylab_instruments-1.9.0.14]
-Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.0.14.vip
-Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.0.14.bmp
-Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.0.14.spec
-Package.MD5=e779818d108ee60bede223092dab6278
-Package.Release Date=Wed, 01 Sep 2021 17:27:42 -0400
+[Package levylab_lib_levylab_instruments-1.9.0.15]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.0.15.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.0.15.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.0.15.spec
+Package.MD5=0647d397441391584bdb22d8827f27e4
+Package.Release Date=Thu, 02 Sep 2021 09:31:31 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.6.5.105,jdp_science_lib_common_utilities>=1.3.0.14,jdp_science_postgresql>=0.3.4.22,jki_lib_caraya>=1.2.1.131,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_lvtoitx>=3.0.6.14,levylab_lib_postgresql>=1.4.0.22,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
