@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_ppms_instrument"
-Version="1.8.0.46"
+Version="1.8.0.49"
 Release=""
-ID=51f795416d0d0495eb043f4561cc76e2
+ID=0bdaf3335c5cf9ff6e15f75670caa660
 File Format="vip"
 Format Version="2017"
 Display Name="PPMS Monitor and Control"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL="https://github.com/levylabpitt/PPMS-Monitor-and-Control"
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[1.8.0]\0A- Update to LV 2019\0D\0A- Update to Instrument Framework v1.9.0\0A- Change class structure\0A- Control chamber; Display and log chamber status"
+Release Notes="[1.8.0]\0A- Update to LV 2019\0A- Update to Instrument Framework v1.9.0.18\0A- Change class structure\0A- Control chamber; Display and log chamber status"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
@@ -66,7 +66,7 @@ Namespaces=""
 [File Group 0]
 Target Dir="<application>"
 Replace Mode="Always"
-Num Files=114
+Num Files=113
 File 0="user.lib/LevyLab/PPMS Instrument/PPMS Monitor and Control.vi"
 File 1="user.lib/LevyLab/PPMS Instrument/PPMS_inst.lvproj"
 File 2="user.lib/LevyLab/PPMS Instrument/instrument.PPMS3/Get SMO Name.vi"
@@ -180,7 +180,6 @@ File 109="user.lib/LevyLab/PPMS Instrument/drivers/QDInstrument_LabView/CAN/CAN_
 File 110="user.lib/LevyLab/PPMS Instrument/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U16.vi"
 File 111="user.lib/LevyLab/PPMS Instrument/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U32.vi"
 File 112="user.lib/LevyLab/PPMS Instrument/drivers/QDInstrument_LabView/CAN/CAN_QDInstrument.llb/ReadSDO_U8.vi"
-File 113="user.lib/LevyLab/_PPMS Instrument_internal_deps/QDInstrument.dll"
 
 
 [File Group 1]
