@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 08 Sep 2021 11:11:45 -0400</pubDate>
+    <pubDate>Wed, 08 Sep 2021 12:59:15 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.9.1.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.1.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.9.1.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Sep 2021 12:59:15 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and State Machine Objects.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.1]&lt;br&gt;&lt;br&gt;Bug Fixes:&lt;br&gt;[53]: Fix behavior of RC process: if it does not receive a timely reply from its owner it will resend the message&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Sep 2021 12:59:15 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.9.1.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.0.49</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.0.49.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [21.5.14]&lt;br&gt;- change name to instrument.TC.xx&lt;br&gt;- a
       <pubDate>Fri, 14 May 2021 15:20:13 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_leiden_mnk-21.5.14.22</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford VRM API v21.5.14.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.5.14.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford VRM API v21.5.14.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 14 May 2021 13:10:31 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - bug fixes in Get Magnet Field&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 14 May 2021 13:10:31 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-21.5.14.3</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
