@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 09 Sep 2021 10:26:09 -0400</pubDate>
+    <pubDate>Thu, 09 Sep 2021 13:52:04 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v21.1.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.1.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v21.1.0.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 09 Sep 2021 13:51:58 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: [21.1.0]&lt;br&gt;- Updated to LV2019 and IF 1.9.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 09 Sep 2021 13:51:58 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.1.0.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Cryostation v1.2.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.4]&lt;br&gt;- Update dependencies (Graph Utilities v2.1.7, X
 &lt;br&gt;</description>
       <pubDate>Thu, 26 Aug 2021 17:12:43 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.4.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.4.5.22</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.5.22.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.4.5.22&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 03 Jun 2021 21:26:55 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.5]&lt;br&gt;- Hotfix for latest lockin version&lt;br&gt;- updated dependencies&lt;br&gt;- includes some changes from MNK&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 03 Jun 2021 21:26:55 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.4.5.22</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

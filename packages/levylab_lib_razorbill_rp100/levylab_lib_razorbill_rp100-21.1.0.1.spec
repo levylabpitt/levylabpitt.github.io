@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_razorbill_rp100"
-Version="21.0.1.3"
+Version="21.1.0.1"
 Release=""
-ID=503eb6507c3ca02d68bc9ff587802348
+ID=355e5db2c12f57d0912b313789acd258
 File Format="vip"
 Format Version="2017"
 Display Name="Razorbill RP100"
@@ -18,7 +18,7 @@ Vendor="Levylab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[21.0.1]\0A- Issue #4: Dialog when closing\0A- Issue #8: Update Icon\0A- Issue #9: Change Launcher startup behavior"
+Release Notes="[21.1.0]\0A- Updated to LV2019 and IF 1.9.1"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="FALSE"
@@ -28,11 +28,10 @@ License Agreement="FALSE"
 close labview before install="FALSE"
 restart labview after install="FALSE"
 skip mass compile after install="FALSE"
-install into global environment="FALSE"
 
 
 [Platform]
-Exclusive_LabVIEW_Version="LabVIEW>=16.0"
+Exclusive_LabVIEW_Version="LabVIEW>=19.0"
 Exclusive_LabVIEW_System="ALL"
 Exclusive_OS="ALL"
 
@@ -49,7 +48,7 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires="jki_statemachineobjects>=1.3.0.56,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.8.1.97"
+Requires="jki_statemachineobjects>=1.4.0.63,oglib_time>=4.0.1.3,levylab_lib_levylab_instruments>=1.9.1.1"
 Conflicts=""
 
 
@@ -67,7 +66,7 @@ Namespaces=""
 [File Group 0]
 Target Dir="<application>"
 Replace Mode="Always"
-Num Files=34
+Num Files=33
 File 0="user.lib/Levylab/Razorbill RP100/razorbill.lvproj"
 File 1="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Process.vi"
 File 2="user.lib/Levylab/Razorbill RP100/SMOs/RP100/RP100.lvclass"
@@ -96,12 +95,11 @@ File 24="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/RP100.RST.vi"
 File 25="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/RP100.Set Level.vi"
 File 26="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/RP100.Set Output State.vi"
 File 27="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/RP100.Set Slew.vi"
-File 28="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/subVIs/RP100.Channel Enum to String.vi"
-File 29="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/subVIs/RP100.VISA RW.vi"
-File 30="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Get Level.vi"
-File 31="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Get Strain.vi"
-File 32="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Set Level.vi"
-File 33="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Set Strain.vi"
+File 28="user.lib/Levylab/Razorbill RP100/SMOs/RP100/Drivers/subVIs/RP100.VISA RW.vi"
+File 29="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Get Level.vi"
+File 30="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Get Strain.vi"
+File 31="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Set Level.vi"
+File 32="user.lib/Levylab/Razorbill RP100/SMOs/RP100/API/Set Strain.vi"
 
 
 [File Group 1]
