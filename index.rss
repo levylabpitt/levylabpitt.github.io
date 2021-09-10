@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 10 Sep 2021 13:35:39 -0400</pubDate>
+    <pubDate>Fri, 10 Sep 2021 13:53:16 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.9.2.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.2.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.9.2.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 10 Sep 2021 13:53:16 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and State Machine Objects.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.2]&lt;br&gt;- Update to LV-Data v3.1.0&lt;br&gt;- Updated unit tests&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Sep 2021 13:53:16 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.9.2.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>ZeroMQ Socket Library v3.6.1.111</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.6.1.111.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: New release requires LV2019 and Instrument Framework v1.9&lt;br&g
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.0.18</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>JKI State Machine Objects (SMO) v1.4.0.63</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jki_statemachineobjects/jki_statemachineobjects-1.4.0.63.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JKI State Machine Objects (SMO) v1.4.0.63&lt;br&gt;
-Company: JKI&lt;br&gt;
-Release Date: Wed, 01 Sep 2021 17:27:37 -0400&lt;br&gt;
-Packager: JKI&lt;br&gt;
-&lt;br&gt;
-Description: The JKI State Machine Objects (SMO) for LabVIEW is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW experts.&lt;br&gt;&lt;br&gt;&amp;lt;b&amp;gt;Get the Source Code:&amp;lt;/b&amp;gt;&lt;br&gt;All the source code is available on our GitHub repository (https://github.com/JKISoftware/JKI-State-Machine-Objects) where you can download the framework and make your own changes. You can also download the built package.&lt;br&gt;&lt;br&gt;&amp;lt;b&amp;gt;Discuss by Asking Questions &amp;amp; Presenting Your Ideas:&amp;lt;/b&amp;gt;&lt;br&gt;The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-machine-objects) is a great place to have discussions about your ideas and feedback.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [Feature: 18] Unique names are now tied to composition tree hierarchy&lt;br&gt;[Fix: 24] Destroy method now tries to Stop SMO gracefully before Abort&lt;br&gt;[Fix: 44] List Dependencies is now more efficient&lt;br&gt;[Fix: 49] Attributes efficiency has been increased by using native variant attributes for searching&lt;br&gt;[Feature: 50] Attributes now have names and scope requirements.&lt;br&gt;[Fix: 56] State change event is now always destroyed on SMO termination (fixed a memory leak)&lt;br&gt;[Fix: 59] Static dependencies process now starts after owner creates registration mailbox&lt;br&gt;[Fix: 63] Owner Attribute memory leak on object destruction is now fixed&lt;br&gt;[Fix:64] Dependencies are now being stopped even if the owner&#39;s stop sequence introduced an upstream error&lt;br&gt;[Fix: 65] Add Dependency now is a no-op if there is an upstream error.&lt;br&gt;[Fix: 66] Speed improvements for shared key computations&lt;br&gt;[Fix: 70] SMO reference is now fed back to the shift register in the SMO process&lt;br&gt;[Fix: 71] Fixed the issue with facade method not handling input clusters correctly&lt;br&gt;[Feature: 74] Addition of an inheritable &amp;quot;Error Handling Behavior&amp;quot; attribute to manage the way the SMO reacts on an unhandled error.&lt;br&gt;[Fix: 75] Find Dependency by Key now will return false when no dependencies in the list.&lt;br&gt;[Fix: 76] LaunchDependency now has required input for &amp;quot;SMO in&amp;quot;&lt;br&gt;&lt;br&gt;&lt;br&gt;Contributors&lt;br&gt;Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:&lt;br&gt;&lt;br&gt;Joseph Albro (@Monkeymerlot)&lt;br&gt;Eric Graham (@gcodetechnology)&lt;br&gt;Patrick Irvin (@ciozi137)&lt;br&gt;Jim Kring (@jimkring)&lt;br&gt;Nathan Murphy (@nathan-murphy)&lt;br&gt;Francois Normandin (@francois-normandin)&lt;br&gt;Ricardo Guilherme Schmidt (@3esmit)&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 01 Sep 2021 17:27:37 -0400</pubDate>
-      <guid isPermaLink="false">jki_statemachineobjects-1.4.0.63</guid>
-      <dc:creator>JKI</dc:creator>
-      <link>https://github.com/JKISoftware/JKI-State-Machine-Objects</link>
     </item>
   </channel>
 </rss>
