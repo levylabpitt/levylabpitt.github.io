@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 09 Sep 2021 13:52:04 -0400</pubDate>
+    <pubDate>Fri, 10 Sep 2021 13:35:39 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ZeroMQ Socket Library v3.6.1.111</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.6.1.111.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: ZeroMQ Socket Library v3.6.1.111&lt;br&gt;
+Company: Martijn Jasperse&lt;br&gt;
+Release Date: Fri, 10 Sep 2021 13:35:38 -0400&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Now includes libzmq-4.3.2 with libsodium for CURVE support&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Sep 2021 13:35:38 -0400</pubDate>
+      <guid isPermaLink="false">labview-zmq-3.6.1.111</guid>
+      <dc:creator>Martijn Jasperse</dc:creator>
+      <link>http://labview-zmq.sf.net</link>
+    </item>
     <item>
       <title>Razorbill RP100 v21.1.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.1.0.1.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [Feature: 18] Unique names are now tied to composition tree hiera
       <guid isPermaLink="false">jki_statemachineobjects-1.4.0.63</guid>
       <dc:creator>JKI</dc:creator>
       <link>https://github.com/JKISoftware/JKI-State-Machine-Objects</link>
-    </item>
-    <item>
-      <title>Data Analaysis Template v1.0.4.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.4.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Data Analaysis Template v1.0.4.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 26 Aug 2021 17:12:43 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Template for building data analysis programs&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.4]&lt;br&gt;- Update dependencies (Graph Utilities v2.1.7, XY Utilities v1.4.0)&lt;br&gt;- Fix data read example subVI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 26 Aug 2021 17:12:43 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.4.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
