@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_razorbill_rp100"
-Version="21.1.0.1"
+Version="21.2.0.1"
 Release=""
-ID=355e5db2c12f57d0912b313789acd258
+ID=59cfc7bee35f0472a89f4ca8ad97e1e6
 File Format="vip"
 Format Version="2017"
 Display Name="Razorbill RP100"
@@ -18,7 +18,7 @@ Vendor="Levylab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[21.1.0]\0A- Updated to LV2019 and IF 1.9.1"
+Release Notes="[21.2.0]\0A- Updated to LV2019 and IF 1.9.2, LV-Data 3.1"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="FALSE"
