@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 13 Sep 2021 14:01:54 -0400</pubDate>
+    <pubDate>Mon, 13 Sep 2021 16:17:14 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.14.3.67</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.3.67.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.14.3.67&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 13 Sep 2021 16:17:14 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.14.3]&lt;br&gt;- Instrument Framework v1.9.2&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 13 Sep 2021 16:17:14 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.3.67</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Cryostation v1.2.1.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.1.2.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.14.2]&lt;br&gt;- LV2019, Instrument Framework v1.19, SMO v1.4&
 &lt;br&gt;</description>
       <pubDate>Wed, 08 Sep 2021 16:54:05 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.2.67</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Framework v1.9.1.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.9.1.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.9.1.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 08 Sep 2021 12:59:15 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The LevyLab Instrument Framework makes extensive use of JKI State Machines and State Machine Objects.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.9.1]&lt;br&gt;&lt;br&gt;Bug Fixes:&lt;br&gt;[53]: Fix behavior of RC process: if it does not receive a timely reply from its owner it will resend the message&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 08 Sep 2021 12:59:15 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.9.1.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
