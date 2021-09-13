@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_ppms_instrument"
-Version="1.8.0.49"
+Version="1.8.1.50"
 Release=""
-ID=0bdaf3335c5cf9ff6e15f75670caa660
+ID=314c6d70d4810316016dc763b4cf5bc7
 File Format="vip"
 Format Version="2017"
 Display Name="PPMS Monitor and Control"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL="https://github.com/levylabpitt/PPMS-Monitor-and-Control"
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[1.8.0]\0A- Update to LV 2019\0A- Update to Instrument Framework v1.9.0.18\0A- Change class structure\0A- Control chamber; Display and log chamber status"
+Release Notes="[1.8.1]\0A- Update to Instrument Framework v1.9.2"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
@@ -48,7 +48,7 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires="jdp_science_postgresql>=0.3.4.22,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,labview-zmq>=3.5.1.109,lava_lib_ui_tools>=1.4.1.74,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_lvtoitx>=3.0.6.14,levylab_lib_postgresql>=1.4.0.22,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,levylab_lib_levylab_instruments>=1.9.0.6"
+Requires="jdp_science_jsontext>=1.6.5.105,jdp_science_lib_common_utilities>=1.3.0.14,jdp_science_postgresql>=0.3.4.22,jki_lib_caraya>=1.2.1.131,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,labview-zmq>=3.6.1.111,labview_open_source_lib_epoch_datetime>=1.0.0.2,lava_lib_ui_tools>=1.4.1.74,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_lvtoitx>=3.1.0.1,levylab_lib_xy_utilities>=1.4.0.17,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,levylab_lib_levylab_instruments>=1.9.2.1"
 Conflicts=""
 
 
