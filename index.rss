@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 16 Sep 2021 09:23:52 -0400</pubDate>
+    <pubDate>Thu, 16 Sep 2021 13:50:17 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.4.6.23</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.6.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.4.6.23&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 16 Sep 2021 13:50:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.6]&lt;br&gt;- Update to LV2019, Instrument Framework v1.9.3, LV-Data package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 16 Sep 2021 13:50:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.4.6.23</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Data Analaysis Template v1.0.5.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.5.6.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.9.2]&lt;br&gt;- Update to LV-Data v3.1.0&lt;br&gt;- Updated un
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.9.2.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>ZeroMQ Socket Library v3.6.1.111</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.6.1.111.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: ZeroMQ Socket Library v3.6.1.111&lt;br&gt;
-Company: Martijn Jasperse&lt;br&gt;
-Release Date: Fri, 10 Sep 2021 13:35:38 -0400&lt;br&gt;
-Packager: Martijn Jasperse&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: Now includes libzmq-4.3.2 with libsodium for CURVE support&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Sep 2021 13:35:38 -0400</pubDate>
-      <guid isPermaLink="false">labview-zmq-3.6.1.111</guid>
-      <dc:creator>Martijn Jasperse</dc:creator>
-      <link>http://labview-zmq.sf.net</link>
     </item>
   </channel>
 </rss>
