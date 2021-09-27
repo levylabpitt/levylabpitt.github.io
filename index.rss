@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 27 Sep 2021 10:53:43 -0400</pubDate>
+    <pubDate>Mon, 27 Sep 2021 11:13:35 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SMO.UI.MAUI v1.1.1.30</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_maui/levylab_lib_maui-1.1.1.30.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: SMO.UI.MAUI v1.1.1.30&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 27 Sep 2021 11:13:30 -0400&lt;br&gt;
+Packager: Joe Albro&lt;br&gt;
+&lt;br&gt;
+Description: Working Engine for MAUI (Modular Albro UI) Framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Backsave to LV2019&lt;br&gt;- Reorganize files on disk&lt;br&gt;- Include MAUI Template&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 27 Sep 2021 11:13:30 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_maui-1.1.1.30</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/Embedded-Main-SMO</link>
+    </item>
     <item>
       <title>SMO.UI.Embedded v1.0.2.15</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.2.15.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Requires LV2019&lt;br&gt;- Update to Instrument Framework 1.9.2
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Sep 2021 12:40:26 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-21.6.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v21.2.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.2.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v21.2.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 10 Sep 2021 14:53:15 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [21.2.0]&lt;br&gt;- Updated to LV2019 and IF 1.9.2, LV-Data 3.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Sep 2021 14:53:15 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.2.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

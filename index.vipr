@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=517
-Release.Date=Mon, 27 Sep 2021 10:53:43 -0400
-Self.ID=288ff541f9c5f3e568adb2a0718dc3c9
+Release.Number=519
+Release.Date=Mon, 27 Sep 2021 11:13:35 -0400
+Self.ID=2497b23c050caef7ff42f98d8a1ea266
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -413,18 +413,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_xy_utilities>=1.0.4.5
 Package.Display Name=Graph Utilities
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_maui-1.0.0.22]
-Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.0.0.22.vip
-Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.0.0.22.bmp
-Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.0.0.22.spec
-Package.MD5=da66d5df913d33d2c2e5f3c5cee30105
-Package.Release Date=Thu, 14 May 2020 10:25:28 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=1.3.0.56,levylab_lib_embedded_smo_ui>=1.0.0.12,levylab_lib_smo_embeddedui>=1.0.0.10
-Package.Display Name=SMO.UI.MAUI
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_general_afm_lithography-8.4.1.3]
@@ -1225,4 +1213,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_statemachineobjects>=1.4.0.63,jki_smo_templates>=1.4.0.15
 Package.Display Name=SMO.UI.Embedded
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_maui-1.1.1.30]
+Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.1.30.vip
+Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.1.30.bmp
+Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.1.30.spec
+Package.MD5=75211e98c8348fb5e7db171492b67a31
+Package.Release Date=Mon, 27 Sep 2021 11:13:30 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_variantconfig>=4.0.0.5,levylab_lib_embedded_smo_ui>=1.0.2.15
+Package.Display Name=SMO.UI.MAUI
 Platform.Exclusive_VIPM_Version=2017
