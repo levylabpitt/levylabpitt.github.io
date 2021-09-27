@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=523
-Release.Date=Mon, 27 Sep 2021 12:43:05 -0400
-Self.ID=cedd68a43d90763b3d314702aad1a186
+Release.Number=525
+Release.Date=Mon, 27 Sep 2021 15:09:59 -0400
+Self.ID=c1d28c34b1fa1f12326ab9cdae16ab7c
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1215,14 +1215,14 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects
 Package.Display Name=MAUI
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_embedded_smo_ui-1.0.2.16]
-Package.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.2.16.vip
-Icon.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.2.16.bmp
-Spec.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.2.16.spec
-Package.MD5=2f1f0e54adcee68567807d5dbe342904
-Package.Release Date=Mon, 27 Sep 2021 12:43:05 -0400
+[Package levylab_lib_embedded_smo_ui-1.0.3.18]
+Package.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.3.18.vip
+Icon.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.3.18.bmp
+Spec.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.3.18.spec
+Package.MD5=1aae367ca359abf6b44cd61b26d39317
+Package.Release Date=Mon, 27 Sep 2021 15:09:53 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=1.4.0.63,oglib_appcontrol>=4.1.0.7,jki_smo_templates>=1.4.0.15
+Dependencies.Requires=jki_statemachineobjects>=1.4.0.63,oglib_appcontrol>=4.1.0.7,jki_lib_smo_editor>=2.0.2.5,jki_smo_templates>=1.4.0.15
 Package.Display Name=Embedded UI
 Platform.Exclusive_VIPM_Version=2017

@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 27 Sep 2021 12:43:05 -0400</pubDate>
+    <pubDate>Mon, 27 Sep 2021 15:09:59 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Embedded UI v1.0.2.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.2.16.bmp"&gt;&lt;br&gt;
+      <title>Embedded UI v1.0.3.18</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.3.18.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Embedded UI v1.0.2.16&lt;br&gt;
+Product: Embedded UI v1.0.3.18&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Mon, 27 Sep 2021 12:43:05 -0400&lt;br&gt;
+Release Date: Mon, 27 Sep 2021 15:09:53 -0400&lt;br&gt;
 Packager: Joe Albro&lt;br&gt;
 &lt;br&gt;
 Description: A remake of the JKI Embedded UI example using by-value SMOs.&lt;br&gt;
 &lt;br&gt;
-Release Notes: - Change install location (vilib --&amp;gt; userlib)&lt;br&gt;- Include Embedded UI Template&lt;br&gt;
+Release Notes: - Update class names&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Mon, 27 Sep 2021 12:43:05 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_embedded_smo_ui-1.0.2.16</guid>
+      <pubDate>Mon, 27 Sep 2021 15:09:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_embedded_smo_ui-1.0.3.18</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/Embedded-SMO</link>
     </item>
