@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 28 Sep 2021 11:06:13 -0400</pubDate>
+    <pubDate>Tue, 28 Sep 2021 11:32:07 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>MAUI v1.1.3.34</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_maui/levylab_lib_maui-1.1.3.34.bmp"&gt;&lt;br&gt;
+      <title>MAUI v1.1.4.35</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_maui/levylab_lib_maui-1.1.4.35.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: MAUI v1.1.3.34&lt;br&gt;
+Product: MAUI v1.1.4.35&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Tue, 28 Sep 2021 11:06:09 -0400&lt;br&gt;
+Release Date: Tue, 28 Sep 2021 11:32:02 -0400&lt;br&gt;
 Packager: Joe Albro&lt;br&gt;
 &lt;br&gt;
 Description: Working Engine for MAUI (Modular Albro UI) Framework.&lt;br&gt;
 &lt;br&gt;
-Release Notes: - Improve weakness in default subpanel path&lt;br&gt;
+Release Notes: - Update configuration paths from system ApplicationData to User AppData&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 28 Sep 2021 11:06:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_maui-1.1.3.34</guid>
+      <pubDate>Tue, 28 Sep 2021 11:32:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_maui-1.1.4.35</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/Embedded-Main-SMO</link>
     </item>
