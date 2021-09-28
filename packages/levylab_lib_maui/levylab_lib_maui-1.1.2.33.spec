@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_maui"
-Version="1.1.1.32"
+Version="1.1.2.33"
 Release=""
-ID=13a861777ac065f8bee928e89f540677
+ID=40601693aa0a277957671330f9fb1e7b
 File Format="vip"
 Format Version="2017"
 Display Name="MAUI"
@@ -18,7 +18,7 @@ Vendor="Levylab"
 URL="https://github.com/levylabpitt/Embedded-Main-SMO"
 Packager="Joe Albro"
 Demo="FALSE"
-Release Notes="- Backsave to LV2019\0D\0A- Reorganize files on disk\0D\0A- Include MAUI Template\0A- Update dependencies"
+Release Notes="- Updated Templates: MAUI.Basic and MAUI.SubPanel are both included as templates"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
@@ -66,7 +66,7 @@ Namespaces=""
 [File Group 0]
 Target Dir="<application>"
 Replace Mode="Always"
-Num Files=100
+Num Files=103
 File 0="user.lib/Levylab/MAUI/Maui 1.0/SMO.UI.MAUI/MAUI.lvclass"
 File 1="user.lib/Levylab/MAUI/Maui 1.0/SMO.UI.MAUI/MAUI.TestLauncher.vi"
 File 2="user.lib/Levylab/MAUI/Maui 1.0/SMO.UI.MAUI/Process.vi"
@@ -164,24 +164,33 @@ File 93="user.lib/Levylab/MAUI/Maui 1.0/Maui.Config/Accessors/Maui.Config.WriteI
 File 94="user.lib/Levylab/MAUI/Maui 1.0/Maui.Config/Accessors/Maui.Config.WriteOwningClass.vi"
 File 95="user.lib/Levylab/MAUI/Maui 1.0/Maui.Config/Accessors/Maui.Config.WriteSpecificConfigPath.vi"
 File 96="user.lib/Levylab/MAUI/Maui 1.0/Maui.Config/Accessors/Maui.Config.WriteSubpanelPaths.vi"
-File 97="templates/JKI/JKI SMO/MAUI/Template/Process.vi"
-File 98="templates/JKI/JKI SMO/MAUI/Template/SMO.UI.MAUI.BasicTemplate.lvclass"
-File 99="templates/JKI/JKI SMO/MAUI/Template/SMO.UI.MAUI.BasicTemplate.TestLauncher.vi"
+File 97="templates/JKI/JKI SMO/MAUI/Templates/MAUI.SubPanel/MAUI.SubPanel.lvclass"
+File 98="templates/JKI/JKI SMO/MAUI/Templates/MAUI.SubPanel/MAUI.SubPanel.TestLauncher.vi"
+File 99="templates/JKI/JKI SMO/MAUI/Templates/MAUI.SubPanel/Process.vi"
+File 100="templates/JKI/JKI SMO/MAUI/Templates/MAUI.Basic/MAUI.Basic.lvclass"
+File 101="templates/JKI/JKI SMO/MAUI/Templates/MAUI.Basic/MAUI.Basic.TestLauncher.vi"
+File 102="templates/JKI/JKI SMO/MAUI/Templates/MAUI.Basic/Process.vi"
 
 
 [File Group 1]
 Target Dir="<menus>/Categories/LevyLab"
 Replace Mode="Always"
-Num Files=9
+Num Files=15
 File 0="_functions_levylab_lib_maui_1.mnu"
-File 1="_functions_levylab_lib_maui_2.mnu"
-File 2="_functions_levylab_lib_maui_3.mnu"
-File 3="_functions_levylab_lib_maui_4.mnu"
-File 4="_functions_levylab_lib_maui_5.mnu"
-File 5="_functions_levylab_lib_maui_6.mnu"
-File 6="_functions_levylab_lib_maui_7.mnu"
-File 7="_functions_levylab_lib_maui_8.mnu"
-File 8="functions_Levylab_lib_MAUI.mnu"
+File 1="_functions_levylab_lib_maui_10.mnu"
+File 2="_functions_levylab_lib_maui_11.mnu"
+File 3="_functions_levylab_lib_maui_12.mnu"
+File 4="_functions_levylab_lib_maui_13.mnu"
+File 5="_functions_levylab_lib_maui_14.mnu"
+File 6="_functions_levylab_lib_maui_2.mnu"
+File 7="_functions_levylab_lib_maui_3.mnu"
+File 8="_functions_levylab_lib_maui_4.mnu"
+File 9="_functions_levylab_lib_maui_5.mnu"
+File 10="_functions_levylab_lib_maui_6.mnu"
+File 11="_functions_levylab_lib_maui_7.mnu"
+File 12="_functions_levylab_lib_maui_8.mnu"
+File 13="_functions_levylab_lib_maui_9.mnu"
+File 14="functions_Levylab_lib_MAUI.mnu"
 
 
 [File Group 2]

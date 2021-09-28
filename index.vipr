@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=529
-Release.Date=Tue, 28 Sep 2021 08:31:13 -0400
-Self.ID=4a5c343af8f253481e09fac175e288f8
+Release.Number=531
+Release.Date=Tue, 28 Sep 2021 10:28:32 -0400
+Self.ID=0212ef9f3589503379ee09df34f977c9
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1203,18 +1203,6 @@ Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.6.
 Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_maui-1.1.1.32]
-Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.1.32.vip
-Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.1.32.bmp
-Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.1.32.spec
-Package.MD5=96baa42eb870f1133b42ac4b780f48ec
-Package.Release Date=Tue, 28 Sep 2021 08:30:58 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_variantconfig>=4.0.0.5,levylab_lib_embedded_smo_ui>=1.0.3.19
-Package.Display Name=MAUI
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_embedded_smo_ui-1.0.3.19]
 Package.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.3.19.vip
 Icon.URL=packages/levylab_lib_embedded_smo_ui/levylab_lib_embedded_smo_ui-1.0.3.19.bmp
@@ -1225,4 +1213,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_statemachineobjects>=1.4.0.63,oglib_appcontrol>=4.1.0.7,jki_lib_smo_editor>=2.0.2.5,jki_smo_templates>=1.4.0.15
 Package.Display Name=Embedded UI
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_maui-1.1.2.33]
+Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.2.33.vip
+Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.2.33.bmp
+Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.2.33.spec
+Package.MD5=ee324524c2fd767deb1400b13fe4734e
+Package.Release Date=Tue, 28 Sep 2021 10:28:25 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_variantconfig>=4.0.0.5,levylab_lib_embedded_smo_ui>=1.0.3.19
+Package.Display Name=MAUI
 Platform.Exclusive_VIPM_Version=2017
