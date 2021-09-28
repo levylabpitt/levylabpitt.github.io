@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_maui"
-Version="1.1.4.35"
+Version="1.1.5.36"
 Release=""
-ID=ac557600f618c6d4a3260167add0f57f
+ID=157a8a0c55f7ed69d6898cba3d1b7bad
 File Format="vip"
 Format Version="2017"
 Display Name="MAUI"
@@ -18,7 +18,7 @@ Vendor="Levylab"
 URL="https://github.com/levylabpitt/Embedded-Main-SMO"
 Packager="Joe Albro"
 Demo="FALSE"
-Release Notes="- Update configuration paths from system ApplicationData to User AppData"
+Release Notes="- Update Inheritance and Composition checkl paths"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"

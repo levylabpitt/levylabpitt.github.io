@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=535
-Release.Date=Tue, 28 Sep 2021 11:32:07 -0400
-Self.ID=6ca3e3319b3bee4d08833f08de432052
+Release.Number=537
+Release.Date=Tue, 28 Sep 2021 12:31:17 -0400
+Self.ID=819a7fcc98d1462bba131a8ff9bc5252
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1215,12 +1215,12 @@ Dependencies.Requires=jki_statemachineobjects>=1.4.0.63,oglib_appcontrol>=4.1.0.
 Package.Display Name=Embedded UI
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_maui-1.1.4.35]
-Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.4.35.vip
-Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.4.35.bmp
-Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.4.35.spec
-Package.MD5=f3e7dc34c19e851954988a35c5d6b44c
-Package.Release Date=Tue, 28 Sep 2021 11:32:02 -0400
+[Package levylab_lib_maui-1.1.5.36]
+Package.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.5.36.vip
+Icon.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.5.36.bmp
+Spec.URL=packages/levylab_lib_maui/levylab_lib_maui-1.1.5.36.spec
+Package.MD5=e8a943d827a0eb839faf00fc5651c3ff
+Package.Release Date=Tue, 28 Sep 2021 12:31:11 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_variantconfig>=4.0.0.5,levylab_lib_embedded_smo_ui>=1.0.3.19
