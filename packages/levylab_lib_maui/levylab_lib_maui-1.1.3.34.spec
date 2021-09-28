@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_maui"
-Version="1.1.2.33"
+Version="1.1.3.34"
 Release=""
-ID=40601693aa0a277957671330f9fb1e7b
+ID=c3a3259c9d728e5f7127df637be5129f
 File Format="vip"
 Format Version="2017"
 Display Name="MAUI"
@@ -18,7 +18,7 @@ Vendor="Levylab"
 URL="https://github.com/levylabpitt/Embedded-Main-SMO"
 Packager="Joe Albro"
 Demo="FALSE"
-Release Notes="- Updated Templates: MAUI.Basic and MAUI.SubPanel are both included as templates"
+Release Notes="- Improve weakness in default subpanel path"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
