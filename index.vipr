@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=537
-Release.Date=Tue, 28 Sep 2021 12:31:17 -0400
-Self.ID=819a7fcc98d1462bba131a8ff9bc5252
+Release.Number=539
+Release.Date=Wed, 29 Sep 2021 12:08:11 -0400
+Self.ID=d3e9b90cdaf42809295adaa5791f5a62
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -951,17 +951,6 @@ Dependencies.Requires=jki_lib_caraya>=1.1.0.119,jki_lib_state_machine>=2018.0.7.
 Package.Display Name=Cryostation
 Platform.Exclusive_VIPM_Version=2017
 
-[Package jdp_science_postgresql-0.3.4.22]
-Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.4.22.vip
-Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.4.22.bmp
-Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.4.22.spec
-Package.MD5=156b56403786a60d7f50928714b60cbc
-Package.Release Date=Mon, 03 May 2021 13:12:57 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=Windows NT,Linux
-Package.Display Name=PostgreSQL Library
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_oxford_vrm_api-21.5.12.2]
 Package.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.5.12.2.vip
 Icon.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.5.12.2.bmp
@@ -1225,4 +1214,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_variantconfig>=4.0.0.5,levylab_lib_embedded_smo_ui>=1.0.3.19
 Package.Display Name=MAUI
+Platform.Exclusive_VIPM_Version=2017
+
+[Package jdp_science_postgresql-0.3.5.23]
+Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.vip
+Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.bmp
+Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.spec
+Package.MD5=bc5f0e94267e9671e62de51062ba2e5c
+Package.Release Date=Wed, 29 Sep 2021 12:08:08 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
+Platform.Exclusive_OS=Windows NT,Linux
+Package.Display Name=PostgreSQL Library
 Platform.Exclusive_VIPM_Version=2017

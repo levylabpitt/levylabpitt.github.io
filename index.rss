@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 28 Sep 2021 12:31:17 -0400</pubDate>
+    <pubDate>Wed, 29 Sep 2021 12:08:11 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PostgreSQL Library v0.3.5.23</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PostgreSQL Library v0.3.5.23&lt;br&gt;
+Company: JDP Science&lt;br&gt;
+Release Date: Wed, 29 Sep 2021 12:08:08 -0400&lt;br&gt;
+Packager: JDP Science&lt;br&gt;
+&lt;br&gt;
+Description: Wrapping of libPQ for PostgreSQL access.  Higher-level than libPQ itself.  See Examples.&lt;br&gt;&lt;br&gt;Follow this tutorial to install LibPQ on an NI Linux RT target :&lt;br&gt;https://forums.ni.com/t5/NI-Linux-Real-Time-Documents/Tutorial-PostgreSQL-with-LabVIEW/tac-p/4111331&lt;br&gt;
+&lt;br&gt;
+Release Notes: 0.3.5:&lt;br&gt;- Connect: check for &amp;lt;not a path&amp;gt; before CLFN&lt;br&gt;- PGPASS: add check for minimum file size&lt;br&gt;&lt;br&gt;0.3.4:&lt;br&gt;- fix issues with PGPASS credentials UI&lt;br&gt;- look for &amp;quot;(&amp;quot; &amp;quot;)&amp;quot; in COPY column list&lt;br&gt;&lt;br&gt;0.3.3:&lt;br&gt;- back save to LabVIEW 2016&lt;br&gt;- add support for pgpass credentials files (Issue #4)&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;&lt;br&gt;Thanks to contributor Patrick Irvin (@ciozi137).&lt;br&gt;&lt;br&gt;New in 0.2.2 :&lt;br&gt;- switch to LabVIEW 2017&lt;br&gt;- resolved issue #1 : add support for NI Linux RT Targets&lt;br&gt;- resolved issue #2 : add support for boolean parameter when executing single  command with parameters&lt;br&gt;- resolved issue #3 : improved parameter detection&lt;br&gt;&lt;br&gt;Thanks to contributor Antoine Chalons (@antoinechalons) for their work on this release.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 29 Sep 2021 12:08:08 -0400</pubDate>
+      <guid isPermaLink="false">jdp_science_postgresql-0.3.5.23</guid>
+      <dc:creator>JDP Science</dc:creator>
+      <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
+    </item>
     <item>
       <title>MAUI v1.1.5.36</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_maui/levylab_lib_maui-1.1.5.36.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - update to Instrument Framework v1.9.2&lt;br&gt;- change sequenc
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Sep 2021 12:40:35 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.1.20</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford VRM API v21.6.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.6.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford VRM API v21.6.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Sep 2021 12:40:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Requires LV2019&lt;br&gt;- Update to Instrument Framework 1.9.2&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Sep 2021 12:40:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-21.6.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

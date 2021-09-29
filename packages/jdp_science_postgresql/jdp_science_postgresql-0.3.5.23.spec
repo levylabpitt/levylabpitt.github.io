@@ -1,8 +1,8 @@
 [Package]
 Name="jdp_science_postgresql"
-Version="0.3.4.22"
+Version="0.3.5.23"
 Release=""
-ID=60afadac47dc8b2614b41b1d24b5a73a
+ID=a7a8eb5910aea0e2b92204643dcee78e
 File Format="vip"
 Format Version="2017"
 Display Name="PostgreSQL Library"
@@ -18,7 +18,7 @@ Vendor="JDP Science"
 URL="https://www.vipm.io/package/jdp_science_postgresql/"
 Packager="JDP Science"
 Demo="FALSE"
-Release Notes="0.3.4:\0A- fix issues with PGPASS credentials UI\0A- look for "(" ")" in COPY column list\0A\0A0.3.3:\0A- back save to LabVIEW 2016\0A- add support for pgpass credentials files (Issue #4)\0A- add support for COPY (issue #5)\0A\0AThanks to contributor Patrick Irvin (@ciozi137).\0A\0ANew in 0.2.2 :\0A- switch to LabVIEW 2017\0A- resolved issue #1 : add support for NI Linux RT Targets\0A- resolved issue #2 : add support for boolean parameter when executing single  command with parameters\0A- resolved issue #3 : improved parameter detection\0A\0AThanks to contributor Antoine Chalons (@antoinechalons) for their work on this release."
+Release Notes="0.3.5:\0A- Connect: check for <not a path> before CLFN\0A- PGPASS: add check for minimum file size\0A\0A0.3.4:\0A- fix issues with PGPASS credentials UI\0A- look for "(" ")" in COPY column list\0A\0A0.3.3:\0A- back save to LabVIEW 2016\0A- add support for pgpass credentials files (Issue #4)\0A- add support for COPY (issue #5)\0A\0AThanks to contributor Patrick Irvin (@ciozi137).\0A\0ANew in 0.2.2 :\0A- switch to LabVIEW 2017\0A- resolved issue #1 : add support for NI Linux RT Targets\0A- resolved issue #2 : add support for boolean parameter when executing single  command with parameters\0A- resolved issue #3 : improved parameter detection\0A\0AThanks to contributor Antoine Chalons (@antoinechalons) for their work on this release."
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="FALSE"
@@ -28,7 +28,6 @@ License Agreement="FALSE"
 close labview before install="FALSE"
 restart labview after install="FALSE"
 skip mass compile after install="FALSE"
-install into global environment="FALSE"
 
 
 [Platform]
