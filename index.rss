@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 14 Oct 2021 13:06:20 -0400</pubDate>
+    <pubDate>Fri, 15 Oct 2021 09:45:45 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Instrument Framework v1.10.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.10.0.4.bmp"&gt;&lt;br&gt;
+      <title>Instrument Framework v1.10.1.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.10.1.5.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Instrument Framework v1.10.0.4&lt;br&gt;
+Product: Instrument Framework v1.10.1.5&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Thu, 14 Oct 2021 13:06:19 -0400&lt;br&gt;
+Release Date: Fri, 15 Oct 2021 09:45:40 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The Instrument Framework makes extensive use of JKI State Machines and State Machine Objects.&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.10.0]&lt;br&gt;Bug Fixes&lt;br&gt;- Fixing Issue #63 resulted in many changest to the Remote Control(Instrument) Connect(Open), Send and Recieve, and Disconnect(Close) methods. The Remote Control state is now controlled from the Instrument class&lt;br&gt;&lt;br&gt;Updated APIs&lt;br&gt;- Open.vi opens the remote connection to the SMO&lt;br&gt;- Close.vi closes the remote connection to the SMO&lt;br&gt;- Remote Client.vim calls Open.vi and Close.vi. IT tries to determine if the connection should be held open or not&lt;br&gt;- GET ALL.vi can now be directly called from child classes (previously it needed to be wrapped in the child class)&lt;br&gt;- SET CONFIG.vi is a new default method (Issue #61)&lt;br&gt;&lt;br&gt;Templates&lt;br&gt;- Renamed: Instrument UI.Template.lvclass&lt;br&gt;- Instrument UI.Template.lvclass:process.vi refactored, uses default methods GET ALL and SET CONFIG, R/W UI configuration to disk&lt;br&gt;- Scripts provided for renamaing libraries (Template --&amp;gt; NewInstrument) and updating the library icons&lt;br&gt;
+Release Notes: [1.10.1]&lt;br&gt;Bug Fixes&lt;br&gt;- Issue #64&amp;quot;: Fix corrupted Variant to LV Data.vi&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Thu, 14 Oct 2021 13:06:19 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.10.0.4</guid>
+      <pubDate>Fri, 15 Oct 2021 09:45:40 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.10.1.5</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
