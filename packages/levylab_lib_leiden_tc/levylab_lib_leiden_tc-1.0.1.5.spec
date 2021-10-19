@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_leiden_tc"
-Version="1.0.0.1"
+Version="1.0.1.5"
 Release=""
-ID=1ef2442467636674cf03c6fca457b62a
+ID=f7071ba24aa223e4eb12049040b74263
 File Format="vip"
 Format Version="2017"
 Display Name="LEIDEN TC"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[1.0.0]\0A- rename package file\0D\0A- update to LV2019, Instrument Framework v1.10.1, LV-Data"
+Release Notes="[1.0.1]\0D\0A- Try to fix palette icon"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
