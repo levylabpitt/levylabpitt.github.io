@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Oct 2021 09:16:25 -0400</pubDate>
+    <pubDate>Tue, 19 Oct 2021 10:41:58 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN TC v1.3.1.23</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-1.3.1.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN TC v1.3.1.23&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 19 Oct 2021 10:41:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.TC.MNK.lvclass]&lt;br&gt;[Instrument.TC.CF.lvclass]&lt;br&gt;- APIs that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.1]&lt;br&gt;- update to LV2019, Instrument Framework v1.10.1, LV-Data&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Oct 2021 10:41:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_mnk-1.3.1.23</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.14.6.71</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.6.71.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Update class names&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_embedded_smo_ui-1.0.3.19</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Embedded-SMO</link>
-    </item>
-    <item>
-      <title>Transport v1.4.6.23</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.4.6.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.4.6.23&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 16 Sep 2021 13:50:17 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.6]&lt;br&gt;- Update to LV2019, Instrument Framework v1.9.3, LV-Data package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 16 Sep 2021 13:50:17 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.4.6.23</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
