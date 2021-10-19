@@ -1,15 +1,15 @@
 [Package]
-Name="levylab_lib_leiden_mnk"
-Version="1.3.1.23"
+Name="levylab_lib_leiden_tc"
+Version="1.0.0.1"
 Release=""
-ID=baaa7c83e28e2771fc0d23ddf482f946
+ID=1ef2442467636674cf03c6fca457b62a
 File Format="vip"
 Format Version="2017"
 Display Name="LEIDEN TC"
 
 
 [Description]
-Description="Tools used by LevyLab to interact with Leiden Temperature Control (TC)\0A\0A[Instrument.TC.MNK.lvclass]\0A[Instrument.TC.CF.lvclass]\0A- APIs that overrides "Get Temperature.vi" method of Instrument.Cryostat.lvclass"
+Description="Tools used by LevyLab to interact with Leiden Temperature Control (TC)\0D\0A\0D\0A[Instrument.TC.MNK.lvclass]\0D\0A[Instrument.TC.CF.lvclass]\0D\0A- APIs that overrides "Get Temperature.vi" method of Instrument.Cryostat.lvclass"
 Summary=""
 License="BSD-3"
 Copyright="Copyright (c) 2021, LevyLab"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[1.3.1]\0A- update to LV2019, Instrument Framework v1.10.1, LV-Data"
+Release Notes="[1.0.0]\0A- rename package file\0D\0A- update to LV2019, Instrument Framework v1.10.1, LV-Data"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
@@ -84,7 +84,7 @@ File 10="user.lib/LevyLab/Leiden TC/Instrument.TC.CF/API/Get Temperature.vi"
 Target Dir="<menus>/Categories/LevyLab"
 Replace Mode="Always"
 Num Files=1
-File 0="functions_LevyLab_lib_Leiden_MNK.mnu"
+File 0="functions_LevyLab_lib_Leiden_TC.mnu"
 
 
 [File Group 2]

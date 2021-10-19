@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Oct 2021 10:41:58 -0400</pubDate>
+    <pubDate>Tue, 19 Oct 2021 11:03:38 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>LEIDEN TC v1.3.1.23</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_mnk/levylab_lib_leiden_mnk-1.3.1.23.bmp"&gt;&lt;br&gt;
+      <title>LEIDEN TC v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.0.1.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: LEIDEN TC v1.3.1.23&lt;br&gt;
+Product: LEIDEN TC v1.0.0.1&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Tue, 19 Oct 2021 10:41:52 -0400&lt;br&gt;
+Release Date: Tue, 19 Oct 2021 11:03:33 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.TC.MNK.lvclass]&lt;br&gt;[Instrument.TC.CF.lvclass]&lt;br&gt;- APIs that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.3.1]&lt;br&gt;- update to LV2019, Instrument Framework v1.10.1, LV-Data&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- rename package file&lt;br&gt;- update to LV2019, Instrument Framework v1.10.1, LV-Data&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 19 Oct 2021 10:41:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_mnk-1.3.1.23</guid>
+      <pubDate>Tue, 19 Oct 2021 11:03:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_tc-1.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
