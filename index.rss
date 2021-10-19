@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Oct 2021 08:07:26 -0400</pubDate>
+    <pubDate>Tue, 19 Oct 2021 09:16:25 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.14.6.71</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.6.71.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.14.6.71&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 19 Oct 2021 09:16:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.14.6]&lt;br&gt;- Fix Issue #47: Handle Command not replying to the proper data cluster&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Oct 2021 09:16:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.6.71</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Krohn-Hite 7008 Drivers v1.7.1.29</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.1.29.bmp"&gt;&lt;br&gt;
@@ -23,24 +41,6 @@ Release Notes: [1.7.1]&lt;br&gt;- Get All Channels is private driver&lt;br&gt;- 
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.1.29</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.14.5.70</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.5.70.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.14.5.70&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 18 Oct 2021 14:59:56 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.14.5]&lt;br&gt;- Fix Issues #44, #45, #46&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 18 Oct 2021 14:59:56 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.5.70</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
     <item>
       <title>Krohn-Hite 7008 Drivers v1.7.0.28</title>
