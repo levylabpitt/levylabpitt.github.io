@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Oct 2021 12:45:22 -0400</pubDate>
+    <pubDate>Tue, 19 Oct 2021 15:16:16 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.10.2.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.10.2.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.10.2.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 19 Oct 2021 15:16:16 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The Instrument Framework makes extensive use of JKI State Machines and State Machine Objects.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.2]&lt;br&gt;- Add Write Hardware Address.vi&lt;br&gt;- Add ACK.vi API&lt;br&gt;- Updated Palette&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Oct 2021 15:16:16 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.10.2.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>LEIDEN TC v1.0.1.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.1.5.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: 0.3.5:&lt;br&gt;- Connect: check for &amp;lt;not a path&amp;gt; b
       <guid isPermaLink="false">jdp_science_postgresql-0.3.5.23</guid>
       <dc:creator>JDP Science</dc:creator>
       <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
-    </item>
-    <item>
-      <title>MAUI v1.1.5.36</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_maui/levylab_lib_maui-1.1.5.36.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: MAUI v1.1.5.36&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 28 Sep 2021 12:31:11 -0400&lt;br&gt;
-Packager: Joe Albro&lt;br&gt;
-&lt;br&gt;
-Description: Working Engine for MAUI (Modular Albro UI) Framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update Inheritance and Composition checkl paths&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 28 Sep 2021 12:31:11 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_maui-1.1.5.36</guid>
-      <dc:creator>Levylab</dc:creator>
-      <link>https://github.com/levylabpitt/Embedded-Main-SMO</link>
     </item>
   </channel>
 </rss>
