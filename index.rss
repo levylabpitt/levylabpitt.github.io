@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 18 Oct 2021 14:59:57 -0400</pubDate>
+    <pubDate>Tue, 19 Oct 2021 08:07:26 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite 7008 Drivers v1.7.1.29</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.1.29.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite 7008 Drivers v1.7.1.29&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 19 Oct 2021 08:07:26 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.1]&lt;br&gt;- Get All Channels is private driver&lt;br&gt;- Add API methods for R/W KH address - call these instead of Open.vi from the Instrument Framework&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Oct 2021 08:07:26 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.1.29</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.14.5.70</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.5.70.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.4.6]&lt;br&gt;- Update to LV2019, Instrument Framework v1.9.3,
 &lt;br&gt;</description>
       <pubDate>Thu, 16 Sep 2021 13:50:17 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.4.6.23</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Data Analaysis Template v1.0.5.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.5.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Data Analaysis Template v1.0.5.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 16 Sep 2021 09:23:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Template for building data analysis programs&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.5]&lt;br&gt;- Update dependencies (LV-Data)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 16 Sep 2021 09:23:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.5.6</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
