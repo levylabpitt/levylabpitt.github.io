@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Oct 2021 15:16:16 -0400</pubDate>
+    <pubDate>Wed, 20 Oct 2021 08:26:06 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.10.3.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.10.3.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.10.3.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 20 Oct 2021 08:25:47 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Method for communicate with a piece of hardware (provides a hardware abstraction layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;&lt;br&gt;The Instrument Framework makes extensive use of JKI State Machines and State Machine Objects.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.3]&lt;br&gt;- Update RemoteControl:Close to clear messages from class wire&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 Oct 2021 08:25:47 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.10.3.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>LV-Data v3.2.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.2.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.2.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 20 Oct 2021 08:24:30 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), and TDMS&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.2.0]&lt;br&gt;&lt;br&gt;LV-Data.lvclass:&lt;br&gt;- Fix issue that would result in the wrong file extension being written&lt;br&gt;&lt;br&gt;LV-Data.PGSQL:&lt;br&gt;- Write Variable.vi&lt;br&gt;  - now polymorphic with options for writing one or multiple rows&lt;br&gt;  - back-dated data can be written in either&lt;br&gt;- Updated Administer Tables UI.vi&lt;br&gt;  - rearranged UI&lt;br&gt;  - new features such as Delete Tables, Move Column between tables&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 Oct 2021 08:24:30 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.2.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.10.2.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.10.2.6.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: [1.10.1]&lt;br&gt;Bug Fixes&lt;br&gt;- Issue #64&amp;quot;: Fix c
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.10.1.5</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Build Support v1.2.0.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.0.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.2.0.9&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 14 Oct 2021 12:10:51 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.0]&lt;br&gt;- Update to LV2019&lt;br&gt;- Add ProjectItem.lvclass for programmatically updating class names and icons&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 14 Oct 2021 12:10:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.2.0.9</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PostgreSQL Library v0.3.5.23</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PostgreSQL Library v0.3.5.23&lt;br&gt;
-Company: JDP Science&lt;br&gt;
-Release Date: Wed, 29 Sep 2021 12:08:08 -0400&lt;br&gt;
-Packager: JDP Science&lt;br&gt;
-&lt;br&gt;
-Description: Wrapping of libPQ for PostgreSQL access.  Higher-level than libPQ itself.  See Examples.&lt;br&gt;&lt;br&gt;Follow this tutorial to install LibPQ on an NI Linux RT target :&lt;br&gt;https://forums.ni.com/t5/NI-Linux-Real-Time-Documents/Tutorial-PostgreSQL-with-LabVIEW/tac-p/4111331&lt;br&gt;
-&lt;br&gt;
-Release Notes: 0.3.5:&lt;br&gt;- Connect: check for &amp;lt;not a path&amp;gt; before CLFN&lt;br&gt;- PGPASS: add check for minimum file size&lt;br&gt;&lt;br&gt;0.3.4:&lt;br&gt;- fix issues with PGPASS credentials UI&lt;br&gt;- look for &amp;quot;(&amp;quot; &amp;quot;)&amp;quot; in COPY column list&lt;br&gt;&lt;br&gt;0.3.3:&lt;br&gt;- back save to LabVIEW 2016&lt;br&gt;- add support for pgpass credentials files (Issue #4)&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;&lt;br&gt;Thanks to contributor Patrick Irvin (@ciozi137).&lt;br&gt;&lt;br&gt;New in 0.2.2 :&lt;br&gt;- switch to LabVIEW 2017&lt;br&gt;- resolved issue #1 : add support for NI Linux RT Targets&lt;br&gt;- resolved issue #2 : add support for boolean parameter when executing single  command with parameters&lt;br&gt;- resolved issue #3 : improved parameter detection&lt;br&gt;&lt;br&gt;Thanks to contributor Antoine Chalons (@antoinechalons) for their work on this release.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 29 Sep 2021 12:08:08 -0400</pubDate>
-      <guid isPermaLink="false">jdp_science_postgresql-0.3.5.23</guid>
-      <dc:creator>JDP Science</dc:creator>
-      <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
     </item>
   </channel>
 </rss>
