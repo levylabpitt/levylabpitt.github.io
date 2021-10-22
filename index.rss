@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 21 Oct 2021 18:21:54 -0400</pubDate>
+    <pubDate>Fri, 22 Oct 2021 15:14:42 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.8.2.51</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.2.51.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.8.2.51&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 22 Oct 2021 15:14:42 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the PGSQL database. Provides a UI and API for controlling magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.1]&lt;br&gt;- Update to Instrument Framework v1.10.3&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 22 Oct 2021 15:14:42 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.2.51</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
+    <item>
+      <title>Razorbill RP100 v21.2.1.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.2.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v21.2.1.6&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 22 Oct 2021 11:37:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: [21.2.1]&lt;br&gt;- Update to  IF 1.10.3&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 22 Oct 2021 11:37:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.2.1.6</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.5.0.24</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.5.0.24.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: [2.14.6]&lt;br&gt;- Fix Issue #47: Handle Command not replying to
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.6.71</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Krohn-Hite 7008 Drivers v1.7.1.29</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.1.29.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite 7008 Drivers v1.7.1.29&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 19 Oct 2021 08:07:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.1]&lt;br&gt;- Get All Channels is private driver&lt;br&gt;- Add API methods for R/W KH address - call these instead of Open.vi from the Instrument Framework&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 19 Oct 2021 08:07:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.1.29</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite 7008 Drivers v1.7.0.28</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.0.28.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite 7008 Drivers v1.7.0.28&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 18 Oct 2021 10:49:06 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- Update to LV2019&lt;br&gt;- Instrument Framework v1.10&lt;br&gt;- Refactor KH7008 state machine and low-level drives&lt;br&gt;- &amp;quot;Get Parameters&amp;quot; is provided as low-level private method (will upgrade to API in future release)&lt;br&gt;- Updated package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 18 Oct 2021 10:49:06 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.0.28</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
