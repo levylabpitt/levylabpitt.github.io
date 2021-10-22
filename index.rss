@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 22 Oct 2021 15:14:42 -0400</pubDate>
+    <pubDate>Fri, 22 Oct 2021 16:13:00 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cryostation v1.2.2.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.2.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.2.2.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 22 Oct 2021 16:12:59 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;- Update Instrument Framework v1.10.3&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 22 Oct 2021 16:12:59 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.2.2.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>PPMS Monitor and Control v1.8.2.52</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.2.52.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.8.2.52&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 22 Oct 2021 15:47:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging PPMS status to the PGSQL database. Provides a UI and API for controlling magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.2]&lt;br&gt;- Update to Instrument Framework v1.10.3&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 22 Oct 2021 15:47:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.2.52</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.2.51</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.2.51.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: [1.0.1]&lt;br&gt;- Try to fix palette icon&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_leiden_tc-1.0.1.5</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Krohn-Hite 7008 Drivers v1.7.2.31</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.2.31.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite 7008 Drivers v1.7.2.31&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 19 Oct 2021 12:17:45 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and control interface for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.2]&lt;br&gt;- Remove R/W Address from private data and API (use parent hardware addres)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 19 Oct 2021 12:17:45 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.2.31</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.14.6.71</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.6.71.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.14.6.71&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 19 Oct 2021 09:16:17 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.14.6]&lt;br&gt;- Fix Issue #47: Handle Command not replying to the proper data cluster&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 19 Oct 2021 09:16:17 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.6.71</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
