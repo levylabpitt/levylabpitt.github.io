@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 04 Nov 2021 22:47:45 -0400</pubDate>
+    <pubDate>Fri, 05 Nov 2021 11:39:39 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.14.7.73</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.14.7.73.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.14.7.73&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 05 Nov 2021 11:39:39 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.14.7]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&gt;  - New Open and Close overrides, differene remote control behavior&lt;br&gt;- Add shift registers to class wire in &amp;quot;macro&amp;quot; API methods&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 05 Nov 2021 11:39:39 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.7.73</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>LV-Data v3.3.3.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.3.3.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.8.2]&lt;br&gt;- Update to Instrument Framework v1.10.3&lt;br&g
 &lt;br&gt;</description>
       <pubDate>Fri, 22 Oct 2021 15:47:37 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.2.52</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.8.2.51</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.2.51.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.8.2.51&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 22 Oct 2021 15:14:42 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the PGSQL database. Provides a UI and API for controlling magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.1]&lt;br&gt;- Update to Instrument Framework v1.10.3&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 22 Oct 2021 15:14:42 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.2.51</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
