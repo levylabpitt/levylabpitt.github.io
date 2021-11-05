@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 05 Nov 2021 13:23:18 -0400</pubDate>
+    <pubDate>Fri, 05 Nov 2021 14:14:04 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aerotech Delay v1.1.1.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.1.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.1.1.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 05 Nov 2021 14:14:04 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for setting delay with Aerotech delay line&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.1]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 05 Nov 2021 14:14:04 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.1.1.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
+    </item>
     <item>
       <title>Razorbill RP100 v21.2.2.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.2.2.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [3.3.2]&lt;br&gt;&lt;br&gt;LV-Data.PGSQL:&lt;br&gt;- Strings are 
 &lt;br&gt;</description>
       <pubDate>Fri, 29 Oct 2021 13:05:56 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.3.2.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data v3.3.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.3.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.3.1.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 28 Oct 2021 13:58:27 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), and TDMS&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.3.1]&lt;br&gt;&lt;br&gt;LV-Data.PGSQL:&lt;br&gt;- Fix Issue with Parse Variant.vi&lt;br&gt;- (Also now will parse Timestamp data)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 28 Oct 2021 13:58:27 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.3.1.5</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
