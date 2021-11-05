@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 04 Nov 2021 10:49:09 -0400</pubDate>
+    <pubDate>Thu, 04 Nov 2021 22:47:45 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.3.3.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.3.3.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.3.3.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 04 Nov 2021 22:47:45 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.3.3]&lt;br&gt;&lt;br&gt;LV-Data.PGSQL:&lt;br&gt;- Fix bug in Get Paths Array UI.vi&lt;br&gt;- Handle INSERT Error.vi displays more useful error dialog&lt;br&gt;- Update Palette&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 04 Nov 2021 22:47:45 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.3.3.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.2.1.11</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.1.11.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.8.1]&lt;br&gt;- Update to Instrument Framework v1.10.3&lt;br&g
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.2.51</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Razorbill RP100 v21.2.1.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-21.2.1.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v21.2.1.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 22 Oct 2021 11:37:09 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [21.2.1]&lt;br&gt;- Update to  IF 1.10.3&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 22 Oct 2021 11:37:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-21.2.1.6</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
