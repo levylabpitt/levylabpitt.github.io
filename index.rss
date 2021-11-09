@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 06 Nov 2021 10:28:25 -0400</pubDate>
+    <pubDate>Tue, 09 Nov 2021 14:37:00 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.2.2.12</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.2.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.2.2.12&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 09 Nov 2021 14:37:00 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;- Intelligent find 7z.exe path&lt;br&gt;- Check if project files exist before deleting&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 09 Nov 2021 14:37:00 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.2.2.12</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.3.53</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.3.53.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.14.7]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.14.7.73</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>LV-Data v3.3.3.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.3.3.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.3.3.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 04 Nov 2021 22:47:45 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.3.3]&lt;br&gt;&lt;br&gt;LV-Data.PGSQL:&lt;br&gt;- Fix bug in Get Paths Array UI.vi&lt;br&gt;- Handle INSERT Error.vi displays more useful error dialog&lt;br&gt;- Update Palette&lt;br&gt;&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 04 Nov 2021 22:47:45 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.3.3.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
