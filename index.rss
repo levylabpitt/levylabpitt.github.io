@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 11 Nov 2021 09:28:50 -0500</pubDate>
+    <pubDate>Thu, 11 Nov 2021 16:43:48 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.3.5.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.3.5.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.3.5.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 11 Nov 2021 16:43:48 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.3.4]&lt;br&gt;&lt;br&gt;LV-Data.PGSQL:&lt;br&gt;- Issue #83: Column datatype is now combo box&lt;br&gt;- Improve connection handling in Execute SQL and Read SQL&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 11 Nov 2021 16:43:48 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.3.5.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>LV-Data v3.3.5.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.3.5.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.1.1]&lt;br&gt;- Update to LV2019 and Instrument Framework v1.1
       <guid isPermaLink="false">levylab_lib_ah2500a-1.1.1.4</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Aerotech Delay v1.1.1.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.1.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Aerotech Delay v1.1.1.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 05 Nov 2021 14:14:04 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for setting delay with Aerotech delay line&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.1]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 05 Nov 2021 14:14:04 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.1.1.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
     </item>
   </channel>
 </rss>
