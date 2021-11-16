@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 13 Nov 2021 09:40:23 -0500</pubDate>
+    <pubDate>Tue, 16 Nov 2021 12:41:32 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.8.3.54</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.3.54.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.8.3.54&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 16 Nov 2021 12:41:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPM2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.3]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 16 Nov 2021 12:41:31 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.3.54</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Build Support v1.2.2.13</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.2.13.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.8.3]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&g
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.3.53</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Oxford-VRM v21.6.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-21.6.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v21.6.1.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Sat, 06 Nov 2021 09:43:15 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [21.6.1]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 06 Nov 2021 09:43:15 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-21.6.1.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
