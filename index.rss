@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 16 Nov 2021 12:41:32 -0500</pubDate>
+    <pubDate>Tue, 30 Nov 2021 10:21:29 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN TC v1.0.2.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.2.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN TC v1.0.2.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 30 Nov 2021 10:21:28 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.TC.MNK.lvclass]&lt;br&gt;[Instrument.TC.CF.lvclass]&lt;br&gt;- APIs that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.2]&lt;br&gt;- Fix CF Read T&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 30 Nov 2021 10:21:28 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_tc-1.0.2.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.3.54</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.3.54.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.2]&lt;br&gt;- Intelligent find 7z.exe path&lt;br&gt;- Check 
       <guid isPermaLink="false">levylab_lib_build_support-1.2.2.12</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.8.3.53</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.3.53.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.8.3.53&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 06 Nov 2021 10:28:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging PPMS status to the PGSQL database. Provides a UI and API for controlling magnet field, temperature, and rotator angle (for PPM2)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.3]&lt;br&gt;- Update to Instrument Framework v1.11.0&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 06 Nov 2021 10:28:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.3.53</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
