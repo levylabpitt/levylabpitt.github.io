@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=618
-Release.Date=Tue, 08 Feb 2022 23:53:41 -0500
-Self.ID=773b60c21fd95c5d3f56639c256372c2
+Release.Number=619
+Release.Date=Wed, 09 Feb 2022 07:40:01 -0500
+Self.ID=69f92d498accbfe25180ba688af50605
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1983,6 +1983,18 @@ Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.5.
 Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.5.2.spec
 Package.MD5=4b631dfb9d0e03902a4ca7dfd7f14978
 Package.Release Date=Tue, 08 Feb 2022 23:53:40 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.2.1
+Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.8.5.4]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.5.4.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.5.4.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.5.4.spec
+Package.MD5=3546f142ee6c26a4d8d347413cc0bc4b
+Package.Release Date=Wed, 09 Feb 2022 07:40:01 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.2.1
