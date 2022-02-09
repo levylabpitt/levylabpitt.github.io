@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 09 Feb 2022 07:40:01 -0500</pubDate>
+    <pubDate>Wed, 09 Feb 2022 14:14:31 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.11.2.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.11.2.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.11.2.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 09 Feb 2022 14:14:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.2]&lt;br&gt;- Change framework install location (Issue #73)&lt;br&gt;- Change template install location (Issues #70, #71, and #72)&lt;br&gt;- Update Framework icon (Issue#69)&lt;br&gt;- Updated all class documentation descriptions&lt;br&gt;- Update SCPI library&lt;br&gt;- Fix write path functions&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 09 Feb 2022 14:14:31 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.11.2.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.5.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.5.4.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Update to Instrument Framework v1.11.2.1&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.5.1</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Oxford-VRM v1.6.3.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.3.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.6.3.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 03 Feb 2022 12:40:50 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.11.2.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 03 Feb 2022 12:40:50 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.6.3.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>

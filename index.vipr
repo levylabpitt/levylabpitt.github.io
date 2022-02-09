@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=619
-Release.Date=Wed, 09 Feb 2022 07:40:01 -0500
-Self.ID=69f92d498accbfe25180ba688af50605
+Release.Number=620
+Release.Date=Wed, 09 Feb 2022 14:14:31 -0500
+Self.ID=e0aca74d140bcc0371fc6f00ce265bdd
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1999,4 +1999,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.2.1
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.11.2.2]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.11.2.2.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.11.2.2.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.11.2.2.spec
+Package.MD5=08f9634b6e7cd5fee7c2c0224ccd353e
+Package.Release Date=Wed, 09 Feb 2022 14:14:31 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.6.7.107,jdp_science_lib_common_utilities>=1.3.0.14,jdp_science_postgresql>=0.3.5.23,jki_lib_caraya>=1.2.1.131,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.2.112,lava_lib_ui_tools>=1.4.1.74,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_lvtoitx>=3.3.6.11,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,mgi_lib_user_interface>=1.0.1.11,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,jki_lib_smo_editor>=2.0.2.5,levylab_lib_build_support>=1.2.2.13
+Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
