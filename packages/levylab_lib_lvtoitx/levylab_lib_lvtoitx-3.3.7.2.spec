@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_lvtoitx"
-Version="3.3.6.11"
+Version="3.3.7.2"
 Release=""
-ID=20ff957d2ecc259be94602dc4abd922d
+ID=af087df41caea8068a64a0faa5f200eb
 File Format="vip"
 Format Version="2017"
 Display Name="LV-Data"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[3.3.6]\0A- Updated to **LabVIEW 2019**\0A- Issue #43: Fix appending file extenion\0A- Issue #84: Fix handling of AWS credentials file\0A\0A"
+Release Notes="[3.3.7]\0D\0A- Issue #85:\0A  - Fix invalid SQL when data is empty\0A  - Close open connections upon upstream errors\0A\0D\0A"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
