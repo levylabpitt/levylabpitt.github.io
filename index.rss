@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 21 Apr 2022 12:38:54 -0400</pubDate>
+    <pubDate>Thu, 21 Apr 2022 14:33:10 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.6.4.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.4.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.6.4.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 21 Apr 2022 14:33:10 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.11.3.2 (fixes issues with PGSQL logging)&lt;br&gt;- Change Get Magnet.vi to directly ask SMO for value (backup to asking PGSQL)&lt;br&gt;- Add Get Magnet Vector Field API&lt;br&gt;- Change UI from 1.0 to 2.0 s getAll timout&lt;br&gt;- Minor changes to Handle Command variant to string&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 Apr 2022 14:33:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.6.4.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.3.6.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.6.2.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Update RP100 UI&lt;br&gt;- UI includes controls&lt;br&gt;- Moni
 &lt;br&gt;</description>
       <pubDate>Thu, 10 Feb 2022 11:26:47 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.3.0.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v1.3.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.3.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v1.3.0.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 09 Feb 2022 20:48:34 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update RP100 UI&lt;br&gt;- UI includes controls&lt;br&gt;- Monitor and log AH2500 capacitance bridge&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 09 Feb 2022 20:48:34 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.3.0.3</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
