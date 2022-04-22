@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=635
-Release.Date=Thu, 21 Apr 2022 14:33:10 -0400
-Self.ID=3290e9cf6fd9eb047f30a9c0992e81da
+Release.Number=636
+Release.Date=Thu, 21 Apr 2022 19:21:40 -0400
+Self.ID=d8fcbd0d6dce0213ee6a052a3b9853ba
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1930,4 +1930,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.3.2
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.15.0.1]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.1.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.1.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.1.spec
+Package.MD5=baed94541a22ca990b3bcb96055c0d6c
+Package.Release Date=Thu, 21 Apr 2022 19:21:40 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.3.2
+Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
