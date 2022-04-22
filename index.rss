@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 22 Apr 2022 09:38:33 -0400</pubDate>
+    <pubDate>Fri, 22 Apr 2022 09:44:33 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aerotech Delay v1.1.5.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.5.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.1.5.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 22 Apr 2022 09:44:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Aerotech delay line control using Instrument Framework&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.11.3.2&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 22 Apr 2022 09:44:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.1.5.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.6.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.6.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Change Get Magnet.vi to directly ask SMO for value (backup to a
 &lt;br&gt;</description>
       <pubDate>Thu, 21 Apr 2022 12:38:54 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.6.2</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.3.6.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.6.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.3.6.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 21 Apr 2022 10:11:01 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Change Get Magnet.vi to directly ask SMO for value (backup to asking PGSQL)&lt;br&gt;- Change UI from 2.5 to 2.0 s getAll timout&lt;br&gt;- Update to Instrument Framework v1.11.3.2 (fixes issues with PGSQL logging)&lt;br&gt;- Minor changes to Handle Command variant to string&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 Apr 2022 10:11:01 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.6.1</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

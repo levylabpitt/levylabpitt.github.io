@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=637
-Release.Date=Fri, 22 Apr 2022 09:38:33 -0400
-Self.ID=bc7ff31cc6acaddedb84093d62e4a184
+Release.Number=638
+Release.Date=Fri, 22 Apr 2022 09:44:33 -0400
+Self.ID=25418dada381cb992075ce0aa81ed7f5
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2002,4 +2002,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.2.1
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_aerotech_instrument-1.1.5.1]
+Package.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.5.1.vip
+Icon.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.5.1.bmp
+Spec.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.5.1.spec
+Package.MD5=185ad978a1a1fe147c2c96382600bdfb
+Package.Release Date=Fri, 22 Apr 2022 09:44:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.2.1
+Package.Display Name=Aerotech Delay
 Platform.Exclusive_VIPM_Version=2017
