@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_lvtoitx"
-Version="3.3.9.1"
+Version="3.3.9.2"
 Release=""
-ID=2c40d6e2ed2990d0b1792b26e0c0ff6e
+ID=7a788125a5c61650ee4d29fd7fbcf4a6
 File Format="vip"
 Format Version="2017"
 Display Name="LV-Data"
@@ -18,7 +18,7 @@ Vendor="LevyLab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[3.3.9]\0A- Issue #87: Improved recovery from mismatched path and data lengths\0A- Improved code reuse and error handling in Multivalue inserts\0A- pg_backup moved to User\\*\\AppData\\LevyLab\\"
+Release Notes="[3.3.9]\0D\0A- Issue #87: Improved recovery from mismatched path and data lengths\0D\0A- Improved code reuse and error handling in Multivalue inserts\0D\0A- pg_backup moved to User\\*\\AppData\\LevyLab\\"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
