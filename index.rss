@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 06 May 2022 14:11:36 -0400</pubDate>
+    <pubDate>Fri, 20 May 2022 08:59:02 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Asylum AFM API v1.0.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Asylum AFM API v1.0.0.3&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 20 May 2022 08:59:02 -0400&lt;br&gt;
+Packager: Joseph Albro&lt;br&gt;
+&lt;br&gt;
+Description: This is a LabVIEW wrapper meant to facilitate the use of the text based Asylum Instruments ActiveX API. These are the lowest level commands. Please note that these commands may be out of date. This package will need to be updated as time goes on and new functionality is needed.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Fixed formatting for SetPISLoop&lt;br&gt;Fixed formatting for Callback String in the SetInWave(Pair)&lt;br&gt;Better handling of the reference in debug mode (no longer will attempt to open a communication with Igor at all in debug mode)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 20 May 2022 08:59:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.0.3</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/Monkeymerlot/Asylum-API</link>
+    </item>
     <item>
       <title>Graph Utilities v2.1.8.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.8.1.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - Update to Instrument Framework v1.11.3.2&lt;br&gt;
       <pubDate>Fri, 22 Apr 2022 09:38:32 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.2.6.1</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.1.5.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.5.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.1.5.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 22 Apr 2022 09:38:32 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.11.3.2&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 22 Apr 2022 09:38:32 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.1.5.1</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>

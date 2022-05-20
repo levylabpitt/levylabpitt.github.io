@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=644
-Release.Date=Fri, 06 May 2022 14:11:36 -0400
-Self.ID=cbe81fb2e2eec7f6bee85ef4716f4e1c
+Release.Number=645
+Release.Date=Fri, 20 May 2022 08:59:02 -0400
+Self.ID=8c328fc87b2046fe00f0d427c58de4da
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2063,4 +2063,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,jki_lib_state_machine>=2018.0.7.45
 Package.Display Name=Graph Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_asylum_afm_api-1.0.0.3]
+Package.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.3.vip
+Icon.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.3.bmp
+Spec.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.3.spec
+Package.MD5=d30b1cc335207d4f646d6dfe27cff627
+Package.Release Date=Fri, 20 May 2022 08:59:02 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Asylum AFM API
 Platform.Exclusive_VIPM_Version=2017
