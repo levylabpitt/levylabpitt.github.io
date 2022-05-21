@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=645
-Release.Date=Fri, 20 May 2022 08:59:02 -0400
-Self.ID=8c328fc87b2046fe00f0d427c58de4da
+Release.Number=646
+Release.Date=Sat, 21 May 2022 07:49:19 -0400
+Self.ID=acfdd6e37918c5043305c3b4931fe92d
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2074,4 +2074,16 @@ Package.Release Date=Fri, 20 May 2022 08:59:02 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=20.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Asylum AFM API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.15.0.2]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.2.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.2.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.2.spec
+Package.MD5=e9beb000e460ff657acd72b7071bfe2e
+Package.Release Date=Sat, 21 May 2022 07:49:19 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.3.2
+Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017

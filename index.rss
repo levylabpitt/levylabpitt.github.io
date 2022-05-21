@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 20 May 2022 08:59:02 -0400</pubDate>
+    <pubDate>Sat, 21 May 2022 07:49:19 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.15.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.15.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 21 May 2022 07:49:19 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462). This version is configured to handle multiple cards (up to 16) for simultaneous, synchronized AI/AO. You can configure a number of analog outputs (up to 32) to output sine, square, sawtooth, or triangle functions with DC offsets. Each of the analog inputs (up to 32) can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.15.0]&lt;br&gt;- First release *inheriting* from the Instrument Framework (v1.11.3.2) (Issue #41)! &lt;br&gt;- Issue #52: Add support for a mix of real devices (with multiple chassis) and simulated devices (or both)&lt;br&gt;- Issue #53: UI updates&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 21 May 2022 07:49:19 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Asylum AFM API v1.0.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Update to Instrument Framework v1.11.3.2&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Fri, 22 Apr 2022 09:38:32 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.6.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.2.6.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.6.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.2.6.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 22 Apr 2022 09:38:32 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.11.3.2&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 22 Apr 2022 09:38:32 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.2.6.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
