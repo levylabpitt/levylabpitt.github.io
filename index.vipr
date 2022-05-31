@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=653
-Release.Date=Fri, 27 May 2022 10:15:22 -0400
-Self.ID=027877479a4f6ebda7fa772e4d0565a4
+Release.Number=654
+Release.Date=Fri, 27 May 2022 12:05:08 -0400
+Self.ID=6a25cf1edaccf0eb8be77e14716a8b5f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2362,4 +2362,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,jki_lib_state_machine>=2018.0.7.45
 Package.Display Name=Graph Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_data_analysis_template-1.0.6.1]
+Package.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.vip
+Icon.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.bmp
+Spec.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.spec
+Package.MD5=74e960212d6721f410e2e69aa29b9ab3
+Package.Release Date=Fri, 27 May 2022 12:05:08 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.8.2,levylab_lib_lvtoitx>=3.3.10.1,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
+Package.Display Name=Data Analaysis Template
 Platform.Exclusive_VIPM_Version=2017

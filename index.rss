@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 27 May 2022 10:15:22 -0400</pubDate>
+    <pubDate>Fri, 27 May 2022 12:05:08 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Data Analaysis Template v1.0.6.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Data Analaysis Template v1.0.6.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 27 May 2022 12:05:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Template for building data analysis programs&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.6]&lt;br&gt;- Update dependencies&lt;br&gt;- Update to LV2019&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 27 May 2022 12:05:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.6.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Graph Utilities v2.1.8.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.8.2.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - update to Instrument Framework v1.12&lt;br&gt;
       <pubDate>Tue, 24 May 2022 11:46:19 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.2.8.2</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.1.6.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.6.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.1.6.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 24 May 2022 11:46:19 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update to Instrument Framework v1.12&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 24 May 2022 11:46:19 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.1.6.2</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
