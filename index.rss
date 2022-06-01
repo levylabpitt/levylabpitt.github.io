@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 01 Jun 2022 13:33:41 -0400</pubDate>
+    <pubDate>Wed, 01 Jun 2022 18:10:57 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Relay Box v1.1.1.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Relay Box v1.1.1.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 01 Jun 2022 18:10:57 -0400&lt;br&gt;
+Packager: John Maier&lt;br&gt;
+&lt;br&gt;
+Description: Software to control resistor relay box&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to LV2019&lt;br&gt;- Relink subVIs, FTD LV drivers and dlls&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 01 Jun 2022 18:10:57 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_relay_box-1.1.1.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.15.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.3.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.1.8]&lt;br&gt;- Update Horizontal and Vertical Linecuts to hav
       <pubDate>Fri, 27 May 2022 10:15:22 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.8.2</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.5.3.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.5.3.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.5.3.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 25 May 2022 15:16:31 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;Control Experiment.vi provides a uniform way to record information about your sample &amp;amp; device, how the lockin is connected to the device, configures the Krohn Hite amplifier (and Pickering switch if you have one), and sets the base path for saving data.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments.&lt;br&gt;- Lockin vs Vsg (or Vbg) (Lockin_Vsg.vi)&lt;br&gt;- Lockin vs Time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi (under development)&lt;br&gt;- IV curves (IV.vi)&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;Sweep Control.vi: Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;Continuous B sweep.vi: For sweeping B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.3]&lt;br&gt;- Issue #49: Wiring configuration was not being saved in the class FGV&lt;br&gt;- Issue #47: Updated instrument configuration: the configuration scheme should be much more flexible to initialize different sub-instrument classes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 25 May 2022 15:16:31 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.5.3.1</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
