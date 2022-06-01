@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 27 May 2022 12:05:08 -0400</pubDate>
+    <pubDate>Wed, 01 Jun 2022 08:43:07 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Asylum AFM API v1.0.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Asylum AFM API v1.0.0.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 01 Jun 2022 08:43:07 -0400&lt;br&gt;
+Packager: Joseph Albro&lt;br&gt;
+&lt;br&gt;
+Description: This is a LabVIEW wrapper meant to facilitate the use of the text based Asylum Instruments ActiveX API. These are the lowest level commands. Please note that these commands may be out of date. This package will need to be updated as time goes on and new functionality is needed.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Added additonal check in the EnsureIgorFormatting&lt;br&gt;Now handles empty strings (test added),  &amp;quot; to &amp;quot;&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 01 Jun 2022 08:43:07 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.0.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/Monkeymerlot/Asylum-API</link>
+    </item>
     <item>
       <title>Data Analaysis Template v1.0.6.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - update to Instrument Framework v1.12&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Tue, 24 May 2022 11:46:19 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.7.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.2.8.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.2.8.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 24 May 2022 11:46:19 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update to Instrument Framework v1.12&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 24 May 2022 11:46:19 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.2.8.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
