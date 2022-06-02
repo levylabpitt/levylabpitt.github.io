@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 01 Jun 2022 18:10:57 -0400</pubDate>
+    <pubDate>Thu, 02 Jun 2022 14:07:33 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Relay Box v1.1.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Relay Box v1.1.1.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 02 Jun 2022 14:07:33 -0400&lt;br&gt;
+Packager: John Maier&lt;br&gt;
+&lt;br&gt;
+Description: Software to control resistor relay box&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to LV2019&lt;br&gt;- Relink subVIs, FTD LV drivers and dlls&lt;br&gt;--&amp;gt; Major reorganizing of code&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 02 Jun 2022 14:07:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_relay_box-1.1.1.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Relay Box v1.1.1.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.1.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.0.6]&lt;br&gt;- Update dependencies&lt;br&gt;- Update to LV201
       <pubDate>Fri, 27 May 2022 12:05:08 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.6.1</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.8.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.8.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.8.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 27 May 2022 10:15:22 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.8]&lt;br&gt;- Update Horizontal and Vertical Linecuts to have step averaging option&lt;br&gt;- Updated to LV2019&lt;br&gt;- Update package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 27 May 2022 10:15:22 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.8.2</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>

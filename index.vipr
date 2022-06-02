@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=662
-Release.Date=Wed, 01 Jun 2022 18:10:57 -0400
-Self.ID=2887d76bc203c3f738e612f0ca7b9c1f
+Release.Number=663
+Release.Date=Thu, 02 Jun 2022 14:07:33 -0400
+Self.ID=a54d37869df1c0b794129186745b01c9
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2468,5 +2468,17 @@ Package.Release Date=Wed, 01 Jun 2022 18:10:57 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45
+Package.Display Name=Relay Box
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_relay_box-1.1.1.2]
+Package.URL=packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.2.vip
+Icon.URL=packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.2.bmp
+Spec.URL=packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.2.spec
+Package.MD5=c4e4e5ae428071433176d2ace9b3b19f
+Package.Release Date=Thu, 02 Jun 2022 14:07:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7
 Package.Display Name=Relay Box
 Platform.Exclusive_VIPM_Version=2017
