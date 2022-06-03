@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 02 Jun 2022 14:07:33 -0400</pubDate>
+    <pubDate>Fri, 03 Jun 2022 15:34:03 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>General AFM Lithography v10.0.1.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-10.0.1.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: General AFM Lithography v10.0.1.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 03 Jun 2022 15:34:02 -0400&lt;br&gt;
+Packager: LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [10.0.1]&lt;br&gt;**This release has been built using LV2019**&lt;br&gt;&lt;br&gt;Bugfixes:&lt;br&gt;- Setpoint issue with the asylum driver&lt;br&gt;- IMAQ image in exe is dark. Attempted fix: Unchecking box for &amp;quot;Allow future versions of LabVIEW RunTime to run this application.&amp;quot;&lt;br&gt;- Parser error fixes CSS transformation matrix issue&lt;br&gt;- Setting active database at startup&lt;br&gt;- Improved error handling if the user does not select a *.svg or *.ibw file&lt;br&gt;&lt;br&gt;New features:&lt;br&gt;- There are now checks to ensure you&#39;re in contact mode before you perform lithography (z setpoints are totally different in contact and AC mode, if in AC mode you&#39;ll drive the tip into the surface hard).&lt;br&gt;- The driver now automatically shows the tip&lt;br&gt;- Configuration files are now completely human readable&lt;br&gt;- Miscellaneous UI improvements&lt;br&gt;&lt;br&gt;Beta Feature:&lt;br&gt;- Integrated IV curve collection&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 03 Jun 2022 15:34:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_general_afm_lithography-10.0.1.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Relay Box v1.1.1.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: Added additonal check in the EnsureIgorFormatting&lt;br&gt;Now ha
       <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.0.5</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/Monkeymerlot/Asylum-API</link>
-    </item>
-    <item>
-      <title>Data Analaysis Template v1.0.6.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Data Analaysis Template v1.0.6.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 27 May 2022 12:05:08 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Template for building data analysis programs&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.6]&lt;br&gt;- Update dependencies&lt;br&gt;- Update to LV2019&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 27 May 2022 12:05:08 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.6.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
