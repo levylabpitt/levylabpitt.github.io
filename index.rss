@@ -3,188 +3,188 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 08 Jun 2022 16:55:46 -0400</pubDate>
+    <pubDate>Wed, 08 Jun 2022 20:21:53 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Multichannel Lockin v2.15.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.1.5.bmp"&gt;&lt;br&gt;
+      <title>Razorbill RP100 v1.3.2.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.3.2.6.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Multichannel Lockin v2.15.1.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 08 Jun 2022 16:55:45 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;- Fix version number display&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 08 Jun 2022 16:55:45 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.1.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.15.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.15.1.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 08 Jun 2022 14:43:03 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;- Fix version number display&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 08 Jun 2022 14:43:03 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.1.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.12.1.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.12.1.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.12.1.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 07 Jun 2022 19:14:16 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.12.1]&lt;br&gt;- Issue #77: fix issue preventing communication across the network&lt;br&gt;&lt;br&gt;[1.12.0]&lt;br&gt;This release has major changes in the way configuration is handled. You should make the following changes to your code:&lt;br&gt;- &amp;quot;Read Configuration File&amp;quot; and &amp;quot;Write Configuration File&amp;quot; should be configured to &amp;lt;i&amp;gt;call parent method&amp;lt;/i&amp;gt;&lt;br&gt;- &amp;quot;Get SMO PGSQL Log Paths&amp;quot; will need two front panel controls to match the parent method&lt;br&gt;- Instrument.Template.lvclass:Instrument.Template.AppLauncher has improvements to allow the user easier access to configuration&lt;br&gt;  - Front panel controls&lt;br&gt;  - examine configuration.ini state (and macro)&lt;br&gt;  - refinements to SMO start and stop macros&lt;br&gt;  - Data: Wait state&lt;br&gt;- If you use Configuration.lvclass directly (likely in UI process), should can use &amp;quot;Write Section&amp;quot; to control the ini header&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 07 Jun 2022 19:14:16 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.12.1.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Build Support v1.2.3.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.3.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.2.3.1&lt;br&gt;
+Product: Razorbill RP100 v1.3.2.6&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Tue, 07 Jun 2022 16:24:31 -0400&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:53 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
 &lt;br&gt;
-Release Notes: - replace WF Progress with homegrown ProgressBar SMO&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 07 Jun 2022 16:24:31 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.2.3.1</guid>
+      <pubDate>Wed, 08 Jun 2022 20:21:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.3.2.6</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
     <item>
-      <title>General AFM Lithography v10.0.1.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-10.0.1.3.bmp"&gt;&lt;br&gt;
+      <title>PPMS Monitor and Control v1.8.7.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.7.5.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: General AFM Lithography v10.0.1.3&lt;br&gt;
+Product: PPMS Monitor and Control v1.8.7.5&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Fri, 03 Jun 2022 21:32:18 -0400&lt;br&gt;
-Packager: LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: **This release has been built using LV2019**&lt;br&gt;&lt;br&gt;Bugfixes:&lt;br&gt;- Setpoint issue with the asylum driver&lt;br&gt;- IMAQ image in exe is dark. Attempted fix: Unchecking box for &amp;quot;Allow future versions of LabVIEW RunTime to run this application.&amp;quot;&lt;br&gt;- Parser error fixes CSS transformation matrix issue&lt;br&gt;- Setting active database at startup&lt;br&gt;- Improved error handling if the user does not select a *.svg or *.ibw file&lt;br&gt;&lt;br&gt;New features:&lt;br&gt;- There are now checks to ensure you&#39;re in contact mode before you perform lithography (z setpoints are totally different in contact and AC mode, if in AC mode you&#39;ll drive the tip into the surface hard).&lt;br&gt;- The driver now automatically shows the tip&lt;br&gt;- Configuration files are now completely human readable&lt;br&gt;- Miscellaneous UI improvements&lt;br&gt;&lt;br&gt;Beta Feature:&lt;br&gt;- Integrated IV curve collection&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 03 Jun 2022 21:32:18 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-10.0.1.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>General AFM Lithography v10.0.1.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-10.0.1.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v10.0.1.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 03 Jun 2022 15:34:02 -0400&lt;br&gt;
-Packager: LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [10.0.1]&lt;br&gt;**This release has been built using LV2019**&lt;br&gt;&lt;br&gt;Bugfixes:&lt;br&gt;- Setpoint issue with the asylum driver&lt;br&gt;- IMAQ image in exe is dark. Attempted fix: Unchecking box for &amp;quot;Allow future versions of LabVIEW RunTime to run this application.&amp;quot;&lt;br&gt;- Parser error fixes CSS transformation matrix issue&lt;br&gt;- Setting active database at startup&lt;br&gt;- Improved error handling if the user does not select a *.svg or *.ibw file&lt;br&gt;&lt;br&gt;New features:&lt;br&gt;- There are now checks to ensure you&#39;re in contact mode before you perform lithography (z setpoints are totally different in contact and AC mode, if in AC mode you&#39;ll drive the tip into the surface hard).&lt;br&gt;- The driver now automatically shows the tip&lt;br&gt;- Configuration files are now completely human readable&lt;br&gt;- Miscellaneous UI improvements&lt;br&gt;&lt;br&gt;Beta Feature:&lt;br&gt;- Integrated IV curve collection&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 03 Jun 2022 15:34:02 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-10.0.1.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Relay Box v1.1.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Relay Box v1.1.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 02 Jun 2022 14:07:33 -0400&lt;br&gt;
-Packager: John Maier&lt;br&gt;
-&lt;br&gt;
-Description: Software to control resistor relay box&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to LV2019&lt;br&gt;- Relink subVIs, FTD LV drivers and dlls&lt;br&gt;--&amp;gt; Major reorganizing of code&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 02 Jun 2022 14:07:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_relay_box-1.1.1.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Relay Box v1.1.1.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.1.1.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Relay Box v1.1.1.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 01 Jun 2022 18:10:57 -0400&lt;br&gt;
-Packager: John Maier&lt;br&gt;
-&lt;br&gt;
-Description: Software to control resistor relay box&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to LV2019&lt;br&gt;- Relink subVIs, FTD LV drivers and dlls&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 01 Jun 2022 18:10:57 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_relay_box-1.1.1.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.15.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.15.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 01 Jun 2022 13:33:40 -0400&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:53 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
 &lt;br&gt;
-Release Notes: [2.15.0]&lt;br&gt;- First release *inheriting* from the Instrument Framework (v1.11.3.2) (Issue #41)! &lt;br&gt;- Issue #52: Add support for a mix of real devices (with multiple chassis) and simulated devices (or both)&lt;br&gt;- Issue #53: UI updates&lt;br&gt;- Issue #55: fix spelling errors&lt;br&gt;- Issue #56: fixes related to sweep API&lt;br&gt;- Issue #58: fix sweep control enable/disable&lt;br&gt;- Issue #59: change sweep control channel ring to numeric&lt;br&gt;- Issue #60: Remove redundant sampling controls&lt;br&gt;- Fix issue with ADC/DAC filter delay&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Wed, 01 Jun 2022 13:33:40 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.0.3</guid>
+      <pubDate>Wed, 08 Jun 2022 20:21:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.7.5</guid>
       <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
     <item>
-      <title>Oxford-1820 v1.3.7.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.7.3.bmp"&gt;&lt;br&gt;
+      <title>Oxford-VRM v1.6.6.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.6.3.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Oxford-1820 v1.3.7.3&lt;br&gt;
+Product: Oxford-VRM v1.6.6.3&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Wed, 01 Jun 2022 13:33:21 -0400&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:53 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;- Issue #4: Fix issue with power suppy enumeration&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.6.6.3</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-1820 v1.3.7.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.7.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.3.7.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:53 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
 &lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.12&lt;br&gt;- UI improvements&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Wed, 01 Jun 2022 13:33:21 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.7.3</guid>
+      <pubDate>Wed, 08 Jun 2022 20:21:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.7.5</guid>
       <dc:creator>Levylab</dc:creator>
       
+    </item>
+    <item>
+      <title>Multichannel Lockin v2.15.1.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.15.1.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;- Fix version number display&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.1.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
+    <item>
+      <title>LEIDEN TC v1.0.7.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.7.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN TC v1.0.7.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.TC.MNK.lvclass]&lt;br&gt;[Instrument.TC.CF.lvclass]&lt;br&gt;- APIs that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_tc-1.0.7.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Cryostation v1.2.8.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.2.8.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.2.8.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Krohn-Hite 7008 Drivers v1.7.7.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.7.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite 7008 Drivers v1.7.7.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:51 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:51 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.7.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>AH2500A v1.1.6.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.6.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.1.6.6&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:51 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:51 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.1.6.6</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Aerotech Delay v1.1.7.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.7.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Aerotech Delay v1.1.7.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 08 Jun 2022 20:21:51 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Aerotech delay line control using Instrument Framework&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 08 Jun 2022 20:21:51 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.1.7.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
     </item>
   </channel>
 </rss>

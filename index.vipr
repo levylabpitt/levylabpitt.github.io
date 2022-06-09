@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=669
-Release.Date=Wed, 08 Jun 2022 16:55:46 -0400
-Self.ID=9b666c87735f3d7943abbdd17bbd1cf7
+Release.Number=670
+Release.Date=Wed, 08 Jun 2022 20:21:53 -0400
+Self.ID=cebff510d2f2f3759ac792016397add3
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2554,4 +2554,124 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.3.2
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_aerotech_instrument-1.1.7.6]
+Package.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.7.6.vip
+Icon.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.7.6.bmp
+Spec.URL=packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.7.6.spec
+Package.MD5=53013077e256516b327298dbb72aa2bd
+Package.Release Date=Wed, 08 Jun 2022 20:21:51 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=Aerotech Delay
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.1.6.6]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.6.6.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.6.6.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.1.6.6.spec
+Package.MD5=5677d8171c77843454ffc774c5cb4353
+Package.Release Date=Wed, 08 Jun 2022 20:21:51 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-1.7.7.6]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.7.6.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.7.6.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.7.6.spec
+Package.MD5=23336271ae7d14adb394d15023124f4c
+Package.Release Date=Wed, 08 Jun 2022 20:21:51 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=Krohn-Hite 7008 Drivers
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_leiden_tc-1.0.7.6]
+Package.URL=packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.7.6.vip
+Icon.URL=packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.7.6.bmp
+Spec.URL=packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.7.6.spec
+Package.MD5=3b63f53e7af36dfbaa880dfa6749b8b3
+Package.Release Date=Wed, 08 Jun 2022 20:21:52 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=LEIDEN TC
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.2.8.7]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.7.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.7.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.7.spec
+Package.MD5=efa5025265f0a1f2585cbc3e9a34e2cb
+Package.Release Date=Wed, 08 Jun 2022 20:21:52 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.15.1.6]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.1.6.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.1.6.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.1.6.spec
+Package.MD5=4f837341e26972ea5d18ca31704de704
+Package.Release Date=Wed, 08 Jun 2022 20:21:52 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.11.3.2
+Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_1820_api-1.3.7.5]
+Package.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.7.5.vip
+Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.7.5.bmp
+Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.7.5.spec
+Package.MD5=be599ca81e07c6553e5a6f313206e2d3
+Package.Release Date=Wed, 08 Jun 2022 20:21:53 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_vrm_api-1.6.6.3]
+Package.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.6.3.vip
+Icon.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.6.3.bmp
+Spec.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.6.3.spec
+Package.MD5=addc259e85e4219095ad2191d7e20040
+Package.Release Date=Wed, 08 Jun 2022 20:21:53 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.8.7.5]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.7.5.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.7.5.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.7.5.spec
+Package.MD5=f6bef3a07c040c7bdafa4f71f312b680
+Package.Release Date=Wed, 08 Jun 2022 20:21:53 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-1.3.2.6]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.3.2.6.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.3.2.6.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.3.2.6.spec
+Package.MD5=d90095ad6942ae7dd0281ab78b13062d
+Package.Release Date=Wed, 08 Jun 2022 20:21:53 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.1
+Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017
