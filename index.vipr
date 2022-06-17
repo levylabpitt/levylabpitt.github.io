@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=672
-Release.Date=Tue, 14 Jun 2022 00:01:52 -0400
-Self.ID=b5fed6419f1ea22c734a0a1687414a4f
+Release.Number=673
+Release.Date=Fri, 17 Jun 2022 17:45:56 -0400
+Self.ID=5d77140d8ab635c1944eb13aea39c665
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -2807,4 +2807,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.2
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.15.2.1]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.2.1.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.2.1.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.2.1.spec
+Package.MD5=4ed38e1f11bfb48a3bef51de146bc9b1
+Package.Release Date=Fri, 17 Jun 2022 17:45:56 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.2
+Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017

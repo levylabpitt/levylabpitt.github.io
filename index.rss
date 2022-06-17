@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 14 Jun 2022 00:01:52 -0400</pubDate>
+    <pubDate>Fri, 17 Jun 2022 17:45:56 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.15.2.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.2.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.15.2.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 17 Jun 2022 17:45:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - This release should fix a long-standing issue in which there would be a phase shift when Fs/#s /= integer multiple of f_REF&lt;br&gt;- Issue #61: Fix issues with sweep buffer&lt;br&gt;- Issue #62: Fix device enumeration&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 17 Jun 2022 17:45:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.2.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Razorbill RP100 v1.3.2.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.3.2.7.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_ah2500a-1.1.6.7</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Aerotech Delay v1.1.7.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_aerotech_instrument/levylab_lib_aerotech_instrument-1.1.7.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Aerotech Delay v1.1.7.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 14 Jun 2022 00:01:49 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Aerotech delay line control using Instrument Framework&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 14 Jun 2022 00:01:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_aerotech_instrument-1.1.7.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Aerotech-Delay-Line</link>
     </item>
   </channel>
 </rss>
