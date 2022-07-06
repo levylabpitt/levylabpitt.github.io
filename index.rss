@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 30 Jun 2022 10:43:31 -0400</pubDate>
+    <pubDate>Wed, 06 Jul 2022 12:06:21 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.5.1.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.1.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.5.1.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 06 Jul 2022 12:06:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: New Methods&lt;br&gt;- Savitsky Golay Weighted filters&lt;br&gt;&lt;br&gt;Changes&lt;br&gt;- Update palette&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 06 Jul 2022 12:06:21 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.1.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.5.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.0.1.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;- Fix version n
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.1.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>LEIDEN TC v1.0.7.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.0.7.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN TC v1.0.7.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 14 Jun 2022 00:01:50 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.TC.MNK.lvclass]&lt;br&gt;[Instrument.TC.CF.lvclass]&lt;br&gt;- APIs that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update to Instrument Framework v1.12.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 14 Jun 2022 00:01:50 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_tc-1.0.7.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
