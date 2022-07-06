@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 06 Jul 2022 12:58:00 -0400</pubDate>
+    <pubDate>Wed, 06 Jul 2022 13:17:15 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graph Utilities v2.1.10.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.10.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Graph Utilities v2.1.10.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 06 Jul 2022 13:17:15 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Misc. graph utilities&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.10]&lt;br&gt;- Updated palette and examples install location&lt;br&gt;- Updated package dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 06 Jul 2022 13:17:15 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.10.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Graph Utilities v2.1.10.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.10.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;- Issue #4: Fix
 &lt;br&gt;</description>
       <pubDate>Tue, 14 Jun 2022 00:01:51 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.6.6.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.3.7.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.7.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.3.7.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 14 Jun 2022 00:01:51 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.12.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 14 Jun 2022 00:01:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.7.6</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
