@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=691
-Release.Date=Tue, 23 Aug 2022 15:33:44 -0400
-Self.ID=aa8bee3166b034a166e5590b00548b6d
+Release.Number=692
+Release.Date=Tue, 23 Aug 2022 21:53:03 -0400
+Self.ID=7ebb456473a2537cf6091b6eea2be9d0
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3032,6 +3032,18 @@ Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichanne
 Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.4.spec
 Package.MD5=1ea4f8a3b506b94a43209e4c346f03a4
 Package.Release Date=Tue, 23 Aug 2022 15:33:43 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.2
+Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.15.3.5]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.5.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.5.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.5.spec
+Package.MD5=eeef897cfa5fbec69f7dd70fd79d8a55
+Package.Release Date=Tue, 23 Aug 2022 21:53:03 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.1.2
