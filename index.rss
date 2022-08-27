@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 25 Aug 2022 08:45:50 -0400</pubDate>
+    <pubDate>Sat, 27 Aug 2022 13:57:37 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.2.3.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.3.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.2.3.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 27 Aug 2022 13:57:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: - replace WF Progress with homegrown ProgressBar SMO&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 27 Aug 2022 13:57:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.2.3.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.15.3.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.6.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.0.8]&lt;br&gt;&lt;br&gt;Bug fixes:&lt;br&gt;- add support for 
       <pubDate>Fri, 08 Jul 2022 18:06:06 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.8.3</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.10.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.10.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.10.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 08 Jul 2022 14:00:45 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Misc. graph utilities&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.10]&lt;br&gt;- Updated palette and examples install location&lt;br&gt;- Updated package dependencies&lt;br&gt;- Change default intensity graph.ctl color table to viridis&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 08 Jul 2022 14:00:45 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.10.3</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
