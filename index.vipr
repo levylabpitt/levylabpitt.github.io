@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=713
-Release.Date=Wed, 07 Sep 2022 08:15:10 -0400
-Self.ID=87c0b4f48513aa8ded0f3692813d82ec
+Release.Number=714
+Release.Date=Wed, 07 Sep 2022 09:49:12 -0400
+Self.ID=5873965a1cdd68f876db2da1a6342edf
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3402,4 +3402,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.4.1
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-2.15.3.14]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.14.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.14.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.14.spec
+Package.MD5=8b2fd5a28b2c18e9e8961ff9145291c3
+Package.Release Date=Wed, 07 Sep 2022 09:49:10 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.4.1
+Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017
