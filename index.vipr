@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=720
-Release.Date=Fri, 09 Sep 2022 17:25:16 -0400
-Self.ID=316f32b3dca9703fd9bd10c1e6ef8fcf
+Release.Number=721
+Release.Date=Sun, 11 Sep 2022 14:21:33 -0400
+Self.ID=bb5e3c7c7616d09b25dce7452245c8a5
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3488,4 +3488,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.5.3
 Package.Display Name=LEIDEN TC
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.8.9.5]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.9.5.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.9.5.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.9.5.spec
+Package.MD5=f97e68e4b79a3bbdd6f3ec8cdd89ebb3
+Package.Release Date=Sun, 11 Sep 2022 14:21:32 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.5.3
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
