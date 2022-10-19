@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=727
-Release.Date=Fri, 14 Oct 2022 13:57:52 -0400
-Self.ID=5cffe6dadee4666f918c4fe851759358
+Release.Number=728
+Release.Date=Wed, 19 Oct 2022 11:29:14 -0400
+Self.ID=3b975a97a364ababa2179b204f04b96e
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3572,4 +3572,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.3.2
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.8.10.3]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.10.3.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.10.3.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.10.3.spec
+Package.MD5=6e1862a7b2ef9b620d5f8f52377c3516
+Package.Release Date=Wed, 19 Oct 2022 11:29:13 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.5.3
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017

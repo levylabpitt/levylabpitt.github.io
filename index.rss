@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 14 Oct 2022 13:57:52 -0400</pubDate>
+    <pubDate>Wed, 19 Oct 2022 11:29:14 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.8.10.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.10.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.8.10.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 19 Oct 2022 11:29:13 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: - change Set Magnet deadband to 1 Oe&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 19 Oct 2022 11:29:13 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.10.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Oxford-VRM v1.6.7.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.7.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Issue #63: Implement arbitrary sweep table support.&lt;br&gt;  
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.3.16</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.8.8.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.8.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.8.8.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 08 Sep 2022 22:01:56 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.12.5&lt;br&gt;- Give simulation mode its own port number&lt;br&gt;- UI keeps remote connection open&lt;br&gt;- Add error handling to UI to close and re-open bad ZMQ connection&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 08 Sep 2022 22:01:56 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.8.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
