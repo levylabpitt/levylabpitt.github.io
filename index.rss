@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 19 Oct 2022 11:29:14 -0400</pubDate>
+    <pubDate>Mon, 14 Nov 2022 15:49:49 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.6.1.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.1.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.6.1.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 14 Nov 2022 15:49:49 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.1]&lt;br&gt;- Issue #54: Fix R2/R4 G2/G4 plot labels in Lockin_sweep&lt;br&gt;- Issue #55: better support for calling lockin_sweep as a subVI of Sweep Control and Continuous B Sweep&lt;br&gt;- Issue #56: Confirm Control Experiment shutdown&lt;br&gt;- Issue #61: Add write accessor for device (Mini Control Experiment)&lt;br&gt;- Issue #62: Fix R vs T and B graphs in Lockin_time&lt;br&gt;- Issue #64: fix issue with graphing a sweep that does not use the first sweep channel&lt;br&gt;- Modify API methods for reading json-formatted metadata from TDMS files&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 14 Nov 2022 15:49:49 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.6.1.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.8.10.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.10.3.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: New API:&lt;br&gt;- Set Heater.vi (Issue #3)&lt;br&gt;&lt;br&gt;O
       <guid isPermaLink="false">levylab_lib_leiden_tc-1.1.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.15.3.16</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.15.3.16&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 09 Sep 2022 11:51:28 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #63: Implement arbitrary sweep table support.&lt;br&gt;  - Rudimentary tables can be created inside the UI (e.g., [0,1,2,0])&lt;br&gt;  - More complicated arbitrary waveforms can be loaded via the API &amp;quot;setSweepTable&amp;quot; method&lt;br&gt;- Issue #64: implement output sampling rate to avoid memory overflow errors during sweep mode&lt;br&gt;- Issue #65: better support for USB-4431 Devices&lt;br&gt;- Fix issues with measuring offset; updated notch filter&lt;br&gt;- Updated waveguide model (AI1 gain)&lt;br&gt;- Miscellaneous bugfixes and UI improvements (add show/hide DAQ UI button)&lt;br&gt;- Update to Instrument Framework v1.12.5&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 09 Sep 2022 11:51:28 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.3.16</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
