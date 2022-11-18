@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 14 Nov 2022 15:49:49 -0500</pubDate>
+    <pubDate>Fri, 18 Nov 2022 11:38:51 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.6.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.6.1.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 18 Nov 2022 11:38:51 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.1]&lt;br&gt;- Issue #54: Fix R2/R4 G2/G4 plot labels in Lockin_sweep&lt;br&gt;- Issue #55: better support for calling lockin_sweep as a subVI of Sweep Control and Continuous B Sweep&lt;br&gt;- Issue #56: Confirm Control Experiment shutdown&lt;br&gt;- Issue #61: Add write accessor for device (Mini Control Experiment)&lt;br&gt;- Issue #62: Fix R vs T and B graphs in Lockin_time&lt;br&gt;- Issue #64: fix issue with graphing a sweep that does not use the first sweep channel&lt;br&gt;- Modify API methods for reading json-formatted metadata from TDMS files&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 18 Nov 2022 11:38:51 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.6.1.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.6.1.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.1.1.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - FIx issue with application startup&lt;br&gt;- Rename simulation
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.9.5</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>LEIDEN TC v1.1.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-1.1.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN TC v1.1.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 09 Sep 2022 17:25:16 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Temperature Control (TC)&lt;br&gt;&lt;br&gt;[Instrument.TC.MNK.lvclass]&lt;br&gt;[Instrument.TC.CF.lvclass]&lt;br&gt;- APIs that overrides &amp;quot;Get Temperature.vi&amp;quot; method of Instrument.Cryostat.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: New API:&lt;br&gt;- Set Heater.vi (Issue #3)&lt;br&gt;&lt;br&gt;Other:&lt;br&gt;- update to Instrument Framework v1.12.5&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 09 Sep 2022 17:25:16 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_tc-1.1.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
