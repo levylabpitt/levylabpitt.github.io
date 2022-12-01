@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 18 Nov 2022 11:38:51 -0500</pubDate>
+    <pubDate>Thu, 01 Dec 2022 15:26:55 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.6.2.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.2.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.6.2.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Dec 2022 15:26:55 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.2]&lt;br&gt;- Issue #66: Improve Lockin_sweep: UI controls, R graph plots and plot legend&lt;br&gt;- Issue #67: Improve Continuous B Sweep UI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Dec 2022 15:26:55 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.6.2.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.6.1.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.1.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Issue #63: Implement arbitrary sweep table support.&lt;br&gt;  
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.3.17</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.8.9.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.9.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.8.9.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 11 Sep 2022 14:21:32 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - FIx issue with application startup&lt;br&gt;- Rename simulation mode PPMSim&lt;br&gt;&lt;br&gt;- Update to Instrument Framework v1.12.5&lt;br&gt;- Give simulation mode its own port number&lt;br&gt;- UI keeps remote connection open&lt;br&gt;- Add error handling to UI to close and re-open bad ZMQ connection&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 11 Sep 2022 14:21:32 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.9.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
