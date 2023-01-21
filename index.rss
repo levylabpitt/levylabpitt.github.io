@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 01 Dec 2022 15:26:55 -0500</pubDate>
+    <pubDate>Sat, 21 Jan 2023 14:27:02 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.5.1.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.5.1.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.5.1.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 21 Jan 2023 14:27:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.5.1]&lt;br&gt;- Issue #92: Add rudimentary support for AWS CLI (alpha)&lt;br&gt;- Issue #93: Harmonize parsing data from dat, TDMS with multiple groups, folder of TDMS&lt;br&gt;- Issue #94: Fix issue with saving a TDMS file where a TDMS file already exists&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 21 Jan 2023 14:27:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.5.1.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.6.2.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.2.1.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - FIx issue with application startup&lt;br&gt;- Rename simulation
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.9.6</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.15.3.17</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.3.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.15.3.17&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 14 Sep 2022 10:11:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #63: Implement arbitrary sweep table support.&lt;br&gt;  - Rudimentary tables can be created inside the UI (e.g., [0,1,2,0])&lt;br&gt;  - More complicated arbitrary waveforms can be loaded via the API &amp;quot;setSweepTable&amp;quot; method&lt;br&gt;- Issue #64: implement output sampling rate to avoid memory overflow errors during sweep mode&lt;br&gt;- Issue #65: better support for USB-4431 Devices&lt;br&gt;- Fix issues with measuring offset; updated notch filter&lt;br&gt;- Updated waveguide model (AI1 gain)&lt;br&gt;- Miscellaneous bugfixes and UI improvements (add show/hide DAQ UI button)&lt;br&gt;- Update to Instrument Framework v1.12.5&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 14 Sep 2022 10:11:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.3.17</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
