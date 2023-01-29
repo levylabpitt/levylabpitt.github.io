@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 25 Jan 2023 09:38:40 -0500</pubDate>
+    <pubDate>Sun, 29 Jan 2023 12:13:17 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.5.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.5.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.5.1.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 29 Jan 2023 12:13:17 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.5.1]&lt;br&gt;- Issue #92: Add rudimentary support for AWS CLI (alpha)&lt;br&gt;- Issue #93: Harmonize parsing data from dat, TDMS with multiple groups, folder of TDMS&lt;br&gt;- Issue #94: Fix issue with saving a TDMS file where a TDMS file already exists&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 29 Jan 2023 12:13:17 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.5.1.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Data Analysis Template v1.0.9.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.9.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Extensive refactoring:&lt;br&gt;  - PPMS:Process.vi now handles
 &lt;br&gt;</description>
       <pubDate>Mon, 19 Sep 2022 12:46:12 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.10.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.8.9.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.9.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.8.9.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 17 Sep 2022 14:40:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - FIx issue with application startup&lt;br&gt;- Rename simulation mode PPMSim&lt;br&gt;&lt;br&gt;- Update to Instrument Framework v1.12.5&lt;br&gt;- Give simulation mode its own port number&lt;br&gt;- UI keeps remote connection open&lt;br&gt;- Add error handling to UI to close and re-open bad ZMQ connection&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 17 Sep 2022 14:40:21 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.9.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
