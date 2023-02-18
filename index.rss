@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 29 Jan 2023 12:13:17 -0500</pubDate>
+    <pubDate>Sat, 18 Feb 2023 15:56:29 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ZeroMQ Socket Library v3.6.3.113</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.6.3.113.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: ZeroMQ Socket Library v3.6.3.113&lt;br&gt;
+Company: Martijn Jasperse&lt;br&gt;
+Release Date: Sat, 18 Feb 2023 15:56:29 -0500&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - separate compiled code from all library VIs and classes&lt;br&gt;- disable debugging and automatic error handling in all library VIs&lt;br&gt;- change reentrancy of zmq_recv_multi.vi to &amp;quot;preallocated shared&amp;quot;&lt;br&gt;&lt;br&gt;*This version compiled by Patrick Irvin (ciozi137) with LabVIEW 2019 and VIPM 2022&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 18 Feb 2023 15:56:29 -0500</pubDate>
+      <guid isPermaLink="false">labview-zmq-3.6.3.113</guid>
+      <dc:creator>Martijn Jasperse</dc:creator>
+      <link>http://labview-zmq.sf.net</link>
+    </item>
     <item>
       <title>LV-Data v3.5.1.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.5.1.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.6.0]&lt;br&gt;- Issue #5, #34, #36: IV is deprecated; the pref
       <guid isPermaLink="false">levylab_lib_transport-1.6.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.8.10.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.8.10.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.8.10.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 19 Sep 2022 12:46:12 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Extensive refactoring:&lt;br&gt;  - PPMS:Process.vi now handles all communication with the hardware (QD Insrtrument Server)&lt;br&gt;  - Handle  Command.vi and Handle getAll.vi now forward messages to the PPMS:process.vi and responds with data on the class wire as needed&lt;br&gt;  - Remote API is unchanged&lt;br&gt;&lt;br&gt;- Minor UI changes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 19 Sep 2022 12:46:12 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.8.10.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
