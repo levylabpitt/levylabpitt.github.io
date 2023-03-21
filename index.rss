@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 20 Mar 2023 21:27:33 -0400</pubDate>
+    <pubDate>Tue, 21 Mar 2023 08:11:04 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PostgreSQL Library v0.3.1.20</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.20.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PostgreSQL Library v0.3.1.20&lt;br&gt;
+Company: JDP Science&lt;br&gt;
+Release Date: Tue, 21 Mar 2023 08:11:04 -0400&lt;br&gt;
+Packager: JDP Science&lt;br&gt;
+&lt;br&gt;
+Description: Wrapping of libPQ for PostgreSQL access.  Higher-level than libPQ itself.  See Examples.&lt;br&gt;&lt;br&gt;Follow this tutorial to install LibPQ on an NI Linux RT target :&lt;br&gt;https://forums.ni.com/t5/NI-Linux-Real-Time-Documents/Tutorial-PostgreSQL-with-LabVIEW/tac-p/4111331&lt;br&gt;&lt;br&gt;Make sure to run VIPM as admin when installing this package.&lt;br&gt;
+&lt;br&gt;
+Release Notes: 0.3.1:&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;- update palette&lt;br&gt;- update Examples&lt;br&gt;&lt;br&gt;New in 0.3 :&lt;br&gt;- Check if the library was compiled as threadsafe and make library calls according to that.&lt;br&gt;- added Ping Param VI&lt;br&gt;- Gives option to force all calls being made in the UI thread, as in some cases &amp;quot;any thread&amp;quot; calls cause LabVIEW to crash.&lt;br&gt;- included dependency packages into the VIP&lt;br&gt;&lt;br&gt;Thanks to contributors Antoine Chalons (@antoinechalons), Patrick Irvin (@ciozi137), and Tom McQuillan&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 21 Mar 2023 08:11:04 -0400</pubDate>
+      <guid isPermaLink="false">jdp_science_postgresql-0.3.1.20</guid>
+      <dc:creator>JDP Science</dc:creator>
+      <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
+    </item>
     <item>
       <title>PostgreSQL Library v0.3.1.19</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.6.2]&lt;br&gt;- Issue #66: Improve Lockin_sweep: UI controls, 
 &lt;br&gt;</description>
       <pubDate>Thu, 01 Dec 2022 15:26:55 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.6.2.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.6.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.6.1.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 18 Nov 2022 11:38:51 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.1]&lt;br&gt;- Issue #54: Fix R2/R4 G2/G4 plot labels in Lockin_sweep&lt;br&gt;- Issue #55: better support for calling lockin_sweep as a subVI of Sweep Control and Continuous B Sweep&lt;br&gt;- Issue #56: Confirm Control Experiment shutdown&lt;br&gt;- Issue #61: Add write accessor for device (Mini Control Experiment)&lt;br&gt;- Issue #62: Fix R vs T and B graphs in Lockin_time&lt;br&gt;- Issue #64: fix issue with graphing a sweep that does not use the first sweep channel&lt;br&gt;- Modify API methods for reading json-formatted metadata from TDMS files&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 18 Nov 2022 11:38:51 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.6.1.2</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

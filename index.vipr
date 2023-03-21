@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=739
-Release.Date=Mon, 20 Mar 2023 21:27:33 -0400
-Self.ID=bfbf8b21bfb36932cc0f1e5dea44e917
+Release.Number=740
+Release.Date=Tue, 21 Mar 2023 08:11:04 -0400
+Self.ID=05ff4190086f69d20a0b261fa4233cc8
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3712,6 +3712,18 @@ Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.bmp
 Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.spec
 Package.MD5=a3144e7766e621e894c158fd7e2c5fcc
 Package.Release Date=Mon, 20 Mar 2023 21:27:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=17.0
+Platform.Exclusive_OS=Windows NT,Linux
+Dependencies.Requires=oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
+Package.Display Name=PostgreSQL Library
+Platform.Exclusive_VIPM_Version=2017
+
+[Package jdp_science_postgresql-0.3.1.20]
+Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.20.vip
+Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.20.bmp
+Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.20.spec
+Package.MD5=4fba6bcd0ead0c92d6950f6876dc255a
+Package.Release Date=Tue, 21 Mar 2023 08:11:04 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=17.0
 Platform.Exclusive_OS=Windows NT,Linux
 Dependencies.Requires=oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
