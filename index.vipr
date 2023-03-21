@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=738
-Release.Date=Mon, 13 Mar 2023 18:00:02 -0400
-Self.ID=edc117576e19fb1b4167c196336d951e
+Release.Number=739
+Release.Date=Mon, 20 Mar 2023 21:27:33 -0400
+Self.ID=bfbf8b21bfb36932cc0f1e5dea44e917
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3704,4 +3704,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.3.2
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package jdp_science_postgresql-0.3.1.19]
+Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.vip
+Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.bmp
+Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.spec
+Package.MD5=a3144e7766e621e894c158fd7e2c5fcc
+Package.Release Date=Mon, 20 Mar 2023 21:27:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=17.0
+Platform.Exclusive_OS=Windows NT,Linux
+Dependencies.Requires=oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
+Package.Display Name=PostgreSQL Library
 Platform.Exclusive_VIPM_Version=2017
