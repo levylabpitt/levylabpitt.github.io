@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 21 Mar 2023 08:11:04 -0400</pubDate>
+    <pubDate>Tue, 18 Apr 2023 08:43:10 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.2.3.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.3.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.2.3.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 18 Apr 2023 08:43:10 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with VIPM 2023.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 18 Apr 2023 08:43:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.2.3.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PostgreSQL Library v0.3.1.20</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.20.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [3.5.1]&lt;br&gt;- Issue #92: Add rudimentary support for AWS CLI
       <pubDate>Sat, 21 Jan 2023 14:27:01 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.5.1.1</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.6.2.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.6.2.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.6.2.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 01 Dec 2022 15:26:55 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.2]&lt;br&gt;- Issue #66: Improve Lockin_sweep: UI controls, R graph plots and plot legend&lt;br&gt;- Issue #67: Improve Continuous B Sweep UI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Dec 2022 15:26:55 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.6.2.1</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
