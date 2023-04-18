@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=741
-Release.Date=Tue, 18 Apr 2023 08:43:10 -0400
-Self.ID=5aa8b61d66b7da9410f425543f5ea273
+Release.Number=742
+Release.Date=Tue, 18 Apr 2023 15:44:18 -0400
+Self.ID=50e267e806b9b31ddd5fb54666319c39
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -1154,17 +1154,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_variantconfig>=4.0.0.5,levylab_lib_embedded_smo_ui>=1.0.3.19
 Package.Display Name=MAUI
-Platform.Exclusive_VIPM_Version=2017
-
-[Package jdp_science_postgresql-0.3.5.23]
-Package.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.vip
-Icon.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.bmp
-Spec.URL=packages/jdp_science_postgresql/jdp_science_postgresql-0.3.5.23.spec
-Package.MD5=bc5f0e94267e9671e62de51062ba2e5c
-Package.Release Date=Wed, 29 Sep 2021 12:08:08 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=Windows NT,Linux
-Package.Display Name=PostgreSQL Library
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_build_support-1.2.0.9]
