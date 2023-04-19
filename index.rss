@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 18 Apr 2023 15:44:18 -0400</pubDate>
+    <pubDate>Wed, 19 Apr 2023 08:17:06 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.5.2.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.5.2.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.5.2.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 19 Apr 2023 08:17:06 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.5.2]&lt;br&gt;&lt;br&gt;- Issue #96 change time_bucket format&lt;br&gt;- Change postgres library to 0.3.1 (deals with PGPASS files differently)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 19 Apr 2023 08:17:06 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.5.2.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.2.3.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.3.4.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.0.9]&lt;br&gt;&lt;br&gt;Bug fixes:&lt;br&gt;- fix issue with r
       <pubDate>Wed, 25 Jan 2023 09:38:40 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_data_analysis_template-1.0.9.1</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data v3.5.1.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.5.1.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.5.1.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 21 Jan 2023 14:27:01 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.5.1]&lt;br&gt;- Issue #92: Add rudimentary support for AWS CLI (alpha)&lt;br&gt;- Issue #93: Harmonize parsing data from dat, TDMS with multiple groups, folder of TDMS&lt;br&gt;- Issue #94: Fix issue with saving a TDMS file where a TDMS file already exists&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 21 Jan 2023 14:27:01 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.5.1.1</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
