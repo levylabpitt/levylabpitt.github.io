@@ -3,10 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-<<<<<<< HEAD
-    <pubDate>Tue, 25 Apr 2023 11:04:59 -0400</pubDate>
+    <pubDate>Tue, 25 Apr 2023 13:14:38 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.13.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.13.0.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 25 Apr 2023 13:14:38 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.13.0]&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 25 Apr 2023 13:14:38 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Instrument Framework v1.13.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.13.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 25 Apr 2023 12:58:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.13.0]&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 25 Apr 2023 12:58:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v1.13.0.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.2.bmp"&gt;&lt;br&gt;
@@ -26,12 +61,6 @@ Release Notes: [1.13.0]&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpo
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
     <item>
-=======
-    <pubDate>Mon, 24 Apr 2023 18:29:21 -0400</pubDate>
-    <link>file:///c:/user/patrick/git/packages</link>
-    <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
-    <item>
->>>>>>> c31ecd58e168f67c6bb02017e82b7ed3037d1e97
       <title>Instrument Framework v1.13.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.1.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -157,62 +186,5 @@ Release Notes: Fixes:&lt;br&gt;- update to Instrument Framework v1.12.6&lt;br&gt
       <dc:creator>Levylab</dc:creator>
       
     </item>
-    <item>
-      <title>Instrument Framework v1.12.6.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.12.6.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.12.6.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 19 Feb 2023 20:35:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.12.6]&lt;br&gt;Remote Control:&lt;br&gt;- disable debugging in ZMQ methods (mirror changes in required ZMQ v3.6.3.113)&lt;br&gt;- change reentrancy of some ZMQ and JSON-RPC methods&lt;br&gt;&lt;br&gt;[1.12.5]&lt;br&gt;- Add Local Client.vim option to more easily communicate with Instrument process via Events rather than ZMQ/TCP (e.g. from UI process)&lt;br&gt;- Add Get/Set Heater abstract methods&lt;br&gt;&lt;br&gt;[1.12.4]&lt;br&gt;- Bug fixes and improvemtns to ZMQ subsystem&lt;br&gt;&lt;br&gt;[1.12.3]&lt;br&gt;- Issue #80: Fix issue with read/write message states not propagating connection info&lt;br&gt;- Update State History to include longer and controllable history&lt;br&gt;- minor subsystem UI updates&lt;br&gt;&lt;br&gt;[1.12.2]&lt;br&gt;- Issue #78: Change magnet set point tolerance to 0.01 T&lt;br&gt;- Issue #79: Change temperature set point tolerance to 0.01 K and add control for comparison mode (in range, less than, greater than)&lt;br&gt;&lt;br&gt;[1.12.1]&lt;br&gt;- Issue #77: fix issue preventing communication across the network&lt;br&gt;&lt;br&gt;[1.12.0]&lt;br&gt;This release has major changes in the way configuration is handled. You should make the following changes to your code:&lt;br&gt;- &amp;quot;Read Configuration File&amp;quot; and &amp;quot;Write Configuration File&amp;quot; should be configured to &amp;lt;i&amp;gt;call parent method&amp;lt;/i&amp;gt;&lt;br&gt;- &amp;quot;Get SMO PGSQL Log Paths&amp;quot; will need two front panel controls to match the parent method&lt;br&gt;- Instrument.Template.lvclass:Instrument.Template.AppLauncher has improvements to allow the user easier access to configuration&lt;br&gt;  - Front panel controls&lt;br&gt;  - examine configuration.ini state (and macro)&lt;br&gt;  - refinements to SMO start and stop macros&lt;br&gt;  - Data: Wait state&lt;br&gt;- If you use Configuration.lvclass directly (likely in UI process), should can use &amp;quot;Write Section&amp;quot; to control the ini header&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Feb 2023 20:35:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.12.6.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>ZeroMQ Socket Library v3.6.3.113</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/labview-zmq/labview-zmq-3.6.3.113.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: ZeroMQ Socket Library v3.6.3.113&lt;br&gt;
-Company: Martijn Jasperse&lt;br&gt;
-Release Date: Sat, 18 Feb 2023 15:56:29 -0500&lt;br&gt;
-Packager: Martijn Jasperse&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - separate compiled code from all library VIs and classes&lt;br&gt;- disable debugging and automatic error handling in all library VIs&lt;br&gt;- change reentrancy of zmq_recv_multi.vi to &amp;quot;preallocated shared&amp;quot;&lt;br&gt;&lt;br&gt;*This version compiled by Patrick Irvin (ciozi137) with LabVIEW 2019 and VIPM 2022&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 18 Feb 2023 15:56:29 -0500</pubDate>
-      <guid isPermaLink="false">labview-zmq-3.6.3.113</guid>
-      <dc:creator>Martijn Jasperse</dc:creator>
-      <link>http://labview-zmq.sf.net</link>
-    </item>
-<<<<<<< HEAD
-=======
-    <item>
-      <title>LV-Data v3.5.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.5.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.5.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 29 Jan 2023 12:13:17 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.5.1]&lt;br&gt;- Issue #92: Add rudimentary support for AWS CLI (alpha)&lt;br&gt;- Issue #93: Harmonize parsing data from dat, TDMS with multiple groups, folder of TDMS&lt;br&gt;- Issue #94: Fix issue with saving a TDMS file where a TDMS file already exists&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 29 Jan 2023 12:13:17 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.5.1.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
->>>>>>> c31ecd58e168f67c6bb02017e82b7ed3037d1e97
   </channel>
 </rss>
