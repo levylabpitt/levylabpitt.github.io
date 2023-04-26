@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 25 Apr 2023 13:14:38 -0400</pubDate>
+    <pubDate>Wed, 26 Apr 2023 15:48:13 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.13.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.13.0.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 26 Apr 2023 15:48:13 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.13.0]&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 26 Apr 2023 15:48:13 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v1.13.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.4.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: Fixes:&lt;br&gt;- update to Instrument Framework v1.12.6&lt;br&gt
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Mar 2023 18:00:02 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.6.8.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.3.9.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.3.9.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.3.9.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Mar 2023 17:15:45 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: Fixes:&lt;br&gt;- update to Instrument Framework v1.12.6&lt;br&gt;- Change \approx tolerance from 0.005 to 0.00005&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Mar 2023 17:15:45 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.3.9.1</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
