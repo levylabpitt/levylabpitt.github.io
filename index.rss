@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 27 Apr 2023 20:48:54 -0400</pubDate>
+    <pubDate>Thu, 27 Apr 2023 21:29:05 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Asylum AFM API v1.0.0.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Asylum AFM API v1.0.0.6&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 27 Apr 2023 21:29:04 -0400&lt;br&gt;
+Packager: Joe Albro, Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: This is a LabVIEW wrapper meant to facilitate the use of the text based Asylum Instruments ActiveX API. These are the lowest level commands. Please note that these commands may be out of date. This package will need to be updated as time goes on and new functionality is needed.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1.6]&lt;br&gt;- Igor-specific functions are now stored in the Igor-API package dependency (Issues #5, #8, #9)&lt;br&gt;  - note that some of these functions have new names (e.g. Asylum_OpenRefnum.vi --&amp;gt; Igor_OpenRefnum.vi)&lt;br&gt;- EnsureStringFormat icon updated (Issue #7)&lt;br&gt;- package install location and palette location now consistent with other LevyLab-related packages&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 27 Apr 2023 21:29:04 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.0.6</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/Asylum-API</link>
+    </item>
     <item>
       <title>Igor API v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: 0.3.1:&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;- upda
 &lt;br&gt;</description>
       <pubDate>Tue, 21 Mar 2023 08:11:04 -0400</pubDate>
       <guid isPermaLink="false">jdp_science_postgresql-0.3.1.20</guid>
-      <dc:creator>JDP Science</dc:creator>
-      <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
-    </item>
-    <item>
-      <title>PostgreSQL Library v0.3.1.19</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jdp_science_postgresql/jdp_science_postgresql-0.3.1.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PostgreSQL Library v0.3.1.19&lt;br&gt;
-Company: JDP Science&lt;br&gt;
-Release Date: Mon, 20 Mar 2023 21:27:33 -0400&lt;br&gt;
-Packager: JDP Science&lt;br&gt;
-&lt;br&gt;
-Description: Wrapping of libPQ for PostgreSQL access.  Higher-level than libPQ itself.  See Examples.&lt;br&gt;&lt;br&gt;Follow this tutorial to install LibPQ on an NI Linux RT target :&lt;br&gt;https://forums.ni.com/t5/NI-Linux-Real-Time-Documents/Tutorial-PostgreSQL-with-LabVIEW/tac-p/4111331&lt;br&gt;&lt;br&gt;Make sure to run VIPM as admin when installing this package.&lt;br&gt;
-&lt;br&gt;
-Release Notes: 0.3.1:&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;- update palette&lt;br&gt;- update Examples&lt;br&gt;&lt;br&gt;New in 0.3 :&lt;br&gt;- Check if the library was compiled as threadsafe and make library calls according to that.&lt;br&gt;- added Ping Param VI&lt;br&gt;- Gives option to force all calls being made in the UI thread, as in some cases &amp;quot;any thread&amp;quot; calls cause LabVIEW to crash.&lt;br&gt;- included dependency packages into the VIP&lt;br&gt;&lt;br&gt;Thanks to contributors Antoine Chalons (@antoinechalons), Patrick Irvin (@ciozi137), and Tom McQuillan&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 20 Mar 2023 21:27:33 -0400</pubDate>
-      <guid isPermaLink="false">jdp_science_postgresql-0.3.1.19</guid>
       <dc:creator>JDP Science</dc:creator>
       <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
     </item>
