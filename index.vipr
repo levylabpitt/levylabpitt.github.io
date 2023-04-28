@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=750
-Release.Date=Thu, 27 Apr 2023 21:29:05 -0400
-Self.ID=855e5c3fbf29bf279eb9f25e6304d5bc
+Release.Number=751
+Release.Date=Fri, 28 Apr 2023 16:19:43 -0400
+Self.ID=2f68d49deacbae0e31458bbcf1ac74d9
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3829,5 +3829,17 @@ Package.Release Date=Thu, 27 Apr 2023 21:29:04 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_caraya>=1.3.0.137,labview_open_source_lib_epoch_datetime>=1.1.0.5,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25
+Package.Display Name=Asylum AFM API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_asylum_afm_api-1.0.1.1]
+Package.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.1.1.vip
+Icon.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.1.1.bmp
+Spec.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.1.1.spec
+Package.MD5=34a8db772a389d46aa0dc8ef4844039e
+Package.Release Date=Fri, 28 Apr 2023 16:19:43 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_caraya>=1.3.0.137,labview_open_source_lib_epoch_datetime>=1.1.0.5,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_igor_api>=1.0.0.1
 Package.Display Name=Asylum AFM API
 Platform.Exclusive_VIPM_Version=2017
