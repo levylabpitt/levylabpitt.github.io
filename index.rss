@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 26 Apr 2023 15:48:13 -0400</pubDate>
+    <pubDate>Thu, 27 Apr 2023 20:48:54 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Igor API v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Igor API v1.0.0.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 27 Apr 2023 20:48:54 -0400&lt;br&gt;
+Packager: Patrick Irvin, Joe Albro&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW wrapper meant to facilitate the use of the text-based Igor Pro ActiveX API.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0.1]&lt;br&gt;- initial build&lt;br&gt;- This packages is based on Asylum-API v1.0.0.5, AFM Lithography f108670, LV-Data v3.5.2.3&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 27 Apr 2023 20:48:54 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_igor_api-1.0.0.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.13.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.5.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: 0.3.1:&lt;br&gt;- add support for COPY (issue #5)&lt;br&gt;- upda
       <guid isPermaLink="false">jdp_science_postgresql-0.3.1.19</guid>
       <dc:creator>JDP Science</dc:creator>
       <link>https://www.vipm.io/package/jdp_science_postgresql/</link>
-    </item>
-    <item>
-      <title>Oxford-VRM v1.6.8.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.6.8.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.6.8.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Mar 2023 18:00:02 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: Fixes:&lt;br&gt;- update to Instrument Framework v1.12.6&lt;br&gt;- Change \approx tolerance from 0.005 to 0.00005&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Mar 2023 18:00:02 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.6.8.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
