@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 03 Jun 2023 10:41:36 -0400</pubDate>
+    <pubDate>Thu, 08 Jun 2023 13:52:23 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.2.4.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.4.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.2.4.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 08 Jun 2023 13:52:23 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update default values in Instrument Name and Icon UI.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 08 Jun 2023 13:52:23 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.2.4.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.5.3.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.3.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.13.0]&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpo
 &lt;br&gt;</description>
       <pubDate>Tue, 25 Apr 2023 12:58:17 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.13.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.13.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 25 Apr 2023 11:04:59 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.13.0]&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 25 Apr 2023 11:04:59 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.2</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
