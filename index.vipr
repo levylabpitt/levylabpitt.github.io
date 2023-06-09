@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=755
-Release.Date=Thu, 08 Jun 2023 13:52:23 -0400
-Self.ID=dd6413288f689bc3966cab3728584944
+Release.Number=756
+Release.Date=Fri, 09 Jun 2023 10:53:44 -0400
+Self.ID=20b2abe9581a8ca1382d862f50c768fe
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3889,5 +3889,17 @@ Package.Release Date=Thu, 08 Jun 2023 13:52:23 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=hse_lib_git_api>=2.1.0.98,jki_lib_rest_client>=1.3.3.25,jki_lib_state_machine>=2018.0.7.45,jki_lib_vipm_api>=2020.0.3.80,jki_statemachineobjects>=1.4.0.69,labview_open_source_lib_unicity>=1.1.0.6,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_timing>=1.1.0.2,mgi_lib_user_interface>=1.0.1.11,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
+Package.Display Name=Build Support
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_build_support-1.2.5.1]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.2.5.1.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.2.5.1.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.2.5.1.spec
+Package.MD5=3ed06ccc2e01ac767fccf22cda0b7f95
+Package.Release Date=Fri, 09 Jun 2023 10:53:44 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=hse_lib_git_api>=2.1.0.98,jki_lib_rest_client>=1.3.3.25,jki_lib_state_machine>=2018.0.7.45,jki_lib_vipm_api>=2020.0.3.80,jki_statemachineobjects>=1.4.0.69,labview_open_source_lib_unicity>=1.1.0.6,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_timing>=1.1.0.2,mgi_lib_user_interface>=1.0.1.11,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
 Package.Display Name=Build Support
 Platform.Exclusive_VIPM_Version=2017
