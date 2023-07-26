@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 18 Jul 2023 16:14:56 -0400</pubDate>
+    <pubDate>Wed, 26 Jul 2023 16:54:35 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.13.0.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.13.0.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 26 Jul 2023 16:54:35 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.13.0]&lt;br&gt;- Issue #89: Remove linking to ZMQ example VIs&lt;br&gt;- Issue #88: Variant to LV Data.vim no longer traps incoming errors&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 26 Jul 2023 16:54:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>General AFM Lithography v10.1.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-10.1.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: General AFM Lithography v10.1.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 25 Jul 2023 18:19:49 -0400&lt;br&gt;
+Packager: Feng Bi, Akash Levy, Joe Albro, Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [10.1.0]&lt;br&gt;** This release fixes a critical issue related to the Cypher scanner and how a position is converted to and from a voltage measured by the LVDT sensor. This update is also compatible with the MFP3D scanner. **&lt;br&gt;- Issue #92: main state machine had a short timeout but now the timeout is disabled; this change should result in better performance&lt;br&gt;- Issue #93: Fix issue related to saving the background image. Now instead of saving the image to, e.g., C:\surfacepc.jpg, the background image is saved, with a unique name, beside the Inkscape SVG file&lt;br&gt;- Issue #96: An additional background image can be saved to a common location; this feature will enable a Grafana dashboard to display the latest image or series of images&lt;br&gt;- Issue #89: Separate Igor-API and Asylum-API into different packages&lt;br&gt;- Updated IV Curve plugin&lt;br&gt;- Dots fix&lt;br&gt;- Miscellaneous UI updates&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 25 Jul 2023 18:19:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_general_afm_lithography-10.1.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.5.4.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.4.1.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: [1.0.1.1]&lt;br&gt;- Igor-specific functions are now stored in th
       <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.1.1</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/Asylum-API</link>
-    </item>
-    <item>
-      <title>Asylum AFM API v1.0.0.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Asylum AFM API v1.0.0.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 27 Apr 2023 21:29:04 -0400&lt;br&gt;
-Packager: Joe Albro, Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: This is a LabVIEW wrapper meant to facilitate the use of the text based Asylum Instruments ActiveX API. These are the lowest level commands. Please note that these commands may be out of date. This package will need to be updated as time goes on and new functionality is needed.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1.6]&lt;br&gt;- Igor-specific functions are now stored in the Igor-API package dependency (Issues #5, #8, #9)&lt;br&gt;  - note that some of these functions have new names (e.g. Asylum_OpenRefnum.vi --&amp;gt; Igor_OpenRefnum.vi)&lt;br&gt;- EnsureStringFormat icon updated (Issue #7)&lt;br&gt;- package install location and palette location now consistent with other LevyLab-related packages&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 27 Apr 2023 21:29:04 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.0.6</guid>
-      <dc:creator>Levylab</dc:creator>
-      <link>https://github.com/levylabpitt/Asylum-API</link>
-    </item>
-    <item>
-      <title>Igor API v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Igor API v1.0.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 27 Apr 2023 20:48:54 -0400&lt;br&gt;
-Packager: Patrick Irvin, Joe Albro&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW wrapper meant to facilitate the use of the text-based Igor Pro ActiveX API.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0.1]&lt;br&gt;- initial build&lt;br&gt;- This packages is based on Asylum-API v1.0.0.5, AFM Lithography f108670, LV-Data v3.5.2.3&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 27 Apr 2023 20:48:54 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_igor_api-1.0.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
