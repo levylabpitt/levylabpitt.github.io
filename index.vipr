@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=767
-Release.Date=Thu, 27 Jul 2023 21:40:44 -0400
-Self.ID=e84385903f2ead09c927fcf9259bf6ff
+Release.Number=768
+Release.Date=Mon, 07 Aug 2023 16:26:40 -0400
+Self.ID=977e83dec3f1b9a7b9233e75a40a221c
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3964,4 +3964,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.8
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-1.7.9.1]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.spec
+Package.MD5=fb03958b8cab7b0d4462f6e6f161e5a1
+Package.Release Date=Mon, 07 Aug 2023 16:26:40 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.9
+Package.Display Name=Krohn-Hite 7008 Drivers
 Platform.Exclusive_VIPM_Version=2017

@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 27 Jul 2023 21:40:44 -0400</pubDate>
+    <pubDate>Mon, 07 Aug 2023 16:26:40 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite 7008 Drivers v1.7.9.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite 7008 Drivers v1.7.9.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 07 Aug 2023 16:26:40 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Issue #2: Display KH address when running as a remote panel&lt;br&gt;- Update 500/10M detection algoithm to minimise unecessary changes to an already configured instrument.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 07 Aug 2023 16:26:40 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.9.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.15.4.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.1.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [3.6.0]&lt;br&gt;&lt;br&gt;- Issue #97: Read SQL.vi is now called
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.6.0.4</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Asylum AFM API v1.0.2.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.2.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Asylum AFM API v1.0.2.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 25 May 2023 12:10:21 -0400&lt;br&gt;
-Packager: Joe Albro, Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: This is a LabVIEW wrapper meant to facilitate the use of the text based Asylum Instruments ActiveX API. These are the lowest level commands. Please note that these commands may be out of date. This package will need to be updated as time goes on and new functionality is needed.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2]&lt;br&gt;- Issue #11: Add function &amp;quot;Get Value&amp;quot;, which will read from the Global Variables table. Note that this is distinct from &amp;quot;Read Value&amp;quot;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 25 May 2023 12:10:21 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_asylum_afm_api-1.0.2.2</guid>
-      <dc:creator>Levylab</dc:creator>
-      <link>https://github.com/levylabpitt/Asylum-API</link>
     </item>
   </channel>
 </rss>
