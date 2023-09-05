@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=768
-Release.Date=Mon, 07 Aug 2023 16:26:40 -0400
-Self.ID=977e83dec3f1b9a7b9233e75a40a221c
+Release.Number=769
+Release.Date=Tue, 05 Sep 2023 18:47:51 -0400
+Self.ID=cfdc3d4fbf0ef6a61fcfce06778d14b6
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3976,4 +3976,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.9
 Package.Display Name=Krohn-Hite 7008 Drivers
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_igor_api-1.0.1.2]
+Package.URL=packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.1.2.vip
+Icon.URL=packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.1.2.bmp
+Spec.URL=packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.1.2.spec
+Package.MD5=0831e29848853c48bc638ab376290e17
+Package.Release Date=Tue, 05 Sep 2023 18:47:51 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_caraya>=1.4.2.144,labview_open_source_lib_epoch_datetime>=1.2.0.6,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
+Package.Display Name=Igor API
 Platform.Exclusive_VIPM_Version=2017

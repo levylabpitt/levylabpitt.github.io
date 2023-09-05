@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 07 Aug 2023 16:26:40 -0400</pubDate>
+    <pubDate>Tue, 05 Sep 2023 18:47:51 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Igor API v1.0.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Igor API v1.0.1.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 05 Sep 2023 18:47:51 -0400&lt;br&gt;
+Packager: Patrick Irvin, Joe Albro&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW wrapper meant to facilitate the use of the text-based Igor Pro ActiveX API.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1.2]&lt;br&gt;- Fix Issue #1: namespace for loading waves via file&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 05 Sep 2023 18:47:51 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_igor_api-1.0.1.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Krohn-Hite 7008 Drivers v1.7.9.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: Bug Fixes&lt;br&gt;- Symmetrize has improved algorithm (Issue #35
 &lt;br&gt;</description>
       <pubDate>Sat, 03 Jun 2023 10:41:36 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.3.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data v3.6.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.6.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.6.0.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 02 Jun 2023 15:05:22 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.6.0]&lt;br&gt;&lt;br&gt;- Issue #97: Read SQL.vi is now called Execute SQL Statement.vi; Result to Trace.vi is separate VI; remove call to Open/Close&lt;br&gt;- improved PGPASS file handling&lt;br&gt;- Issue #98: Improve ITX API: Read ITX.vim&lt;br&gt;- New API methods for handling map datatypes&lt;br&gt;- New Data Retrieve GUI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 02 Jun 2023 15:05:22 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.6.0.4</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
