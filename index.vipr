@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=770
-Release.Date=Wed, 06 Sep 2023 14:12:34 -0400
-Self.ID=dc217dfafb2cfa96e6037bad9bba55ae
+Release.Number=772
+Release.Date=Mon, 25 Sep 2023 15:06:35 -0400
+Self.ID=fb0ed787561f032b140840c89640d14b
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3954,18 +3954,6 @@ Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
 Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.15.4.1]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.1.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.1.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.1.spec
-Package.MD5=523a2b766e142c5a14a34c26d358738a
-Package.Release Date=Thu, 27 Jul 2023 21:40:43 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.8
-Package.Display Name=Multichannel Lockin
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_krohn_hite_7008-1.7.9.1]
 Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.vip
 Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.bmp
@@ -3990,12 +3978,12 @@ Dependencies.Requires=jki_lib_caraya>=1.4.2.144,labview_open_source_lib_epoch_da
 Package.Display Name=Igor API
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_lockin_multichannel-2.15.4.3]
-Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.3.vip
-Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.3.bmp
-Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.3.spec
-Package.MD5=230dbea65a812413079be14173eb7287
-Package.Release Date=Wed, 06 Sep 2023 14:12:34 -0400
+[Package levylab_lib_lockin_multichannel-2.15.4.4]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.4.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.4.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.4.spec
+Package.MD5=a4ed2e3186127f8d284e926b46d0633c
+Package.Release Date=Mon, 25 Sep 2023 15:06:25 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.9
