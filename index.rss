@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 25 Sep 2023 15:06:35 -0400</pubDate>
+    <pubDate>Wed, 27 Sep 2023 07:59:27 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v1.4.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v1.4.0.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 27 Sep 2023 07:59:26 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.13.0.9&lt;br&gt;- Now a proper Instrument:&lt;br&gt;  - separate UI and back end processes&lt;br&gt;  - hardware abstraction in the Inst.RP100:process.vi&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 Sep 2023 07:59:26 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.4.0.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.15.4.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.4.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - update default values in Instrument Name and Icon UI.vi&lt;br&g
       <pubDate>Thu, 08 Jun 2023 13:52:23 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.2.4.5</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>XY Utilities v1.5.3.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.3.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.5.3.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 03 Jun 2023 10:41:36 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: Bug Fixes&lt;br&gt;- Symmetrize has improved algorithm (Issue #35)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 03 Jun 2023 10:41:36 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.3.3</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
