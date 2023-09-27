@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 27 Sep 2023 07:59:27 -0400</pubDate>
+    <pubDate>Wed, 27 Sep 2023 12:51:40 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v1.4.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v1.4.0.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 27 Sep 2023 12:51:40 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Update to Instrument Framework v1.13.0.9&lt;br&gt;- Now a proper Instrument:&lt;br&gt;  - separate UI and back end processes&lt;br&gt;  - hardware abstraction in the Inst.RP100:process.vi&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 Sep 2023 12:51:40 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.4.0.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v1.4.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - add method to rename controls and constants&lt;br&gt;- add meth
 &lt;br&gt;</description>
       <pubDate>Fri, 09 Jun 2023 10:53:44 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.2.5.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.2.4.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.4.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.2.4.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 08 Jun 2023 13:52:23 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update default values in Instrument Name and Icon UI.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 08 Jun 2023 13:52:23 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.2.4.5</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=773
-Release.Date=Wed, 27 Sep 2023 07:59:27 -0400
-Self.ID=379bbf2935d58bfaff38a3fe10038cdd
+Release.Number=774
+Release.Date=Wed, 27 Sep 2023 12:51:40 -0400
+Self.ID=d50aba849021a0bc68a29717b38663cc
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -3996,6 +3996,18 @@ Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.
 Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.1.spec
 Package.MD5=249b9f225483419f2d5c98cd8a509d2a
 Package.Release Date=Wed, 27 Sep 2023 07:59:26 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.9
+Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-1.4.0.2]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.2.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.2.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.2.spec
+Package.MD5=5fb45c084abf867e0b4406472d73a0e6
+Package.Release Date=Wed, 27 Sep 2023 12:51:40 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.9
