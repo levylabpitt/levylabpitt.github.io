@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 27 Sep 2023 12:51:40 -0400</pubDate>
+    <pubDate>Fri, 29 Sep 2023 07:26:03 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.7.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.7.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.7.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 29 Sep 2023 07:26:03 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.7.0]&lt;br&gt;&lt;br&gt;- Issue #100: configure open in admin VIs (fixed via Issue #102 &amp;amp; configuration file)&lt;br&gt;- Issue #101: write multiline INSERTS in chunks of 1000 rows&lt;br&gt;- Issue #102: updated PGPASS management GUI and save previous connection strings&lt;br&gt;- Issue #104: move Switch Table into private methods&lt;br&gt;- Issue #105: update Read Trace(s) to ignore NaN values&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 29 Sep 2023 07:26:03 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.7.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v1.4.0.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.13.0]&lt;br&gt;- Issue #88: Variant to LV Data.vim no longer t
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.8</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Build Support v1.2.5.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.2.5.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.2.5.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 09 Jun 2023 10:53:44 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: - add method to rename controls and constants&lt;br&gt;- add method to update class wire appearance (foreground color only)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 09 Jun 2023 10:53:44 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.2.5.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
