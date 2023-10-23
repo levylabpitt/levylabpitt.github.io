@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 29 Sep 2023 09:36:40 -0400</pubDate>
+    <pubDate>Mon, 23 Oct 2023 09:58:45 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN FP v4.57.2.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.2.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN FP v4.57.2.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 23 Oct 2023 09:58:45 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Front Panel (FP)&lt;br&gt;API:&lt;br&gt;Push Button (Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test)&lt;br&gt;Set Mode (Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery)&lt;br&gt;Get Mode&lt;br&gt;
+&lt;br&gt;
+Release Notes: First build&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 23 Oct 2023 09:58:45 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_fp-4.57.2.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.13.0.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.10.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.13.0]&lt;br&gt;- Issue #89: Remove linking to ZMQ example VIs&
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.9</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>General AFM Lithography v10.1.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-10.1.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: General AFM Lithography v10.1.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 25 Jul 2023 18:19:49 -0400&lt;br&gt;
-Packager: Feng Bi, Akash Levy, Joe Albro, Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: General AFM Lithography software used by the LevyLab research group at the University of Pittsburgh.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [10.1.0]&lt;br&gt;** This release fixes a critical issue related to the Cypher scanner and how a position is converted to and from a voltage measured by the LVDT sensor. This update is also compatible with the MFP3D scanner. **&lt;br&gt;- Issue #92: main state machine had a short timeout but now the timeout is disabled; this change should result in better performance&lt;br&gt;- Issue #93: Fix issue related to saving the background image. Now instead of saving the image to, e.g., C:\surfacepc.jpg, the background image is saved, with a unique name, beside the Inkscape SVG file&lt;br&gt;- Issue #96: An additional background image can be saved to a common location; this feature will enable a Grafana dashboard to display the latest image or series of images&lt;br&gt;- Issue #89: Separate Igor-API and Asylum-API into different packages&lt;br&gt;- Updated IV Curve plugin&lt;br&gt;- Dots fix&lt;br&gt;- Miscellaneous UI updates&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 25 Jul 2023 18:19:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_general_afm_lithography-10.1.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
