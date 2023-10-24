@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=778
-Release.Date=Mon, 23 Oct 2023 09:58:45 -0400
-Self.ID=714d3ab06b5fb5e4887c836a0efe5593
+Release.Number=780
+Release.Date=Mon, 23 Oct 2023 16:08:51 -0400
+Self.ID=c759f8ae39c33ef15db573bf4cbd9220
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4055,8 +4055,8 @@ Platform.Exclusive_VIPM_Version=2017
 Package.URL=packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.2.2.vip
 Icon.URL=packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.2.2.bmp
 Spec.URL=packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.2.2.spec
-Package.MD5=fac21c43cd9dd80c6f6d505c0a329469
-Package.Release Date=Mon, 23 Oct 2023 09:58:45 -0400
+Package.MD5=fb9739dca8c5d01ae1e1760adf44a270
+Package.Release Date=Mon, 23 Oct 2023 16:08:51 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.10

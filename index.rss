@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 23 Oct 2023 09:58:45 -0400</pubDate>
+    <pubDate>Mon, 23 Oct 2023 16:08:51 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -12,14 +12,14 @@
 &lt;br&gt;
 Product: LEIDEN FP v4.57.2.2&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Mon, 23 Oct 2023 09:58:45 -0400&lt;br&gt;
+Release Date: Mon, 23 Oct 2023 16:08:51 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Tools used by LevyLab to interact with Leiden Front Panel (FP)&lt;br&gt;API:&lt;br&gt;Push Button (Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test)&lt;br&gt;Set Mode (Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery)&lt;br&gt;Get Mode&lt;br&gt;
 &lt;br&gt;
 Release Notes: First build&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Mon, 23 Oct 2023 09:58:45 -0400</pubDate>
+      <pubDate>Mon, 23 Oct 2023 16:08:51 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_leiden_fp-4.57.2.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
