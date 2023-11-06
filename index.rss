@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 06 Nov 2023 12:30:25 -0500</pubDate>
+    <pubDate>Mon, 06 Nov 2023 15:33:37 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AH2500A v1.2.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.2.0.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 06 Nov 2023 15:33:37 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: - First release as stand-alone SMO exe with installer&lt;br&gt;- Instrument Framework v1.13.0.10&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 06 Nov 2023 15:33:37 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.2.0.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>AH2500A v1.2.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.1.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.0.1.2]&lt;br&gt;- Fix Issue #1: namespace for loading waves vi
       <pubDate>Tue, 05 Sep 2023 18:47:51 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_igor_api-1.0.1.2</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite 7008 Drivers v1.7.9.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-1.7.9.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite 7008 Drivers v1.7.9.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 07 Aug 2023 16:26:40 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #2: Display KH address when running as a remote panel&lt;br&gt;- Update 500/10M detection algoithm to minimise unecessary changes to an already configured instrument.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 07 Aug 2023 16:26:40 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.9.1</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
