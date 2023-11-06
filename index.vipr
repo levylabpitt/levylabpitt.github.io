@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=780
-Release.Date=Mon, 23 Oct 2023 16:08:51 -0400
-Self.ID=c759f8ae39c33ef15db573bf4cbd9220
+Release.Number=781
+Release.Date=Mon, 06 Nov 2023 12:30:25 -0500
+Self.ID=a007716643513a402734f86fa36ea3fa
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4061,4 +4061,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.10
 Package.Display Name=LEIDEN FP
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.2.0.1]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.1.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.1.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.1.spec
+Package.MD5=9b47b4bf4a918238a58c1f18ae4bf6aa
+Package.Release Date=Mon, 06 Nov 2023 12:30:25 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.10
+Package.Display Name=AH2500A
 Platform.Exclusive_VIPM_Version=2017

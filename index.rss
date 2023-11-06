@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 23 Oct 2023 16:08:51 -0400</pubDate>
+    <pubDate>Mon, 06 Nov 2023 12:30:25 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AH2500A v1.2.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.2.0.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 06 Nov 2023 12:30:25 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: - First release as stand-alone SMO exe with installer&lt;br&gt;- Instrument Framework v1.13.0.10&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 06 Nov 2023 12:30:25 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.2.0.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>LEIDEN FP v4.57.2.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.2.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Issue #2: Display KH address when running as a remote panel&lt;
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-1.7.9.1</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Instrument Framework v1.13.0.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.13.0.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 26 Jul 2023 16:54:35 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.13.0]&lt;br&gt;- Issue #89: Remove linking to ZMQ example VIs&lt;br&gt;- Issue #88: Variant to LV Data.vim no longer traps incoming errors&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 26 Jul 2023 16:54:35 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.9</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
