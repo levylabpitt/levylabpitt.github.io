@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 06 Nov 2023 15:33:37 -0500</pubDate>
+    <pubDate>Mon, 06 Nov 2023 15:53:10 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -12,14 +12,14 @@
 &lt;br&gt;
 Product: AH2500A v1.2.0.2&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Mon, 06 Nov 2023 15:33:37 -0500&lt;br&gt;
+Release Date: Mon, 06 Nov 2023 15:53:10 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
 &lt;br&gt;
 Release Notes: - First release as stand-alone SMO exe with installer&lt;br&gt;- Instrument Framework v1.13.0.10&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Mon, 06 Nov 2023 15:33:37 -0500</pubDate>
+      <pubDate>Mon, 06 Nov 2023 15:53:10 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_ah2500a-1.2.0.2</guid>
       <dc:creator>Levylab</dc:creator>
       

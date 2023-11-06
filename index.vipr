@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=782
-Release.Date=Mon, 06 Nov 2023 15:33:37 -0500
-Self.ID=b196f0509accfa1524cf0e533d4b53ab
+Release.Number=784
+Release.Date=Mon, 06 Nov 2023 15:53:10 -0500
+Self.ID=bae50063e8aa3c929c6664a6773bc60b
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4079,8 +4079,8 @@ Platform.Exclusive_VIPM_Version=2017
 Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.2.vip
 Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.2.bmp
 Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.2.spec
-Package.MD5=7e1abc9d3b21ed22213874f6f3e31996
-Package.Release Date=Mon, 06 Nov 2023 15:33:37 -0500
+Package.MD5=df167ffcc01b0d3bca543aa70e2d0bc6
+Package.Release Date=Mon, 06 Nov 2023 15:53:10 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.10
