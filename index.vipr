@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=785
-Release.Date=Mon, 06 Nov 2023 16:30:38 -0500
-Self.ID=dd5ab106e91e18dd87425fc7fa358f1d
+Release.Number=795
+Release.Date=Fri, 17 Nov 2023 20:04:55 -0500
+Self.ID=fa9df8fa98e26a12dfc2859441d9eba0
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -963,18 +963,6 @@ Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_lib_common_uti
 Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_data_analysis_template-1.0.4.5]
-Package.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.4.5.vip
-Icon.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.4.5.bmp
-Spec.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.4.5.spec
-Package.MD5=60577da0ece143c6335a6667e92b7ec3
-Package.Release Date=Thu, 26 Aug 2021 17:12:43 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
-Package.Display Name=Data Analaysis Template
-Platform.Exclusive_VIPM_Version=2017
-
 [Package jki_statemachineobjects-1.4.0.63]
 Package.URL=packages/jki_statemachineobjects/jki_statemachineobjects-1.4.0.63.vip
 Icon.URL=packages/jki_statemachineobjects/jki_statemachineobjects-1.4.0.63.bmp
@@ -1106,30 +1094,6 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.6.5.105,jdp_science_lib_common_utilities>=1.3.0.14,jdp_science_postgresql>=0.3.4.22,jki_lib_caraya>=1.2.1.131,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.63,labview-zmq>=3.6.1.111,lava_lib_ui_tools>=1.4.1.74,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_lvtoitx>=3.1.0.1,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_lib_seh>=2.1.10.1,ni_lib_stm>=3.1.0.9,nise_syslog>=1.3.3.27,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,jki_lib_smo_editor>=2.0.2.5,levylab_lib_build_support>=1.1.1.8
 Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
 Package.Display Name=Instrument Framework
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_data_analysis_template-1.0.5.6]
-Package.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.5.6.vip
-Icon.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.5.6.bmp
-Spec.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.5.6.spec
-Package.MD5=7c6084870147c41e7bc136bac757f08b
-Package.Release Date=Thu, 16 Sep 2021 09:23:52 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_lvtoitx>=3.1.0.1,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
-Package.Display Name=Data Analaysis Template
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_transport-1.4.6.23]
-Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.4.6.23.vip
-Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.4.6.23.bmp
-Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.4.6.23.spec
-Package.MD5=a8d366c1633162435945d13eb60d3688
-Package.Release Date=Thu, 16 Sep 2021 13:50:17 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.6.5.105,jdp_science_lib_common_utilities>=1.3.0.14,jdp_science_postgresql>=0.3.4.22,jki_lib_json_serialization>=1.1.10.37,jki_lib_rest_client>=1.3.3.25,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.4.0.63,labview-zmq>=3.6.1.111,lava_lib_ui_tools>=1.4.1.74,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.7.10,levylab_lib_krohn_hite_7008>=1.6.0.27,levylab_lib_lockin_multichannel>=2.14.3.67,levylab_lib_lvtoitx>=3.1.0.1,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.4.0.17,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_cluster>=1.1.0.1,mgi_lib_error_handling>=1.1.1.3,mgi_lib_error_reporter>=1.0.2.5,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_picture_&_image>=1.0.2.1,mgi_lib_read_write_anything>=2.1.4.4,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,ni_cloud_toolkit_for_aws>=1.1.0.1,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_embedded_smo_ui-1.0.3.19]
@@ -2353,18 +2317,6 @@ Dependencies.Requires=levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2
 Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_data_analysis_template-1.0.6.1]
-Package.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.vip
-Icon.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.bmp
-Spec.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.6.1.spec
-Package.MD5=74e960212d6721f410e2e69aa29b9ab3
-Package.Release Date=Fri, 27 May 2022 12:05:08 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.8.2,levylab_lib_lvtoitx>=3.3.10.1,levylab_lib_xy_utilities>=1.4.0.17,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
-Package.Display Name=Data Analaysis Template
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_asylum_afm_api-1.0.0.5]
 Package.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.5.vip
 Icon.URL=packages/levylab_lib_asylum_afm_api/levylab_lib_asylum_afm_api-1.0.0.5.bmp
@@ -2374,18 +2326,6 @@ Package.Release Date=Wed, 01 Jun 2022 08:43:07 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Asylum AFM API
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_cryostation_instrument-1.2.8.3]
-Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.3.vip
-Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.3.bmp
-Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.2.8.3.spec
-Package.MD5=4de878cbd78d610d2919e336fd3907e8
-Package.Release Date=Wed, 01 Jun 2022 13:24:53 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.0.5
-Package.Display Name=Cryostation
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_razorbill_rp100-1.3.2.4]
@@ -2882,18 +2822,6 @@ Dependencies.Requires=levylab_lib_xy_utilities>=1.5.1.1,mgi_lib_1d_array>=1.0.2.
 Package.Display Name=Graph Utilities
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_data_analysis_template-1.0.7.2]
-Package.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.7.2.vip
-Icon.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.7.2.bmp
-Spec.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.7.2.spec
-Package.MD5=bb00d804c2f608e56bb0ef84eee6af11
-Package.Release Date=Wed, 06 Jul 2022 16:31:20 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.2,levylab_lib_lvtoitx>=3.4.0.1,levylab_lib_xy_utilities>=1.5.1.1,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
-Package.Display Name=Data Analaysis Template
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_data_analysis_template-1.0.8.1]
 Package.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.8.1.vip
 Icon.URL=packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.8.1.bmp
@@ -2916,18 +2844,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.2,levylab_lib_lvtoitx>=3.4.0.1,levylab_lib_xy_utilities>=1.5.1.1,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3
 Package.Display Name=Data Analysis Template
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_lvtoitx-3.4.1.2]
-Package.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.4.1.2.vip
-Icon.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.4.1.2.bmp
-Spec.URL=packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.4.1.2.spec
-Package.MD5=350dc3e387708815d2fe7c21ea352358
-Package.Release Date=Fri, 08 Jul 2022 13:50:01 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_postgresql>=0.3.5.23,jki_lib_caraya>=1.2.1.131,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.2,levylab_lib_xy_utilities>=1.5.1.1,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_error_handling>=1.1.1.3,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,ni_cloud_toolkit_for_aws>=1.1.0.1,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,wireflow_ab_lib_wf_progressbar>=1.0.2.56
-Package.Display Name=LV-Data
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_graph_utilities-2.1.10.3]
@@ -4097,4 +4013,52 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.13.0.10
 Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_control_experiment-1.0.0.2]
+Package.URL=packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.0.2.vip
+Icon.URL=packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.0.2.bmp
+Spec.URL=packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.0.2.spec
+Package.MD5=69ac26b7579f5f52f34e9d2d8107f41b
+Package.Release Date=Fri, 17 Nov 2023 16:12:17 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.7.0.118,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.3.1.20,jki_lib_caraya>=1.4.2.145,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.3,levylab_lib_krohn_hite_7008>=1.7.9.1,levylab_lib_lockin_multichannel>=2.15.4.4,levylab_lib_lvtoitx>=3.7.0.2,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.5.4.1,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,mgi_lib_tree>=1.0.4.4,national_instruments_lib_guid_generator>=1.0.2.3,ni_cloud_toolkit_for_aws>=1.1.0.1,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
+Package.Display Name=Control Experiment
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-1.7.0.4]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.7.0.4.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.7.0.4.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.7.0.4.spec
+Package.MD5=1c231ba7bbcc075c8a18535e200811e2
+Package.Release Date=Fri, 17 Nov 2023 17:19:16 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.7.0.118,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.3.1.20,jki_lib_caraya>=1.4.2.145,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.3,levylab_lib_krohn_hite_7008>=1.7.9.1,levylab_lib_lockin_multichannel>=2.15.4.4,levylab_lib_lvtoitx>=3.7.0.2,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.5.4.1,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,mgi_lib_tree>=1.0.4.4,national_instruments_lib_guid_generator>=1.0.2.3,ni_cloud_toolkit_for_aws>=1.1.0.1,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56,levylab_lib_control_experiment>=1.0.0.2
+Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport_controlexperiment-1.0.0.4]
+Package.URL=packages/levylab_lib_transport_controlexperiment/levylab_lib_transport_controlexperiment-1.0.0.4.vip
+Icon.URL=packages/levylab_lib_transport_controlexperiment/levylab_lib_transport_controlexperiment-1.0.0.4.bmp
+Spec.URL=packages/levylab_lib_transport_controlexperiment/levylab_lib_transport_controlexperiment-1.0.0.4.spec
+Package.MD5=3cfc4029bdbd4066ee835dcdcfac7f4e
+Package.Release Date=Fri, 17 Nov 2023 18:42:01 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.7.0.118,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.3.1.20,jki_lib_caraya>=1.4.2.145,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.3,levylab_lib_krohn_hite_7008>=1.7.9.1,levylab_lib_lockin_multichannel>=2.15.4.4,levylab_lib_lvtoitx>=3.7.0.2,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.5.4.1,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,mgi_lib_tree>=1.0.4.4,national_instruments_lib_guid_generator>=1.0.2.3,ni_cloud_toolkit_for_aws>=1.1.0.1,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
+Package.Display Name=Sweep Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_sweep_control-1.0.0.5]
+Package.URL=packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.0.5.vip
+Icon.URL=packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.0.5.bmp
+Spec.URL=packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.0.5.spec
+Package.MD5=8dfce13e369b48ca0a10736fc256868a
+Package.Release Date=Fri, 17 Nov 2023 20:03:04 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.7.0.118,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.3.1.20,jki_lib_caraya>=1.4.2.145,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.3,levylab_lib_krohn_hite_7008>=1.7.9.1,levylab_lib_lockin_multichannel>=2.15.4.4,levylab_lib_lvtoitx>=3.7.0.2,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.5.4.1,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,mgi_lib_tree>=1.0.4.4,national_instruments_lib_guid_generator>=1.0.2.3,ni_cloud_toolkit_for_aws>=1.1.0.1,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56
+Package.Display Name=Sweep Control
 Platform.Exclusive_VIPM_Version=2017

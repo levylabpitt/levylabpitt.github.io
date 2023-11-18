@@ -3,9 +3,81 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 06 Nov 2023 16:30:38 -0500</pubDate>
+    <pubDate>Fri, 17 Nov 2023 20:04:55 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sweep Control v1.0.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v1.0.0.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 17 Nov 2023 20:03:04 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: SweepControl.lvclass&lt;br&gt;- first build as stand-alone package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 17 Nov 2023 20:03:04 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_sweep_control-1.0.0.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Sweep Control v1.0.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport_controlexperiment/levylab_lib_transport_controlexperiment-1.0.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v1.0.0.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 17 Nov 2023 18:42:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: SweepControl.lvclass&lt;br&gt;- first build as stand-alone package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 17 Nov 2023 18:42:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport_controlexperiment-1.0.0.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Transport v1.7.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.7.0.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 17 Nov 2023 17:19:16 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- Issue #72: display intermittent values in Lockin_Sweep&lt;br&gt;- Issue #75: R and G calculations are more flexible&lt;br&gt;- Update Lockin_time and Lockin_sweep to handle vector magnet instruments&lt;br&gt;- Update Lockin_sweep to more frequently poll instruments for their status&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 17 Nov 2023 17:19:16 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.7.0.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Control Experiment v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Control Experiment v1.0.0.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 17 Nov 2023 16:12:17 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- The class was previously included in the Transport package. It has now been split into it&#39;s own package&lt;br&gt;- Issue #60: New Lockin API allows quicker and better error handling if Lock-In is not running&lt;br&gt;- Issue #74: fix issue with KH address in Control Experiment&lt;br&gt;- Issue #78: Fix issues with saving and loading instruments in Load Instrument Classes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 17 Nov 2023 16:12:17 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_control_experiment-1.0.0.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>AH2500A v1.2.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.3.bmp"&gt;&lt;br&gt;
@@ -113,78 +185,6 @@ Release Notes: [3.7.0]&lt;br&gt;&lt;br&gt;- Issue #100: configure open in admin 
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.7.0.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>LV-Data v3.7.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.7.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.7.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 29 Sep 2023 07:26:03 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.7.0]&lt;br&gt;&lt;br&gt;- Issue #100: configure open in admin VIs (fixed via Issue #102 &amp;amp; configuration file)&lt;br&gt;- Issue #101: write multiline INSERTS in chunks of 1000 rows&lt;br&gt;- Issue #102: updated PGPASS management GUI and save previous connection strings&lt;br&gt;- Issue #104: move Switch Table into private methods&lt;br&gt;- Issue #105: update Read Trace(s) to ignore NaN values&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 29 Sep 2023 07:26:03 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.7.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v1.4.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v1.4.0.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 27 Sep 2023 12:51:40 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.13.0.9&lt;br&gt;- Now a proper Instrument:&lt;br&gt;  - separate UI and back end processes&lt;br&gt;  - hardware abstraction in the Inst.RP100:process.vi&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 Sep 2023 12:51:40 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.4.0.2</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v1.4.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.4.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v1.4.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 27 Sep 2023 07:59:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Update to Instrument Framework v1.13.0.9&lt;br&gt;- Now a proper Instrument:&lt;br&gt;  - separate UI and back end processes&lt;br&gt;  - hardware abstraction in the Inst.RP100:process.vi&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 Sep 2023 07:59:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.4.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.15.4.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.15.4.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.15.4.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 25 Sep 2023 15:06:25 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.15.4]&lt;br&gt;Issues:&lt;br&gt;- Issue #54: plot name issue (possible fix)&lt;br&gt;- Issue #66: calibration status issue (possible fix)&lt;br&gt;- Issue #71: fix issue with number of displayed significant digits in sweep time&lt;br&gt;- Issue #72: sweeping a non existent table the lockin will give a popup warning and abort the sweep&lt;br&gt;- Issue #75: (partial) improvement to lockin DSP&lt;br&gt;- Issue #76: getStatus API has short timeout in order to quickly verify connection to lock-in&lt;br&gt;- Issue #77: fix issue where sweep data was not being saved correctly&lt;br&gt;&lt;br&gt;Other bug fixes:&lt;br&gt;- (possible) improvements to phase shift vs frequency issue&lt;br&gt;- Enumerate Chassis.vi is more reliable&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013 (32 bit / x86)](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 25 Sep 2023 15:06:25 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.15.4.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
