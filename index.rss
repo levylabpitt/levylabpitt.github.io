@@ -3,186 +3,186 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 18 Nov 2023 14:04:54 -0500</pubDate>
+    <pubDate>Fri, 01 Dec 2023 09:44:49 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Configuration v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_configuration/levylab_lib_configuration-1.0.0.1.bmp"&gt;&lt;br&gt;
+      <title>JSON-RPC v1.0.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.0.1.2.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Configuration v1.0.0.1&lt;br&gt;
+Product: JSON-RPC v1.0.1.2&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Sat, 18 Nov 2023 14:04:54 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for reading and writing configuration files&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0]&lt;br&gt;- First build as stand-along package (previously included in Instrument Framework)&lt;br&gt;- Add Read Configuration.vim malleable VI as an alternative to Read Configuration + Variant to Data&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 18 Nov 2023 14:04:54 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_configuration-1.0.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 18 Nov 2023 13:18:59 -0500&lt;br&gt;
+Release Date: Fri, 01 Dec 2023 09:44:49 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.0.0]&lt;br&gt;- previously was included in Instrument Framework&lt;br&gt;
+Release Notes: [1.0.1]&lt;br&gt;- change methods for creating request and response objects (use Make JSON Object instead of Set Item)&lt;br&gt;- change to response encoding: use same method as request object. Single elements (float, string, etc) will be converted to an array. This is done so that parsing of params and results can be done in the same way.&lt;br&gt;- updated palettes&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Sat, 18 Nov 2023 13:18:59 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_json_rpc-1.0.0.1</guid>
+      <pubDate>Fri, 01 Dec 2023 09:44:49 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.0.1.2</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
     <item>
-      <title>Sweep Control v1.0.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.0.5.bmp"&gt;&lt;br&gt;
+      <title>RemoteControl.STM v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.0.0.2.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Sweep Control v1.0.0.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 17 Nov 2023 20:03:04 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: SweepControl.lvclass&lt;br&gt;- first build as stand-alone package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 17 Nov 2023 20:03:04 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_sweep_control-1.0.0.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.7.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.7.0.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 17 Nov 2023 17:19:16 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- Issue #72: display intermittent values in Lockin_Sweep&lt;br&gt;- Issue #75: R and G calculations are more flexible&lt;br&gt;- Update Lockin_time and Lockin_sweep to handle vector magnet instruments&lt;br&gt;- Update Lockin_sweep to more frequently poll instruments for their status&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 17 Nov 2023 17:19:16 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.7.0.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.0.0.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 17 Nov 2023 16:12:17 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0]&lt;br&gt;- The class was previously included in the Transport package. It has now been split into it&#39;s own package&lt;br&gt;- Issue #60: New Lockin API allows quicker and better error handling if Lock-In is not running&lt;br&gt;- Issue #74: fix issue with KH address in Control Experiment&lt;br&gt;- Issue #78: Fix issues with saving and loading instruments in Load Instrument Classes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 17 Nov 2023 16:12:17 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.0.0.2</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.2.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.2.0.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 06 Nov 2023 16:30:38 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - First release as stand-alone SMO exe with installer&lt;br&gt;- Instrument Framework v1.13.0.10&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 06 Nov 2023 16:30:38 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.2.0.3</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.2.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.2.0.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 06 Nov 2023 15:53:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - First release as stand-alone SMO exe with installer&lt;br&gt;- Instrument Framework v1.13.0.10&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 06 Nov 2023 15:53:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.2.0.2</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.2.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.2.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.2.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 06 Nov 2023 12:30:25 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - First release as stand-alone SMO exe with installer&lt;br&gt;- Instrument Framework v1.13.0.10&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 06 Nov 2023 12:30:25 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.2.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LEIDEN FP v4.57.2.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.2.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN FP v4.57.2.2&lt;br&gt;
+Product: RemoteControl.STM v1.0.0.2&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Mon, 23 Oct 2023 16:08:51 -0400&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 11:42:08 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Front Panel (FP)&lt;br&gt;API:&lt;br&gt;Push Button (Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test)&lt;br&gt;Set Mode (Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery)&lt;br&gt;Get Mode&lt;br&gt;
+Description: Remote Control override implementing STM (LabVIEW Simple Messaging)&lt;br&gt;
 &lt;br&gt;
-Release Notes: First build&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- First build as stand-alone package&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Mon, 23 Oct 2023 16:08:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_fp-4.57.2.2</guid>
+      <pubDate>Wed, 22 Nov 2023 11:42:08 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_stm-1.0.0.2</guid>
       <dc:creator>LevyLab</dc:creator>
-      
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
     <item>
-      <title>Instrument Framework v1.13.0.10</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.13.0.10.bmp"&gt;&lt;br&gt;
+      <title>Logger.syslog v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_syslog/levylab_lib_logger_syslog-1.0.0.2.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Instrument Framework v1.13.0.10&lt;br&gt;
+Product: Logger.syslog v1.0.0.2&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Fri, 29 Sep 2023 09:36:40 -0400&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 11:31:35 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+Description: syslog datalogger class.&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.13.0]&lt;br&gt;- Issue #90: update pgsql connection load/save&lt;br&gt;- Issue #89: Remove linking to ZMQ example VIs&lt;br&gt;- Issue #88: Variant to LV Data.vim no longer traps incoming errors&lt;br&gt;- Issue #86:&lt;br&gt;  - Wait for Magnet Setpoint.vi will stop on Finished? == True from Get Magnet.vi. It is the responsibility of the overriding instrument to control Finished?&lt;br&gt;  - Wait for Temperature Setpoint.vi has a new control, tolerance. The overriding instrument API will need to be updated&lt;br&gt;- Issue #84, #26:&lt;br&gt;  - Communication with instrument hardware should happen in the child process.vi. Handle Command can parse and discriminate commands, but it should forward messagses using Instrument:MessageToProcess.vi. The chil will respond with child:MessageToProcess.&lt;br&gt;- Open and Close are &amp;lt;b&amp;gt;disabled&amp;lt;/b&amp;gt; in the instrument:process.vi. If you need this methods please implement them in the child&#39;s process.vi&lt;br&gt;- Issue #82: Change &amp;quot;Create Server SMO.vi&amp;quot; to make easier to call in non-Instrument Framework projects&lt;br&gt;- Issue #32: finalize configuration with multiple sections&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- first build as stand-alone package&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Fri, 29 Sep 2023 09:36:40 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.13.0.10</guid>
+      <pubDate>Wed, 22 Nov 2023 11:31:35 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_syslog-1.0.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger.Error v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.Error v1.0.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 09:28:36 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Error datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- first build as stand-alone package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 22 Nov 2023 09:28:36 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_error-1.0.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger.PGSQL v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v1.0.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 09:10:10 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- first build as stand-alone package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 22 Nov 2023 09:10:10 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger v1.0.1.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger/levylab_lib_logger-1.0.1.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger v1.0.1.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 08:48:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1]&lt;br&gt;- Add State History VI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 22 Nov 2023 08:48:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger-1.0.1.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger v1.0.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger/levylab_lib_logger-1.0.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger v1.0.1.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 08:43:40 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1]&lt;br&gt;- Add State History VI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 22 Nov 2023 08:43:40 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger-1.0.1.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger/levylab_lib_logger-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger v1.0.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 08:30:06 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- First build as stand-alone package (previously included in Instrument Framework)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 22 Nov 2023 08:30:06 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger-1.0.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>RemoteControl.ZMQ v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.0.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 22 Nov 2023 07:34:48 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- First build as stand-alone package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 22 Nov 2023 07:34:48 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.0.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Remote Control v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Remote Control v1.0.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 21 Nov 2023 16:28:42 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.0]&lt;br&gt;- First build as stand-alone package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 21 Nov 2023 16:28:42 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control-1.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
