@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=810
-Release.Date=Tue, 05 Dec 2023 14:28:55 -0500
-Self.ID=5423b7b43730cc981fdffa56c0c832d8
+Release.Number=811
+Release.Date=Tue, 05 Dec 2023 15:52:56 -0500
+Self.ID=224b3f83984190e9eab839a57737ce80
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4218,4 +4218,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.8.1.121,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,levylab_lib_build_support>=1.2.5.1
 Package.Display Name=JSON-RPC
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control_zmq-1.1.0.2]
+Package.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.2.vip
+Icon.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.2.bmp
+Spec.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.2.spec
+Package.MD5=d7f57af5ac4f281baae30c43ebab272b
+Package.Release Date=Tue, 05 Dec 2023 15:52:56 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.8.1.121,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_caraya>=1.4.2.145,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=Remote Control.ZMQ
 Platform.Exclusive_VIPM_Version=2017
