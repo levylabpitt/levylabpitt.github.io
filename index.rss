@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 01 Dec 2023 10:53:02 -0500</pubDate>
+    <pubDate>Tue, 05 Dec 2023 14:28:55 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.1.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.1.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.1.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 05 Dec 2023 14:28:55 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- change API methods connectors to make method and params/response consistently on 2nd and 3rd rows, respectively&lt;br&gt;- update JSON-RPC encoding code&lt;br&gt;- add method for converting JSON to LVtype&lt;br&gt;- add methods for flattening/unflattening to string to JSON (faster than converting directly with JSONtext)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 05 Dec 2023 14:28:55 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.1.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Control Experiment v1.0.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.0]&lt;br&gt;- First build as stand-alone package (previously
 &lt;br&gt;</description>
       <pubDate>Wed, 22 Nov 2023 08:30:06 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_logger-1.0.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 22 Nov 2023 07:34:48 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0]&lt;br&gt;- First build as stand-alone package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 22 Nov 2023 07:34:48 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
