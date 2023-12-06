@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 05 Dec 2023 20:03:44 -0500</pubDate>
+    <pubDate>Tue, 05 Dec 2023 21:21:10 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sweep Control v1.0.1.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v1.0.1.6&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 05 Dec 2023 21:21:10 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: SweepControl.lvclass&lt;br&gt;- update category palette&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 05 Dec 2023 21:21:10 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_sweep_control-1.0.1.6</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.7.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.0.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.0]&lt;br&gt;- first build as stand-alone package&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 22 Nov 2023 09:28:36 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_logger_error-1.0.0.1</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 22 Nov 2023 09:10:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0]&lt;br&gt;- first build as stand-alone package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 22 Nov 2023 09:10:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
