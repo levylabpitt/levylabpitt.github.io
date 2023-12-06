@@ -1,0 +1,186 @@
+[Package]
+Name="levylab_lib_control_experiment"
+Version="1.0.1.6"
+Release=""
+ID=f7b2c509a972cc10de6236f2a23d4bd9
+File Format="vip"
+Format Version="2017"
+Display Name="Control Experiment"
+
+
+[Description]
+Description="VIs for scripting and performing transport measurments.\0A\0A[Control Experiment.lvclass]\0A- Control Experiment.vi\0A  - provides a uniform way to record information about your sample & device\0A  - record how the lockin is connected to the device\0A  - configure the Krohn Hite amplifier\0A  - set the base path for saving data\0A  - configure peripheral instruments\0A- APIs for recording sample data, instrument status"
+Summary=""
+License="BSD-3"
+Copyright="Copyright (c) 2023, Levylab"
+Distribution=""
+Vendor="Levylab"
+URL=""
+Packager="Patrick Irvin"
+Demo="FALSE"
+Release Notes="[1.0.1]\0A- Fix close lockin in generate comments\0A- update palette category"
+System Package="FALSE"
+Sub Package="FALSE"
+License Agreement="TRUE"
+
+
+[LabVIEW]
+close labview before install="FALSE"
+restart labview after install="FALSE"
+skip mass compile after install="FALSE"
+install into global environment="FALSE"
+
+
+[Platform]
+Exclusive_LabVIEW_Version="LabVIEW>=19.0"
+Exclusive_LabVIEW_System="ALL"
+Exclusive_OS="ALL"
+
+
+[Script VIs]
+PreInstall=""
+PostInstall=""
+PreUninstall=""
+PostUninstall=""
+Verify=""
+PreBuild=""
+PostBuild=""
+
+
+[Dependencies]
+AutoReqProv=FALSE
+Requires="i3_external_encryption>=1.0.0.8,jdp_science_jsontext>=1.8.1.121,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.3.1.20,jki_lib_caraya>=1.4.2.145,jki_lib_json_serialization>=1.1.10.37,jki_lib_serialization>=1.0.1.14,jki_lib_state_machine>=2018.0.7.45,jki_lib_unicode>=1.0.0.7,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.3,levylab_lib_krohn_hite_7008>=1.7.9.1,levylab_lib_lockin_multichannel>=2.15.4.4,levylab_lib_lvtoitx>=3.7.0.2,levylab_lib_plym>=1.0.1.3,levylab_lib_voltage_update>=1.0.3.5,levylab_lib_xy_utilities>=1.5.4.1,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_string>=1.1.1.5,mgi_lib_timing>=1.1.0.2,mgi_lib_tree>=1.0.4.4,national_instruments_lib_guid_generator>=1.0.2.3,ni_cloud_toolkit_for_aws>=1.1.0.1,ni_lib_stm>=3.1.0.9,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_lvzip>=4.0.1,oglib_md5>=4.1.1.10,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,wireflow_ab_lib_wf_progressbar>=1.0.2.56"
+Conflicts=""
+
+
+[Activation]
+License File=""
+Licensed Library=""
+
+
+[Files]
+Num File Groups="3"
+Sub-Packages=""
+Namespaces=""
+
+
+[File Group 0]
+Target Dir="<application>"
+Replace Mode="Always"
+Num Files=95
+File 0="user.lib/Levylab/Transport/Control Experiment/Configuration.ini"
+File 1="user.lib/Levylab/Transport/Control Experiment/Control Experiment.lvclass"
+File 2="user.lib/Levylab/Transport/Control Experiment/Control Experiment.lvproj"
+File 3="user.lib/Levylab/Transport/Control Experiment/Control Experiment.vi"
+File 4="user.lib/Levylab/Transport/Control Experiment/Mini Control Experiment.vi"
+File 5="user.lib/Levylab/Transport/Control Experiment/Typedefs/Control Experiment FGV.JSON--cluster.ctl"
+File 6="user.lib/Levylab/Transport/Control Experiment/Typedefs/Control Experiment JSON--cluster.ctl"
+File 7="user.lib/Levylab/Transport/Control Experiment/Typedefs/Experiment Description--cluster.ctl"
+File 8="user.lib/Levylab/Transport/Control Experiment/Typedefs/Files--Cluster.ctl"
+File 9="user.lib/Levylab/Transport/Control Experiment/Typedefs/Instrument Classes--cluster.ctl"
+File 10="user.lib/Levylab/Transport/Control Experiment/Typedefs/Instrument Types--combo.ctl"
+File 11="user.lib/Levylab/Transport/Control Experiment/Typedefs/Instrument--enum.ctl"
+File 12="user.lib/Levylab/Transport/Control Experiment/Typedefs/Instruments--cluster.ctl"
+File 13="user.lib/Levylab/Transport/Control Experiment/Typedefs/KH Mode-enum.ctl"
+File 14="user.lib/Levylab/Transport/Control Experiment/Typedefs/UI Controls --cluster.ctl"
+File 15="user.lib/Levylab/Transport/Control Experiment/Typedefs/Wiring Description--cluster.ctl"
+File 16="user.lib/Levylab/Transport/Control Experiment/Typedefs/Wiring Description--v2--cluster.ctl"
+File 17="user.lib/Levylab/Transport/Control Experiment/Tests/Test Control Experiment.vi"
+File 18="user.lib/Levylab/Transport/Control Experiment/Tests/Test Upload to S3.vi"
+File 19="user.lib/Levylab/Transport/Control Experiment/Tests/Test Variant to Array of Variants.vi"
+File 20="user.lib/Levylab/Transport/Control Experiment/Tests/Test Write.vi"
+File 21="user.lib/Levylab/Transport/Control Experiment/subVIs/Append Ring StringsAndValues.vi"
+File 22="user.lib/Levylab/Transport/Control Experiment/subVIs/Control Experiment Class from JSON.vi"
+File 23="user.lib/Levylab/Transport/Control Experiment/subVIs/Control Experiment Class to JSON.vi"
+File 24="user.lib/Levylab/Transport/Control Experiment/subVIs/Data to Dictionary.vim"
+File 25="user.lib/Levylab/Transport/Control Experiment/subVIs/Device and User PGSQL Paths.vi"
+File 26="user.lib/Levylab/Transport/Control Experiment/subVIs/ElectrodesLabelsToPickeringChannels.vi"
+File 27="user.lib/Levylab/Transport/Control Experiment/subVIs/Empty Ring StringsAndValues.vi"
+File 28="user.lib/Levylab/Transport/Control Experiment/subVIs/Empty Rings.vi"
+File 29="user.lib/Levylab/Transport/Control Experiment/subVIs/Find Class by Name.vi"
+File 30="user.lib/Levylab/Transport/Control Experiment/subVIs/Find File.vi"
+File 31="user.lib/Levylab/Transport/Control Experiment/subVIs/Get Cluster Ring References.vi"
+File 32="user.lib/Levylab/Transport/Control Experiment/subVIs/Get Computer Name.vi"
+File 33="user.lib/Levylab/Transport/Control Experiment/subVIs/Get Date Time For Filename.vi"
+File 34="user.lib/Levylab/Transport/Control Experiment/subVIs/Get Date Time ISO.vi"
+File 35="user.lib/Levylab/Transport/Control Experiment/subVIs/Initialize KH Array.vi"
+File 36="user.lib/Levylab/Transport/Control Experiment/subVIs/Insert Instrument Class by Name.vi"
+File 37="user.lib/Levylab/Transport/Control Experiment/subVIs/Installed Classes to Rings.vi"
+File 38="user.lib/Levylab/Transport/Control Experiment/subVIs/Letter to Number.vi"
+File 39="user.lib/Levylab/Transport/Control Experiment/subVIs/Load Instrument Classes.vi"
+File 40="user.lib/Levylab/Transport/Control Experiment/subVIs/Multiply Gains.vi"
+File 41="user.lib/Levylab/Transport/Control Experiment/subVIs/Number to Letter.vi"
+File 42="user.lib/Levylab/Transport/Control Experiment/subVIs/Open Experiment VI.vi"
+File 43="user.lib/Levylab/Transport/Control Experiment/subVIs/Open Lockin.vi"
+File 44="user.lib/Levylab/Transport/Control Experiment/subVIs/Reset Counter.vi"
+File 45="user.lib/Levylab/Transport/Control Experiment/subVIs/Select Instrument Type.vi"
+File 46="user.lib/Levylab/Transport/Control Experiment/subVIs/Shorten Class name.vi"
+File 47="user.lib/Levylab/Transport/Control Experiment/subVIs/String Label.vi"
+File 48="user.lib/Levylab/Transport/Control Experiment/subVIs/Variant to DBL Array.vi"
+File 49="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Add Device Description.vi"
+File 50="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Add Experiment Description.vi"
+File 51="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Add Lockin Description.vi"
+File 52="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Add Sweep Description.vi"
+File 53="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Add Wiring Description.vi"
+File 54="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Create Lockin AO Description.vi"
+File 55="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Create Lockin REF Description.vi"
+File 56="user.lib/Levylab/Transport/Control Experiment/Comments/Comments.Create Lockin Sampling Description.vi"
+File 57="user.lib/Levylab/Transport/Control Experiment/Comments/Erase Comments.vi"
+File 58="user.lib/Levylab/Transport/Control Experiment/Comments/Generate Comments.vi"
+File 59="user.lib/Levylab/Transport/Control Experiment/API (File)/Control Experiment FGV.vi"
+File 60="user.lib/Levylab/Transport/Control Experiment/API (File)/Control Experiment.xml"
+File 61="user.lib/Levylab/Transport/Control Experiment/API (File)/Create Transport DAT File.vi"
+File 62="user.lib/Levylab/Transport/Control Experiment/API (File)/Read Control Experiment.json.vi"
+File 63="user.lib/Levylab/Transport/Control Experiment/API (File)/Save JSON File.vi"
+File 64="user.lib/Levylab/Transport/Control Experiment/API (File)/Save Transport DAT File 2D.vi"
+File 65="user.lib/Levylab/Transport/Control Experiment/API (File)/Save Transport DAT File.vi"
+File 66="user.lib/Levylab/Transport/Control Experiment/API (File)/Save Transport ITX File.vi"
+File 67="user.lib/Levylab/Transport/Control Experiment/API (File)/Save Transport TDMS File.vi"
+File 68="user.lib/Levylab/Transport/Control Experiment/API/Device ID.vi"
+File 69="user.lib/Levylab/Transport/Control Experiment/API/Get Channel Indices.vi"
+File 70="user.lib/Levylab/Transport/Control Experiment/API/Initialize Device Folder.vi"
+File 71="user.lib/Levylab/Transport/Control Experiment/API/Read Comments.vi"
+File 72="user.lib/Levylab/Transport/Control Experiment/API/Read Device.vi"
+File 73="user.lib/Levylab/Transport/Control Experiment/API/Read Experiment Configuration.vi"
+File 74="user.lib/Levylab/Transport/Control Experiment/API/Read Experiment Description.vi"
+File 75="user.lib/Levylab/Transport/Control Experiment/API/Read Experiment Path.vi"
+File 76="user.lib/Levylab/Transport/Control Experiment/API/Read Instruments.vi"
+File 77="user.lib/Levylab/Transport/Control Experiment/API/Read Wiring Configuration.vi"
+File 78="user.lib/Levylab/Transport/Control Experiment/API/Write Experiment Description (cluster).vi"
+File 79="user.lib/Levylab/Transport/Control Experiment/API/Write Experiment Description.vi"
+File 80="user.lib/Levylab/Transport/Control Experiment/API/Write Experiment Folder.vi"
+File 81="user.lib/Levylab/Transport/Control Experiment/API/Write Instruments.vi"
+File 82="user.lib/Levylab/Transport/Control Experiment/API/Write json.vi"
+File 83="user.lib/Levylab/Transport/Control Experiment/API/Write Sweep Element.vi"
+File 84="user.lib/Levylab/Transport/Control Experiment/API/Write Wiring Configuration v2.vi"
+File 85="user.lib/Levylab/Transport/Control Experiment/API/S3/Handle S3 Error.vi"
+File 86="user.lib/Levylab/Transport/Control Experiment/API/S3/S3 Backup--cluster.ctl"
+File 87="user.lib/Levylab/Transport/Control Experiment/API/S3/Upload to S3.vi"
+File 88="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Append Dictionary Element.vi"
+File 89="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Close Dictionary.vi"
+File 90="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Read All Dictionary Elements.vi"
+File 91="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Read Dictionary Element.vi"
+File 92="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Write Dictionary Element.vi"
+File 93="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Write Dictionary Elements (Loop).vi"
+File 94="user.lib/Levylab/Transport/Control Experiment/API/Dictionary/Write JSON to Dictionary.vi"
+
+
+[File Group 1]
+Target Dir="<menus>/Categories/LevyLab/Transport"
+Replace Mode="Always"
+Num Files=8
+File 0="_functions_levylab_lib_control_experiment_1.mnu"
+File 1="_functions_levylab_lib_control_experiment_2.mnu"
+File 2="_functions_levylab_lib_control_experiment_3.mnu"
+File 3="_functions_levylab_lib_control_experiment_4.mnu"
+File 4="_functions_levylab_lib_control_experiment_5.mnu"
+File 5="_functions_levylab_lib_control_experiment_6.mnu"
+File 6="_functions_levylab_lib_control_experiment_7.mnu"
+File 7="functions_Levylab_lib_control_experiment.mnu"
+
+
+[File Group 2]
+Target Dir="<menus>/Categories/LevyLab/Transport"
+Replace Mode="If Newer"
+Num Files=1
+File 0="dir.mnu"
