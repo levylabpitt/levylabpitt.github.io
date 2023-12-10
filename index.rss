@@ -3,9 +3,99 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 06 Dec 2023 13:15:13 -0500</pubDate>
+    <pubDate>Sun, 10 Dec 2023 09:18:20 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Remote Control.ZMQ v1.1.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Remote Control.ZMQ v1.1.0.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 10 Dec 2023 09:18:20 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Updated to work with JSON-RPC v1.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 10 Dec 2023 09:18:20 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.0.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>RemoteControl.STM v1.1.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.1.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.STM v1.1.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 10 Dec 2023 09:03:28 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Remote Control override implementing STM (LabVIEW Simple Messaging)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1]&lt;br&gt;- Update palette location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 10 Dec 2023 09:03:28 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_stm-1.1.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>RemoteControl v1.1.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl v1.1.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 10 Dec 2023 08:57:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- update Test Client to use JSON-RPC:Parse Request&lt;br&gt;- update palette location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 10 Dec 2023 08:57:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control-1.1.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>JSON-RPC v1.2.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.0.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sun, 10 Dec 2023 08:42:32 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.0]&lt;br&gt;- convert JSON-RPC class to library&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 10 Dec 2023 08:42:32 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.0.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Instrument Framework v1.14.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.14.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 09 Dec 2023 13:24:30 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.14.0]&lt;br&gt;beta&lt;br&gt;This is a major release that will break your existing code, but hopefully will not be too painful to fix.&lt;br&gt;- Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)&lt;br&gt;- Issue #91: API style and uniformity. The  included &amp;quot;abstract methods&amp;quot; or &amp;quot;interface methods&amp;quot; (ie Instrument.Cryostat.lvclass) not do more work to enforce a standard command and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)&lt;br&gt;  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class.&lt;br&gt;- Issue #92: Attempt to consolidate methods to flatten/unflatten message data&lt;br&gt;- Issue #95: Time interval for logging instrument status is now an overridable parameter&lt;br&gt;- Issue #96: Minimize the number of malleable VIs. Save memory, reduce headaches. Make it clearer when the developer needs to convert data to LV type (Local Client.vi: yes, Remote Client.vi: no)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 09 Dec 2023 13:24:30 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Remote Control.ZMQ v1.1.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.4.bmp"&gt;&lt;br&gt;
@@ -95,96 +185,6 @@ Release Notes: [1.7.0]&lt;br&gt;- Issue #72: display intermittent values in Lock
       <guid isPermaLink="false">levylab_lib_transport-1.7.0.6</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Control Experiment v1.0.1.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.1.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.0.1.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 05 Dec 2023 22:02:07 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- Fix close lockin in generate comments&lt;br&gt;- update palette category&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 05 Dec 2023 22:02:07 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.0.1.6</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Sweep Control v1.0.1.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.1.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Sweep Control v1.0.1.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 05 Dec 2023 21:21:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: SweepControl.lvclass&lt;br&gt;- update category palette&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 05 Dec 2023 21:21:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_sweep_control-1.0.1.6</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.7.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.7.0.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 05 Dec 2023 20:03:44 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- Issue #72: display intermittent values in Lockin_Sweep&lt;br&gt;- Issue #75: R and G calculations are more flexible&lt;br&gt;- Update Lockin_time and Lockin_sweep to handle vector magnet instruments&lt;br&gt;- Update Lockin_sweep to more frequently poll instruments for their status&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 05 Dec 2023 20:03:44 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.7.0.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.0.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.0.1.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 05 Dec 2023 17:04:37 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- Fix close lockin in generate comments&lt;br&gt;- update palette category&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 05 Dec 2023 17:04:37 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.0.1.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Remote Control.ZMQ v1.1.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Remote Control.ZMQ v1.1.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 05 Dec 2023 15:52:56 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Updated to work with JSON-RPC v1.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 05 Dec 2023 15:52:56 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
