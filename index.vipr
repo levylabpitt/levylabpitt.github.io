@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=828
-Release.Date=Mon, 11 Dec 2023 15:26:19 -0500
-Self.ID=815c8cea083a264bf199af8949031f20
+Release.Number=829
+Release.Date=Tue, 12 Dec 2023 07:18:37 -0500
+Self.ID=5d6dc9628fcdfc379df0df3401c0e8f3
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4430,6 +4430,18 @@ Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instrument
 Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.5.spec
 Package.MD5=c239a57eff616ddf4ce0460097bb36bc
 Package.Release Date=Mon, 11 Dec 2023 15:26:19 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.14.0.6]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.6.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.6.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.6.spec
+Package.MD5=2a1d275b14de5b59e6df43f07619cefd
+Package.Release Date=Tue, 12 Dec 2023 07:18:37 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
