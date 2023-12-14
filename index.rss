@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 14 Dec 2023 09:50:39 -0500</pubDate>
+    <pubDate>Thu, 14 Dec 2023 10:31:49 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.1.0.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.0.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.1.0.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 14 Dec 2023 10:31:49 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Updated to work with JSON-RPC v1.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 14 Dec 2023 10:31:49 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.0.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>RemoteControl v1.1.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl v1.1.1.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 14 Dec 2023 10:24:48 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.1]&lt;br&gt;- Change names Remote Client to RemoteControl.Remote Client, Variant to Data.vim to RemoteControl.Variant to Data.vim&lt;br&gt;- Change reentrancy of Connect and Disconnect&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 14 Dec 2023 10:24:48 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control-1.1.1.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>General AFM Lithography v10.1.1.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_general_afm_lithography/levylab_lib_general_afm_lithography-10.1.1.3.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.0.1]&lt;br&gt;- Update palette location&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Sun, 10 Dec 2023 09:03:28 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_stm-1.1.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v1.1.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v1.1.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 10 Dec 2023 08:57:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- update Test Client to use JSON-RPC:Parse Request&lt;br&gt;- update palette location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 10 Dec 2023 08:57:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-1.1.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.0.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 10 Dec 2023 08:42:32 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.0]&lt;br&gt;- convert JSON-RPC class to library&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 10 Dec 2023 08:42:32 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.0.5</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
