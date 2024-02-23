@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 05 Jan 2024 13:19:52 -0500</pubDate>
+    <pubDate>Fri, 23 Feb 2024 15:10:05 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.7.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.7.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.7.1.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 23 Feb 2024 15:10:05 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.7.1]&lt;br&gt;- Issue #107: Update Read Variable polymorphic:&lt;br&gt;   - check if incoming connection is empty before deciding to connect&lt;br&gt;   - double, integer, boolean, all now call string as a subVI&lt;br&gt;&lt;br&gt;- Issue #108: v2 database:&lt;br&gt;   - List Tables, Get Table Path, Create Table, Rename Table all compatible with v2 database structure (table_index --&amp;gt; hypertables, path --&amp;gt; hypertable, llab_ --&amp;gt; _llab_) and backwards compatible with v1&lt;br&gt;- #109: wavenames were not being sanitized for 2D datasets&lt;br&gt;- #110: Excessive number of plots exceed command limit. If greater than 2500 B eliminate the command from the ITX file&lt;br&gt;- #111: Fix KillWaves command (mistyped as Kill Waves)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 23 Feb 2024 15:10:05 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.7.1.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.14.0.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.10.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.14.0]&lt;br&gt;beta: This is a major release that will break y
 &lt;br&gt;</description>
       <pubDate>Mon, 11 Dec 2023 15:26:19 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.14.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.14.0.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 11 Dec 2023 11:10:32 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.14.0]&lt;br&gt;beta: This is a major release that will break your existing code, but hopefully will not be too painful to fix.&lt;br&gt;- Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)&lt;br&gt;- Issue #91: improved API style and uniformity. The  included &amp;quot;abstract&amp;quot; or &amp;quot;interface&amp;quot; methods (ie Instrument.Cryostat.lvclass) do more to enforce a standard command format and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)&lt;br&gt;  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class&lt;br&gt;  - Instrument.SCPI iprovides a uniform way to send and receive arbitrary SCPI commands&lt;br&gt;- Issue #92: Consolidate methods to flatten/unflatten message data&lt;br&gt;- Issue #95: Time interval for logging instrument status is now an overridable parameter&lt;br&gt;- Issue #96: Minimize the number of malleable VIs. Save memory and minimize headaches. Local Client.vi and Remote Client.vi are not longer malleable VIs.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 11 Dec 2023 11:10:32 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.4</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
