@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=840
-Release.Date=Wed, 24 Apr 2024 11:52:00 -0400
-Self.ID=0ace5a8b63671432318d73a3b385e7b5
+Release.Number=842
+Release.Date=Wed, 24 Apr 2024 14:57:08 -0400
+Self.ID=247350e2f095b4cabefe7421495bdff6
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4574,6 +4574,30 @@ Icon.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-
 Spec.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.7.spec
 Package.MD5=3fa2c8e983589a764812e64e3a599ceb
 Package.Release Date=Wed, 24 Apr 2024 11:52:00 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.8.2.122,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_caraya>=1.4.3.147,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=RemoteControl.ZMQ
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control-1.1.2.6]
+Package.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.2.6.vip
+Icon.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.2.6.bmp
+Spec.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.2.6.spec
+Package.MD5=bfeabcd0b46681ef86f350ea91497bfb
+Package.Release Date=Wed, 24 Apr 2024 14:44:43 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.8.2.122,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=RemoteControl
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control_zmq-1.1.1.8]
+Package.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.8.vip
+Icon.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.8.bmp
+Spec.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.8.spec
+Package.MD5=c33772e668dad5fd31e496a6b7324926
+Package.Release Date=Wed, 24 Apr 2024 14:57:08 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.8.2.122,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_caraya>=1.4.3.147,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_build_support>=1.2.5.1
