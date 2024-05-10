@@ -3,7 +3,8 @@ Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
 Release.Number=844
 Release.Date=Fri, 10 May 2024 10:12:11 -0400
-Self.ID=ba13578dbb736dcf9c291269993c11c2
+Creator.URL=levylabpitt.github.io
+Self.ID=30852526926bc0daaf5336ac6c0eee5d
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
