@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 09 May 2024 12:18:59 -0400</pubDate>
+    <pubDate>Fri, 10 May 2024 10:12:11 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN FP v4.57.3.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.3.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN FP v4.57.3.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 10 May 2024 10:12:11 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Front Panel (FP)&lt;br&gt;API:&lt;br&gt;Push Button (Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test)&lt;br&gt;Set Mode (Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery)&lt;br&gt;Get Mode&lt;br&gt;
+&lt;br&gt;
+Release Notes: second build&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 May 2024 10:12:11 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_fp-4.57.3.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>LV-Data v3.7.2.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.7.2.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.14.0]&lt;br&gt;beta 1-6: This is a major release that will bre
 &lt;br&gt;</description>
       <pubDate>Thu, 04 Jan 2024 14:11:23 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.9</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.14.0.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.14.0.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 14 Dec 2023 13:48:55 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.14.0]&lt;br&gt;beta 1-6: This is a major release that will break your existing code, but hopefully will not be too painful to fix.&lt;br&gt;beta 7- : change handling of logging data&lt;br&gt;- Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)&lt;br&gt;- Issue #91: improved API style and uniformity. The  included &amp;quot;abstract&amp;quot; or &amp;quot;interface&amp;quot; methods (ie Instrument.Cryostat.lvclass) do more to enforce a standard command format and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)&lt;br&gt;  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class&lt;br&gt;  - Instrument.SCPI iprovides a uniform way to send and receive arbitrary SCPI commands&lt;br&gt;- Issue #92: Consolidate methods to flatten/unflatten message data&lt;br&gt;- Issue #95: Time interval for logging instrument status is now an overridable parameter&lt;br&gt;- Issue #96: Minimize the number of malleable VIs. Save memory and minimize headaches. Local Client.vi and Remote Client.vi are not longer malleable VIs. Rename to RemoteClient and LocalClient&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 14 Dec 2023 13:48:55 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.8</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
