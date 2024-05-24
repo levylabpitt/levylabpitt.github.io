@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 23 May 2024 20:40:53 -0400</pubDate>
+    <pubDate>Thu, 23 May 2024 21:42:52 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.1.1.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.1.1.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 23 May 2024 21:42:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update default timeout for ZMQ read&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 23 May 2024 21:42:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v1.1.1.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.1.2]&lt;br&gt;- bug fixes to Test VIs&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_remote_control-1.1.2.4</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>LV-Data v3.7.1.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.7.1.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.7.1.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 23 Feb 2024 15:10:05 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.7.1]&lt;br&gt;- Issue #107: Update Read Variable polymorphic:&lt;br&gt;   - check if incoming connection is empty before deciding to connect&lt;br&gt;   - double, integer, boolean, all now call string as a subVI&lt;br&gt;&lt;br&gt;- Issue #108: v2 database:&lt;br&gt;   - List Tables, Get Table Path, Create Table, Rename Table all compatible with v2 database structure (table_index --&amp;gt; hypertables, path --&amp;gt; hypertable, llab_ --&amp;gt; _llab_) and backwards compatible with v1&lt;br&gt;- #109: wavenames were not being sanitized for 2D datasets&lt;br&gt;- #110: Excessive number of plots exceed command limit. If greater than 2500 B eliminate the command from the ITX file&lt;br&gt;- #111: Fix KillWaves command (mistyped as Kill Waves)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 23 Feb 2024 15:10:05 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.7.1.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
