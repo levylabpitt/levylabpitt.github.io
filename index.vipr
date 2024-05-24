@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=847
-Release.Date=Thu, 23 May 2024 21:42:52 -0400
+Release.Number=848
+Release.Date=Thu, 23 May 2024 23:12:25 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=f1a1a49d2230b931ae0bff178effed1b
+Self.ID=f9ad4781c99e2dd20e56eb5a8958f26f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4662,5 +4662,16 @@ Package.Release Date=Thu, 23 May 2024 21:42:52 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.8.2.122,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_caraya>=1.4.3.147,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=RemoteControl.ZMQ
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control_zmq-1.1.1.11]
+Package.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.11.vip
+Icon.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.11.bmp
+Spec.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.11.spec
+Package.MD5=0ae020791d02a28859f3b6e13e565e44
+Package.Release Date=Thu, 23 May 2024 23:12:25 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
 Package.Display Name=RemoteControl.ZMQ
 Platform.Exclusive_VIPM_Version=2017
