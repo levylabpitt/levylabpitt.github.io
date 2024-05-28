@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 23 May 2024 23:33:30 -0400</pubDate>
+    <pubDate>Tue, 28 May 2024 14:14:32 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.PGSQL v1.0.1.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v1.0.1.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 28 May 2024 14:14:32 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1]&lt;br&gt;- add functional method API for reading variables&lt;br&gt;- update dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 May 2024 14:14:32 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.1.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Configuration v1.0.1.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_configuration/levylab_lib_configuration-1.0.1.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Configuration v1.0.1.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 23 May 2024 23:39:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for reading and writing configuration files&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.1]&lt;br&gt;- remove malleable VI Read Configuration.vim&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 23 May 2024 23:39:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_configuration-1.0.1.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Configuration v1.0.1.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_configuration/levylab_lib_configuration-1.0.1.3.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update defa
 &lt;br&gt;</description>
       <pubDate>Wed, 24 Apr 2024 14:57:08 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v1.1.2.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.1.2.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v1.1.2.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 24 Apr 2024 14:44:43 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.2]&lt;br&gt;- bug fixes to Test VIs&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Apr 2024 14:44:43 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-1.1.2.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.1.1.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.1.1.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 24 Apr 2024 11:52:00 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update default timeout for ZMQ read&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Apr 2024 11:52:00 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
