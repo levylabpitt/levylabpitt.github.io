@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=852
-Release.Date=Tue, 28 May 2024 16:29:35 -0400
+Release.Number=853
+Release.Date=Tue, 28 May 2024 16:57:03 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=d0e95a33046f7eefc1dec72971996f99
+Self.ID=72cf0ff4f1f83746043cf6d949735e32
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4721,4 +4721,15 @@ Package.Release Date=Tue, 28 May 2024 16:29:35 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Logger.PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control_stm-1.1.1.4]
+Package.URL=packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.1.1.4.vip
+Icon.URL=packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.1.1.4.bmp
+Spec.URL=packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.1.1.4.spec
+Package.MD5=baa07ec8fb261cefa10e29baac2c428f
+Package.Release Date=Tue, 28 May 2024 16:57:03 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=RemoteControl.STM
 Platform.Exclusive_VIPM_Version=2017
