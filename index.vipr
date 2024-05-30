@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=853
-Release.Date=Tue, 28 May 2024 16:57:03 -0400
+Release.Number=854
+Release.Date=Thu, 30 May 2024 16:31:38 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=72cf0ff4f1f83746043cf6d949735e32
+Self.ID=3e34ee1d5352a1b63adbde534a87ba82
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4732,4 +4732,16 @@ Package.Release Date=Tue, 28 May 2024 16:57:03 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=RemoteControl.STM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_json_rpc-1.2.1.6]
+Package.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.1.6.vip
+Icon.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.1.6.bmp
+Spec.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.1.6.spec
+Package.MD5=c76c6852cb8cec19a663c324ee83ba66
+Package.Release Date=Thu, 30 May 2024 16:31:38 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.8.2.122,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=JSON-RPC
 Platform.Exclusive_VIPM_Version=2017

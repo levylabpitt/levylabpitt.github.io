@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 28 May 2024 16:57:03 -0400</pubDate>
+    <pubDate>Thu, 30 May 2024 16:31:38 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.2.1.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.1.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 30 May 2024 16:31:38 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.1]&lt;br&gt;- Issue #108: change creation of result behavior to keep input structure (previously was converting to an array as required of the params object)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 30 May 2024 16:31:38 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.1.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>RemoteControl.STM v1.1.1.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.1.1.4.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.0.1]&lt;br&gt;- remove malleable VI Read Configuration.vim&lt;
       <guid isPermaLink="false">levylab_lib_configuration-1.0.1.2</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>LEIDEN FP v4.57.3.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_leiden_fp/levylab_lib_leiden_fp-4.57.3.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN FP v4.57.3.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 10 May 2024 10:12:11 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Front Panel (FP)&lt;br&gt;API:&lt;br&gt;Push Button (Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test)&lt;br&gt;Set Mode (Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery)&lt;br&gt;Get Mode&lt;br&gt;
-&lt;br&gt;
-Release Notes: second build&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 May 2024 10:12:11 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_fp-4.57.3.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
