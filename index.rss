@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 31 May 2024 14:37:37 -0400</pubDate>
+    <pubDate>Fri, 31 May 2024 22:04:21 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.7.1.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.1.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.7.1.7&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 31 May 2024 22:04:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.1]&lt;br&gt;- Issue #81: update state sequence in Lockin_Sweep to update IV graph at the correct moment&lt;br&gt;- Issue #84: Lockin_time Macro: exit state ws not being queued properly after receiving T notifier.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 31 May 2024 22:04:21 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.7.1.7</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Control Experiment v1.0.2.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.2.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update defa
 &lt;br&gt;</description>
       <pubDate>Thu, 23 May 2024 21:42:52 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.10</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.1.1.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.1.1.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 23 May 2024 20:40:53 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update default timeout for ZMQ read&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 23 May 2024 20:40:53 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.9</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
