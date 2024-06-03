@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 31 May 2024 22:04:21 -0400</pubDate>
+    <pubDate>Mon, 03 Jun 2024 09:14:36 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sweep Control v1.0.1.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.1.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v1.0.1.8&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 03 Jun 2024 09:14:35 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: SweepControl.lvclass&lt;br&gt;- Issue #82: Sweep Control now supports linear, power, and triangle sweep types&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 03 Jun 2024 09:14:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_sweep_control-1.0.1.8</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.7.1.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.1.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update defa
 &lt;br&gt;</description>
       <pubDate>Thu, 23 May 2024 23:12:25 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.1.1.10</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.1.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.1.1.10&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 23 May 2024 21:42:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.1]&lt;br&gt;- Update install location&lt;br&gt;- Update default timeout for ZMQ read&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 23 May 2024 21:42:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.1.10</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
