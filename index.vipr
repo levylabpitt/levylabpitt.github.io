@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=858
-Release.Date=Fri, 12 Jul 2024 13:51:19 -0400
+Release.Number=859
+Release.Date=Fri, 12 Jul 2024 15:04:59 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=5bc51981d93bae8c7a95614702250d8b
+Self.ID=8ab764e67cfb15032aa06acd9f6d5048
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4788,6 +4788,17 @@ Icon.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.0.1.
 Spec.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.0.1.spec
 Package.MD5=cc10450102ada099420252be477c39ac
 Package.Release Date=Fri, 12 Jul 2024 13:51:19 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Xeryon-Rotator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xeryon_rotator-1.0.1.2]
+Package.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.1.2.vip
+Icon.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.1.2.bmp
+Spec.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.1.2.spec
+Package.MD5=ec22effbc0386140f9512ac9efd454e7
+Package.Release Date=Fri, 12 Jul 2024 15:04:59 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Xeryon-Rotator
