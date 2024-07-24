@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=859
-Release.Date=Fri, 12 Jul 2024 15:04:59 -0400
+Release.Number=861
+Release.Date=Wed, 24 Jul 2024 14:17:09 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=8ab764e67cfb15032aa06acd9f6d5048
+Self.ID=63e3763b2c345e35d6029a44d6377c89
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4802,4 +4802,27 @@ Package.Release Date=Fri, 12 Jul 2024 15:04:59 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Xeryon-Rotator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ftdi_lib_d2xx-1.0.0.2]
+Package.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.0.0.2.vip
+Icon.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.0.0.2.bmp
+Spec.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.0.0.2.spec
+Package.MD5=1cd1f918929aaccb27da54f9b5552588
+Package.Release Date=Wed, 24 Jul 2024 14:17:04 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=D2XX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_d2xx_lv-1.0.0.1]
+Package.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.0.0.1.vip
+Icon.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.0.0.1.bmp
+Spec.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.0.0.1.spec
+Package.MD5=74b49c35d2cabb15d22870ac144fdfd4
+Package.Release Date=Wed, 24 Jul 2024 14:17:09 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=ftdi_lib_d2xx>=1.0.0.2
+Package.Display Name=D2XX-LV
 Platform.Exclusive_VIPM_Version=2017

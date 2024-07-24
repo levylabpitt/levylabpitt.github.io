@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 12 Jul 2024 15:04:59 -0400</pubDate>
+    <pubDate>Wed, 24 Jul 2024 14:17:09 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D2XX-LV v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX-LV v1.0.0.1&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 24 Jul 2024 14:17:09 -0400&lt;br&gt;
+Packager: Patrick Irvin / LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 24 Jul 2024 14:17:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.0.0.1</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/D2XX</link>
+    </item>
+    <item>
+      <title>D2XX v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX v1.0.0.2&lt;br&gt;
+Company: FTDI&lt;br&gt;
+Release Date: Wed, 24 Jul 2024 14:17:04 -0400&lt;br&gt;
+Packager: FTDI / Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.DLL using LabVIEW. This package organizes files provided by FTDI into a LV library&lt;br&gt;
+&lt;br&gt;
+Release Notes: initial release&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 24 Jul 2024 14:17:04 -0400</pubDate>
+      <guid isPermaLink="false">ftdi_lib_d2xx-1.0.0.2</guid>
+      <dc:creator>FTDI</dc:creator>
+      <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.1.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.1.2.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.0.1]&lt;br&gt;- add functional method API for reading variable
 &lt;br&gt;</description>
       <pubDate>Tue, 28 May 2024 16:29:35 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.1.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.0.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.0.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 28 May 2024 14:14:32 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- add functional method API for reading variables&lt;br&gt;- update dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 28 May 2024 14:14:32 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.1.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Configuration v1.0.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_configuration/levylab_lib_configuration-1.0.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Configuration v1.0.1.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 23 May 2024 23:39:33 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for reading and writing configuration files&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- remove malleable VI Read Configuration.vim&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 23 May 2024 23:39:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_configuration-1.0.1.4</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
