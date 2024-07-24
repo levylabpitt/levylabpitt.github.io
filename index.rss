@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 24 Jul 2024 14:17:09 -0400</pubDate>
+    <pubDate>Wed, 24 Jul 2024 17:34:53 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Relay Box v1.2.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.2.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Relay Box v1.2.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 24 Jul 2024 17:34:53 -0400&lt;br&gt;
+Packager: John Maier / Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Software to control resistor relay box&lt;br&gt;
+&lt;br&gt;
+Release Notes: - this release further disentagles the relay box code from the FTD2XX.dll wrapper code (by linking to a D2XX package instead of hosting internally)&lt;br&gt;- relay state is stored with EEPROM user area rather than in manufacturer string&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 24 Jul 2024 17:34:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_relay_box-1.2.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>D2XX-LV v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.1]&lt;br&gt;- Update to latest RemoteControl location and re
 &lt;br&gt;</description>
       <pubDate>Tue, 28 May 2024 16:57:03 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_stm-1.1.1.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.0.1.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.1.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.0.1.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 28 May 2024 16:29:35 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- add functional method API for reading variables&lt;br&gt;- update dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 28 May 2024 16:29:35 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.1.3</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
