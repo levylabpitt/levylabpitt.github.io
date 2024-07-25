@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 24 Jul 2024 17:34:53 -0400</pubDate>
+    <pubDate>Thu, 25 Jul 2024 17:36:49 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Xeryon-Rotator v1.0.2.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.2.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Xeryon-Rotator v1.0.2.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 25 Jul 2024 17:36:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
+&lt;br&gt;
+Release Notes: - configuration file is now found by prompting user by default&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 25 Jul 2024 17:36:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.2.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Relay Box v1.2.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.2.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.1]&lt;br&gt;- Issue #108: change creation of result behavior
 &lt;br&gt;</description>
       <pubDate>Thu, 30 May 2024 16:31:38 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_json_rpc-1.2.1.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.STM v1.1.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_stm/levylab_lib_remote_control_stm-1.1.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.STM v1.1.1.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 28 May 2024 16:57:03 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Remote Control override implementing STM (LabVIEW Simple Messaging)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.1]&lt;br&gt;- Update to latest RemoteControl location and remove dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 28 May 2024 16:57:03 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_stm-1.1.1.4</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
