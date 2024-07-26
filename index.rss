@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 26 Jul 2024 02:58:03 -0400</pubDate>
+    <pubDate>Fri, 26 Jul 2024 08:06:28 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D2XX-LV v1.1.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX-LV v1.1.0.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 26 Jul 2024 08:06:27 -0400&lt;br&gt;
+Packager: Patrick Irvin / LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEPROM_User_Area (Issue #2)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Jul 2024 08:06:27 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/D2XX</link>
+    </item>
     <item>
       <title>D2XX-LV v1.1.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.4.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: SweepControl.lvclass&lt;br&gt;- Issue #82: Sweep Control now supp
 &lt;br&gt;</description>
       <pubDate>Mon, 03 Jun 2024 09:14:35 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_sweep_control-1.0.1.8</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.7.1.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.7.1.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.7.1.7&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 31 May 2024 22:04:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.1]&lt;br&gt;- Issue #81: update state sequence in Lockin_Sweep to update IV graph at the correct moment&lt;br&gt;- Issue #84: Lockin_time Macro: exit state ws not being queued properly after receiving T notifier.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 31 May 2024 22:04:21 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.7.1.7</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
