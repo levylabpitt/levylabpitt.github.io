@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 25 Jul 2024 17:36:49 -0400</pubDate>
+    <pubDate>Fri, 26 Jul 2024 02:48:31 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D2XX-LV v1.1.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX-LV v1.1.0.3&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 26 Jul 2024 02:48:31 -0400&lt;br&gt;
+Packager: Patrick Irvin / LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEPROM_User_Area (Issue #2)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Jul 2024 02:48:31 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.3</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/D2XX</link>
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.2.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.2.4.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.0.2]&lt;br&gt;- Issue #79: fix default gate resistor&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_control_experiment-1.0.2.7</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.1.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.1.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.1.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 30 May 2024 16:31:38 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt;- Issue #108: change creation of result behavior to keep input structure (previously was converting to an array as required of the params object)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 30 May 2024 16:31:38 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.1.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
