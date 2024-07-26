@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 26 Jul 2024 08:06:28 -0400</pubDate>
+    <pubDate>Fri, 26 Jul 2024 08:39:09 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Relay Box v1.3.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.3.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Relay Box v1.3.0.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 26 Jul 2024 08:39:08 -0400&lt;br&gt;
+Packager: John Maier / Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Software to control resistor relay box&lt;br&gt;
+&lt;br&gt;
+Release Notes: - this release calls the D2XX-LV library rather than D2XX directly&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Jul 2024 08:39:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_relay_box-1.3.0.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>D2XX-LV v1.1.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: initial release&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Fri, 12 Jul 2024 13:51:19 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Sweep Control v1.0.1.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.0.1.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Sweep Control v1.0.1.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 03 Jun 2024 09:14:35 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: SweepControl.lvclass&lt;br&gt;- Issue #82: Sweep Control now supports linear, power, and triangle sweep types&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 03 Jun 2024 09:14:35 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_sweep_control-1.0.1.8</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
