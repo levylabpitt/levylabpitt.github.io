@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 26 Jul 2024 02:48:31 -0400</pubDate>
+    <pubDate>Fri, 26 Jul 2024 02:58:03 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D2XX-LV v1.1.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX-LV v1.1.0.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 26 Jul 2024 02:58:02 -0400&lt;br&gt;
+Packager: Patrick Irvin / LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEPROM_User_Area (Issue #2)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 26 Jul 2024 02:58:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/D2XX</link>
+    </item>
     <item>
       <title>D2XX-LV v1.1.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.7.1]&lt;br&gt;- Issue #81: update state sequence in Lockin_Swe
 &lt;br&gt;</description>
       <pubDate>Fri, 31 May 2024 22:04:21 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.7.1.7</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.0.2.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.0.2.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.0.2.7&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 31 May 2024 14:37:37 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2]&lt;br&gt;- Issue #79: fix default gate resistor&lt;br&gt;   - When changing a channel to &amp;quot;gate&amp;quot; configuration the shunt reistor value will be set to the Default Shunt Resistor value.&lt;br&gt;   - After that the user can change to whichever resistor value they want and the program will not take over&lt;br&gt;- Issue #80: Update populate VI ring&lt;br&gt;   - SweepControl --&amp;gt; Sweep Control subfolder)&lt;br&gt;   - add path validation and disable values inside ring if they are not found&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 31 May 2024 14:37:37 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.0.2.7</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
