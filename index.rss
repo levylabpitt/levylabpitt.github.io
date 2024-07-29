@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 26 Jul 2024 10:36:29 -0400</pubDate>
+    <pubDate>Mon, 29 Jul 2024 17:47:26 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Xeryon-Rotator v1.0.4.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.4.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Xeryon-Rotator v1.0.4.7&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 29 Jul 2024 17:47:26 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issue #4 and #5: UI improvements&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 29 Jul 2024 17:47:26 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.4.7</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.3.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.3.6.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: initial release&lt;br&gt;
       <guid isPermaLink="false">ftdi_lib_d2xx-1.0.0.2</guid>
       <dc:creator>FTDI</dc:creator>
       <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.0.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.0.1.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 12 Jul 2024 15:04:59 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: - fix install location&lt;br&gt;- fix application name and icon&lt;br&gt;- improve configuration file search and failover to user intervention&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 12 Jul 2024 15:04:59 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.1.2</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
