@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 29 Jul 2024 17:47:26 -0400</pubDate>
+    <pubDate>Thu, 15 Aug 2024 10:29:08 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.2.2.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.2.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 15 Aug 2024 10:29:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;- Issue #112: Adjust icon sizes to 32x24&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 15 Aug 2024 10:29:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.2.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.4.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.4.7.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: &lt;br&gt;
       <guid isPermaLink="false">levylab_lib_d2xx_lv-1.0.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/D2XX</link>
-    </item>
-    <item>
-      <title>D2XX v1.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX v1.0.0.2&lt;br&gt;
-Company: FTDI&lt;br&gt;
-Release Date: Wed, 24 Jul 2024 14:17:04 -0400&lt;br&gt;
-Packager: FTDI / Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.DLL using LabVIEW. This package organizes files provided by FTDI into a LV library&lt;br&gt;
-&lt;br&gt;
-Release Notes: initial release&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Jul 2024 14:17:04 -0400</pubDate>
-      <guid isPermaLink="false">ftdi_lib_d2xx-1.0.0.2</guid>
-      <dc:creator>FTDI</dc:creator>
-      <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
     </item>
   </channel>
 </rss>

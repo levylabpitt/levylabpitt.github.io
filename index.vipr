@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=869
-Release.Date=Mon, 29 Jul 2024 17:47:26 -0400
+Release.Number=870
+Release.Date=Thu, 15 Aug 2024 10:29:08 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=fc6750fe4d113ad8f9f636b4fe1666f9
+Self.ID=91dc9c0d733cc387460fc8b577169d9f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4917,4 +4917,16 @@ Package.Release Date=Mon, 29 Jul 2024 17:47:26 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Xeryon-Rotator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_json_rpc-1.2.2.7]
+Package.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.7.vip
+Icon.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.7.bmp
+Spec.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.7.spec
+Package.MD5=d6bebcc6ebd9c7907c4f77d4710f76b4
+Package.Release Date=Thu, 15 Aug 2024 10:29:08 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.8.2.122,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=JSON-RPC
 Platform.Exclusive_VIPM_Version=2017
