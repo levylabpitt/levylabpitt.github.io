@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 15 Aug 2024 10:29:08 -0400</pubDate>
+    <pubDate>Thu, 03 Oct 2024 16:32:12 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.8.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.8.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.8.0.2&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 03 Oct 2024 16:32:12 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.8.0]&lt;br&gt;Updates related to LV-Data.PGSQL [PostgreSQL]&lt;br&gt;- pq-labview updated to v0.4 (libpq.dll is now v17 and 32 or 64 bit compatible)&lt;br&gt;- Issue #115: Added support for creating JSON columns (jsonb)&lt;br&gt;- Issue #116: Executing any sql statement begins and ends a transaction&lt;br&gt;- Issue #117: Better support for &amp;quot;timestamp with timezone&amp;quot; datatypes (&amp;quot;timestamptz&amp;quot;)&lt;br&gt;   - &amp;quot;timestamptz&amp;quot; is default for new tables&lt;br&gt;   - &amp;quot;timestamp&amp;quot; is backwards compatible for reading and writing if a table hasn&#39;t yet been converted to &amp;quot;timestamptz&amp;quot;&lt;br&gt;- Improved &amp;quot;multirow&amp;quot; insert (Inserts at multiple timestamps). Both &amp;quot;INSERT.vi&amp;quot; and &amp;quot;INSERT Multivalue.vi&amp;quot; support inserting into columns in different tables in one transaction.&lt;br&gt;- other bugfixes and code refactoring&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 03 Oct 2024 16:32:12 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.8.0.2</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>JSON-RPC v1.2.2.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.7.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - this release further disentagles the relay box code from the FT
       <guid isPermaLink="false">levylab_lib_relay_box-1.2.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>D2XX-LV v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX-LV v1.0.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 24 Jul 2024 14:17:09 -0400&lt;br&gt;
-Packager: Patrick Irvin / LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 24 Jul 2024 14:17:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.0.0.1</guid>
-      <dc:creator>Levylab</dc:creator>
-      <link>https://github.com/levylabpitt/D2XX</link>
     </item>
   </channel>
 </rss>
