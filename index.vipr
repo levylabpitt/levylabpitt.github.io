@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=872
-Release.Date=Fri, 25 Oct 2024 10:40:50 -0400
+Release.Number=873
+Release.Date=Fri, 25 Oct 2024 13:21:15 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=2a21eede6620e945973021dad12310f5
+Self.ID=229bc244f8bcc516a87103d9e70b3bc4
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4949,6 +4949,18 @@ Icon.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.2.
 Spec.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.2.spec
 Package.MD5=6b242f64c6cd365d223c3a4a07d3024c
 Package.Release Date=Fri, 25 Oct 2024 10:40:49 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.3.2
+Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_vrm_api-1.7.0.3]
+Package.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.3.vip
+Icon.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.3.bmp
+Spec.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.3.spec
+Package.MD5=55c66f76db40759feb4c262844e758c7
+Package.Release Date=Fri, 25 Oct 2024 13:21:14 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.3.2

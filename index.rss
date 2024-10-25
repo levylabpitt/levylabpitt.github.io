@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 25 Oct 2024 10:40:50 -0400</pubDate>
+    <pubDate>Fri, 25 Oct 2024 13:21:15 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.7.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.7.0.3&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 25 Oct 2024 13:21:14 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- update to Instrument Framework v1.13.0.10&lt;br&gt;- Mercury drivers are included&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 25 Oct 2024 13:21:14 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.0.3</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-VRM v1.7.0.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.2.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEP
       <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.3</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/D2XX</link>
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.0.2.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.2.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.0.2.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 25 Jul 2024 17:36:49 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: - configuration file is now found by prompting user by default&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 25 Jul 2024 17:36:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.2.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
