@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=873
-Release.Date=Fri, 25 Oct 2024 13:21:15 -0400
+Release.Number=874
+Release.Date=Mon, 28 Oct 2024 11:57:57 -0400
 Creator.URL=levylabpitt.github.io
-Self.ID=229bc244f8bcc516a87103d9e70b3bc4
+Self.ID=7ba603bce1d9071ca91bdc435fa8cd06
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -4965,4 +4965,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.3.2
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package oxford_lib_mercury_ixx-2.0.0.1]
+Package.URL=packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.1.vip
+Icon.URL=packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.1.bmp
+Spec.URL=packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.1.spec
+Package.MD5=a787f3cc3948cbf29d53dad12e27b3c9
+Package.Release Date=Mon, 28 Oct 2024 11:57:56 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Mercury iXX
 Platform.Exclusive_VIPM_Version=2017

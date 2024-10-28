@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 25 Oct 2024 13:21:15 -0400</pubDate>
+    <pubDate>Mon, 28 Oct 2024 11:57:57 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mercury iXX v2.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Mercury iXX v2.0.0.1&lt;br&gt;
+Company: Oxford&lt;br&gt;
+Release Date: Mon, 28 Oct 2024 11:57:56 -0400&lt;br&gt;
+Packager: Oxford Instruments&lt;br&gt;
+&lt;br&gt;
+Description: A library of  VIs for NI LabVIEW used to built simple application to communicate with Mercury system or complex graphical interfaces to take advantage of full system functionality.&lt;br&gt;
+&lt;br&gt;
+Release Notes: An updated revision of the Mercury LabVIEW function library containing new features, many new examples and many bug fixes.  It can be used with LV 13.0f2 or later and Mercury firmware 2.0 or later. &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 28 Oct 2024 11:57:56 -0400</pubDate>
+      <guid isPermaLink="false">oxford_lib_mercury_ixx-2.0.0.1</guid>
+      <dc:creator>Oxford</dc:creator>
+      <link>https://mymercurysupport.com</link>
+    </item>
     <item>
       <title>Oxford-VRM v1.7.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEP
 &lt;br&gt;</description>
       <pubDate>Fri, 26 Jul 2024 02:58:02 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      <link>https://github.com/levylabpitt/D2XX</link>
-    </item>
-    <item>
-      <title>D2XX-LV v1.1.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX-LV v1.1.0.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 26 Jul 2024 02:48:31 -0400&lt;br&gt;
-Packager: Patrick Irvin / LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEPROM_User_Area (Issue #2)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 26 Jul 2024 02:48:31 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.3</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/D2XX</link>
     </item>
