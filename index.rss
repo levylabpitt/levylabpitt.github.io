@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 28 Oct 2024 11:57:57 -0400</pubDate>
+    <pubDate>Thu, 07 Nov 2024 20:35:41 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.8.1.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.8.1.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.8.1.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 07 Nov 2024 20:35:41 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.8.0]&lt;br&gt;- update package dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 07 Nov 2024 20:35:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.8.1.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Mercury iXX v2.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEP
 &lt;br&gt;</description>
       <pubDate>Fri, 26 Jul 2024 08:06:27 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      <link>https://github.com/levylabpitt/D2XX</link>
-    </item>
-    <item>
-      <title>D2XX-LV v1.1.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.1.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX-LV v1.1.0.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 26 Jul 2024 02:58:02 -0400&lt;br&gt;
-Packager: Patrick Irvin / LevyLab&lt;br&gt;
-&lt;br&gt;
-Description: This library provides an interface to FTDI&#39;s D2XX drivers that better follows LabVIEW programming norms.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - add FT_Set_Bit_Mode (Issue #1)&lt;br&gt;- add FT_Read/Write_EEPROM_User_Area (Issue #2)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 26 Jul 2024 02:58:02 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.1.0.4</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/D2XX</link>
     </item>
