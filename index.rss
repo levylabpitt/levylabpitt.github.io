@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 12 Nov 2024 13:48:10 -0500</pubDate>
+    <pubDate>Wed, 13 Nov 2024 11:05:34 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.0.1.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.0.1.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.0.1.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 13 Nov 2024 11:05:34 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: fix simulated channels in monitor and control application&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 13 Nov 2024 11:05:34 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.0.1.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.0.0.8</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.0.0.8.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.2]&lt;br&gt;- Issue #112: Adjust icon sizes to 32x24&lt;br&g
       <guid isPermaLink="false">levylab_lib_json_rpc-1.2.2.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.0.4.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.4.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.0.4.7&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 29 Jul 2024 17:47:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issue #4 and #5: UI improvements&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 29 Jul 2024 17:47:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.4.7</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
