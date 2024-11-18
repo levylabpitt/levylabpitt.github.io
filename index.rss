@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 13 Nov 2024 11:05:34 -0500</pubDate>
+    <pubDate>Mon, 18 Nov 2024 15:30:55 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Control Experiment v1.1.0.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.1.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Control Experiment v1.1.0.8&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 18 Nov 2024 15:30:54 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Issue #89: update compatibility with KH7008 v2 drivers and Monitor and Control program&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 18 Nov 2024 15:30:54 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_control_experiment-1.1.0.8</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.0.1.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.0.1.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [3.8.0]&lt;br&gt;Updates related to LV-Data.PGSQL [PostgreSQL]&lt
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.8.0.2</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.2.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.2.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 15 Aug 2024 10:29:08 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.2]&lt;br&gt;- Issue #112: Adjust icon sizes to 32x24&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 15 Aug 2024 10:29:08 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.2.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
