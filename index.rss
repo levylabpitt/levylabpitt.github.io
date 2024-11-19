@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 18 Nov 2024 15:30:55 -0500</pubDate>
+    <pubDate>Tue, 19 Nov 2024 13:21:07 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.8.0.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.8.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.8.0.8&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 19 Nov 2024 13:21:07 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.0]&lt;br&gt;Issues:&lt;br&gt;- #59: Lockin_wweep: fix &amp;quot;Return to Start&amp;quot; logic&lt;br&gt;- #86: Lockin_sweep: fix Temperature units&lt;br&gt;- #87: Lockin_time: add pause B sweep if T &amp;gt; T_hold&lt;br&gt;- #88: Lockin_time: update R and G calculation&lt;br&gt;- #89: update Control Experiment dependency to v1.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Nov 2024 13:21:07 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.8.0.8</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Control Experiment v1.1.0.8</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.1.0.8.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.7.0]&lt;br&gt;- update to Instrument Framework v1.13.0.10&lt;b
       <pubDate>Fri, 25 Oct 2024 10:40:49 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.0.2</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data v3.8.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.8.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.8.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 03 Oct 2024 16:32:12 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Collection of VIs to write and read TDMS, Igor Text Files (*.itx), text-based spreadsheet data files (*.dat), postgreSQL. Tools are also provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.8.0]&lt;br&gt;Updates related to LV-Data.PGSQL [PostgreSQL]&lt;br&gt;- pq-labview updated to v0.4 (libpq.dll is now v17 and 32 or 64 bit compatible)&lt;br&gt;- Issue #115: Added support for creating JSON columns (jsonb)&lt;br&gt;- Issue #116: Executing any sql statement begins and ends a transaction&lt;br&gt;- Issue #117: Better support for &amp;quot;timestamp with timezone&amp;quot; datatypes (&amp;quot;timestamptz&amp;quot;)&lt;br&gt;   - &amp;quot;timestamptz&amp;quot; is default for new tables&lt;br&gt;   - &amp;quot;timestamp&amp;quot; is backwards compatible for reading and writing if a table hasn&#39;t yet been converted to &amp;quot;timestamptz&amp;quot;&lt;br&gt;- Improved &amp;quot;multirow&amp;quot; insert (Inserts at multiple timestamps). Both &amp;quot;INSERT.vi&amp;quot; and &amp;quot;INSERT Multivalue.vi&amp;quot; support inserting into columns in different tables in one transaction.&lt;br&gt;- other bugfixes and code refactoring&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 03 Oct 2024 16:32:12 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.8.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
