@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Nov 2024 13:21:07 -0500</pubDate>
+    <pubDate>Tue, 19 Nov 2024 14:22:54 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.8.0.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.8.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.8.0.9&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 19 Nov 2024 14:22:54 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.0]&lt;br&gt;Issues:&lt;br&gt;- #59: Lockin_wweep: fix &amp;quot;Return to Start&amp;quot; logic&lt;br&gt;- #86: Lockin_sweep: fix Temperature units&lt;br&gt;- #87: Lockin_time: add pause B sweep if T &amp;gt; T_hold&lt;br&gt;- #88: Lockin_time: update R and G calculation&lt;br&gt;- #89: update Control Experiment dependency to v1.1&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Nov 2024 14:22:54 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.8.0.9</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.8.0.8</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.8.0.8.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.7.0]&lt;br&gt;- update to Instrument Framework v1.13.0.10&lt;b
 &lt;br&gt;</description>
       <pubDate>Fri, 25 Oct 2024 13:21:14 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.0.3</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-VRM v1.7.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.7.0.2&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 25 Oct 2024 10:40:49 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- update to Instrument Framework v1.13.0.10&lt;br&gt;- Mercury drivers are included&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 25 Oct 2024 10:40:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.0.2</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
