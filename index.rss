@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Nov 2024 14:22:54 -0500</pubDate>
+    <pubDate>Wed, 20 Nov 2024 14:53:55 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sweep Control v1.1.0.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.1.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v1.1.0.9&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 20 Nov 2024 14:53:54 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Issue #89 KH7008 v2 and Transport &amp;amp; Control Experiment dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 Nov 2024 14:53:54 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_sweep_control-1.1.0.9</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.8.0.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.8.0.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: An updated revision of the Mercury LabVIEW function library conta
       <guid isPermaLink="false">oxford_lib_mercury_ixx-2.0.0.1</guid>
       <dc:creator>Oxford</dc:creator>
       <link>https://mymercurysupport.com</link>
-    </item>
-    <item>
-      <title>Oxford-VRM v1.7.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.7.0.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 25 Oct 2024 13:21:14 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- update to Instrument Framework v1.13.0.10&lt;br&gt;- Mercury drivers are included&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 25 Oct 2024 13:21:14 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.0.3</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
