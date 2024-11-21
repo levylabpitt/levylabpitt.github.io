@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 20 Nov 2024 14:53:55 -0500</pubDate>
+    <pubDate>Thu, 21 Nov 2024 09:02:41 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.9.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.9.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.9.0.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 21 Nov 2024 09:02:41 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Collection of VIs to write and read files in TDMS, Igor Text (*.itx), and text-based spreadsheet data (*.dat) formats.&lt;br&gt;- LV graph to Igor Pro and Igor Pro formatters&lt;br&gt;- Tools are provided for uploading to and downloading from AWS S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.9.0]&lt;br&gt;- remove PGSQL from this package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 Nov 2024 09:02:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.9.0.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Sweep Control v1.1.0.9</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.1.0.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [3.8.0]&lt;br&gt;- update package dependencies&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.8.1.3</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Mercury iXX v2.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Mercury iXX v2.0.0.1&lt;br&gt;
-Company: Oxford&lt;br&gt;
-Release Date: Mon, 28 Oct 2024 11:57:56 -0400&lt;br&gt;
-Packager: Oxford Instruments&lt;br&gt;
-&lt;br&gt;
-Description: A library of  VIs for NI LabVIEW used to built simple application to communicate with Mercury system or complex graphical interfaces to take advantage of full system functionality.&lt;br&gt;
-&lt;br&gt;
-Release Notes: An updated revision of the Mercury LabVIEW function library containing new features, many new examples and many bug fixes.  It can be used with LV 13.0f2 or later and Mercury firmware 2.0 or later. &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 28 Oct 2024 11:57:56 -0400</pubDate>
-      <guid isPermaLink="false">oxford_lib_mercury_ixx-2.0.0.1</guid>
-      <dc:creator>Oxford</dc:creator>
-      <link>https://mymercurysupport.com</link>
     </item>
   </channel>
 </rss>
