@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 21 Nov 2024 11:31:58 -0500</pubDate>
+    <pubDate>Thu, 21 Nov 2024 15:32:10 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data.PGSQL v3.9.1.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.9.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data.PGSQL v3.9.1.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 21 Nov 2024 15:32:10 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.9.1]&lt;br&gt;- updated dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 Nov 2024 15:32:10 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.9.1.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>LV-Data v3.9.1.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.9.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.9.1.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 21 Nov 2024 15:06:57 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Collection of VIs to write and read files in TDMS, Igor Text (*.itx), and text-based spreadsheet data (*.dat) formats.&lt;br&gt;- LV graph to Igor Pro and Igor Pro formatters&lt;br&gt;- Tools are provided for uploading to and downloading from AWS S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.9.1]&lt;br&gt;- updated package dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 Nov 2024 15:06:57 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.9.1.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>LV-Data.PGSQL v3.9.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.9.0.5.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: first release with Krohn-Hite UI inheriting from Instrument Frame
 &lt;br&gt;</description>
       <pubDate>Tue, 12 Nov 2024 13:47:16 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.0.0.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>D2XX v1.1.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.1.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX v1.1.0.4&lt;br&gt;
-Company: FTDI&lt;br&gt;
-Release Date: Sun, 10 Nov 2024 10:06:14 -0500&lt;br&gt;
-Packager: FTDI / Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.DLL using LabVIEW. This package organizes files provided by FTDI into a LV library&lt;br&gt;
-&lt;br&gt;
-Release Notes: include  ftd2xx.dll&lt;br&gt;specify 32 bit support only&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 10 Nov 2024 10:06:14 -0500</pubDate>
-      <guid isPermaLink="false">ftdi_lib_d2xx-1.1.0.4</guid>
-      <dc:creator>FTDI</dc:creator>
-      <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
-    </item>
-    <item>
-      <title>LV-Data v3.8.2.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.8.2.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.8.2.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 08 Nov 2024 12:47:48 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Collection of VIs to write and read files in TDMS, Igor Text (*.itx), and text-based spreadsheet data (*.dat) formats.&lt;br&gt;- LV graph to Igor Pro and Igor Pro formatters&lt;br&gt;- Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;- Tools are provided for uploading to and downloading from AWS S3.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.8.2]&lt;br&gt;- remove hooovahh array vim calls and package dependency&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 08 Nov 2024 12:47:48 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.8.2.4</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
