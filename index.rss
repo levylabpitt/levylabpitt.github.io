@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 21 Nov 2024 20:48:33 -0500</pubDate>
+    <pubDate>Thu, 21 Nov 2024 21:36:41 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D2XX-LV v1.2.0.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.2.0.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX-LV v1.2.0.6&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 21 Nov 2024 21:36:41 -0500&lt;br&gt;
+Packager: Patrick Irvin / LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: This library provides an interface to FTDI&#39;s D2XX drivers, designed to align more closely with LabVIEW programming conventions.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - add support for 64 bit library (Issue #4)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 Nov 2024 21:36:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.2.0.6</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/D2XX</link>
+    </item>
     <item>
       <title>D2XX v1.2.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.2.0.5.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.1.0]&lt;br&gt;- Issue #89: update compatibility with KH7008 v2
       <pubDate>Mon, 18 Nov 2024 15:30:54 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_control_experiment-1.1.0.8</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.0.1.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.0.1.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.0.1.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 13 Nov 2024 11:05:34 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: fix simulated channels in monitor and control application&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 13 Nov 2024 11:05:34 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.0.1.9</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>

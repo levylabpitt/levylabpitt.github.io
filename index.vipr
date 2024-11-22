@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=893
-Release.Date=Thu, 21 Nov 2024 20:48:33 -0500
+Release.Number=894
+Release.Date=Thu, 21 Nov 2024 21:36:41 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=a33fef4011b46826d28344580ce3f49d
+Self.ID=a21d8e2fd532c7b4155dca56e1beec1f
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5141,4 +5141,16 @@ Package.Release Date=Thu, 21 Nov 2024 20:48:33 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=D2XX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_d2xx_lv-1.2.0.6]
+Package.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.2.0.6.vip
+Icon.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.2.0.6.bmp
+Spec.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.2.0.6.spec
+Package.MD5=0d962fa0a3634279a901732a97360350
+Package.Release Date=Thu, 21 Nov 2024 21:36:41 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=ftdi_lib_d2xx>=1.2.0.5
+Package.Display Name=D2XX-LV
 Platform.Exclusive_VIPM_Version=2017
