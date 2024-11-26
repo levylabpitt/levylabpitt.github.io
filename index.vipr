@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=894
-Release.Date=Thu, 21 Nov 2024 21:36:41 -0500
+Release.Number=896
+Release.Date=Tue, 26 Nov 2024 14:24:31 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=a21d8e2fd532c7b4155dca56e1beec1f
+Self.ID=738c5c5fa76d4ae470ae20b170b6ca82
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5153,4 +5153,27 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=ftdi_lib_d2xx>=1.2.0.5
 Package.Display Name=D2XX-LV
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_debug-1.0.0.1]
+Package.URL=packages/levylab_lib_debug/levylab_lib_debug-1.0.0.1.vip
+Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-1.0.0.1.bmp
+Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-1.0.0.1.spec
+Package.MD5=8122d3846c22f13c308aa27a86a3518e
+Package.Release Date=Tue, 26 Nov 2024 14:24:23 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_statemachineobjects>=1.4.0.69
+Package.Display Name=Debug
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_pgsql-1.0.2.4]
+Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.2.4.vip
+Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.2.4.bmp
+Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.2.4.spec
+Package.MD5=a8ba249832f591f397f897420429c3a8
+Package.Release Date=Tue, 26 Nov 2024 14:24:30 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Logger.PGSQL
 Platform.Exclusive_VIPM_Version=2017

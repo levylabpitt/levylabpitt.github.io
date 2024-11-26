@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 21 Nov 2024 21:36:41 -0500</pubDate>
+    <pubDate>Tue, 26 Nov 2024 14:24:31 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.PGSQL v1.0.2.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.2.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v1.0.2.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 26 Nov 2024 14:24:30 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.0.2]&lt;br&gt;- Issues #117 and #118: better handle null data and logger process UI status&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 26 Nov 2024 14:24:30 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.2.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Debug v1.0.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-1.0.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Debug v1.0.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 26 Nov 2024 14:24:23 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Shared Debug SMO Attribute&lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 26 Nov 2024 14:24:23 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_debug-1.0.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>D2XX-LV v1.2.0.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.2.0.6.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.8.0]&lt;br&gt;Issues:&lt;br&gt;- #59: Lockin_wweep: fix &amp;q
 &lt;br&gt;</description>
       <pubDate>Tue, 19 Nov 2024 14:22:54 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.8.0.9</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.8.0.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.8.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.8.0.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 19 Nov 2024 13:21:07 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.0]&lt;br&gt;Issues:&lt;br&gt;- #59: Lockin_wweep: fix &amp;quot;Return to Start&amp;quot; logic&lt;br&gt;- #86: Lockin_sweep: fix Temperature units&lt;br&gt;- #87: Lockin_time: add pause B sweep if T &amp;gt; T_hold&lt;br&gt;- #88: Lockin_time: update R and G calculation&lt;br&gt;- #89: update Control Experiment dependency to v1.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 19 Nov 2024 13:21:07 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.8.0.8</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.1.0.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.1.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.1.0.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 18 Nov 2024 15:30:54 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Issue #89: update compatibility with KH7008 v2 drivers and Monitor and Control program&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 18 Nov 2024 15:30:54 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.1.0.8</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
