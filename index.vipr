@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=896
-Release.Date=Tue, 26 Nov 2024 14:24:31 -0500
+Release.Number=897
+Release.Date=Wed, 27 Nov 2024 13:39:34 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=738c5c5fa76d4ae470ae20b170b6ca82
+Self.ID=85da238ab45b93af7a55fd0a62b5dac4
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5176,4 +5176,16 @@ Package.Release Date=Tue, 26 Nov 2024 14:24:30 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Logger.PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_debug-1.0.1.2]
+Package.URL=packages/levylab_lib_debug/levylab_lib_debug-1.0.1.2.vip
+Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-1.0.1.2.bmp
+Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-1.0.1.2.spec
+Package.MD5=1e26cb0674ce465a97007421a25f349f
+Package.Release Date=Wed, 27 Nov 2024 13:39:33 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_statemachineobjects>=1.4.0.69
+Package.Display Name=Debug
 Platform.Exclusive_VIPM_Version=2017
