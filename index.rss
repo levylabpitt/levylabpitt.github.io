@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 27 Nov 2024 13:39:34 -0500</pubDate>
+    <pubDate>Wed, 27 Nov 2024 14:56:01 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl v1.2.0.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.2.0.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl v1.2.0.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 27 Nov 2024 14:56:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.0]&lt;br&gt;- Issue #120 use debug attribute&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 Nov 2024 14:56:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control-1.2.0.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger.PGSQL v1.1.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.1.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v1.1.0.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 27 Nov 2024 14:28:22 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Issue #121 use debug attribute&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 Nov 2024 14:28:22 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.1.0.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Logger.Error v1.1.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.1.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.Error v1.1.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 27 Nov 2024 14:08:51 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Error datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Issue #121 use debug attribute&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 Nov 2024 14:08:51 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_error-1.1.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Debug v1.0.1.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-1.0.1.2.bmp"&gt;&lt;br&gt;
@@ -130,60 +184,6 @@ Release Notes: [3.9.1]&lt;br&gt;- updated package dependencies&lt;br&gt;
       <pubDate>Thu, 21 Nov 2024 15:06:57 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.9.1.6</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data.PGSQL v3.9.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.9.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data.PGSQL v3.9.0.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 21 Nov 2024 11:31:58 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.9.0]&lt;br&gt;- initial release of LV-Data.PGSQL-only package&lt;br&gt;- version number is harmonized with LV-Data for this release only&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 Nov 2024 11:31:58 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.9.0.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data v3.9.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.9.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data v3.9.0.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 21 Nov 2024 09:02:41 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Collection of VIs to write and read files in TDMS, Igor Text (*.itx), and text-based spreadsheet data (*.dat) formats.&lt;br&gt;- LV graph to Igor Pro and Igor Pro formatters&lt;br&gt;- Tools are provided for uploading to and downloading from AWS S3&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.9.0]&lt;br&gt;- remove PGSQL from this package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 Nov 2024 09:02:41 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtoitx-3.9.0.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Sweep Control v1.1.0.9</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.1.0.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Sweep Control v1.1.0.9&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 20 Nov 2024 14:53:54 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Issue #89 KH7008 v2 and Transport &amp;amp; Control Experiment dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 Nov 2024 14:53:54 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_sweep_control-1.1.0.9</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
