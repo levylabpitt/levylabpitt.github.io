@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 05 Dec 2024 06:52:19 -0500</pubDate>
+    <pubDate>Thu, 05 Dec 2024 15:40:32 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.14.0.12</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.14.0.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 05 Dec 2024 15:40:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.14.0]&lt;br&gt;beta 1-6: This is a major release that will break your existing code, but hopefully will not be too painful to fix.&lt;br&gt;- Subsystems used by the Instrument Framework are now packaged separately (Configuration, RemoteControl, Logger, etc)&lt;br&gt;- Issue #91: improved API style and uniformity. The  included &amp;quot;abstract&amp;quot; or &amp;quot;interface&amp;quot; methods (ie Instrument.Cryostat.lvclass) do more to enforce a standard command format and params datatype for child overrides. This uniformity will more easily enable calls from external languages (Python, etc)&lt;br&gt;  - Instrument.LockinAPI.lvclass is now a fully-supported Interface class&lt;br&gt;  - Instrument.SCPI iprovides a uniform way to send and receive arbitrary SCPI commands&lt;br&gt;- Issue #92: Consolidate methods to flatten/unflatten message data&lt;br&gt;- Issue #95: Time interval for logging instrument status is now an overridable parameter&lt;br&gt;- Issue #96: Minimize the number of malleable VIs. Save memory and minimize headaches. Local Client.vi and Remote Client.vi are not longer malleable VIs. Rename to RemoteClient and LocalClient&lt;br&gt;&lt;br&gt;beta 7-8:&lt;br&gt;- Change handling of logging data&lt;br&gt;&lt;br&gt;beta 9:&lt;br&gt;- Add Instrument.lvlib, updated LockinAPI (Issue #100)&lt;br&gt;&lt;br&gt;beta 10:&lt;br&gt;- lvlib no bueno for the classes. re-linking hell... try without (keep for enum &amp;lt;&amp;gt; string.vim)&lt;br&gt;&lt;br&gt;beta 11:&lt;br&gt;- Issue #96 rename LocalClient --&amp;gt; Local Client and RemoteClient --&amp;gt; Remote Client&lt;br&gt;- Issue #102: Client.vi is an experimental overridable method with control for Remote/Local client type&lt;br&gt;- Issue #103: resurrect Instrument.VSource.lvclass and other changes leftover from ca 12/2023&lt;br&gt;- Add experimental HAL.lvclass&lt;br&gt;- Issue #105: extended HELP&lt;br&gt;- Issue #110: GET and SET&lt;br&gt;- Issue #109: IDN&lt;br&gt;- Issue #114: HAL (experimental)&lt;br&gt;- Issue #116: Amplifier Instrument interface&lt;br&gt;- Issue #119/#122 Debug mode now handled through attributes&lt;br&gt;&lt;br&gt;beta 12:&lt;br&gt;- Issue #123: update package dependencies&lt;br&gt;- Issue #124: convert sendMessageToProcess to polymorphic VI&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 05 Dec 2024 15:40:31 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.12</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v1.14.0.11</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.11.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: add support for 64 bit&lt;br&gt;
       <guid isPermaLink="false">ftdi_lib_d2xx-1.2.0.5</guid>
       <dc:creator>FTDI</dc:creator>
       <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
-    </item>
-    <item>
-      <title>LV-Data.PGSQL v3.9.1.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.9.1.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data.PGSQL v3.9.1.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 21 Nov 2024 15:32:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.9.1]&lt;br&gt;- updated dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 Nov 2024 15:32:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.9.1.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
