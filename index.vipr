@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=900
-Release.Date=Wed, 27 Nov 2024 14:56:01 -0500
+Release.Number=901
+Release.Date=Thu, 05 Dec 2024 06:52:19 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=14c6c5896a7050061d05f89382b6cdd3
+Self.ID=8334fa29f6229cc391b62d6fb538da80
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5223,4 +5223,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_variantconfig>=4.0.0.5,levylab_lib_build_support>=1.2.5.1
 Package.Display Name=RemoteControl
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.14.0.11]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.11.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.11.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.11.spec
+Package.MD5=ab762d76248721effa29587e599f0e04
+Package.Release Date=Thu, 05 Dec 2024 06:52:19 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
