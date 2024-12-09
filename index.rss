@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 05 Dec 2024 15:40:32 -0500</pubDate>
+    <pubDate>Mon, 09 Dec 2024 11:23:00 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.14.0.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.14.0.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 09 Dec 2024 11:22:59 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: **[1.14.0] Release Notes**&lt;br&gt;&lt;br&gt;This is a major release that introduces breaking changes to existing code. These updates aim to enhance uniformity, performance, and usability.&lt;br&gt;&lt;br&gt;**Highlights**&lt;br&gt;- **Subsystem Packaging**:&lt;br&gt;  Core subsystems of the Instrument Framework (e.g., Configuration, RemoteControl, Logger) are now distributed as separate packages.&lt;br&gt;&lt;br&gt;- **Improved API Uniformity** (Issue #91):&lt;br&gt;  - Enhance external language compatibility (e.g., Python) via unified method names.&lt;br&gt;  - Instrument interfaces classes introduce uniform &amp;quot;abstract&amp;quot; or &amp;quot;interface&amp;quot; methods (e.g., `Instrument.Cryostat.lvclass`) to enforce standardized command formats and parameter data types for child overrides. These are not enforceable by LabVIEW but hoepfully utilizing them will be easier than before.&lt;br&gt;  - `Instrument.LockinAPI.lvclass` is now a fully supported interface class.&lt;br&gt;  - `Instrument.Amplifier.lvclass` is a new interface class (#116).&lt;br&gt;  - `Instrument.SCPI` provides a standardized mechanism for sending and receiving SCPI commands.&lt;br&gt;  - New methods supported by base instrument: `IDN`; `GET` and `SET` methods supported via override (Issue #110).&lt;br&gt;  - Improved documentation and HELP functionality (Issue #105).&lt;br&gt;&lt;br&gt;**Other Additions and Improvements**&lt;br&gt;- **New Features**:&lt;br&gt;  - `Instrument.lvlib` introduced for malleable VI organization&lt;br&gt;  - `HAL.lvclass` added as an experimental hardware abstraction layer (Issue #114).&lt;br&gt;  - `API.lvclass` added as an experimental API abstraction layer&lt;br&gt;&lt;br&gt;- **Usability Enhancements**:&lt;br&gt;  - Debug mode is now attribute-based (Issues #119, #122).&lt;br&gt;  - Flatten/unflatten message data methods unified (Issue #92).&lt;br&gt;  - `Client.vi` added as a new overridable method to manage remote/local client types (Issue #102).&lt;br&gt;  - `sendMessageToProcess` is converted to a polymorphic VI (Issue #124).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 09 Dec 2024 11:22:59 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v1.14.0.12</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.12.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - add support for 64 bit library (Issue #4)&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_d2xx_lv-1.2.0.6</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/D2XX</link>
-    </item>
-    <item>
-      <title>D2XX v1.2.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.2.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX v1.2.0.5&lt;br&gt;
-Company: FTDI&lt;br&gt;
-Release Date: Thu, 21 Nov 2024 20:48:33 -0500&lt;br&gt;
-Packager: FTDI / Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: examples of communicating with FTDI devices through the D2XX drivers and FTD2XX.dll / FTD2XX64.dll using LabVIEW. This package organizes files provided by FTDI into a LV library&lt;br&gt;
-&lt;br&gt;
-Release Notes: add support for 64 bit&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 Nov 2024 20:48:33 -0500</pubDate>
-      <guid isPermaLink="false">ftdi_lib_d2xx-1.2.0.5</guid>
-      <dc:creator>FTDI</dc:creator>
-      <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
     </item>
   </channel>
 </rss>
