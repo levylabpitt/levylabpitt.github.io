@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=907
-Release.Date=Fri, 10 Jan 2025 09:39:43 -0500
+Release.Number=910
+Release.Date=Fri, 10 Jan 2025 16:00:32 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=1edb964be3a6aaf77bb2b190031d2025
+Self.ID=df80b52496b7e75744cd9bfe276561db
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5310,4 +5310,39 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,levylab_lib_build_support>=1.2.5.1
 Package.Display Name=JSON-RPC
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_json_rpc-1.2.2.10]
+Package.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.10.vip
+Icon.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.10.bmp
+Spec.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.10.spec
+Package.MD5=19b2b83352dab58dec72d6349e0b1cf8
+Package.Release Date=Fri, 10 Jan 2025 16:00:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,ciozi137_lib_ciozi137_palette>=1.0.0.2
+Package.Display Name=JSON-RPC
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ciozi137_lib_json_schema-0.1.0.4]
+Package.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.vip
+Icon.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.bmp
+Spec.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.spec
+Package.MD5=bd7104268f0b4097c1e52503118f0e5c
+Package.Release Date=Fri, 10 Jan 2025 16:00:12 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7,ciozi137_lib_ciozi137_palette>=1.0.0.2
+Package.Display Name=JSON-Schema
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ciozi137_lib_ciozi137_palette-1.0.0.2]
+Package.URL=packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.vip
+Icon.URL=packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.bmp
+Spec.URL=packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.spec
+Package.MD5=58400c846aefac7fcd308db7291f52af
+Package.Release Date=Fri, 10 Jan 2025 16:00:31 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=ciozi137-Palette
 Platform.Exclusive_VIPM_Version=2017

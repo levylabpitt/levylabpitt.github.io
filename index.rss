@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 10 Jan 2025 09:39:43 -0500</pubDate>
+    <pubDate>Fri, 10 Jan 2025 16:00:32 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ciozi137-Palette v1.0.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: ciozi137-Palette v1.0.0.2&lt;br&gt;
+Company: ciozi137&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 16:00:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 16:00:31 -0500</pubDate>
+      <guid isPermaLink="false">ciozi137_lib_ciozi137_palette-1.0.0.2</guid>
+      <dc:creator>ciozi137</dc:creator>
+      
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.0.4&lt;br&gt;
+Company: ciozi137&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 16:00:12 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: initial release&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 16:00:12 -0500</pubDate>
+      <guid isPermaLink="false">ciozi137_lib_json_schema-0.1.0.4</guid>
+      <dc:creator>ciozi137</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
+    <item>
+      <title>JSON-RPC v1.2.2.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.2.10&lt;br&gt;
+Company: ciozi137&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 16:00:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;- new install locatation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 16:00:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.2.10</guid>
+      <dc:creator>ciozi137</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
     <item>
       <title>JSON-RPC v1.2.2.8</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.8.bmp"&gt;&lt;br&gt;
@@ -129,60 +183,6 @@ Release Notes: [1.14.0]&lt;br&gt;beta 1-6: This is a major release that will bre
 &lt;br&gt;</description>
       <pubDate>Thu, 05 Dec 2024 06:52:19 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v1.2.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.2.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v1.2.0.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 27 Nov 2024 14:56:01 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.0]&lt;br&gt;- Issue #120 use debug attribute&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 Nov 2024 14:56:01 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-1.2.0.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.1.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.1.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.1.0.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 27 Nov 2024 14:28:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Issue #121 use debug attribute&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 Nov 2024 14:28:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.1.0.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.Error v1.1.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.1.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.Error v1.1.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 27 Nov 2024 14:08:51 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Error datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Issue #121 use debug attribute&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 Nov 2024 14:08:51 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_error-1.1.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
