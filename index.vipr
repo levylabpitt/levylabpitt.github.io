@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=904
-Release.Date=Fri, 13 Dec 2024 14:55:28 -0500
+Release.Number=907
+Release.Date=Fri, 10 Jan 2025 09:39:43 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=1ec2e0676cd09f176ecb33d257b9a830
+Self.ID=1edb964be3a6aaf77bb2b190031d2025
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5274,4 +5274,40 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.6.2.48,jki_lib_caraya>=1.4.3.147,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.10.3,levylab_lib_lvtdatpgsql>=3.9.1.6,levylab_lib_lvtoitx>=3.9.1.6,levylab_lib_xy_utilities>=1.5.4.1,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_numeric>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5
 Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
 Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ciozi137_lib_json_schema-0.1.0.1]
+Package.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.vip
+Icon.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.bmp
+Spec.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.spec
+Package.MD5=e77cdc14ea47cac5c0b1f49c75dce350
+Package.Release Date=Fri, 10 Jan 2025 09:39:26 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7
+Package.Display Name=JSON-Schema
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ciozi137_lib_json_schema-0.1.0.2]
+Package.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.vip
+Icon.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.bmp
+Spec.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.spec
+Package.MD5=71ffe581d61a92432ab74e13d8391f9e
+Package.Release Date=Fri, 10 Jan 2025 09:39:31 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7
+Package.Display Name=JSON-Schema
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_json_rpc-1.2.2.8]
+Package.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.8.vip
+Icon.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.8.bmp
+Spec.URL=packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.8.spec
+Package.MD5=c8f71b9bcc4620dfa8ce3e459dba0ed3
+Package.Release Date=Fri, 10 Jan 2025 09:39:42 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=JSON-RPC
 Platform.Exclusive_VIPM_Version=2017

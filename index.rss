@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 13 Dec 2024 14:55:28 -0500</pubDate>
+    <pubDate>Fri, 10 Jan 2025 09:39:43 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.2.2.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_json_rpc/levylab_lib_json_rpc-1.2.2.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.2.8&lt;br&gt;
+Company: ciozi137&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 09:39:42 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;- new install locatation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 09:39:42 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_json_rpc-1.2.2.8</guid>
+      <dc:creator>ciozi137</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.0.2&lt;br&gt;
+Company: ciozi137&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 09:39:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: initial release&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 09:39:31 -0500</pubDate>
+      <guid isPermaLink="false">ciozi137_lib_json_schema-0.1.0.2</guid>
+      <dc:creator>ciozi137</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.0.1</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.0.1&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 09:39:26 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: initial release&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 09:39:26 -0500</pubDate>
+      <guid isPermaLink="false">ciozi137_lib_json_schema-0.1.0.1</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
     <item>
       <title>Instrument Framework v1.14.1.14</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.1.14.bmp"&gt;&lt;br&gt;
@@ -129,60 +183,6 @@ Release Notes: [1.1.0]&lt;br&gt;- Issue #121 use debug attribute&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 27 Nov 2024 14:08:51 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_logger_error-1.1.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Debug v1.0.1.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-1.0.1.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Debug v1.0.1.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 27 Nov 2024 13:39:33 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Shared Debug SMO Attribute&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- Issue #122: handle undefined debug behavior&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 Nov 2024 13:39:33 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_debug-1.0.1.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.0.2.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.0.2.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.0.2.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 26 Nov 2024 14:24:30 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.2]&lt;br&gt;- Issues #117 and #118: better handle null data and logger process UI status&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 26 Nov 2024 14:24:30 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.0.2.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Debug v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Debug v1.0.0.1&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 26 Nov 2024 14:24:23 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Shared Debug SMO Attribute&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 26 Nov 2024 14:24:23 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_debug-1.0.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
