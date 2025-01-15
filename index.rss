@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 14 Jan 2025 13:00:12 -0500</pubDate>
+    <pubDate>Wed, 15 Jan 2025 08:55:43 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v1.5.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.5.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v1.5.0.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 15 Jan 2025 08:55:43 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Issue #13: Update to Instrument Framework v1.14.2&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 15 Jan 2025 08:55:43 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.5.0.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Data Analysis Template v1.0.10.2</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.0.10.2.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.14.1]&lt;br&gt;Major Changes:&lt;br&gt;- Issue #96: Malleaable
 &lt;br&gt;</description>
       <pubDate>Fri, 13 Dec 2024 14:55:28 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.1.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.14.0.13</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.0.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.14.0.13&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 09 Dec 2024 11:22:59 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: **[1.14.0] Release Notes**&lt;br&gt;&lt;br&gt;This is a major release that introduces breaking changes to existing code. These updates aim to enhance uniformity, performance, and usability.&lt;br&gt;&lt;br&gt;**Highlights**&lt;br&gt;- **Subsystem Packaging**:&lt;br&gt;  Core subsystems of the Instrument Framework (e.g., Configuration, RemoteControl, Logger) are now distributed as separate packages.&lt;br&gt;&lt;br&gt;- **Improved API Uniformity** (Issue #91):&lt;br&gt;  - Enhance external language compatibility (e.g., Python) via unified method names.&lt;br&gt;  - Instrument interfaces classes introduce uniform &amp;quot;abstract&amp;quot; or &amp;quot;interface&amp;quot; methods (e.g., `Instrument.Cryostat.lvclass`) to enforce standardized command formats and parameter data types for child overrides. These are not enforceable by LabVIEW but hoepfully utilizing them will be easier than before.&lt;br&gt;  - `Instrument.LockinAPI.lvclass` is now a fully supported interface class.&lt;br&gt;  - `Instrument.Amplifier.lvclass` is a new interface class (#116).&lt;br&gt;  - `Instrument.SCPI` provides a standardized mechanism for sending and receiving SCPI commands.&lt;br&gt;  - New methods supported by base instrument: `IDN`; `GET` and `SET` methods supported via override (Issue #110).&lt;br&gt;  - Improved documentation and HELP functionality (Issue #105).&lt;br&gt;&lt;br&gt;**Other Additions and Improvements**&lt;br&gt;- **New Features**:&lt;br&gt;  - `Instrument.lvlib` introduced for malleable VI organization&lt;br&gt;  - `HAL.lvclass` added as an experimental hardware abstraction layer (Issue #114).&lt;br&gt;  - `API.lvclass` added as an experimental API abstraction layer&lt;br&gt;&lt;br&gt;- **Usability Enhancements**:&lt;br&gt;  - Debug mode is now attribute-based (Issues #119, #122).&lt;br&gt;  - Flatten/unflatten message data methods unified (Issue #92).&lt;br&gt;  - `Client.vi` added as a new overridable method to manage remote/local client types (Issue #102).&lt;br&gt;  - `sendMessageToProcess` is converted to a polymorphic VI (Issue #124).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 09 Dec 2024 11:22:59 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.0.13</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
