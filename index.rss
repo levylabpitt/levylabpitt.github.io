@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 15 Jan 2025 08:55:43 -0500</pubDate>
+    <pubDate>Wed, 15 Jan 2025 20:46:23 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.14.2.17</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.2.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.14.2.17&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 15 Jan 2025 20:46:22 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.14.2]&lt;br&gt;- Issue #105 and #135: modified HELP documentation (using JSON-Schema)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 15 Jan 2025 20:46:22 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.2.17</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Razorbill RP100 v1.5.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.5.0.4.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: initial release&lt;br&gt;
       <guid isPermaLink="false">ciozi137_lib_json_schema-0.1.0.1</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/ciozi137</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.14.1.14</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.1.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.14.1.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 13 Dec 2024 14:55:28 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.14.1]&lt;br&gt;Major Changes:&lt;br&gt;- Issue #96: Malleaable VIs Remote Control.vim, Set Config.vim, Get All.vim, and getAll.vim are removed from the package&lt;br&gt;&lt;br&gt;Other Issues:&lt;br&gt;- #128: define Help objects in Instrument.Strain&lt;br&gt;- #129: Instrument.Strain commands moved to private scope&lt;br&gt;- #130: Instrument method enums moved to private scope. Call protected methods setConfiguration.vi, etc, instead&lt;br&gt;- #131: &amp;quot;* (This Level).vi&amp;quot; and related calls have been removed. Return your own public API list inside a non-dynamic dispatch VI, if you wish&lt;br&gt;- #133: Enum to String.vi more robust when supplied command as a variant&lt;br&gt;- #134: Change Help design pattern following #131 changes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 13 Dec 2024 14:55:28 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.1.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
