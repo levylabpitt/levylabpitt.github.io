@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=916
-Release.Date=Thu, 16 Jan 2025 14:05:20 -0500
+Release.Number=917
+Release.Date=Thu, 16 Jan 2025 14:06:32 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=d750d05bc593fde62dcef92a096374b9
+Self.ID=721e390c90d5e7ed19d30fa6ba248b7e
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5334,17 +5334,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7,ciozi137_lib_ciozi137_palette>=1.0.0.2
 Package.Display Name=JSON-Schema
-Platform.Exclusive_VIPM_Version=2017
-
-[Package ciozi137_lib_ciozi137_palette-1.0.0.2]
-Package.URL=packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.vip
-Icon.URL=packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.bmp
-Spec.URL=packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.spec
-Package.MD5=58400c846aefac7fcd308db7291f52af
-Package.Release Date=Fri, 10 Jan 2025 16:00:31 -0500
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=ciozi137-Palette
 Platform.Exclusive_VIPM_Version=2017
 
 [Package levylab_lib_levylab_instruments-1.14.2.16]

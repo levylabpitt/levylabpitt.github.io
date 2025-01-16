@@ -3,7 +3,7 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 16 Jan 2025 14:05:20 -0500</pubDate>
+    <pubDate>Thu, 16 Jan 2025 14:06:32 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
@@ -115,24 +115,6 @@ Release Notes: [1.14.2]&lt;br&gt;- Issue #105 and #135: modified HELP documentat
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
     <item>
-      <title>ciozi137-Palette v1.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_ciozi137_palette/ciozi137_lib_ciozi137_palette-1.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: ciozi137-Palette v1.0.0.2&lt;br&gt;
-Company: ciozi137&lt;br&gt;
-Release Date: Fri, 10 Jan 2025 16:00:31 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: &lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Jan 2025 16:00:31 -0500</pubDate>
-      <guid isPermaLink="false">ciozi137_lib_ciozi137_palette-1.0.0.2</guid>
-      <dc:creator>ciozi137</dc:creator>
-      
-    </item>
-    <item>
       <title>JSON-Schema v0.1.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -183,6 +165,24 @@ Release Notes: [1.2.2]&lt;br&gt;- new install locatation&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Fri, 10 Jan 2025 09:39:42 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_json_rpc-1.2.2.8</guid>
+      <dc:creator>ciozi137</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.0.2</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.0.2&lt;br&gt;
+Company: ciozi137&lt;br&gt;
+Release Date: Fri, 10 Jan 2025 09:39:31 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: initial release&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jan 2025 09:39:31 -0500</pubDate>
+      <guid isPermaLink="false">ciozi137_lib_json_schema-0.1.0.2</guid>
       <dc:creator>ciozi137</dc:creator>
       <link>https://github.com/ciozi137</link>
     </item>
