@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 17 Jan 2025 15:55:45 -0500</pubDate>
+    <pubDate>Fri, 17 Jan 2025 16:44:12 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.5.4.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.4.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.5.4.3&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Fri, 17 Jan 2025 16:44:12 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: Bug Fixes&lt;br&gt;- Difference Quotient calcualtes an X array with the correct length (matches DeltaY/DeltaX) (Issue #36)&lt;br&gt;- Derivative correctly calculates the sampling interval dt (previously was off by a factor 2)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 17 Jan 2025 16:44:12 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.4.3</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/ciozi137/xy_utilities</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v1.1.2.12</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.2.12.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.14.2]&lt;br&gt;- Issue #105 and #135: modified HELP documentat
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.2.17</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Razorbill RP100 v1.5.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-1.5.0.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v1.5.0.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 15 Jan 2025 08:55:43 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Divers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #13: Update to Instrument Framework v1.14.2&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 15 Jan 2025 08:55:43 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-1.5.0.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
