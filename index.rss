@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 19 Jan 2025 10:00:16 -0500</pubDate>
+    <pubDate>Sun, 19 Jan 2025 11:02:20 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSONrpc v1.2.4.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSONrpc v1.2.4.13&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Sun, 19 Jan 2025 11:02:20 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 19 Jan 2025 11:02:20 -0500</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.13</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.2.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.2.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.2.6&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Sun, 19 Jan 2025 10:59:12 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: change organization and install location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 19 Jan 2025 10:59:12 -0500</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.2.6</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>JSONrpc v1.2.4.12</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.12.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: [1.8.1]&lt;br&gt;- Issues #92: incorrect results if number of AO 
       <guid isPermaLink="false">levylab_lib_transport-1.8.1.10</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>JSON-Schema v0.1.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-Schema v0.1.1.5&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Thu, 16 Jan 2025 14:31:34 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for converting LV objects into JSON Schema&lt;br&gt;
-&lt;br&gt;
-Release Notes: change organization and install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 16 Jan 2025 14:31:34 -0500</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.1.5</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/ciozi137</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.3.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.3.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.3.11&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Thu, 16 Jan 2025 14:23:04 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 16 Jan 2025 14:23:04 -0500</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.3.11</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/ciozi137</link>
     </item>
   </channel>
 </rss>

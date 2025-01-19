@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=928
-Release.Date=Sun, 19 Jan 2025 10:00:16 -0500
+Release.Number=930
+Release.Date=Sun, 19 Jan 2025 11:02:20 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=b23be629d022f15e8acc774e2c194d19
+Self.ID=3d1016db9c83de1b3885b05aa9903405
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5391,6 +5391,30 @@ Icon.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.12.bmp
 Spec.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.12.spec
 Package.MD5=24fb9a9ff391f8e144b50bb588c3beac
 Package.Release Date=Sun, 19 Jan 2025 10:00:16 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,prirvin_lib_prirvin_palette>=1.0.0.3
+Package.Display Name=JSONrpc
+Platform.Exclusive_VIPM_Version=2017
+
+[Package prirvin_lib_json_schema-0.1.2.6]
+Package.URL=packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.2.6.vip
+Icon.URL=packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.2.6.bmp
+Spec.URL=packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.2.6.spec
+Package.MD5=f24ae0bbf87f1d4524bbd75440656678
+Package.Release Date=Sun, 19 Jan 2025 10:59:12 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7,prirvin_lib_prirvin_palette>=1.0.0.3
+Package.Display Name=JSON-Schema
+Platform.Exclusive_VIPM_Version=2017
+
+[Package prirvin_lib_json_rpc-1.2.4.13]
+Package.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.vip
+Icon.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.bmp
+Spec.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.spec
+Package.MD5=77426d9b5661a388b14e7229820fe76e
+Package.Release Date=Sun, 19 Jan 2025 11:02:20 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,oglib_numeric>=4.1.0.8,prirvin_lib_prirvin_palette>=1.0.0.3
