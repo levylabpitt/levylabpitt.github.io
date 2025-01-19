@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 19 Jan 2025 11:02:20 -0500</pubDate>
+    <pubDate>Sun, 19 Jan 2025 11:13:47 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.5.4.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.4.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.5.4.4&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Sun, 19 Jan 2025 11:13:47 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: update install location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sun, 19 Jan 2025 11:13:47 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.4.4</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>JSONrpc v1.2.4.13</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.1]&lt;br&gt;- Issue #91: two bugs related to Krohn-Hite Cont
 &lt;br&gt;</description>
       <pubDate>Fri, 17 Jan 2025 07:43:18 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_control_experiment-1.1.1.9</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.8.1.10</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_transport/levylab_lib_transport-1.8.1.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.8.1.10&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 17 Jan 2025 07:40:28 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.1]&lt;br&gt;- Issues #92: incorrect results if number of AO /= AI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 17 Jan 2025 07:40:28 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.8.1.10</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
