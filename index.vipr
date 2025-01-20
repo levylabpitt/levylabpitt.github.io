@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=936
-Release.Date=Mon, 20 Jan 2025 11:38:00 -0500
+Release.Number=937
+Release.Date=Mon, 20 Jan 2025 12:59:36 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=2ba29d5e3b8ea4b7bbf216ace8ea0b07
+Self.ID=dd4d0fde1ed3f5ef7b76f900d56e6451
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5492,4 +5492,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7,prirvin_lib_prirvin_palette>=1.0.0.3
 Package.Display Name=JSON-Schema
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.14.4.21]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.4.21.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.4.21.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.4.21.spec
+Package.MD5=93641cf250c9168767bee31e1207b275
+Package.Release Date=Mon, 20 Jan 2025 12:59:36 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jdp_science_postgresql>=0.6.2.48,jki_lib_caraya>=1.4.3.147,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,labview_open_source_lib_epoch_datetime>=1.2.0.6,levylab_lib_control_vi>=1.3.0.11,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_graph_utilities>=2.1.11.4,levylab_lib_lvtdatpgsql>=3.9.1.6,levylab_lib_lvtoitx>=3.9.1.6,levylab_lib_xy_utilities>=1.5.5.5,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_numeric>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_boolean>=4.0.0.7,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,oglib_variantconfig>=4.0.0.5,prirvin_lib_json_rpc>=1.2.5.14,prirvin_lib_json_schema>=0.1.3.7
+Dependencies.Conflicts=levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
