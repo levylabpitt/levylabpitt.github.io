@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sun, 19 Jan 2025 12:38:14 -0500</pubDate>
+    <pubDate>Mon, 20 Jan 2025 11:38:00 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-Schema v0.1.3.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.3.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.3.7&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Mon, 20 Jan 2025 11:38:00 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: Documentation and project organization&lt;br&gt;- split project into JSON-Schea and TEST-JSON-Schema&lt;br&gt;- remove test-json-schema.lvlib from json-schema.lvb&lt;br&gt;- add additional VI descriptions to API methods&lt;br&gt;- fix broken development VI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 20 Jan 2025 11:38:00 -0500</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.3.7</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>Instrument Framework v1.14.3.20</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.3.20.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.14.3.20&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 20 Jan 2025 10:43:23 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.14.3]&lt;br&gt;-put framework inside Instrument.lvlib, separate malleable VIs into Instrument-VIM.lvlib&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 20 Jan 2025 10:43:23 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.3.20</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>JSON-RPC v1.2.5.14</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.5.14.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: Bug Fixes&lt;br&gt;- Difference Quotient calcualtes an X array wi
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.4.3</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/ciozi137/xy_utilities</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.1.2.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.1.2.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.1.2.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 17 Jan 2025 15:55:45 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.2]&lt;br&gt;- update dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 17 Jan 2025 15:55:45 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.1.2.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v1.2.1.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.2.1.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v1.2.1.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 17 Jan 2025 15:28:33 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt;- Updated dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 17 Jan 2025 15:28:33 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-1.2.1.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
