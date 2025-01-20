@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 20 Jan 2025 12:59:36 -0500</pubDate>
+    <pubDate>Mon, 20 Jan 2025 14:15:33 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.14.4.22</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.4.22.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.14.4.22&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 20 Jan 2025 14:15:33 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.14.4]&lt;br&gt;- remove instrument types from package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 20 Jan 2025 14:15:33 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.4.22</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v1.14.4.21</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.14.4.21.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: change organization and install location&lt;br&gt;
       <guid isPermaLink="false">prirvin_lib_json_schema-0.1.2.6</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSONrpc v1.2.4.12</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSONrpc v1.2.4.12&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Sun, 19 Jan 2025 10:00:16 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Jan 2025 10:00:16 -0500</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.12</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/ciozi137</link>
     </item>
   </channel>
 </rss>
