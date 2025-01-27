@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 20 Jan 2025 14:57:20 -0500</pubDate>
+    <pubDate>Mon, 27 Jan 2025 16:12:41 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Debug v2.0.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Debug v2.0.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 27 Jan 2025 16:12:41 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Shared Debug SMO Attribute&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.1]&lt;br&gt;- Update to SMO v2.0 + ppl&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 27 Jan 2025 16:12:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_debug-2.0.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Type v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: update install location&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Sun, 19 Jan 2025 11:13:47 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.4.4</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSONrpc v1.2.4.13</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSONrpc v1.2.4.13&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Sun, 19 Jan 2025 11:02:20 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Jan 2025 11:02:20 -0500</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.13</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>

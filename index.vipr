@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=939
-Release.Date=Mon, 20 Jan 2025 14:57:20 -0500
+Release.Number=940
+Release.Date=Mon, 27 Jan 2025 16:12:41 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=b53f981a01015c02c67c3edb0753247b
+Self.ID=b27c0c7267eaf6dc3c2984ebcdd1950a
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5530,4 +5530,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.14.4.22
 Package.Display Name=Instrument Type
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_debug-2.0.0.3]
+Package.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.vip
+Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.bmp
+Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.spec
+Package.MD5=d0fe27928a2bc5881ed2b81c40f9aa6a
+Package.Release Date=Mon, 27 Jan 2025 16:12:41 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_statemachineobjects>=2.0.0.73
+Package.Display Name=Debug
 Platform.Exclusive_VIPM_Version=2017
