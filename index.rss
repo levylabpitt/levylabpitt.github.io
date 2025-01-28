@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 27 Jan 2025 16:12:41 -0500</pubDate>
+    <pubDate>Tue, 28 Jan 2025 09:54:08 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Debug v2.0.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-2.0.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Debug v2.0.0.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 28 Jan 2025 09:54:08 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Shared Debug SMO Attribute&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.1]&lt;br&gt;- Update to SMO v2.0 + ppl&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 Jan 2025 09:54:08 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_debug-2.0.0.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Debug v2.0.0.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: update package dependencies&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Sun, 19 Jan 2025 11:58:00 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.5.5</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>XY Utilities v1.5.4.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.4.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.5.4.4&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Sun, 19 Jan 2025 11:13:47 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: update install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Jan 2025 11:13:47 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.4.4</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>
