@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=944
-Release.Date=Tue, 28 Jan 2025 23:05:11 -0500
+Release.Number=945
+Release.Date=Wed, 29 Jan 2025 11:24:10 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=f03e183683fccbfb296a8e332f986e54
+Self.ID=71d2ea1ba9b49e9f322d56854de45c61
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5590,4 +5590,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_caraya>=1.4.3.147,jki_lib_state_machine>=2018.0.7.45,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,prirvin_lib_json_rpc>=1.2.5.14
 Package.Display Name=RemoteControl.ZMQ
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger-2.0.0.5]
+Package.URL=packages/levylab_lib_logger/levylab_lib_logger-2.0.0.5.vip
+Icon.URL=packages/levylab_lib_logger/levylab_lib_logger-2.0.0.5.bmp
+Spec.URL=packages/levylab_lib_logger/levylab_lib_logger-2.0.0.5.spec
+Package.MD5=a0e3a581094850ed206ff72d3b9b7c14
+Package.Release Date=Wed, 29 Jan 2025 11:24:10 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=2.0.0.73,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=Logger
 Platform.Exclusive_VIPM_Version=2017
