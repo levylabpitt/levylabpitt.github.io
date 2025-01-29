@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 28 Jan 2025 09:54:08 -0500</pubDate>
+    <pubDate>Tue, 28 Jan 2025 23:05:11 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v2.0.0.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-2.0.0.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v2.0.0.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 28 Jan 2025 23:05:11 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.0]&lt;br&gt;- update to SMO v2.0 lvlibp&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 Jan 2025 23:05:11 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.0.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>RemoteControl v2.0.0.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-2.0.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl v2.0.0.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 28 Jan 2025 20:20:02 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.0]&lt;br&gt;- update to SMO v2.0 and inherit from SMO.lvlibp&lt;br&gt;- #119: Update Macro: Debug&lt;br&gt;- #139: verify Error Handler&lt;br&gt;- #140: verify Macro: Exit&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 Jan 2025 20:20:02 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control-2.0.0.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Debug v2.0.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-2.0.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Debug v2.0.0.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 28 Jan 2025 17:24:43 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Shared Debug SMO Attribute&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.0]&lt;br&gt;- Update to SMO v2.0&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 28 Jan 2025 17:24:43 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_debug-2.0.0.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Debug v2.0.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-2.0.0.4.bmp"&gt;&lt;br&gt;
@@ -131,60 +185,6 @@ Release Notes: [1.14.3]&lt;br&gt;-put framework inside Instrument.lvlib, separat
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.14.3.20</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.5.14</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.5.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.5.14&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Sun, 19 Jan 2025 12:38:14 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.5]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Jan 2025 12:38:14 -0500</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.5.14</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>Graph Utilities v2.1.11.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_graph_utilities/levylab_lib_graph_utilities-2.1.11.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Graph Utilities v2.1.11.4&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Sun, 19 Jan 2025 12:07:56 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY and Intensity graphs&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.11]&lt;br&gt;- Updated install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Jan 2025 12:07:56 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_graph_utilities-2.1.11.4</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>XY Utilities v1.5.5.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.5.5.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.5.5.5&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Sun, 19 Jan 2025 11:58:00 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: update package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 19 Jan 2025 11:58:00 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.5.5.5</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
     </item>
   </channel>
 </rss>
