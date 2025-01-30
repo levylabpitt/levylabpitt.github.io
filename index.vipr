@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=946
-Release.Date=Wed, 29 Jan 2025 14:22:29 -0500
+Release.Number=947
+Release.Date=Thu, 30 Jan 2025 08:54:02 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=5642d10655c44f92a019ea2f2e455f25
+Self.ID=06153a609a6e0dac1cf588ff7a13e68d
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5613,4 +5613,16 @@ Package.Release Date=Wed, 29 Jan 2025 14:22:29 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Logger.PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_error-2.0.0.2]
+Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.2.vip
+Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.2.bmp
+Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.2.spec
+Package.MD5=fef925be54f1f7d517a5d84a5fe7c948
+Package.Release Date=Thu, 30 Jan 2025 08:54:02 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=2.0.0.73,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=Logger.Error
 Platform.Exclusive_VIPM_Version=2017
