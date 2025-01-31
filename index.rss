@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 31 Jan 2025 14:03:38 -0500</pubDate>
+    <pubDate>Fri, 31 Jan 2025 16:24:51 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-Schema v0.1.4.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.4.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.4.8&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Fri, 31 Jan 2025 16:24:51 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: enable 64 bit labview&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 31 Jan 2025 16:24:51 -0500</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.4.8</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSON-RPC v1.2.6.15</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.6.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.6.15&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Fri, 31 Jan 2025 16:17:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.6]&lt;br&gt;- enable 32/64 bit labview&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 31 Jan 2025 16:17:03 -0500</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.6.15</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>Instrument Framework v2.0.0.26</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-2.0.0.26.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [2.0.0]&lt;br&gt;- update to SMO v2.0 lvlib&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 30 Jan 2025 14:36:32 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.0.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v2.0.0.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control/levylab_lib_remote_control-2.0.0.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v2.0.0.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 30 Jan 2025 14:24:25 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0]&lt;br&gt;- update to SMO v2.0 and inherit from SMO.lvlib&lt;br&gt;- #119: Update Macro: Debug&lt;br&gt;- #139: verify Error Handler&lt;br&gt;- #140: verify Macro: Exit&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 30 Jan 2025 14:24:25 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-2.0.0.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Debug v2.0.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_debug/levylab_lib_debug-2.0.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Debug v2.0.0.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 30 Jan 2025 14:22:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Shared Debug SMO Attribute&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0]&lt;br&gt;- Update to SMO v2.0 (no SMO.lvlibp)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 30 Jan 2025 14:22:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_debug-2.0.0.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
