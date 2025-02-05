@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 04 Feb 2025 21:29:48 -0500</pubDate>
+    <pubDate>Wed, 05 Feb 2025 09:13:16 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.3.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.3.0.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.3.0.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 05 Feb 2025 09:13:16 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: New/Renamed Methods:&lt;br&gt;- Manual Build.vi&lt;br&gt;- Manual Build SM.vi&lt;br&gt;- Build Application and Installer.vi&lt;br&gt;- buildWithGCLI.vi (called from command line via &amp;quot;g-CLI...buildWithGCLI...&amp;quot;)&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 05 Feb 2025 09:13:16 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.3.0.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.3.0.4</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.3.0.4.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.0]&lt;br&gt;- #119 Debug Attribute&lt;br&gt;- #139 SMO 1.4 E
 &lt;br&gt;</description>
       <pubDate>Thu, 30 Jan 2025 15:02:44 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_logger_pgsql-2.0.0.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.Error v2.0.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.Error v2.0.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 30 Jan 2025 14:50:19 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Error datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0]&lt;br&gt;- #119 Debug Attribute&lt;br&gt;- #139 SMO 1.4 Error Handler&lt;br&gt;- #140 Macro: Exit&lt;br&gt;- #142 SMO v2.0 lvlib (not lvlibp)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 30 Jan 2025 14:50:19 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_error-2.0.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
