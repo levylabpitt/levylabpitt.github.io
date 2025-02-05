@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 05 Feb 2025 09:13:16 -0500</pubDate>
+    <pubDate>Wed, 05 Feb 2025 15:08:05 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.6.0.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.6.0.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.6.0.6&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 05 Feb 2025 15:08:05 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Issue #37: Symmetrize.vi should use sorted x data to calculate +/- x properly.&lt;br&gt;- New methods: Negate, Reciprocal, Split, Square Root&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 05 Feb 2025 15:08:05 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.6.0.6</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>Build Support v1.3.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.3.0.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.0.1]&lt;br&gt;- remove malleable VI Read Configuration.vim&lt;
 &lt;br&gt;</description>
       <pubDate>Thu, 30 Jan 2025 15:10:22 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_configuration-1.0.1.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v2.0.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v2.0.0.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 30 Jan 2025 15:02:44 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0]&lt;br&gt;- #119 Debug Attribute&lt;br&gt;- #139 SMO 1.4 Error Handler&lt;br&gt;- #140 Macro: Exit&lt;br&gt;- #142 SMO v2.0 lvlib (not lvlibp)&lt;br&gt;- remove unused methods (Write to PGSQL)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 30 Jan 2025 15:02:44 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-2.0.0.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
