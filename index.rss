@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 05 Feb 2025 15:08:05 -0500</pubDate>
+    <pubDate>Thu, 06 Feb 2025 23:00:25 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v2.0.1.15</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-2.0.1.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v2.0.1.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 06 Feb 2025 23:00:25 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.1]&lt;br&gt;- Issue #143: store libzmq*.dll inside libzmq*.lvclass&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 06 Feb 2025 23:00:25 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.1.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>XY Utilities v1.6.0.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.6.0.6.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.0]&lt;br&gt;- #119 Debug Attribute&lt;br&gt;- #139 SMO 1.4 E
 &lt;br&gt;</description>
       <pubDate>Thu, 30 Jan 2025 16:38:37 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-2.0.0.25</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Configuration v1.0.1.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_configuration/levylab_lib_configuration-1.0.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Configuration v1.0.1.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 30 Jan 2025 15:10:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for reading and writing configuration files&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.1]&lt;br&gt;- remove malleable VI Read Configuration.vim&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 30 Jan 2025 15:10:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_configuration-1.0.1.5</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
