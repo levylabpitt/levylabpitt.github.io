@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 07 Feb 2025 09:18:15 -0500</pubDate>
+    <pubDate>Fri, 07 Feb 2025 10:00:09 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v2.0.1.17</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-2.0.1.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v2.0.1.17&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 07 Feb 2025 10:00:09 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.1]&lt;br&gt;- Issue #143: store libzmq*.dll inside libzmq*.lvclass&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 07 Feb 2025 10:00:09 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.1.17</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v2.0.1.16</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-2.0.1.16.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.0.0]&lt;br&gt;- #119 Debug Attribute&lt;br&gt;- #139 SMO 1.4 E
       <guid isPermaLink="false">levylab_lib_levylab_instruments-2.0.0.26</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Type v2.0.0.2</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.2.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v2.0.0.2&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 31 Jan 2025 08:18:54 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: Update depdency to Instrument Framework v2.0.0.25&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 31 Jan 2025 08:18:54 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-2.0.0.2</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
