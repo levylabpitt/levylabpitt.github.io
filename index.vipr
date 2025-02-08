@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=970
-Release.Date=Fri, 07 Feb 2025 15:39:45 -0500
+Release.Number=971
+Release.Date=Fri, 07 Feb 2025 22:47:40 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=3df9477ce36565aaeb9f177141c094f5
+Self.ID=3f7e3be2e889d4b80a01aa47b3424be6
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5903,4 +5903,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=2.0.0.26
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_pgsql-2.1.0.8]
+Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.vip
+Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.bmp
+Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.spec
+Package.MD5=579abf790cb7447adec51341a5955969
+Package.Release Date=Fri, 07 Feb 2025 22:47:40 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Logger.PGSQL
 Platform.Exclusive_VIPM_Version=2017

@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 07 Feb 2025 15:39:45 -0500</pubDate>
+    <pubDate>Fri, 07 Feb 2025 22:47:40 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.PGSQL v2.1.0.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v2.1.0.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 07 Feb 2025 22:47:40 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.0]&lt;br&gt;- #144: new method Write Variable Multiline&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 07 Feb 2025 22:47:40 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-2.1.0.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Razorbill RP100 v2.0.0.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.0.0.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: enable 64 bit labview&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Fri, 31 Jan 2025 16:24:51 -0500</pubDate>
       <guid isPermaLink="false">prirvin_lib_json_schema-0.1.4.8</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.6.15</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.6.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.6.15&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Fri, 31 Jan 2025 16:17:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.6]&lt;br&gt;- enable 32/64 bit labview&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 31 Jan 2025 16:17:03 -0500</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.6.15</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>
