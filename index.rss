@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 10 Feb 2025 11:55:59 -0500</pubDate>
+    <pubDate>Mon, 10 Feb 2025 12:48:46 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.1.0.10</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.1.0.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.1.0.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 10 Feb 2025 12:48:46 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - SMO/Instrument Framework v2&lt;br&gt;- Updated JSONschema (string enums)&lt;br&gt;- Multiline insert to postgres&lt;br&gt;- Trap errors coming from VISA open and prompt user to close any open connections&lt;br&gt;- 32 and 64 bit applications&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 10 Feb 2025 12:48:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.1.0.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>JKI State Machine Objects (SMO) v2.0.0.73</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jki_statemachineobjects/jki_statemachineobjects-2.0.0.73.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.0.1]&lt;br&gt;- Issue #143: store libzmq*.dll inside libzmq*.l
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.1.15</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>XY Utilities v1.6.0.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.6.0.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.6.0.6&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 05 Feb 2025 15:08:05 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #37: Symmetrize.vi should use sorted x data to calculate +/- x properly.&lt;br&gt;- New methods: Negate, Reciprocal, Split, Square Root&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 05 Feb 2025 15:08:05 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.6.0.6</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
     </item>
   </channel>
 </rss>
