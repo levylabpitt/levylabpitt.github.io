@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=977
-Release.Date=Mon, 10 Feb 2025 15:55:19 -0500
+Release.Number=979
+Release.Date=Mon, 10 Feb 2025 17:03:05 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=6757b380dbd58ff302ec8b890fe2ae00
+Self.ID=206e17c2607605957c3b84888bf4aec8
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5977,12 +5977,12 @@ Dependencies.Requires=ftdi_lib_d2xx>=1.2.0.5,jdp_science_jsontext>=1.9.0.124,jdp
 Package.Display Name=Krohn-Hite-7008
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_ppms_instrument-2.0.0.4]
-Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.4.vip
-Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.4.bmp
-Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.4.spec
-Package.MD5=88f7309ba1bf22f5e1a6739d4cf0973b
-Package.Release Date=Mon, 10 Feb 2025 15:55:19 -0500
+[Package levylab_lib_ppms_instrument-2.0.0.5]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.5.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.5.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.5.spec
+Package.MD5=9ff480c9dce7307ba73bb46f66fd5dff
+Package.Release Date=Mon, 10 Feb 2025 17:02:54 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27

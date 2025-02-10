@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 10 Feb 2025 15:55:19 -0500</pubDate>
+    <pubDate>Mon, 10 Feb 2025 17:03:05 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>PPMS Monitor and Control v2.0.0.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.4.bmp"&gt;&lt;br&gt;
+      <title>PPMS Monitor and Control v2.0.0.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.5.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: PPMS Monitor and Control v2.0.0.4&lt;br&gt;
+Product: PPMS Monitor and Control v2.0.0.5&lt;br&gt;
 Company: LevyLab&lt;br&gt;
-Release Date: Mon, 10 Feb 2025 15:55:19 -0500&lt;br&gt;
+Release Date: Mon, 10 Feb 2025 17:02:54 -0500&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
 &lt;br&gt;
 Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Mon, 10 Feb 2025 15:55:19 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.4</guid>
+      <pubDate>Mon, 10 Feb 2025 17:02:54 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.5</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>

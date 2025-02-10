@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_ppms_instrument"
-Version="2.0.0.4"
+Version="2.0.0.5"
 Release=""
-ID=65235666a6fa78edcc6f9e8692a80b07
+ID=0f787d0a06821f7e4d3cba9638935458
 File Format="vip"
 Format Version="2017"
 Display Name="PPMS Monitor and Control"
