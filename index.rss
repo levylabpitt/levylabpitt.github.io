@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 10 Feb 2025 12:48:46 -0500</pubDate>
+    <pubDate>Mon, 10 Feb 2025 15:55:19 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v2.0.0.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v2.0.0.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 10 Feb 2025 15:55:19 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 10 Feb 2025 15:55:19 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.1.0.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.1.0.10.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.1]&lt;br&gt;- Issue #143: store libzmq*.dll inside libzmq*.l
 &lt;br&gt;</description>
       <pubDate>Fri, 07 Feb 2025 09:18:15 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.1.16</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v2.0.1.15</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-2.0.1.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v2.0.1.15&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 06 Feb 2025 23:00:25 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.1]&lt;br&gt;- Issue #143: store libzmq*.dll inside libzmq*.lvclass&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 06 Feb 2025 23:00:25 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-2.0.1.15</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
