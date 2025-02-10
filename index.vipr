@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=973
-Release.Date=Sat, 08 Feb 2025 12:14:33 -0500
+Release.Number=975
+Release.Date=Mon, 10 Feb 2025 11:55:59 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=e2f2b5fd3e69a7a2ac57abb425d8a13c
+Self.ID=58798d56e59677adfb11db59ce9178bb
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -5939,4 +5939,28 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=2.0.0.73,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
 Package.Display Name=Logger.Error
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_instrument_type-2.0.0.3]
+Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.vip
+Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.bmp
+Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.spec
+Package.MD5=c3a19a8dc400fd9133ba6be1a4b5657c
+Package.Release Date=Mon, 10 Feb 2025 11:54:55 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
+Package.Display Name=Instrument Type
+Platform.Exclusive_VIPM_Version=2017
+
+[Package jki_statemachineobjects-2.0.0.73]
+Package.URL=packages/jki_statemachineobjects/jki_statemachineobjects-2.0.0.73.vip
+Icon.URL=packages/jki_statemachineobjects/jki_statemachineobjects-2.0.0.73.bmp
+Spec.URL=packages/jki_statemachineobjects/jki_statemachineobjects-2.0.0.73.spec
+Package.MD5=a3bbc37ee798f4ce878b66e673c610af
+Package.Release Date=Mon, 10 Feb 2025 11:55:59 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45
+Package.Display Name=JKI State Machine Objects (SMO)
 Platform.Exclusive_VIPM_Version=2017
