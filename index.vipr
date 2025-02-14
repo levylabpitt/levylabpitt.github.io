@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=983
-Release.Date=Thu, 13 Feb 2025 18:00:44 -0500
+Release.Number=985
+Release.Date=Fri, 14 Feb 2025 09:14:49 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=2324e9d87c5bb2974626b383f0c2bced
+Self.ID=b956bac61b0144381a4901f412c19781
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -6031,6 +6031,30 @@ Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.4.0.6.bm
 Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.4.0.6.spec
 Package.MD5=85276d5ae8b85899430ea0ec922320fc
 Package.Release Date=Thu, 13 Feb 2025 18:00:43 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=hse_lib_git_api>=2.1.1.98,jki_lib_dotnet_system_exec>=1.0.0.6,jki_lib_rest_client>=1.3.3.25,jki_lib_state_machine>=2018.0.7.45,jki_lib_vipm_api>=2020.0.3.80,jki_statemachineobjects>=2.0.0.73,labview_open_source_lib_unicity>=1.1.0.6,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_timing>=1.1.0.2,mgi_lib_user_interface>=1.0.1.11,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,wiresmith_technology_lib_g_cli>=3.0.1.98
+Package.Display Name=Build Support
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-2.0.0.8]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.8.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.8.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.8.spec
+Package.MD5=bd4b5878843dade891ce254da657c20d
+Package.Release Date=Thu, 13 Feb 2025 23:41:20 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
+Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_build_support-1.4.1.7]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.4.1.7.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.4.1.7.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.4.1.7.spec
+Package.MD5=d3661892a2cb0bd40fbe5d01d8555c4e
+Package.Release Date=Fri, 14 Feb 2025 09:14:49 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=hse_lib_git_api>=2.1.1.98,jki_lib_dotnet_system_exec>=1.0.0.6,jki_lib_rest_client>=1.3.3.25,jki_lib_state_machine>=2018.0.7.45,jki_lib_vipm_api>=2020.0.3.80,jki_statemachineobjects>=2.0.0.73,labview_open_source_lib_unicity>=1.1.0.6,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_timing>=1.1.0.2,mgi_lib_user_interface>=1.0.1.11,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,wiresmith_technology_lib_g_cli>=3.0.1.98
