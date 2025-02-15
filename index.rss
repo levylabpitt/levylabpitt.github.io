@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 14 Feb 2025 09:14:49 -0500</pubDate>
+    <pubDate>Sat, 15 Feb 2025 10:32:38 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.PGSQL v2.1.1.9</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.1.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v2.1.1.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 15 Feb 2025 10:32:38 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.1]&lt;br&gt;- #139 error handler&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 15 Feb 2025 10:32:38 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-2.1.1.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Build Support v1.4.1.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.1.7.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: LVLIB + LV2019&lt;br&gt;
       <guid isPermaLink="false">jki_statemachineobjects-2.0.0.73</guid>
       <dc:creator>JKI</dc:creator>
       <link>https://github.com/JKISoftware/JKI-State-Machine-Objects</link>
-    </item>
-    <item>
-      <title>Instrument Type v2.0.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v2.0.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 10 Feb 2025 11:54:55 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: Update depdency to Instrument Framework v2.0.0.25&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 10 Feb 2025 11:54:55 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-2.0.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
