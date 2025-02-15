@@ -1,10 +1,10 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///c:/user/patrick/git/packages
-Release.Number=986
-Release.Date=Sat, 15 Feb 2025 10:32:38 -0500
+Release.Number=987
+Release.Date=Sat, 15 Feb 2025 13:39:38 -0500
 Creator.URL=levylabpitt.github.io
-Self.ID=e07a123ff46cf0c3ae0484afd454e73b
+Self.ID=d8244a33a435f5ee2fb1ecde9600a07b
 Client.GlobalAccess=TRUE
 
 [Package levylab_lib_general_afm_lithography-8.3.1.28]
@@ -6067,6 +6067,17 @@ Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.1.9.bmp
 Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.1.9.spec
 Package.MD5=36c32fec4cd7212fca5c01863841f2ac
 Package.Release Date=Sat, 15 Feb 2025 10:32:38 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Package.Display Name=Logger.PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_pgsql-2.1.2.10]
+Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.vip
+Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.bmp
+Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.spec
+Package.MD5=8a82527623c775f929a4290f13e57d8b
+Package.Release Date=Sat, 15 Feb 2025 13:39:38 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Logger.PGSQL
