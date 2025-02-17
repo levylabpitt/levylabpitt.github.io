@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 17 Feb 2025 08:08:36 -0500</pubDate>
+    <pubDate>Mon, 17 Feb 2025 11:55:56 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data v3.9.2.7</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.9.2.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.9.2.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 17 Feb 2025 11:55:56 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Collection of VIs to write and read files in TDMS, Igor Text (*.itx), and text-based spreadsheet data (*.dat) formats.&lt;br&gt;- LV graph to Igor Pro and Igor Pro formatters&lt;br&gt;- Tools are provided for uploading to and downloading from AWS S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.9.2]&lt;br&gt;- updated package dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 17 Feb 2025 11:55:56 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.9.2.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.4.2.8</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.2.8.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: LVLIB + LV2019&lt;br&gt;
       <guid isPermaLink="false">jki_statemachineobjects-2.0.0.73</guid>
       <dc:creator>JKI</dc:creator>
       <link>https://github.com/JKISoftware/JKI-State-Machine-Objects</link>
-    </item>
-    <item>
-      <title>Instrument Type v2.0.0.3</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v2.0.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 10 Feb 2025 11:54:55 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: Update depdency to Instrument Framework v2.0.0.25&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 10 Feb 2025 11:54:55 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-2.0.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
