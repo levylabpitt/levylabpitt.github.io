@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 15 Feb 2025 13:39:38 -0500</pubDate>
+    <pubDate>Mon, 17 Feb 2025 07:40:11 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v2.0.0.11</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v2.0.0.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 17 Feb 2025 07:39:41 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;- #26: Select temperature approach mode (Channel 0: FastSettle, 0: No Overshoot)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 17 Feb 2025 07:39:41 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Logger.PGSQL v2.1.2.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.bmp"&gt;&lt;br&gt;
@@ -61,24 +79,6 @@ Release Notes: - bugfix: project path was not being stored internally during bui
       
     </item>
     <item>
-      <title>PPMS Monitor and Control v2.0.0.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v2.0.0.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 13 Feb 2025 23:41:20 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;- #26: Select temperature approach mode (Channel 0: FastSettle, 0: No Overshoot)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 13 Feb 2025 23:41:20 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
       <title>Build Support v1.4.0.6</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.0.6.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -95,24 +95,6 @@ Release Notes: - Updated Post Build Scripts&lt;br&gt;- Added Post Build Script (
       <guid isPermaLink="false">levylab_lib_build_support-1.4.0.6</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v2.0.0.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v2.0.0.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 12 Feb 2025 00:43:17 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;- #26: Select temperature approach mode (Channel 0: FastSettle, 0: No Overshoot)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 12 Feb 2025 00:43:17 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
     <item>
       <title>Instrument Type v2.0.1.4</title>
@@ -133,42 +115,6 @@ Release Notes: Issue #147 fix setChamber.vi&lt;br&gt;
       
     </item>
     <item>
-      <title>PPMS Monitor and Control v2.0.0.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v2.0.0.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 11 Feb 2025 19:23:55 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 11 Feb 2025 19:23:55 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v2.0.0.5</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v2.0.0.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 10 Feb 2025 17:02:54 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 10 Feb 2025 17:02:54 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.5</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
       <title>Krohn-Hite-7008 v2.1.0.10</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.1.0.10.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
@@ -185,6 +131,60 @@ Release Notes: - SMO/Instrument Framework v2&lt;br&gt;- Updated JSONschema (stri
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.1.0.10</guid>
       <dc:creator>LevyLab</dc:creator>
       
+    </item>
+    <item>
+      <title>JKI State Machine Objects (SMO) v2.0.0.73</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/jki_statemachineobjects/jki_statemachineobjects-2.0.0.73.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JKI State Machine Objects (SMO) v2.0.0.73&lt;br&gt;
+Company: JKI&lt;br&gt;
+Release Date: Mon, 10 Feb 2025 11:55:59 -0500&lt;br&gt;
+Packager: JKI&lt;br&gt;
+&lt;br&gt;
+Description: The JKI State Machine Objects (SMO) for LabVIEW is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW experts.&lt;br&gt;&lt;br&gt;&amp;lt;b&amp;gt;Get the Source Code:&amp;lt;/b&amp;gt;&lt;br&gt;All the source code is available on our GitHub repository (https://github.com/JKISoftware/JKI-State-Machine-Objects) where you can download the framework and make your own changes. You can also download the built package.&lt;br&gt;&lt;br&gt;&amp;lt;b&amp;gt;Discuss by Asking Questions &amp;amp; Presenting Your Ideas:&amp;lt;/b&amp;gt;&lt;br&gt;The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-machine-objects) is a great place to have discussions about your ideas and feedback.&lt;br&gt;
+&lt;br&gt;
+Release Notes: LVLIB + LV2019&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 10 Feb 2025 11:55:59 -0500</pubDate>
+      <guid isPermaLink="false">jki_statemachineobjects-2.0.0.73</guid>
+      <dc:creator>JKI</dc:creator>
+      <link>https://github.com/JKISoftware/JKI-State-Machine-Objects</link>
+    </item>
+    <item>
+      <title>Instrument Type v2.0.0.3</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v2.0.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 10 Feb 2025 11:54:55 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: Update depdency to Instrument Framework v2.0.0.25&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 10 Feb 2025 11:54:55 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-2.0.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Logger.Error v2.0.1.4</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.1.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.Error v2.0.1.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 08 Feb 2025 12:14:33 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Error datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.1]&lt;br&gt;- #145: missing UI: Wait state&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 08 Feb 2025 12:14:33 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_error-2.0.1.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
