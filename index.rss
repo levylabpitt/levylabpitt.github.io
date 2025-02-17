@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 17 Feb 2025 07:40:11 -0500</pubDate>
+    <pubDate>Mon, 17 Feb 2025 08:08:36 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.4.2.8</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.2.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.4.2.8&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 17 Feb 2025 08:08:36 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Fix Auto Build Script not calling build installer&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 17 Feb 2025 08:08:36 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.4.2.8</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v2.0.0.11</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.11.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: Update depdency to Instrument Framework v2.0.0.25&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_instrument_type-2.0.0.3</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Logger.Error v2.0.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.Error v2.0.1.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 08 Feb 2025 12:14:33 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Error datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.1]&lt;br&gt;- #145: missing UI: Wait state&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 08 Feb 2025 12:14:33 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_error-2.0.1.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
