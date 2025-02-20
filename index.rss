@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 17 Feb 2025 13:58:02 -0500</pubDate>
+    <pubDate>Thu, 20 Feb 2025 14:39:15 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v2.0.2.13</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.2.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v2.0.2.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 20 Feb 2025 14:39:15 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issues:&lt;br&gt;- Add PPMS.lvlib containing class factory to decouple classes and reduce circular dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 20 Feb 2025 14:39:15 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.2.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
+    <item>
+      <title>PPMS Monitor and Control v2.0.1.12</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.1.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v2.0.1.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 20 Feb 2025 13:53:42 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issues:&lt;br&gt;- Change startup behavior to use QDInstruments local mode if address = &amp;quot;&amp;quot;, &amp;quot;127.0.0.1&amp;quot;, or &amp;quot;localhost&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 20 Feb 2025 13:53:42 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.1.12</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>LV-Data-PGSQL v3.9.2.7</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.9.2.7.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: - Updated Post Build Scripts&lt;br&gt;- Added Post Build Script (
       <pubDate>Thu, 13 Feb 2025 18:00:43 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.4.0.6</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Type v2.0.1.4</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.1.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v2.0.1.4&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 12 Feb 2025 00:09:39 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issue #147 fix setChamber.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 12 Feb 2025 00:09:39 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-2.0.1.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.1.0.10</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.1.0.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.1.0.10&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 10 Feb 2025 12:48:46 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - SMO/Instrument Framework v2&lt;br&gt;- Updated JSONschema (string enums)&lt;br&gt;- Multiline insert to postgres&lt;br&gt;- Trap errors coming from VISA open and prompt user to close any open connections&lt;br&gt;- 32 and 64 bit applications&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 10 Feb 2025 12:48:46 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.1.0.10</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
