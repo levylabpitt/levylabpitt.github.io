@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 20 Feb 2025 14:39:15 -0500</pubDate>
+    <pubDate>Thu, 20 Feb 2025 15:23:13 -0500</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v2.0.2.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.2.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v2.0.2.5&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 20 Feb 2025 15:23:13 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: Fix broken VSource deprecated methods&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 20 Feb 2025 15:23:13 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-2.0.2.5</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v2.0.2.13</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.2.13.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - bugfix: project path was not being stored internally during bui
 &lt;br&gt;</description>
       <pubDate>Fri, 14 Feb 2025 09:14:49 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.4.1.7</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.4.0.6</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.0.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.4.0.6&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 13 Feb 2025 18:00:43 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Updated Post Build Scripts&lt;br&gt;- Added Post Build Script (G-CLI build) (experimental)&lt;br&gt;- Powershell Terminal preferred over CMD - gives intermediate stdout, enables powershell scripts&lt;br&gt;- other updates and bug fixes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 13 Feb 2025 18:00:43 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.4.0.6</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
