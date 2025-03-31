@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 31 Mar 2025 15:11:37 -0400</pubDate>
+    <pubDate>Mon, 31 Mar 2025 15:51:50 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v2.1.1.28</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-2.1.1.28.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v2.1.1.28&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 31 Mar 2025 15:51:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.1]&lt;br&gt;- #146: Refine HELP API&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 31 Mar 2025 15:51:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-2.1.1.28</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Oxford-VRM v1.7.1.5</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.1.5.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [3.9.2]&lt;br&gt;- updated package dependencies&lt;br&gt;
       <pubDate>Mon, 17 Feb 2025 11:55:56 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtoitx-3.9.2.7</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.4.2.8</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.2.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.4.2.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 17 Feb 2025 08:08:36 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Fix Auto Build Script not calling build installer&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 17 Feb 2025 08:08:36 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.4.2.8</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
