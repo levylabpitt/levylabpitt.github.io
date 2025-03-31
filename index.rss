@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 28 Mar 2025 09:50:47 -0400</pubDate>
+    <pubDate>Mon, 31 Mar 2025 15:11:37 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.7.1.5</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.1.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.7.1.5&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 31 Mar 2025 15:11:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.1]&lt;br&gt;- Mercury drivers not included&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 31 Mar 2025 15:11:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.1.5</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Igor API v1.0.2.3</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_igor_api/levylab_lib_igor_api-1.0.2.3.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Fix Auto Build Script not calling build installer&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_build_support-1.4.2.8</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v2.0.0.11</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v2.0.0.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 17 Feb 2025 07:39:41 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issues:&lt;br&gt;- #20: new API format (ie, setMagnet instead of Set Magnet)&lt;br&gt;- #22: Instrument Framework v1.14(.4)&lt;br&gt;- #23: Update to QDInsrtumetn.dll v1.0.7 enables OptiCool&lt;br&gt;- #24: Change PPMS3 persistent/driven magnet&lt;br&gt;- #25: SMO v2/Instrument Framework v2&lt;br&gt;- #26: Select temperature approach mode (Channel 0: FastSettle, 0: No Overshoot)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 17 Feb 2025 07:39:41 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.0.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
