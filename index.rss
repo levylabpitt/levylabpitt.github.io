@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 01 Apr 2025 09:00:36 -0400</pubDate>
+    <pubDate>Tue, 01 Apr 2025 14:44:07 -0400</pubDate>
     <link>file:///c:/user/patrick/git/packages</link>
     <atom:link href="file:///c:/user/patrick/git/packages/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.7.2.6</title>
+      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.7.2.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.7.2.6&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 01 Apr 2025 14:44:07 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.2]&lt;br&gt;- Mercury drivers included using temporary folder for unzipping&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 01 Apr 2025 14:44:07 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.7.2.6</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v2.1.2.29</title>
       <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-2.1.2.29.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: Issues:&lt;br&gt;- Change startup behavior to use QDInstruments l
       <guid isPermaLink="false">levylab_lib_ppms_instrument-2.0.1.12</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>LV-Data-PGSQL v3.9.2.7</title>
-      <description>&lt;img alt="" src="file:///c:/user/patrick/git/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.9.2.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data-PGSQL v3.9.2.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 17 Feb 2025 13:58:02 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.9.2]&lt;br&gt;- Issue #120 fix buttons in PGPASS.ConnectionMgr.vi&lt;br&gt;- updated dependencies&lt;br&gt;- Timestamp to SQL Time.vi uses timezone offset rather than UTC offset&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 17 Feb 2025 13:58:02 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.9.2.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
