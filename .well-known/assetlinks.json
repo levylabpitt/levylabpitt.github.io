@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pqiorg.multitracker",
+    "sha256_cert_fingerprints":
+    ["67:F2:72:13:CC:F7:6E:FB:F3:A1:98:56:AA:0A:66:F8:31:3A:23:F3:F1:4B:C4:1A:16:56:00:77:07:FD:8E:1A"]
+  }
+}]

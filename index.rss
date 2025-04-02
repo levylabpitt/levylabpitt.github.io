@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>LevyLab GitHub Packages</title>
+    <description>LevyLab GitHub Packages</description>
+    <pubDate>Wed, 02 Apr 2025 16:34:23 -0400</pubDate>
+    <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
+    <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PyByWire v1.2.3.5</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/pybywire/pybywire-1.2.3.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PyByWire v1.2.3.5&lt;br&gt;
+Company: Monash University&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
+      <guid isPermaLink="false">pybywire-1.2.3.5</guid>
+      <dc:creator>Monash University</dc:creator>
+      <link>http://pybywire.sf.net</link>
+    </item>
+    <item>
+      <title>PRIrvin-Palette v1.0.0.3</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_prirvin_palette/prirvin_lib_prirvin_palette-1.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PRIrvin-Palette v1.0.0.3&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_prirvin_palette-1.0.0.3</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.4.8</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.4.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.4.8&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: enable 64 bit labview&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.4.8</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.3.7</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.3.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.3.7&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: Documentation and project organization&lt;br&gt;- split project into JSON-Schea and TEST-JSON-Schema&lt;br&gt;- remove test-json-schema.lvlib from json-schema.lvb&lt;br&gt;- add additional VI descriptions to API methods&lt;br&gt;- fix broken development VI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.3.7</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.2.6</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.2.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.2.6&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: change organization and install location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.2.6</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSON-Schema v0.1.1.5</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.1.5.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-Schema v0.1.1.5&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
+&lt;br&gt;
+Release Notes: change organization and install location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.1.5</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
+    <item>
+      <title>JSON-RPC v1.2.6.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.6.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.6.15&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.6]&lt;br&gt;- enable 32/64 bit labview&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.6.15</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSON-RPC v1.2.5.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.5.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.5.14&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.5]&lt;br&gt;- new install locatation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.5.14</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSONrpc v1.2.4.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSONrpc v1.2.4.13&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.13</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
+    <item>
+      <title>JSONrpc v1.2.4.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSONrpc v1.2.4.12&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.12</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/ciozi137</link>
+    </item>
+  </channel>
+</rss>
