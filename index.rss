@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 02 Apr 2025 16:34:23 -0400</pubDate>
+    <pubDate>Thu, 03 Apr 2025 17:15:50 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v2.1.4.31</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-2.1.4.31.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v2.1.4.31&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 03 Apr 2025 17:15:50 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.4]&lt;br&gt;- bugfix: rename HELP request object &amp;quot;Command&amp;quot; to &amp;quot;command&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 03 Apr 2025 17:15:50 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-2.1.4.31</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>PyByWire v1.2.3.5</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/pybywire/pybywire-1.2.3.5.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
       <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.13</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSONrpc v1.2.4.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSONrpc v1.2.4.12&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.12</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/ciozi137</link>
     </item>
   </channel>
 </rss>
