@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 03 Apr 2025 17:15:50 -0400</pubDate>
+    <pubDate>Fri, 11 Apr 2025 15:27:32 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Data Analysis Template v1.1.0.3</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.1.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Data Analysis Template v1.1.0.3&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 11 Apr 2025 15:27:32 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Template for building data analysis programs&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- update linkingto subVIs&lt;br&gt;- add better control over listing a folder&lt;br&gt;- add method to extract parameter from file notes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 11 Apr 2025 15:27:32 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_data_analysis_template-1.1.0.3</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v2.1.4.31</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-2.1.4.31.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.5]&lt;br&gt;- new install locatation&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
       <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.5.14</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSONrpc v1.2.4.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.4.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSONrpc v1.2.4.13&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.3]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.4.13</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>
