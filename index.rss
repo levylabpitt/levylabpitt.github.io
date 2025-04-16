@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 11 Apr 2025 15:27:32 -0400</pubDate>
+    <pubDate>Wed, 16 Apr 2025 14:50:29 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Relay Box v1.3.1.6</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_relay_box/levylab_lib_relay_box-1.3.1.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Relay Box v1.3.1.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 16 Apr 2025 14:50:28 -0400&lt;br&gt;
+Packager: John Maier / Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Software to control resistor relay box&lt;br&gt;
+&lt;br&gt;
+Release Notes: - fix instrument handle: U32 to U64&lt;br&gt;&lt;br&gt;(@nefrro)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 16 Apr 2025 14:50:28 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_relay_box-1.3.1.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Data Analysis Template v1.1.0.3</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_data_analysis_template/levylab_lib_data_analysis_template-1.1.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.6]&lt;br&gt;- enable 32/64 bit labview&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
       <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.6.15</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.5.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.5.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.5.14&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 02 Apr 2025 16:34:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.5]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 02 Apr 2025 16:34:21 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.5.14</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>
