@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 21 Apr 2025 20:04:04 -0400</pubDate>
+    <pubDate>Wed, 23 Apr 2025 15:39:35 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Debug v1.1.0.8</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_debug/levylab_lib_debug-1.1.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Debug v1.1.0.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 23 Apr 2025 15:39:35 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Shared Debug SMO Attribute&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Change to SMO v1.4&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Apr 2025 15:39:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_debug-1.1.0.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
+    <item>
+      <title>Configuration v1.1.0.6</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_configuration/levylab_lib_configuration-1.1.0.6.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Configuration v1.1.0.6&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 23 Apr 2025 15:30:02 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for reading and writing configuration files&lt;br&gt;&lt;br&gt;Authors:&lt;br&gt;- Patrick Irvin (@ciozi137)&lt;br&gt;- Joseph Albro (@monkeymerlot)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Add Read Path and Read Section to public API&lt;br&gt;- Remove unused dependencies (SMO, etc)&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Apr 2025 15:30:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_configuration-1.1.0.6</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v2.2.0.32</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-2.2.0.32.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: Documentation and project organization&lt;br&gt;- split project i
       <guid isPermaLink="false">prirvin_lib_json_schema-0.1.3.7</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSON-Schema v0.1.2.6</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.2.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-Schema v0.1.2.6&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for converting LV objects into JSON Schema&lt;br&gt;
-&lt;br&gt;
-Release Notes: change organization and install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.2.6</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSON-Schema v0.1.1.5</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.1.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-Schema v0.1.1.5&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for converting LV objects into JSON Schema&lt;br&gt;
-&lt;br&gt;
-Release Notes: change organization and install location&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.1.5</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/ciozi137</link>
     </item>
   </channel>
 </rss>
