@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 23 Apr 2025 15:39:35 -0400</pubDate>
+    <pubDate>Thu, 24 Apr 2025 07:58:38 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger v1.1.0.7</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger/levylab_lib_logger-1.1.0.7.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger v1.1.0.7&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 24 Apr 2025 07:58:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Abstract datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.0]&lt;br&gt;- Issue #162: change SMO version to 1.4&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 24 Apr 2025 07:58:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger-1.1.0.7</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Debug v1.1.0.8</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_debug/levylab_lib_debug-1.1.0.8.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: enable 64 bit labview&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
       <guid isPermaLink="false">prirvin_lib_json_schema-0.1.4.8</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSON-Schema v0.1.3.7</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.3.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-Schema v0.1.3.7&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 02 Apr 2025 16:34:22 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for converting LV objects into JSON Schema&lt;br&gt;
-&lt;br&gt;
-Release Notes: Documentation and project organization&lt;br&gt;- split project into JSON-Schea and TEST-JSON-Schema&lt;br&gt;- remove test-json-schema.lvlib from json-schema.lvb&lt;br&gt;- add additional VI descriptions to API methods&lt;br&gt;- fix broken development VI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 02 Apr 2025 16:34:22 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.3.7</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>

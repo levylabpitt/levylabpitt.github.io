@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=7
-Release.Date=Wed, 23 Apr 2025 15:39:35 -0400
-Self.ID=b48f48037477d1d04aa0077c5b95b4f8
+Release.Number=8
+Release.Date=Thu, 24 Apr 2025 07:58:38 -0400
+Self.ID=3214892e4d8c16475d1dca8e2d14f427
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6291,4 +6291,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_statemachineobjects>=1.4.0.69
 Package.Display Name=Debug
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger-1.1.0.7]
+Package.URL=packages/levylab_lib_logger/levylab_lib_logger-1.1.0.7.vip
+Icon.URL=packages/levylab_lib_logger/levylab_lib_logger-1.1.0.7.bmp
+Spec.URL=packages/levylab_lib_logger/levylab_lib_logger-1.1.0.7.spec
+Package.MD5=086a8c525b03a213f37f119613919d6f
+Package.Release Date=Thu, 24 Apr 2025 07:58:37 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
+Package.Display Name=Logger
 Platform.Exclusive_VIPM_Version=2017
