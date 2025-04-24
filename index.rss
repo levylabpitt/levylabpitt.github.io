@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 24 Apr 2025 15:46:55 -0400</pubDate>
+    <pubDate>Thu, 24 Apr 2025 17:15:10 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.4.3.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.3.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.4.3.9&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 24 Apr 2025 17:15:10 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: - change SMO dependency from 2.0 to 1.4&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 24 Apr 2025 17:15:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.4.3.9</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Type v1.1.0.7</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.0.7.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.0]&lt;br&gt;- Change to SMO v1.4&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 23 Apr 2025 15:39:35 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_debug-1.1.0.8</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Configuration v1.1.0.6</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_configuration/levylab_lib_configuration-1.1.0.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Configuration v1.1.0.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Apr 2025 15:30:02 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for reading and writing configuration files&lt;br&gt;&lt;br&gt;Authors:&lt;br&gt;- Patrick Irvin (@ciozi137)&lt;br&gt;- Joseph Albro (@monkeymerlot)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Add Read Path and Read Section to public API&lt;br&gt;- Remove unused dependencies (SMO, etc)&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Apr 2025 15:30:02 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_configuration-1.1.0.6</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
