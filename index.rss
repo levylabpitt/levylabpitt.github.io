@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 24 Apr 2025 17:15:10 -0400</pubDate>
+    <pubDate>Mon, 28 Apr 2025 09:49:55 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN API v0.0.0.3</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN API v0.0.0.3&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 28 Apr 2025 09:49:54 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
+&lt;br&gt;
+Release Notes: [0.0.0]&lt;br&gt;- Leiden API combining Leiden FP and TC API into one package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 28 Apr 2025 09:49:54 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.0.3</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.4.3.9</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.3.9.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.1.0]&lt;br&gt;- Issue #162: change SMO version to 1.4&lt;br&gt
 &lt;br&gt;</description>
       <pubDate>Thu, 24 Apr 2025 07:58:37 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_logger-1.1.0.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Debug v1.1.0.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_debug/levylab_lib_debug-1.1.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Debug v1.1.0.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Apr 2025 15:39:35 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Shared Debug SMO Attribute&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.0]&lt;br&gt;- Change to SMO v1.4&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Apr 2025 15:39:35 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_debug-1.1.0.8</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
