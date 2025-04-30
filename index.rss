@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 30 Apr 2025 12:13:08 -0400</pubDate>
+    <pubDate>Wed, 30 Apr 2025 18:02:49 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.4.4.10</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.4.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.4.4.10&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 30 Apr 2025 18:02:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.4]&lt;br&gt;- #20: fix error in g-cli build parameters&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 30 Apr 2025 18:02:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.4.4.10</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v2.1.0.5</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.1.0.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.3.0]&lt;br&gt;- #119: Update Macro: Debug&lt;br&gt;- #139: ver
 &lt;br&gt;</description>
       <pubDate>Thu, 24 Apr 2025 11:02:41 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control-1.3.0.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.2.0.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.0.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.2.0.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 24 Apr 2025 10:16:53 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.0]&lt;br&gt;- #119 Debug Attribute&lt;br&gt;- #139 SMO 1.4 Error Handler&lt;br&gt;- #140 Macro: Exit&lt;br&gt;- #139 error handler&lt;br&gt;- #144: new method Write Variable Multiline&lt;br&gt;- remove unused methods (Write to PGSQL)&lt;br&gt;- Remove call to &#39;shorten cluter&#39; in process.vi: client application should ensure that the cluster size and number of addresses are equal&lt;br&gt;- #162: change to SMO 1.4&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 24 Apr 2025 10:16:53 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.2.0.11</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
