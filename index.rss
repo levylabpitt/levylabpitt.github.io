@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 30 Apr 2025 18:02:49 -0400</pubDate>
+    <pubDate>Wed, 30 Apr 2025 22:21:34 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.4.4.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.4.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.4.4.12&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 30 Apr 2025 22:21:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.4]&lt;br&gt;- #20: fix error in g-cli build parameters&lt;br&gt;- Add g-cli toolkits as dependencies (VIPM and lvbuild)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 30 Apr 2025 22:21:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.4.4.12</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.4.4.10</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.4.4.10.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.0]&lt;br&gt;- Issue #143: store libzmq*.dll inside libzmq*.l
 &lt;br&gt;</description>
       <pubDate>Thu, 24 Apr 2025 11:54:33 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.2.0.18</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v1.3.0.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.0.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v1.3.0.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 24 Apr 2025 11:02:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.0]&lt;br&gt;- #119: Update Macro: Debug&lt;br&gt;- #139: verify Error Handler&lt;br&gt;- #140: verify Macro: Exit&lt;br&gt;- #162: change to SMO v1.4&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 24 Apr 2025 11:02:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-1.3.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
