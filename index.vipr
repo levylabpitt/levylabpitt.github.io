@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=55
-Release.Date=Fri, 02 May 2025 10:01:51 -0400
-Self.ID=0bff4738daddbdd0cf8de2983bd1613c
+Release.Number=58
+Release.Date=Fri, 02 May 2025 16:32:44 -0400
+Self.ID=e59625f0ba99a7ee585e9de9dd3a29eb
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -4516,42 +4516,6 @@ Package.Release Date=Wed, 02 Apr 2025 16:34:09 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.12.5.3
-Package.Display Name=PPMS Monitor and Control
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_ppms_instrument-2.0.0.11]
-Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.11.vip
-Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.11.bmp
-Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.0.11.spec
-Package.MD5=2e07d3ab6bcb72ac6728ae19e7d49c61
-Package.Release Date=Wed, 02 Apr 2025 16:34:09 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
-Package.Display Name=PPMS Monitor and Control
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_ppms_instrument-2.0.1.12]
-Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.1.12.vip
-Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.1.12.bmp
-Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.1.12.spec
-Package.MD5=743eb4dc638bdfe828c22e042dbedf29
-Package.Release Date=Wed, 02 Apr 2025 16:34:09 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
-Package.Display Name=PPMS Monitor and Control
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_ppms_instrument-2.0.2.13]
-Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.2.13.vip
-Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.2.13.bmp
-Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-2.0.2.13.spec
-Package.MD5=40070c66bbd1279de3d79f21e0ded85a
-Package.Release Date=Wed, 02 Apr 2025 16:34:09 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
 Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
 
