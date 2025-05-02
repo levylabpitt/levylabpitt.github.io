@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=48
-Release.Date=Fri, 02 May 2025 09:44:02 -0400
-Self.ID=4c64dd22a6b1ef597f0a7275fc486d54
+Release.Number=53
+Release.Date=Fri, 02 May 2025 09:58:08 -0400
+Self.ID=d8380ced92231a3b00134fdbd2b29e40
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -1782,66 +1782,6 @@ Package.Release Date=Wed, 02 Apr 2025 16:33:22 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.14.4.22
-Package.Display Name=Instrument Type
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_instrument_type-2.0.0.2]
-Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.2.vip
-Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.2.bmp
-Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.2.spec
-Package.MD5=2005734c043ae2818afe3054eca2bd19
-Package.Release Date=Wed, 02 Apr 2025 16:33:22 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.0.0.25
-Package.Display Name=Instrument Type
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_instrument_type-2.0.0.3]
-Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.vip
-Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.bmp
-Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.0.3.spec
-Package.MD5=c3a19a8dc400fd9133ba6be1a4b5657c
-Package.Release Date=Wed, 02 Apr 2025 16:33:22 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
-Package.Display Name=Instrument Type
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_instrument_type-2.0.1.4]
-Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.1.4.vip
-Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.1.4.bmp
-Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.1.4.spec
-Package.MD5=c7b2e65e893aa85b6403a7b7d700e10c
-Package.Release Date=Wed, 02 Apr 2025 16:33:22 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
-Package.Display Name=Instrument Type
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_instrument_type-2.0.2.5]
-Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.2.5.vip
-Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.2.5.bmp
-Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.2.5.spec
-Package.MD5=6e12db001393bb6a385048faa1ff8ddd
-Package.Release Date=Wed, 02 Apr 2025 16:33:22 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
-Package.Display Name=Instrument Type
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_instrument_type-2.0.3.6]
-Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.3.6.vip
-Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.3.6.bmp
-Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-2.0.3.6.spec
-Package.MD5=3a3cb4b30c12b463adbc37bd820907eb
-Package.Release Date=Wed, 02 Apr 2025 16:33:22 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=levylab_lib_levylab_instruments>=2.1.0.27
 Package.Display Name=Instrument Type
 Platform.Exclusive_VIPM_Version=2017
 
