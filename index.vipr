@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=33
-Release.Date=Fri, 02 May 2025 09:35:57 -0400
-Self.ID=472a24213e581cab5eacf82e1acfe743
+Release.Number=38
+Release.Date=Fri, 02 May 2025 09:37:11 -0400
+Self.ID=eadd031b4bd9e562f9c16513e06126d6
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -3614,61 +3614,6 @@ Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.1.0.5.spec
 Package.MD5=1229af958ab151aa97d0ba8102b29a3b
 Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=Logger.PGSQL
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_pgsql-2.0.0.6]
-Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.6.vip
-Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.6.bmp
-Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.6.spec
-Package.MD5=c9984033ffecd9a7fe41b3510e049998
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=Logger.PGSQL
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_pgsql-2.0.0.7]
-Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.7.vip
-Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.7.bmp
-Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.0.0.7.spec
-Package.MD5=54fcdd4da3cf2b18ccdfde7fd90f3a20
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=Logger.PGSQL
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_pgsql-2.1.0.8]
-Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.vip
-Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.bmp
-Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.0.8.spec
-Package.MD5=579abf790cb7447adec51341a5955969
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=Logger.PGSQL
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_pgsql-2.1.1.9]
-Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.1.9.vip
-Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.1.9.bmp
-Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.1.9.spec
-Package.MD5=36c32fec4cd7212fca5c01863841f2ac
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Package.Display Name=Logger.PGSQL
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_pgsql-2.1.2.10]
-Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.vip
-Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.bmp
-Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-2.1.2.10.spec
-Package.MD5=8a82527623c775f929a4290f13e57d8b
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Package.Display Name=Logger.PGSQL
 Platform.Exclusive_VIPM_Version=2017
