@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 01 May 2025 23:42:38 -0400</pubDate>
+    <pubDate>Fri, 02 May 2025 06:31:58 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.8.0.11</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.0.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.8.0.11&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 02 May 2025 06:31:58 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.0]&lt;br&gt;- build 64 bit exe&lt;br&gt;- #6 move hardware control into child process&lt;br&gt;- #11 Instrument Framework 1.15 / SMO 1.4&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 02 May 2025 06:31:58 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.8.0.11</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.20.1.8</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.20.1.8.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.3.0]&lt;br&gt;- #3 Instrument Framework v1.15&lt;br&gt;- #2 Up
       <pubDate>Wed, 30 Apr 2025 12:13:08 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ah2500a-1.3.0.4</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LEIDEN API v0.0.0.3</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.0.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN API v0.0.0.3&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 28 Apr 2025 09:49:54 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
-&lt;br&gt;
-Release Notes: [0.0.0]&lt;br&gt;- Leiden API combining Leiden FP and TC API into one package&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 28 Apr 2025 09:49:54 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.0.3</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
