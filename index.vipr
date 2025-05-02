@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=25
-Release.Date=Fri, 02 May 2025 06:31:58 -0400
-Self.ID=c83aaebf077fef41248b309edb91a62d
+Release.Number=30
+Release.Date=Fri, 02 May 2025 09:32:40 -0400
+Self.ID=115d29becded85ad416ef86c03cc94cc
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -1257,66 +1257,6 @@ Package.Release Date=Wed, 02 Apr 2025 16:33:14 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_statemachineobjects>=1.4.0.69
-Package.Display Name=Debug
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_debug-2.0.0.3]
-Package.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.vip
-Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.bmp
-Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.3.spec
-Package.MD5=d0fe27928a2bc5881ed2b81c40f9aa6a
-Package.Release Date=Wed, 02 Apr 2025 16:33:14 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=2.0.0.73
-Package.Display Name=Debug
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_debug-2.0.0.4]
-Package.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.4.vip
-Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.4.bmp
-Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.4.spec
-Package.MD5=901e65e8744798ec96695ff1ce9dc256
-Package.Release Date=Wed, 02 Apr 2025 16:33:14 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=2.0.0.73
-Package.Display Name=Debug
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_debug-2.0.0.5]
-Package.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.5.vip
-Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.5.bmp
-Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.5.spec
-Package.MD5=56bcd6528b5bc8cf93b8e0089775bd13
-Package.Release Date=Wed, 02 Apr 2025 16:33:14 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=2.0.0.73
-Package.Display Name=Debug
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_debug-2.0.0.6]
-Package.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.6.vip
-Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.6.bmp
-Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.6.spec
-Package.MD5=e2cbfaf7bc64fc4095c10b03e5eeb644
-Package.Release Date=Wed, 02 Apr 2025 16:33:14 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=2.0.0.73
-Package.Display Name=Debug
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_debug-2.0.0.7]
-Package.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.7.vip
-Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.7.bmp
-Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-2.0.0.7.spec
-Package.MD5=31ee83f4d70405714a598be903eca93d
-Package.Release Date=Wed, 02 Apr 2025 16:33:14 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_statemachineobjects>=2.0.0.73
 Package.Display Name=Debug
 Platform.Exclusive_VIPM_Version=2017
 
