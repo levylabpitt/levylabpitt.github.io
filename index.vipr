@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=30
-Release.Date=Fri, 02 May 2025 09:32:40 -0400
-Self.ID=115d29becded85ad416ef86c03cc94cc
+Release.Number=33
+Release.Date=Fri, 02 May 2025 09:35:57 -0400
+Self.ID=472a24213e581cab5eacf82e1acfe743
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -3558,42 +3558,6 @@ Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
-Package.Display Name=Logger.Error
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_error-2.0.0.2]
-Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.2.vip
-Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.2.bmp
-Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.2.spec
-Package.MD5=fef925be54f1f7d517a5d84a5fe7c948
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=2.0.0.73,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
-Package.Display Name=Logger.Error
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_error-2.0.0.3]
-Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.3.vip
-Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.3.bmp
-Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.0.3.spec
-Package.MD5=f01b11a0ffbdbfd5f2c559c71de17c71
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=2.0.0.73,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
-Package.Display Name=Logger.Error
-Platform.Exclusive_VIPM_Version=2017
-
-[Package levylab_lib_logger_error-2.0.1.4]
-Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.1.4.vip
-Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.1.4.bmp
-Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-2.0.1.4.spec
-Package.MD5=0817eeed527a989d6f02f7b5e372bc6b
-Package.Release Date=Wed, 02 Apr 2025 16:33:54 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=2.0.0.73,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_build_support>=1.2.5.1
 Package.Display Name=Logger.Error
 Platform.Exclusive_VIPM_Version=2017
 
