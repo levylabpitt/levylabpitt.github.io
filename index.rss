@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 03 May 2025 13:53:21 -0400</pubDate>
+    <pubDate>Sat, 03 May 2025 22:31:13 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data-PGSQL v3.10.0.8</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data-PGSQL v3.10.0.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 03 May 2025 22:31:13 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.10.0]&lt;br&gt;- remove tests and updated dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 03 May 2025 22:31:13 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.0.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>LV-Data v3.10.0.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtoitx/levylab_lib_lvtoitx-3.10.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data v3.10.0.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 03 May 2025 22:14:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Collection of VIs to write and read files in TDMS, Igor Text (*.itx), and text-based spreadsheet data (*.dat) formats.&lt;br&gt;- LV graph to Igor Pro and Igor Pro formatters&lt;br&gt;- Tools are provided for uploading to and downloading from AWS S3&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.10.0]]&lt;br&gt;- remove tests from package and update package dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 03 May 2025 22:14:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtoitx-3.10.0.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Database Viewer v2025.5.2.6</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2025.5.2.6.bmp"&gt;&lt;br&gt;
@@ -149,42 +185,6 @@ Release Notes: [2.20.1]&lt;br&gt;Issues:&lt;br&gt;- #96: change to Instrument Fr
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.20.1.8</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.1.0.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.1.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.1.0.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 01 May 2025 22:52:57 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.0]&lt;br&gt;- #15: Change to Instrument Framework 1.15&lt;br&gt;- #16: update UI to show SMO state&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 May 2025 22:52:57 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.1.0.8</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.2.0.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.2.0.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.2.0.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 01 May 2025 22:28:11 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.2.0]&lt;br&gt;- #22 Change Instrument Framework 1.15 / SMO 1.4&lt;br&gt;- Fixed issues with logging&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 May 2025 22:28:11 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.2.0.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
