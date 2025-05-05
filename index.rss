@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 05 May 2025 14:47:58 -0400</pubDate>
+    <pubDate>Mon, 05 May 2025 15:00:31 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.9.1.19</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.1.19.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.9.1.19&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 05 May 2025 15:00:30 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.1]&lt;br&gt;- #31: move unit tests and remove Caraya dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 05 May 2025 15:00:30 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.1.19</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.2.1.15</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.2.1.15.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - build with Epoch 1.3&lt;br&gt;- build with g-cli&lt;br&gt;
       <pubDate>Fri, 02 May 2025 22:10:42 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_database_viewer-2025.5.2.3</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.1.0.9</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.1.0.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.1.0.9&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 02 May 2025 17:53:55 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.1.0]&lt;br&gt;- #15: Change to Instrument Framework 1.15&lt;br&gt;- #16: update UI to show SMO state&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 02 May 2025 17:53:55 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.1.0.9</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
