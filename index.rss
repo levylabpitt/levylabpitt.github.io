@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 06 May 2025 10:18:22 -0400</pubDate>
+    <pubDate>Wed, 14 May 2025 07:44:38 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.5.0.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.0.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.5.0.14&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 14 May 2025 07:44:00 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.0]&lt;br&gt;- Change the g-cli build script:&lt;br&gt;   - clearCache before build&lt;br&gt;   - update commands to support powershell&lt;br&gt;   - execute all commands in single powershell session&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 14 May 2025 07:44:00 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.5.0.14</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-VRM v1.8.0.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.0.12.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.15.1]&lt;br&gt;- updated package dependencies&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Sun, 04 May 2025 15:36:56 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.1.34</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.2.1.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.1.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.2.1.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 04 May 2025 14:03:34 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt;- #164 remove Caraya dependency&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 04 May 2025 14:03:34 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.2.1.12</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
