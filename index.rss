@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 14 May 2025 07:44:38 -0400</pubDate>
+    <pubDate>Wed, 14 May 2025 22:06:33 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.5.1.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.1.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.5.1.15&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 14 May 2025 22:06:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.1]&lt;br&gt;- write all commands to a batch file and use DOS commands instead of Powershell&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 14 May 2025 22:06:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.5.1.15</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.5.0.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.0.14.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.2.1]&lt;br&gt;- #23: move unit tests and remove Caraya depende
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.2.1.15</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Instrument Framework v1.15.1.34</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.34.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.15.1.34&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sun, 04 May 2025 15:36:56 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.15.1]&lt;br&gt;- updated package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sun, 04 May 2025 15:36:56 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.1.34</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
