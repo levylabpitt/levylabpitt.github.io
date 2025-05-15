@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=83
-Release.Date=Thu, 15 May 2025 12:21:40 -0400
-Self.ID=453a957e5c815edc87b35450b80603d5
+Release.Number=84
+Release.Date=Thu, 15 May 2025 13:44:33 -0400
+Self.ID=c53ae80228b5c6d7354f79db4776251c
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6336,6 +6336,18 @@ Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.
 Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.3.spec
 Package.MD5=3fb8ae27982a42cf296cb80e54976513
 Package.Release Date=Thu, 15 May 2025 12:21:40 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_1820_api-1.4.0.4]
+Package.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.4.vip
+Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.4.bmp
+Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.4.spec
+Package.MD5=68bd521d726a651302a994e2f48b0c3a
+Package.Release Date=Thu, 15 May 2025 13:44:33 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6

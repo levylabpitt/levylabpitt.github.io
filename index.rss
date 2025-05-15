@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 15 May 2025 12:21:40 -0400</pubDate>
+    <pubDate>Thu, 15 May 2025 13:44:33 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.4.0.4</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.4.0.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 15 May 2025 13:44:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.0]&lt;br&gt;- #16: Instrument Framework v1.15.1&lt;br&gt;- #12: Backend changes move hardware calls to Instrument.Oxford1820.lvclass:process.vi&lt;br&gt;- #13: cryogen level graph elements&lt;br&gt;- #14: Instrument Framework #91: updated API commands and data names&lt;br&gt;- Mercury drivers are included as Mercury-iXX package dependency&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 15 May 2025 13:44:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.4.0.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.4.0.3</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.3.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.9.0]&lt;br&gt;- #93/#94: Updates related to Instrument Framewo
 &lt;br&gt;</description>
       <pubDate>Mon, 05 May 2025 20:25:05 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.9.0.11</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.2.0.10</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.2.0.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.2.0.10&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 05 May 2025 19:50:37 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.0]&lt;br&gt;- #95: Fix bug in Dictionaries that would not support writing integer data types&lt;br&gt;- #93/#94: Updates related to Instrument Framework&lt;br&gt;- remove unit tests from source folder&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 05 May 2025 19:50:37 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.2.0.10</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
