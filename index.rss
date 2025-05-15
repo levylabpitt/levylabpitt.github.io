@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 15 May 2025 08:16:49 -0400</pubDate>
+    <pubDate>Thu, 15 May 2025 11:02:34 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.4.0.2</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.4.0.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 15 May 2025 11:02:34 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.0]&lt;br&gt;- #16: Instrument Framework v1.15.1&lt;br&gt;- #12: Backend changes move hardware calls to Instrument.Oxford1820.lvclass:process.vi&lt;br&gt;- #13: cryogen level graph elements&lt;br&gt;- #14: Instrument Framework #91: updated API commands and data names&lt;br&gt;- Mercury drivers are included as Mercury-iXX package dependency&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 15 May 2025 11:02:34 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.4.0.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Cryostation v1.3.0.6</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.3.0.6.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.9.1]&lt;br&gt;- #31: move unit tests and remove Caraya depende
 &lt;br&gt;</description>
       <pubDate>Mon, 05 May 2025 16:06:41 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.1.21</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.9.1.19</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.1.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.9.1.19&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 05 May 2025 15:00:30 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.9.1]&lt;br&gt;- #31: move unit tests and remove Caraya dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 05 May 2025 15:00:30 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.1.19</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>

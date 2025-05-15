@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=81
-Release.Date=Thu, 15 May 2025 08:16:49 -0400
-Self.ID=9e1d5e7309aabfd6af70970cec1ecac1
+Release.Number=82
+Release.Date=Thu, 15 May 2025 11:02:34 -0400
+Self.ID=4d9e8ef3316fcb7be9d08c9b53bd2577
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6316,4 +6316,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34
 Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_1820_api-1.4.0.2]
+Package.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.2.vip
+Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.2.bmp
+Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.2.spec
+Package.MD5=3e7ac99d807e46253065e8416f4fde11
+Package.Release Date=Thu, 15 May 2025 11:02:34 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-1820
 Platform.Exclusive_VIPM_Version=2017
