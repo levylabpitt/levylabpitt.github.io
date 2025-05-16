@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=102
-Release.Date=Fri, 16 May 2025 15:15:57 -0400
-Self.ID=22bee18a08c8482a91b59fa5bc4d9652
+Release.Number=103
+Release.Date=Fri, 16 May 2025 15:51:37 -0400
+Self.ID=35fcef264aace933229dd2fb44ad7e4a
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6513,4 +6513,16 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.2.37
 Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.25
 Package.Display Name=Instrument Type
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-2.2.2.17]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.2.2.17.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.2.2.17.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.2.2.17.spec
+Package.MD5=b8ab9b2a74132df93863015c779be861
+Package.Release Date=Fri, 16 May 2025 15:51:37 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_d2xx_lv>=1.2.0.6,levylab_lib_instrument_type>=1.1.2.9
+Package.Display Name=Krohn-Hite-7008
 Platform.Exclusive_VIPM_Version=2017

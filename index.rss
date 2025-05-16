@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 16 May 2025 15:15:57 -0400</pubDate>
+    <pubDate>Fri, 16 May 2025 15:51:37 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.2.2.17</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.2.2.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.2.2.17&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 16 May 2025 15:51:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.2.2]&lt;br&gt;- #24 Add D2XX-LV package dependency&lt;br&gt;- #25 Fix issues with getAllChannels and setAllChannels&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 16 May 2025 15:51:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.2.2.17</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Type v1.1.2.9</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.2.9.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.3.1]&lt;br&gt;- #165 adjust package dependencies&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 15 May 2025 16:06:18 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control-1.3.1.13</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.2.2.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.2.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.2.2.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 15 May 2025 15:59:38 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.2]&lt;br&gt;- #165 adjust package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 15 May 2025 15:59:38 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.2.2.14</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
