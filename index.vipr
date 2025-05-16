@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=85
-Release.Date=Thu, 15 May 2025 14:17:46 -0400
-Self.ID=5e40dbf7f5bea839509d6529433d5966
+Release.Number=98
+Release.Date=Thu, 15 May 2025 21:14:09 -0400
+Self.ID=3fc4491082fcaa45a2edfe19840dedc9
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6366,18 +6366,6 @@ Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects
 Package.Display Name=Logger
 Platform.Exclusive_VIPM_Version=2017
 
-[Package levylab_lib_logger_error-1.2.1.6]
-Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.6.vip
-Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.6.bmp
-Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.6.spec
-Package.MD5=e76aa6b8ecf53aaa34ea357eeffc7172
-Package.Release Date=Thu, 15 May 2025 14:17:46 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,field_rnd_services_logger>=1.10.2.79
-Package.Display Name=Logger.Error
-Platform.Exclusive_VIPM_Version=2017
-
 [Package levylab_lib_logger_pgsql-1.2.2.13]
 Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.2.13.vip
 Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.2.13.bmp
@@ -6388,4 +6376,91 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_lib_common_utilities>=1.4.2.19,jdp_science_postgresql>=0.6.2.48,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview_open_source_lib_epoch_datetime>=1.3.0.8,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_lvtdatpgsql>=3.10.0.8,levylab_lib_lvtoitx>=3.10.0.9,levylab_lib_xy_utilities>=1.6.0.6,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,field_rnd_services_logger>=1.10.2.79
 Package.Display Name=Logger.PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_error-1.2.1.7]
+Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.7.vip
+Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.7.bmp
+Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.7.spec
+Package.MD5=d8e56e805be7aa6bcfd23aa94f520aa2
+Package.Release Date=Thu, 15 May 2025 15:55:54 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_logger>=1.1.2.11
+Package.Display Name=Logger.Error
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_pgsql-1.2.2.14]
+Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.2.14.vip
+Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.2.14.bmp
+Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.2.2.14.spec
+Package.MD5=60efe52e25041e6127301305fcce4c6b
+Package.Release Date=Thu, 15 May 2025 15:59:38 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_lib_common_utilities>=1.4.2.19,jdp_science_postgresql>=0.6.2.48,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview_open_source_lib_epoch_datetime>=1.3.0.8,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_lvtdatpgsql>=3.10.0.8,levylab_lib_lvtoitx>=3.10.0.9,levylab_lib_xy_utilities>=1.6.0.6,mgi_lib_1d_array>=1.0.2.3,mgi_lib_numeric>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_logger>=1.1.2.11
+Package.Display Name=Logger.PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control-1.3.1.13]
+Package.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.1.13.vip
+Icon.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.1.13.bmp
+Spec.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.1.13.spec
+Package.MD5=015a21718d6ba5e49d24fe52659b266c
+Package.Release Date=Thu, 15 May 2025 16:06:18 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_debug>=1.1.0.8
+Package.Display Name=RemoteControl
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control_zmq-1.2.2.20]
+Package.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.2.2.20.vip
+Icon.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.2.2.20.bmp
+Spec.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.2.2.20.spec
+Package.MD5=31d7819a9f1901bf9ab74cd80fe9b2b7
+Package.Release Date=Thu, 15 May 2025 16:09:36 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.1.125,jdp_science_lib_common_utilities>=1.4.2.19,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,prirvin_lib_json_rpc>=1.2.6.15,levylab_lib_remote_control>=1.3.1.13
+Package.Display Name=RemoteControl.ZMQ
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.15.1.35]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.35.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.35.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.35.spec
+Package.MD5=ef39c03fee79e9cc26738259de6c11a8
+Package.Release Date=Thu, 15 May 2025 17:08:06 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.1.6,levylab_lib_logger_pgsql>=1.2.2.13,levylab_lib_remote_control>=1.3.1.13,levylab_lib_remote_control_zmq>=1.2.2.20
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.1,levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.15.1.36]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.36.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.36.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.1.36.spec
+Package.MD5=181120eae9ebac1c6c0572f1e0c473b2
+Package.Release Date=Thu, 15 May 2025 20:51:29 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.1.7,levylab_lib_logger_pgsql>=1.2.2.14,levylab_lib_remote_control>=1.3.1.13,levylab_lib_remote_control_zmq>=1.2.2.20
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.1,levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.15.2.37]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.2.37.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.2.37.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.2.37.spec
+Package.MD5=509ba62d1cdc7f1fe5bb2ff359dbf350
+Package.Release Date=Thu, 15 May 2025 21:01:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.1.7,levylab_lib_logger_pgsql>=1.2.2.14,levylab_lib_remote_control>=1.3.1.13,levylab_lib_remote_control_zmq>=1.2.2.20
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.1,levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017

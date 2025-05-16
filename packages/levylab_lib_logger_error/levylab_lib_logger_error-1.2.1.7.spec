@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_logger_error"
-Version="1.2.1.6"
+Version="1.2.1.7"
 Release=""
-ID=25c85e0771851635ecb050bb6d02c16a
+ID=c3d20eb8e18905d2802452436ad4e353
 File Format="vip"
 Format Version="2017"
 Display Name="Logger.Error"
@@ -49,7 +49,7 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires="jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,field_rnd_services_logger>=1.10.2.79"
+Requires="jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_logger>=1.1.2.11"
 Conflicts=""
 
 
