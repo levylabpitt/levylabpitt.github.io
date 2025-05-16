@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=101
-Release.Date=Fri, 16 May 2025 08:50:32 -0400
-Self.ID=580a932d80008d2437f93a6904f9bf83
+Release.Number=102
+Release.Date=Fri, 16 May 2025 15:15:57 -0400
+Self.ID=22bee18a08c8482a91b59fa5bc4d9652
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6500,4 +6500,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_instrument_type-1.1.2.9]
+Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.2.9.vip
+Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.2.9.bmp
+Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.2.9.spec
+Package.MD5=b1b2be21e42dc49676b0d5d7cbf30050
+Package.Release Date=Fri, 16 May 2025 15:15:57 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.2.37
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.25
+Package.Display Name=Instrument Type
 Platform.Exclusive_VIPM_Version=2017

@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 16 May 2025 08:50:32 -0400</pubDate>
+    <pubDate>Fri, 16 May 2025 15:15:57 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v1.1.2.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.2.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v1.1.2.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 16 May 2025 15:15:57 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.2]&lt;br&gt;-  #167: FIx bug in getAllChannels.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 16 May 2025 15:15:57 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-1.1.2.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.4.0.5</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.4.0.5.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.2]&lt;br&gt;- #165 adjust package dependencies&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 15 May 2025 15:59:38 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_logger_pgsql-1.2.2.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.Error v1.2.1.7</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.1.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.Error v1.2.1.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 15 May 2025 15:55:54 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Error datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt; #165 adjust package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 15 May 2025 15:55:54 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_error-1.2.1.7</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
