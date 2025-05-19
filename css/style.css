@@ -1,23 +1,179 @@
 /* Stylez */
-body {font-family: Franklin Gothic Book, Source Sans Pro, Helvetica Neue, sans-serif; margin: 0 auto; background: #efefef; line-height: 1.8em; padding: 12px; box-sizing: border-box; color: #333;}
-body, html {height: 100%;}
+body {
+  font-family: Franklin Gothic Book, Source Sans Pro, Helvetica Neue, sans-serif;
+  margin: 0;
+  background: #efefef;
+  line-height: 1.8em;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
-.wrapper {box-sizing: border-box; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto; }
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-a {color: #777; text-decoration: none; border-bottom: 1px solid #CCFF26;}
-a:hover {border-bottom: 1px solid #CCFF26; color: #222}
-p {font-weight: 200; font-size: 20px;}
+.wrapper {
+  background: #fff;
+  box-shadow: 0 0 5px #888;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 
-.name {font-family: Playfair Display; font-size: 50px; font-weight: 900; padding-bottom: 20px;}
+a {
+  color: #777;
+  text-decoration: none;
+  border-bottom: 1px solid #CCFF26;
+}
 
-.container {margin: 0 auto; width: 600px; height: 800px; padding: 80px 12px; overflow: auto;}
+a:hover {
+  border-bottom: 1px solid #CCFF26;
+  color: #222;
+}
 
-.meta {text-transform: uppercase; font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em;}
-.meta a:hover {border-bottom: 1px solid #CCFF26; color: #333;}
+p {
+  font-weight: 200;
+  font-size: 20px;
+}
 
-.inline-list {list-style: none; margin: 0; padding: 0;}
-.inline-list li {display: inline-block;}
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  padding: 40px 20px 120px;
+  flex: 1;
+}
 
-footer .inline-list li {padding-right: 40px;}
-footer {margin: 0 auto; position: absolute; bottom: 0px; padding: 40px 0; width: 600px;}
+.meta {
+  text-transform: uppercase;
+  font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif;
+  font-size: 11px;
+  letter-spacing: .15em;
+}
+
+.meta a:hover {
+  border-bottom: 1px solid #CCFF26;
+  color: #333;
+}
+
+.inline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.inline-list li:last-child {
+  margin-right: 0;
+}
+
+footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  position: relative;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  .container {
+    padding: 20px 15px 100px;
+  }
+  
+  .inline-list li {
+    margin-right: 15px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+h5 {
+  margin-bottom: 8px;
+  margin-top: 20px;
+  color: #555;
+  font-size: 16px;
+}
+
+.release-group {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* For mobile */
+@media (max-width: 767px) {
+  h5 {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Styles for repository badges */
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  align-items: center; /* Align items vertically center */
+}
+
+.release-badge {
+  vertical-align: middle;
+  height: 20px; /* Maintain consistent height */
+}
+
+/* Fix for the hover underline on badge links */
+.badge-container a:hover {
+  border-bottom: none;
+}
+
+/* Make sure list items have enough spacing */
+.release-group li {
+  margin-bottom: 16px;
+}
+
+/* Give a bit more room on mobile */
+@media (max-width: 767px) {
+  .badge-container {
+    gap: 4px;
+    margin-top: 6px;
+  }
+}

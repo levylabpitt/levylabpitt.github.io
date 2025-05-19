@@ -2,63 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Montserrat" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Montserrat" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <title>levylabpitt.github.io</title>
   </head>
   <body>
     <div class="wrapper">
-    <div class="container">
-      <header>
-        <h1>levylabpitt.github.io</h1>
-      </header>
-      <article>
-      <h4>Install packages in LabVIEW:</h4>
-        <ul>
-          <li> Install the <a href="https://vipm.jki.net/">VI Package Manager</a> from <a href="https://jki.net/">JKI</a>.</li>
-          <li> Subscribe to <b>https://levylabpitt.github.io</b>.</li>
-        </ul>
-        <h4>Download the latest releases:</h4>
-        <ul>
-          <li><a href="https://github.com/levylabpitt/Multichannel-Lockin/releases/latest">Multichannel Lock-In</a></li>
-          <li><a href="https://github.com/levylabpitt/Krohn-Hite-7008/releases/latest">Krohn Hite 7008</li>
-        </ul>
-        <ul>
-          <li><a href="https://github.com/levylabpitt/Leiden-FP-and-TC/releases/latest">LC TC and FrontPanel</a></li>
-          <li><a href="https://github.com/levylabpitt/Oxford-1820/releases/latest">Oxford 1820 Monitor</a></li>
-          <li><a href="https://github.com/levylabpitt/Oxford-VRM/releases/latest">Oxford VRM Monitor</a></li>
-          <li><a href="https://github.com/levylabpitt/Montana-Instruments-Cryostation/releases/latest">Montana Instruments Cryostation</a></li>
-          <li><a href="https://github.com/levylabpitt/PPMS-Monitor-and-Control/releases/latest">PPMS Monitor and Control</a></li>
-          <li><a href="https://github.com/levylabpitt/Temperhum-Instrument/releases/latest">TemperHum</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://github.com/levylabpitt/Razorbill-RP100/releases/latest">Razorbill RP100 Monitor</a></li>
-        </ul>
-        <ul>  
-          <li><a href="https://github.com/levylabpitt/Database-Viewer/releases/latest">Database Viewer</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://github.com/levylabpitt/Instrument-Framework">Instrument Framework</a></li>
-          <li><a href="https://github.com/levylabpitt/Instrument-Framework-Template">Instrument Framework Template</a></li>
-        </ul>
-        <ul>
-          <li><a href="https://github.com/levylabpitt/Data-Analysis/releases/latest">Data Analysis</a></li>
-          <li><a href="https://github.com/levylabpitt/Data-Analysis-Framework">Data Analysis Framework</a></l>
-        </ul>
-         <h4>View the <a href="https://github.com/levylabpitt">source code</a>.</h4>
-        <h4>Learn about our <a href="http://levylab.org">research</a>.</h4>
+      <div class="container">
+        <header>
+          <h1>levylabpitt.github.io</h1>
+        </header>
+        <article>
+          <!-- Repositories will be dynamically populated -->
+          <div id="repositories-container">
+            <!-- Data Acquisition -->
+            <h5>Data Acquisition</h5>
+            <ul id="data-acquisition-list" class="release-group"></ul>
+            
+            <!-- Cryogenic Systems -->
+            <h5>Cryogenic Systems</h5>
+            <ul id="cryogenic-systems-list" class="release-group"></ul>
+            
+            <!-- Development Frameworks -->
+            <h5>Development Frameworks</h5>
+            <ul id="development-frameworks-list" class="release-group"></ul>
+            
+            <!-- Data Analysis -->
+            <h5>Data Analysis</h5>
+            <ul id="data-analysis-list" class="release-group"></ul>
+          </div>
+          
+          <h4>View the <a href="https://github.com/levylabpitt">source code</a>.</h4>
+          <h4>Install <a href="https://github.com/levylabpitt"></a>VI packages</h4>
+          <h4>Learn about our <a href="http://levylab.org">research</a>.</h4>
         </article>
 
         <footer>
-              <ul class="meta inline-list">
-                <li><a href="http://levylab.org" target="_blank">research</a></li>
-                <li><a href="http://www.github.com/levylabpitt" target="_blank">source code</a></li>
-                <li><a href="http://www.github.com/jlord/hello" target="_blank">website template</a></li>
-              </ul>
-            </footer>
+          <ul class="meta inline-list">
+            <li><a href="http://levylab.org" target="_blank">research</a></li>
+            <li><a href="http://www.github.com/levylabpitt" target="_blank">source code</a></li>
+            <li><a href="http://www.github.com/jlord/hello" target="_blank">website template</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
 
-  </div>
-  </div>
+    <!-- Add JavaScript at the end of the body -->
+    <script src="js/repositories.js"></script>
+
   </body>
 </html>
