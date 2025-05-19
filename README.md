@@ -6,7 +6,7 @@ Landing page for LabVIEW code developed in the LevyLab at the University of Pitt
 
 - [Host a VIPM Repository on GitHub](/documentation/host-vipm-repository-on-github.md)
 - [Install LevyLab Packages](/documentation/install-levylab-packages.md)
-- [Install Compiled Applications](levylabpitt.github.io)
+- [Install Compiled Applications](https://levylabpitt.github.io)
 
 ## Contributing
 
