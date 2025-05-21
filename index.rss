@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 21 May 2025 16:28:37 -0400</pubDate>
+    <pubDate>Wed, 21 May 2025 17:07:16 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v1.1.3.10</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.3.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v1.1.3.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 21 May 2025 17:07:16 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.3]&lt;br&gt;-  #172: minor adjustment to Lockin API sweep typedef&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 21 May 2025 17:07:16 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-1.1.3.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.15.4.39</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.4.39.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.4.0]&lt;br&gt;- #16: Instrument Framework v1.15.1&lt;br&gt;- #
       <pubDate>Fri, 16 May 2025 08:50:32 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.4.0.5</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Type v1.1.1.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.1.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v1.1.1.8&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 16 May 2025 07:51:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.1.1]&lt;br&gt;-  #165 adjust package dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 16 May 2025 07:51:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-1.1.1.8</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
