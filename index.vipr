@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=111
-Release.Date=Wed, 21 May 2025 19:03:42 -0400
-Self.ID=e623cc1a54f0ccbf07f5ee02a91a8e10
+Release.Number=112
+Release.Date=Wed, 21 May 2025 20:21:11 -0400
+Self.ID=590bda7a4f5a8ae363c2dac746731f92
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6624,4 +6624,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.9.2.22]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.2.22.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.2.22.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.2.22.spec
+Package.MD5=429ea4930747224828b833c08931d886
+Package.Release Date=Wed, 21 May 2025 20:21:10 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.1.3.10
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
