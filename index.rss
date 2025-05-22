@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 22 May 2025 12:10:36 -0400</pubDate>
+    <pubDate>Thu, 22 May 2025 13:05:41 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.9.1.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.1.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.9.1.12&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 22 May 2025 13:05:41 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.1]&lt;br&gt;#100 improve handling of installed instruments&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 22 May 2025 13:05:41 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.9.1.12</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Control Experiment v1.2.2.13</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.2.2.13.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.3.1]&lt;br&gt;- #4 fix instrument type inheritance&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 21 May 2025 11:55:23 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_ah2500a-1.3.1.7</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.2.1.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.2.1.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.2.1.12&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 21 May 2025 08:52:33 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt;#96: Add new instruments (OptiCool, eLine, Omicron)&lt;br&gt;#97: Improve dynamic load instrument classes&lt;br&gt;#98: fix Krohn Hite channel enumeration&lt;br&gt;#99: bugfix to preserve runtime value of instrument type&lt;br&gt;#101: save and recall number of AI channels&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 21 May 2025 08:52:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.2.1.12</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
