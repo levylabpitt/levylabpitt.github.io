@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 22 May 2025 13:05:41 -0400</pubDate>
+    <pubDate>Thu, 22 May 2025 15:26:59 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.9.2.23</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.2.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.9.2.23&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 22 May 2025 15:26:58 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.2]&lt;br&gt;- #33 and #34: Fixes issues with API methods&lt;br&gt;- Update to latest Instrument Framework and Cryostat Interface&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 22 May 2025 15:26:58 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.2.23</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Transport v1.9.1.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.1.12.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.0.1]&lt;br&gt;- build with LLV Logger 1.1.2 dependency&lt;br&g
       <guid isPermaLink="false">levylab_lib_logger_syslog-1.0.1.3</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>AH2500A v1.3.1.7</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.3.1.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.3.1.7&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 21 May 2025 11:55:23 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.1]&lt;br&gt;- #4 fix instrument type inheritance&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 21 May 2025 11:55:23 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.3.1.7</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
