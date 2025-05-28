@@ -1,8 +1,8 @@
 [Package]
 Name="levylab_lib_transport"
-Version="1.9.2.13"
+Version="1.9.2.14"
 Release=""
-ID=76a83eab998c9ae408c2aa1a41bd4908
+ID=b81f9645cabbe06a9fc1008977729518
 File Format="vip"
 Format Version="2017"
 Display Name="Transport"
@@ -18,7 +18,7 @@ Vendor="Levylab"
 URL=""
 Packager="Patrick Irvin"
 Demo="FALSE"
-Release Notes="[1.9.1]\0A#106 Option: hold B sweep if T > T_hold"
+Release Notes="[1.9.2]\0A#106 Option: hold B sweep if T > T_hold"
 System Package="FALSE"
 Sub Package="FALSE"
 License Agreement="TRUE"
@@ -49,7 +49,7 @@ PostBuild=""
 
 [Dependencies]
 AutoReqProv=FALSE
-Requires="levylab_lib_control_experiment>=1.2.2.13"
+Requires="levylab_lib_control_experiment>=1.2.3.15"
 Conflicts=""
 
 

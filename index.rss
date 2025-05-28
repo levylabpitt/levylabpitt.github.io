@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 28 May 2025 08:43:35 -0400</pubDate>
+    <pubDate>Wed, 28 May 2025 10:48:51 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Transport v1.9.2.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.2.13.bmp"&gt;&lt;br&gt;
+      <title>Transport v1.9.2.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.2.14.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Transport v1.9.2.13&lt;br&gt;
+Product: Transport v1.9.2.14&lt;br&gt;
 Company: Levylab&lt;br&gt;
-Release Date: Wed, 28 May 2025 08:43:34 -0400&lt;br&gt;
+Release Date: Wed, 28 May 2025 10:45:58 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.9.1]&lt;br&gt;#106 Option: hold B sweep if T &amp;gt; T_hold&lt;br&gt;
+Release Notes: [1.9.2]&lt;br&gt;#106 Option: hold B sweep if T &amp;gt; T_hold&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Wed, 28 May 2025 08:43:34 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.9.2.13</guid>
+      <pubDate>Wed, 28 May 2025 10:45:58 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.9.2.14</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
