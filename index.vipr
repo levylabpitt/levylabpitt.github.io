@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=120
-Release.Date=Wed, 28 May 2025 10:48:51 -0400
-Self.ID=c2ea1744103a2dc04b8ce470bd9b6233
+Release.Number=121
+Release.Date=Wed, 28 May 2025 11:22:43 -0400
+Self.ID=5fb9de83387b5916f9e3962fe26ea0d9
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6708,4 +6708,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_control_experiment>=1.2.3.15
 Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_sweep_control-1.2.1.11]
+Package.URL=packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.2.1.11.vip
+Icon.URL=packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.2.1.11.bmp
+Spec.URL=packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.2.1.11.spec
+Package.MD5=315014072542f2d61ae56c4a66c0d726
+Package.Release Date=Wed, 28 May 2025 11:22:43 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_control_experiment>=1.2.3.15,levylab_lib_transport>=1.9.2.14
+Package.Display Name=Sweep Control
 Platform.Exclusive_VIPM_Version=2017
