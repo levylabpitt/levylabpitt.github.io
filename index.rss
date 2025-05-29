@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 29 May 2025 08:28:33 -0400</pubDate>
+    <pubDate>Thu, 29 May 2025 09:29:23 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.5.2.18</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.2.18.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.5.2.18&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 29 May 2025 09:29:23 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.2]&lt;br&gt;#23 Merge build automation script with PID monitoring and status tracking functionality&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 29 May 2025 09:29:23 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.5.2.18</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.5.2.17</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.2.17.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.9.2]&lt;br&gt;- #33 and #34: Fixes issues with API methods&lt;
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.2.22</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.20.2.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.20.2.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.20.2.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 21 May 2025 19:03:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.20.2]&lt;br&gt;Issues:&lt;br&gt;#97 Fix IDN query&lt;br&gt;#98: Disable logging if device array is not initialized or data arrays are empty&lt;br&gt;#99: API methods that use parent API overrides should also use parent typedefs&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 21 May 2025 19:03:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.20.2.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
