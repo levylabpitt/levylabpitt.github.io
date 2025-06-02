@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 02 Jun 2025 13:32:49 -0400</pubDate>
+    <pubDate>Mon, 02 Jun 2025 14:45:59 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sweep Control v1.2.2.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.2.2.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v1.2.2.12&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 02 Jun 2025 14:45:59 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;#109 update calls to deprecated instruments&lt;br&gt;#110 fix waitForMagnet tolerance. default is now 1 mT (before was 0)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 02 Jun 2025 14:45:59 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_sweep_control-1.2.2.12</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v1.9.3.15</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.3.15.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.2]&lt;br&gt;- fix renamed getREFconfig.vi&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_control_experiment-1.2.2.13</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.20.3.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.20.3.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.20.3.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 22 May 2025 09:54:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.20.3]&lt;br&gt;- #100 Fix display version number&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 22 May 2025 09:54:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.20.3.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
