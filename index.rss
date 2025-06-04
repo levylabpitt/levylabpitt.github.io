@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 04 Jun 2025 10:21:07 -0400</pubDate>
+    <pubDate>Wed, 04 Jun 2025 10:59:58 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.8.1.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.8.1.14&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 04 Jun 2025 10:59:58 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.1]&lt;br&gt;- fix API method datatypes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 04 Jun 2025 10:59:58 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.8.1.14</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-VRM v1.8.1.13</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.13.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.9.2]&lt;br&gt;- #33 and #34: Fixes issues with API methods&lt;
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.2.23</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Transport v1.9.1.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.1.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.9.1.12&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 22 May 2025 13:05:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.9.1]&lt;br&gt;#100 improve handling of installed instruments&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 22 May 2025 13:05:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.9.1.12</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
