@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 02 Jun 2025 14:45:59 -0400</pubDate>
+    <pubDate>Wed, 04 Jun 2025 10:21:07 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.8.1.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.8.1.13&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 04 Jun 2025 10:21:07 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.1]&lt;br&gt;- fix API method datatypes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 04 Jun 2025 10:21:07 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.8.1.13</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Sweep Control v1.2.2.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.2.2.12.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.9.1]&lt;br&gt;#100 improve handling of installed instruments&l
 &lt;br&gt;</description>
       <pubDate>Thu, 22 May 2025 13:05:41 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.9.1.12</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Control Experiment v1.2.2.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.2.2.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Control Experiment v1.2.2.13&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 22 May 2025 12:10:36 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment.lvclass]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.2]&lt;br&gt;- fix renamed getREFconfig.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 22 May 2025 12:10:36 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_control_experiment-1.2.2.13</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>

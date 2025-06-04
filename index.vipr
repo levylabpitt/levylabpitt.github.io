@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=125
-Release.Date=Mon, 02 Jun 2025 14:45:59 -0400
-Self.ID=c92c2621bf4d2a5d6167c7e84143b894
+Release.Number=126
+Release.Date=Wed, 04 Jun 2025 10:21:07 -0400
+Self.ID=b6a2b2e924e21c8bef3a612e3f565e2d
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6768,4 +6768,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_control_experiment>=1.2.3.15,levylab_lib_transport>=1.9.3.15
 Package.Display Name=Sweep Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_vrm_api-1.8.1.13]
+Package.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.13.vip
+Icon.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.13.bmp
+Spec.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.13.spec
+Package.MD5=bf216740b3222f91ab3b93b349678a5c
+Package.Release Date=Wed, 04 Jun 2025 10:21:07 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-VRM
 Platform.Exclusive_VIPM_Version=2017
