@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 04 Jun 2025 10:59:58 -0400</pubDate>
+    <pubDate>Wed, 04 Jun 2025 17:07:44 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v1.9.4.16</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.4.16.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v1.9.4.16&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 04 Jun 2025 17:07:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.4]&lt;br&gt;#111 Missing call to Measure: Time&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 04 Jun 2025 17:07:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-1.9.4.16</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-VRM v1.8.1.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.1.14.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.3]&lt;br&gt;#102 Enable opening 64 bit Lockin and KH7008&lt;
       <guid isPermaLink="false">levylab_lib_control_experiment-1.2.3.15</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.9.2.23</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.9.2.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.9.2.23&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 22 May 2025 15:26:58 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.9.2]&lt;br&gt;- #33 and #34: Fixes issues with API methods&lt;br&gt;- Update to latest Instrument Framework and Cryostat Interface&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 22 May 2025 15:26:58 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.9.2.23</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
