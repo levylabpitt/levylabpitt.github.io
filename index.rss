@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 06 Jun 2025 08:48:49 -0400</pubDate>
+    <pubDate>Fri, 06 Jun 2025 13:20:53 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.3.1.19</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.3.1.19.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.3.1.19&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 06 Jun 2025 13:20:53 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.3.1]&lt;br&gt;#28 getShuntResistor missing from palette&lt;br&gt;#29 fix chassis enumeration reverting to default value&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 06 Jun 2025 13:20:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.3.1.19</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.3.0.18</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.3.0.18.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.5.2]&lt;br&gt;#23 Merge build automation script with PID monit
 &lt;br&gt;</description>
       <pubDate>Thu, 29 May 2025 08:28:33 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.5.2.17</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Sweep Control v1.2.1.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-1.2.1.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Sweep Control v1.2.1.11&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 28 May 2025 11:22:43 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt;#107 Update dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 28 May 2025 11:22:43 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_sweep_control-1.2.1.11</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
