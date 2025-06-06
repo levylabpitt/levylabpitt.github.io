@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 05 Jun 2025 08:52:57 -0400</pubDate>
+    <pubDate>Fri, 06 Jun 2025 08:48:49 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.3.0.18</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.3.0.18.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.3.0.18&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 06 Jun 2025 08:48:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.3.0]&lt;br&gt;#14 Support for multiple KH7008 connected to a single host computer&lt;br&gt;#27 API method to get installed shunt resistor set&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 06 Jun 2025 08:48:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.3.0.18</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-VRM v1.8.3.15</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.8.3.15.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.1]&lt;br&gt;#107 Update dependencies&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 28 May 2025 11:22:43 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_sweep_control-1.2.1.11</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v1.9.2.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-1.9.2.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v1.9.2.14&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 28 May 2025 10:45:58 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Transport.lvclass]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.9.2]&lt;br&gt;#106 Option: hold B sweep if T &amp;gt; T_hold&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 28 May 2025 10:45:58 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-1.9.2.14</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
