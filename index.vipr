@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=136
-Release.Date=Tue, 24 Jun 2025 15:41:43 -0400
-Self.ID=b5d39325ab4d24369eb04b9a9c18444f
+Release.Number=137
+Release.Date=Tue, 24 Jun 2025 15:57:09 -0400
+Self.ID=5915b619a1aff9a2517a0f2ba9dea8d3
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6900,4 +6900,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_jsontext>=1.9.1.125,jdp_science_lib_common_utilities>=1.4.2.19,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,prirvin_lib_json_rpc>=1.2.6.15,levylab_lib_remote_control>=1.3.1.13
 Package.Display Name=RemoteControl.ZMQ
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control-1.3.2.14]
+Package.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.2.14.vip
+Icon.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.2.14.bmp
+Spec.URL=packages/levylab_lib_remote_control/levylab_lib_remote_control-1.3.2.14.spec
+Package.MD5=aa04f02a06427ee7af8b6895f0001a4e
+Package.Release Date=Tue, 24 Jun 2025 15:57:09 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_debug>=1.1.0.8
+Package.Display Name=RemoteControl
 Platform.Exclusive_VIPM_Version=2017
