@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=140
-Release.Date=Wed, 25 Jun 2025 14:45:29 -0400
-Self.ID=93aa01c7a517ce515c92896058e13523
+Release.Number=141
+Release.Date=Wed, 25 Jun 2025 15:35:53 -0400
+Self.ID=4dd31ce384108bd114d0c349a482aa70
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6996,4 +6996,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.10.0.24]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.10.0.24.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.10.0.24.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.10.0.24.spec
+Package.MD5=b507c10177a836798275761d2ecbaf4d
+Package.Release Date=Wed, 25 Jun 2025 15:35:52 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.1.3.10
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
