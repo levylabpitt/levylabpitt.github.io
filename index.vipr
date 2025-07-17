@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=142
-Release.Date=Wed, 25 Jun 2025 16:15:59 -0400
-Self.ID=c15add223ebeffe92a642e2aeb345b8c
+Release.Number=143
+Release.Date=Thu, 17 Jul 2025 09:08:52 -0400
+Self.ID=32810d1b80cd6ab983693d130dc01211
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -16,42 +16,6 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=16.0
 Platform.Exclusive_OS=Windows NT
 Package.Display Name=PythonVIEW
 Platform.Exclusive_VIPM_Version=2014
-
-[Package ciozi137_lib_json_schema-0.1.0.1]
-Package.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.vip
-Icon.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.bmp
-Spec.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.1.spec
-Package.MD5=e77cdc14ea47cac5c0b1f49c75dce350
-Package.Release Date=Wed, 02 Apr 2025 16:33:00 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7
-Package.Display Name=JSON-Schema
-Platform.Exclusive_VIPM_Version=2017
-
-[Package ciozi137_lib_json_schema-0.1.0.2]
-Package.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.vip
-Icon.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.bmp
-Spec.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.2.spec
-Package.MD5=71ffe581d61a92432ab74e13d8391f9e
-Package.Release Date=Wed, 02 Apr 2025 16:33:00 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7
-Package.Display Name=JSON-Schema
-Platform.Exclusive_VIPM_Version=2017
-
-[Package ciozi137_lib_json_schema-0.1.0.4]
-Package.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.vip
-Icon.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.bmp
-Spec.URL=packages/ciozi137_lib_json_schema/ciozi137_lib_json_schema-0.1.0.4.spec
-Package.MD5=bd7104268f0b4097c1e52503118f0e5c
-Package.Release Date=Wed, 02 Apr 2025 16:33:01 -0400
-Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
-Platform.Exclusive_OS=ALL
-Dependencies.Requires=jdp_science_jsontext>=1.9.0.124,jdp_science_lib_common_utilities>=1.4.1.18,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7,ciozi137_lib_ciozi137_palette>=1.0.0.2
-Package.Display Name=JSON-Schema
-Platform.Exclusive_VIPM_Version=2017
 
 [Package ftdi_lib_d2xx-1.0.0.2]
 Package.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.0.0.2.vip
