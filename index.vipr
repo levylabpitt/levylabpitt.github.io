@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=145
-Release.Date=Thu, 17 Jul 2025 14:28:30 -0400
-Self.ID=1a51855399533bbea15fab064353cd3f
+Release.Number=146
+Release.Date=Thu, 17 Jul 2025 14:34:03 -0400
+Self.ID=2ead454241b41c3c2292d909aba5ba5b
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7003,6 +7003,18 @@ Icon.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.7.bmp
 Spec.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.7.spec
 Package.MD5=0e10a1e371106832b1e4bcf645d99591
 Package.Release Date=Thu, 17 Jul 2025 14:28:29 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=Windows NT
+Dependencies.Requires=ftdi_lib_d2xx>=1.3.0.8
+Package.Display Name=D2XX-LV
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_d2xx_lv-1.3.0.8]
+Package.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.8.vip
+Icon.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.8.bmp
+Spec.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.8.spec
+Package.MD5=16955ccee8f7fafb11acc07d78939de8
+Package.Release Date=Thu, 17 Jul 2025 14:34:03 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=Windows NT
 Dependencies.Requires=ftdi_lib_d2xx>=1.3.0.8
