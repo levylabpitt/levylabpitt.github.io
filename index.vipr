@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=143
-Release.Date=Thu, 17 Jul 2025 09:08:52 -0400
-Self.ID=32810d1b80cd6ab983693d130dc01211
+Release.Number=145
+Release.Date=Thu, 17 Jul 2025 14:28:30 -0400
+Self.ID=1a51855399533bbea15fab064353cd3f
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -6984,4 +6984,27 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.36
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package ftdi_lib_d2xx-1.3.0.8]
+Package.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.3.0.8.vip
+Icon.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.3.0.8.bmp
+Spec.URL=packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.3.0.8.spec
+Package.MD5=3dc78d28bf92880bde3ace7cf77545b2
+Package.Release Date=Thu, 17 Jul 2025 12:17:49 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=Windows NT
+Package.Display Name=D2XX
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_d2xx_lv-1.3.0.7]
+Package.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.7.vip
+Icon.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.7.bmp
+Spec.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.7.spec
+Package.MD5=0e10a1e371106832b1e4bcf645d99591
+Package.Release Date=Thu, 17 Jul 2025 14:28:29 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=Windows NT
+Dependencies.Requires=ftdi_lib_d2xx>=1.3.0.8
+Package.Display Name=D2XX-LV
 Platform.Exclusive_VIPM_Version=2017
