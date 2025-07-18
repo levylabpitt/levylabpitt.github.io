@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=147
-Release.Date=Fri, 18 Jul 2025 13:31:25 -0400
-Self.ID=c0b21d4cacd2786ab79c62bef3e6ace0
+Release.Number=149
+Release.Date=Fri, 18 Jul 2025 18:08:04 -0400
+Self.ID=3f7c67674081a6dc3758dd66aa344642
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7031,4 +7031,28 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_d2xx_lv>=1.3.0.8,levylab_lib_instrument_type>=1.1.3.10
 Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_control_experiment-1.3.2.18]
+Package.URL=packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.3.2.18.vip
+Icon.URL=packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.3.2.18.bmp
+Spec.URL=packages/levylab_lib_control_experiment/levylab_lib_control_experiment-1.3.2.18.spec
+Package.MD5=4243068c2842580f33b37b20beb6c98e
+Package.Release Date=Fri, 18 Jul 2025 17:05:35 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_krohn_hite_7008>=2.3.1.20,levylab_lib_lockin_multichannel>=2.20.3.12
+Package.Display Name=Control Experiment
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-1.10.0.19]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-1.10.0.19.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-1.10.0.19.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-1.10.0.19.spec
+Package.MD5=6f5711c254e7587ccb729407ef67bbd3
+Package.Release Date=Fri, 18 Jul 2025 18:08:04 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_control_experiment>=1.3.2.18
+Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
