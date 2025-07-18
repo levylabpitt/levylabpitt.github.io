@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 17 Jul 2025 14:34:03 -0400</pubDate>
+    <pubDate>Fri, 18 Jul 2025 13:31:25 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.4.1.23</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.4.1.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.4.1.23&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 18 Jul 2025 13:31:25 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.4.1]&lt;br&gt;Issue #5: Fix simulation mode&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 18 Jul 2025 13:31:25 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.4.1.23</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>D2XX-LV v1.3.0.8</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.3.0.8.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.4.0]&lt;br&gt;- Ensure UI uses only &amp;quot;local&amp;quot; 
       <pubDate>Wed, 25 Jun 2025 14:45:28 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.4.0.22</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.0.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.0.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 25 Jun 2025 14:45:28 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.0]&lt;br&gt;- Add SHOW SPECIAL hardware driver&lt;br&gt;- Add Open/Close hardware drivers&lt;br&gt;- Add Get SMO Serial Number and Get SMO Vendor overrides&lt;br&gt;- Ensure UI uses only &amp;quot;local&amp;quot; communication&lt;br&gt;- Updated ZMQ backend&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 25 Jun 2025 14:45:28 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.0.8</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
