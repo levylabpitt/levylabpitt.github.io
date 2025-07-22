@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 22 Jul 2025 13:05:57 -0400</pubDate>
+    <pubDate>Tue, 22 Jul 2025 13:51:57 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.22.0.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.22.0.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.22.0.14&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 22 Jul 2025 13:51:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.22.0]&lt;br&gt;#103 fix logging while sweeping &lt;br&gt;#104 logging paths are now configured via configuration file&lt;br&gt;#105 simulation mode chassis serial number is random number between 10101000 and 10101999&lt;br&gt;#106 updated Logging API: commands are startLogging(interval in milliseconds) and stopLogging()&lt;br&gt;#107 fix get version using framework&#39;s new Get SMO Version.vi override&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 22 Jul 2025 13:51:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.22.0.14</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Instrument Framework v1.15.5.40</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.5.40.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.2.0]&lt;br&gt;- Ensure UI uses only &amp;quot;local&amp;quot; 
       <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.0.10</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.10.0.24</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.10.0.24.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.10.0.24&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 25 Jun 2025 15:35:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.10.0]&lt;br&gt;- Hide controls and indicators that are not applicable to the OptiCool&lt;br&gt;- Ensure UI uses only &amp;quot;local&amp;quot; communication&lt;br&gt;- Updated ZMQ backend&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 25 Jun 2025 15:35:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.10.0.24</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
