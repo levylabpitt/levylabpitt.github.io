@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=153
-Release.Date=Tue, 22 Jul 2025 15:35:39 -0400
-Self.ID=e48a96e5e287f41baeebd72af93b5b67
+Release.Number=154
+Release.Date=Tue, 22 Jul 2025 16:35:17 -0400
+Self.ID=0441319519cde62280ae2f9403d289cc
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7104,4 +7104,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.1.3.10,levylab_lib_levylab_instruments>=1.15.5.40
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lvtdatpgsql-3.10.1.9]
+Package.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.1.9.vip
+Icon.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.1.9.bmp
+Spec.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.1.9.spec
+Package.MD5=e825689caa0bdeb05235671166e7541b
+Package.Release Date=Tue, 22 Jul 2025 16:35:17 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_postgresql>=0.6.2.48,levylab_lib_lvtoitx>=3.10.0.9
+Package.Display Name=LV-Data-PGSQL
 Platform.Exclusive_VIPM_Version=2017

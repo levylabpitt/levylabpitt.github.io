@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 22 Jul 2025 15:35:39 -0400</pubDate>
+    <pubDate>Tue, 22 Jul 2025 16:35:17 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data-PGSQL v3.10.1.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.1.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data-PGSQL v3.10.1.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 22 Jul 2025 16:35:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.10.1]&lt;br&gt;#121 use microsecond precision when converting timestamp to string&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 22 Jul 2025 16:35:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.1.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.22.0.15</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.22.0.15.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: Issue #5&lt;br&gt;- Updates palette and installation location&lt;
       <guid isPermaLink="false">levylab_lib_d2xx_lv-1.3.0.7</guid>
       <dc:creator>Levylab</dc:creator>
       <link>https://github.com/levylabpitt/D2XX</link>
-    </item>
-    <item>
-      <title>D2XX v1.3.0.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/ftdi_lib_d2xx/ftdi_lib_d2xx-1.3.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: D2XX v1.3.0.8&lt;br&gt;
-Company: FTDI&lt;br&gt;
-Release Date: Thu, 17 Jul 2025 12:17:49 -0400&lt;br&gt;
-Packager: FTDI / Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Communicate with FTDI devices using D2XX drivers. This package organizes files provided by FTDI into a LV library and adds support for 64 bit LabVIEW.&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issue #5&lt;br&gt;- Updated installation location (instr.lib/_D2XX/...)&lt;br&gt;- Reorganize palette&lt;br&gt;- Package requires Windows OS&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 17 Jul 2025 12:17:49 -0400</pubDate>
-      <guid isPermaLink="false">ftdi_lib_d2xx-1.3.0.8</guid>
-      <dc:creator>FTDI</dc:creator>
-      <link>https://ftdichip.com/software-examples/code-examples/labview-examples/</link>
     </item>
   </channel>
 </rss>
