@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 24 Jul 2025 17:08:17 -0400</pubDate>
+    <pubDate>Thu, 24 Jul 2025 18:14:08 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v2.23.0.18</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.23.0.18.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v2.23.0.18&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 24 Jul 2025 18:14:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.23.0]&lt;br&gt;#108 build with updated LV-Data library to use microsconds resolution when logging to postgres&lt;br&gt;#110 Update filtering VIs:&lt;br&gt;   1. fix timestamp drift issue by not replacing timestamps (as DFD library does)&lt;br&gt;   2. implement forward and reverse low pass filtering to eliminate phase shift (zero phase filtering)&lt;br&gt;   3. note that filter orders are now 2*n&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 24 Jul 2025 18:14:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.23.0.18</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Multichannel Lockin v2.23.0.17</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.23.0.17.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [1.3.12]&lt;br&gt;- save path no longer appends instrument name&l
       <pubDate>Fri, 18 Jul 2025 17:05:35 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_control_experiment-1.3.2.18</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.4.1.23</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.4.1.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.4.1.23&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 18 Jul 2025 13:31:25 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.4.1]&lt;br&gt;Issue #5: Fix simulation mode&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 18 Jul 2025 13:31:25 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.4.1.23</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
