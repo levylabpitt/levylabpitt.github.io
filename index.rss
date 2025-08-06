@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 05 Aug 2025 13:57:57 -0400</pubDate>
+    <pubDate>Wed, 06 Aug 2025 12:22:04 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport Server v0.0.1.2</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.1.2.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport Server v0.0.1.2&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 06 Aug 2025 12:22:04 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;
+&lt;br&gt;
+Release Notes: 0.0.1&lt;br&gt;- add missing HELP information&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 06 Aug 2025 12:22:04 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport_server-0.0.1.2</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport Server v0.0.0.1</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.0.1.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.22.0]&lt;br&gt;#103 fix logging while sweeping &lt;br&gt;#104 
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.22.0.14</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.15.5.40</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.5.40.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.15.5.40&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 22 Jul 2025 13:05:56 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.15.5]&lt;br&gt;#173 add override method &amp;quot;Get SMO Version.vi&amp;quot;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Jul 2025 13:05:56 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.5.40</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>

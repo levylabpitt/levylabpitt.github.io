@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=160
-Release.Date=Tue, 05 Aug 2025 13:57:57 -0400
-Self.ID=b59c2d7abacd60021ac10bd8824e77af
+Release.Number=161
+Release.Date=Wed, 06 Aug 2025 12:22:04 -0400
+Self.ID=69e8e2723d3de64ade39d3cc95d67db1
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7184,6 +7184,18 @@ Icon.URL=packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.
 Spec.URL=packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.0.1.spec
 Package.MD5=426706a88ebe8345de62efe82e93933f
 Package.Release Date=Tue, 05 Aug 2025 13:57:57 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_control_experiment>=1.3.4.20,levylab_lib_transport>=1.10.0.19
+Package.Display Name=Transport Server
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport_server-0.0.1.2]
+Package.URL=packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.1.2.vip
+Icon.URL=packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.1.2.bmp
+Spec.URL=packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.1.2.spec
+Package.MD5=c5fbf27b341dba11c56e613a2a608044
+Package.Release Date=Wed, 06 Aug 2025 12:22:04 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_control_experiment>=1.3.4.20,levylab_lib_transport>=1.10.0.19
