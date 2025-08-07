@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 06 Aug 2025 21:00:23 -0400</pubDate>
+    <pubDate>Thu, 07 Aug 2025 15:10:47 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport Server v0.0.3.4</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.3.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport Server v0.0.3.4&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 07 Aug 2025 15:10:47 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;
+&lt;br&gt;
+Release Notes: 0.0.3&lt;br&gt;- fx LockinSweep asynchronous call of &lt;br&gt;- update UI with status, main/debug panes&lt;br&gt;- add Transport Server start VI&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 07 Aug 2025 15:10:47 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport_server-0.0.3.4</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport Server v0.0.2.3</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.2.3.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [3.10.1]&lt;br&gt;#121 use microsecond precision when converting 
       <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.1.9</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.22.0.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.22.0.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.22.0.15&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 22 Jul 2025 15:35:39 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.22.0]&lt;br&gt;#103 fix logging while sweeping &lt;br&gt;#104 logging paths are now configured via configuration file&lt;br&gt;#105 simulation mode chassis serial number is random number between 10101000 and 10101999&lt;br&gt;#106 updated Logging API: commands are startLogging(interval in milliseconds) and stopLogging()&lt;br&gt;#107 fix get version using framework&#39;s new Get SMO Version.vi override&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Jul 2025 15:35:39 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.22.0.15</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
