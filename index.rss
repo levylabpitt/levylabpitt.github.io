@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 13 Aug 2025 08:46:17 -0400</pubDate>
+    <pubDate>Wed, 13 Aug 2025 11:58:23 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.5.4.19</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.4.19.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.5.4.19&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 13 Aug 2025 11:58:23 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.4]&lt;br&gt;#28 add option to Post Build Script to execute a &amp;quot;dry run&amp;quot; - simply create the batch file and open select the file&lt;br&gt;#23 add launcher.bat to open a deteched cmd window to call the 7zip.bat&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 13 Aug 2025 11:58:23 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.5.4.19</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support v1.5.3.19</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.3.19.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: 0.0.0&lt;br&gt;- Initial release&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_transport_server-0.0.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.24.0.20</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.24.0.20.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.24.0.20&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 04 Aug 2025 18:53:46 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.24.0]&lt;br&gt;#111 fix missing items from palette&lt;br&gt;#112 add DC limit feature&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 04 Aug 2025 18:53:46 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.24.0.20</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
