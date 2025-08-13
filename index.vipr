@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=166
-Release.Date=Mon, 11 Aug 2025 19:08:48 -0400
-Self.ID=33a9bf104920b7e9dd8fb3a5ae2b6321
+Release.Number=167
+Release.Date=Tue, 12 Aug 2025 23:35:03 -0400
+Self.ID=cfbb9fb21a721f91b4ba19fa369d5f18
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7260,4 +7260,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.1.3.10,levylab_lib_levylab_instruments>=1.15.5.40
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package prirvin_lib_json_schema-0.2.0.9]
+Package.URL=packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.2.0.9.vip
+Icon.URL=packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.2.0.9.bmp
+Spec.URL=packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.2.0.9.spec
+Package.MD5=b99d1254cd78f173be1aef6364000ced
+Package.Release Date=Tue, 12 Aug 2025 23:35:03 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.1.125,jdp_science_lib_common_utilities>=1.4.2.19,jki_lib_state_machine>=2018.0.7.45,oglib_appcontrol>=4.1.0.7,prirvin_lib_prirvin_palette>=1.0.0.3
+Package.Display Name=JSON-Schema
 Platform.Exclusive_VIPM_Version=2017
