@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 18 Aug 2025 10:01:49 -0400</pubDate>
+    <pubDate>Mon, 18 Aug 2025 22:41:28 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.15.6.41</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.6.41.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.15.6.41&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 18 Aug 2025 22:41:28 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.15.6]&lt;br&gt;Issue #182: Fix corrupt HAL.lvclass:Process.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 18 Aug 2025 22:41:28 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.6.41</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Transport Server v0.0.5.6</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.5.6.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: 0.0.3&lt;br&gt;- fx LockinSweep asynchronous call of &lt;br&gt;- 
 &lt;br&gt;</description>
       <pubDate>Thu, 07 Aug 2025 15:10:47 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport_server-0.0.3.4</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport Server v0.0.2.3</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.2.3.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport Server v0.0.2.3&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 06 Aug 2025 21:00:23 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;
-&lt;br&gt;
-Release Notes: 0.0.2&lt;br&gt;#123 update install location&lt;br&gt;#124 remove dynamic image feature&lt;br&gt;#125: add buttons to open (and close) the transport VIs&lt;br&gt;#126: add getStatus API (and setStatus private command)&lt;br&gt;#127: run LockTimeDelay only one time then exit the loop&lt;br&gt;#128: add stopTransport button to FP&lt;br&gt;#129: open Transport VIs asynchronously&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 06 Aug 2025 21:00:23 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport_server-0.0.2.3</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
