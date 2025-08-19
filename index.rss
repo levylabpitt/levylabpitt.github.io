@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Aug 2025 10:17:49 -0400</pubDate>
+    <pubDate>Tue, 19 Aug 2025 12:47:49 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Framework v1.15.7.42</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.7.42.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Framework v1.15.7.42&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 19 Aug 2025 12:47:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.15.7]&lt;br&gt;#184 Add timeout control to API methods that call Client.vi (ACK, IDN, HELP, getAll)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Aug 2025 12:47:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.7.42</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v1.3.1.22</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.3.1.22.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.25.0]&lt;br&gt;#16, #17: control input and output terminal con
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.25.0.22</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Transport Server v0.0.4.5</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.4.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport Server v0.0.4.5&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 08 Aug 2025 15:11:02 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;
-&lt;br&gt;
-Release Notes: 0.0.4&lt;br&gt;- fix Close transport VIs&lt;br&gt;- fix JSON formatting for set/appendExptParam&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 08 Aug 2025 15:11:02 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport_server-0.0.4.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
