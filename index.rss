@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 18 Aug 2025 22:41:28 -0400</pubDate>
+    <pubDate>Tue, 19 Aug 2025 10:17:49 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.3.1.22</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.3.1.22.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.3.1.22&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 19 Aug 2025 10:17:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.1]&lt;br&gt;#183: adjust timeout and retries for ZMQ_REQ socket to allow quicker confirmation that a connection is established&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 19 Aug 2025 10:17:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.3.1.22</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Framework v1.15.6.41</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.6.41.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: 0.0.4&lt;br&gt;- fix Close transport VIs&lt;br&gt;- fix JSON form
 &lt;br&gt;</description>
       <pubDate>Fri, 08 Aug 2025 15:11:02 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport_server-0.0.4.5</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport Server v0.0.3.4</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport_server/levylab_lib_transport_server-0.0.3.4.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport Server v0.0.3.4&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 07 Aug 2025 15:10:47 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;
-&lt;br&gt;
-Release Notes: 0.0.3&lt;br&gt;- fx LockinSweep asynchronous call of &lt;br&gt;- update UI with status, main/debug panes&lt;br&gt;- add Transport Server start VI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 07 Aug 2025 15:10:47 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport_server-0.0.3.4</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
