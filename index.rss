@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 19 Aug 2025 16:49:19 -0400</pubDate>
+    <pubDate>Wed, 20 Aug 2025 14:01:41 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.0.0.25</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.0.25.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.0.0.25&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 20 Aug 2025 14:01:41 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.0]&lt;br&gt;#136 This version consolidates Control Experiment, Transport, and Transport Server packages&lt;br&gt;#133 improve startup to verify Lockin and KH status&lt;br&gt;#134 Transport Server show/hide from Conigure Experiment.vi window&lt;br&gt;#135 Configure Experiment atomatically starts and is in control of Transport Server&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 Aug 2025 14:01:41 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.0.0.25</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.15.8.44</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.8.44.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: #2 fix Creat JSON Schema (Interactive).vi button logic&lt;br&gt;#
       <guid isPermaLink="false">prirvin_lib_json_schema-0.2.0.9</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v2.25.1.23</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.25.1.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v2.25.1.23&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 11 Aug 2025 19:08:48 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.25.1]&lt;br&gt;#54: update plot legends after start button is pushed&lt;br&gt;#113: fix bug inside AO clipping that output number of channels equal to number of devices (rather than 2 channels per device for 4461)&lt;br&gt;#114: relabel calibration indicator&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 11 Aug 2025 19:08:48 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-2.25.1.23</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
