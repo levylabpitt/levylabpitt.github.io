@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 20 Aug 2025 15:42:56 -0400</pubDate>
+    <pubDate>Wed, 20 Aug 2025 16:46:21 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.0.0.27</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.0.27.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.0.0.27&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 20 Aug 2025 16:46:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.0]&lt;br&gt;#136 This version consolidates Control Experiment, Transport, and Transport Server packages&lt;br&gt;#133 improve startup to verify Lockin and KH status&lt;br&gt;#134 Transport Server show/hide from Conigure Experiment.vi window&lt;br&gt;#135 Configure Experiment atomatically starts and is in control of Transport Server&lt;br&gt;#137 path to user.lib is not resolved properly inside a compiled exe&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 Aug 2025 16:46:21 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.0.0.27</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.0.0.26</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.0.26.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.5.4]&lt;br&gt;#28 add option to Post Build Script to execute a
 &lt;br&gt;</description>
       <pubDate>Wed, 13 Aug 2025 11:58:23 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.5.4.19</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.5.3.19</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.3.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.5.3.19&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 13 Aug 2025 08:46:16 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.3]&lt;br&gt;#26 gh release now uses X.X.X.X tag instead of vX.X.X.X&lt;br&gt;#27 add optional tag/prefix/X.X.X.X&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 13 Aug 2025 08:46:16 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.5.3.19</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
