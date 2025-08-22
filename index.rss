@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 20 Aug 2025 16:46:21 -0400</pubDate>
+    <pubDate>Thu, 21 Aug 2025 21:18:11 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.0.1.30</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.1.30.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.0.1.30&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 21 Aug 2025 21:18:11 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.1]&lt;br&gt;#138 new methods: getExptComments, getExptFolder, getSweepConfig&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 Aug 2025 21:18:11 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.0.1.30</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.0.0.27</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.0.27.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.10.1]&lt;br&gt;#130 Fix LockinTime saving multiple TDMS files 
 &lt;br&gt;</description>
       <pubDate>Fri, 15 Aug 2025 14:04:42 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-1.10.1.20</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.5.4.19</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.5.4.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.5.4.19&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 13 Aug 2025 11:58:23 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.4]&lt;br&gt;#28 add option to Post Build Script to execute a &amp;quot;dry run&amp;quot; - simply create the batch file and open select the file&lt;br&gt;#23 add launcher.bat to open a deteched cmd window to call the 7zip.bat&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 13 Aug 2025 11:58:23 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.5.4.19</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
