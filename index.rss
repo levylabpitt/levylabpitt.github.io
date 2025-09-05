@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 29 Aug 2025 19:27:32 -0400</pubDate>
+    <pubDate>Fri, 05 Sep 2025 17:20:10 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.0.2.32</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.2.32.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.0.2.32&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 05 Sep 2025 17:20:10 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.2]&lt;br&gt;#139&lt;br&gt;- Modify Lockin_Sweep and Lockin_time to explicitly support Strain Cell, Delay Line, and Rotator Instruments&lt;br&gt;- explicitly do not support Level, VNA, or Source Instruments&lt;br&gt;#140&lt;br&gt;- fix mishandled payload from `setExptComments` command&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 05 Sep 2025 17:20:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.0.2.32</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.25.3.26</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.25.3.26.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.15.7]&lt;br&gt;#184 Add timeout control to API methods that ca
 &lt;br&gt;</description>
       <pubDate>Tue, 19 Aug 2025 12:47:49 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.7.42</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.3.1.22</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.3.1.22.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.3.1.22&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 19 Aug 2025 10:17:49 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.1]&lt;br&gt;#183: adjust timeout and retries for ZMQ_REQ socket to allow quicker confirmation that a connection is established&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 19 Aug 2025 10:17:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.3.1.22</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
