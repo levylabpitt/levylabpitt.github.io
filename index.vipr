@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=187
-Release.Date=Fri, 05 Sep 2025 17:56:33 -0400
-Self.ID=fdda2354395aa8f2990eb65b901d3253
+Release.Number=188
+Release.Date=Mon, 08 Sep 2025 13:49:07 -0400
+Self.ID=d01ef300698b5db170acccde25d2cd7d
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7479,4 +7479,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.1.3.10,levylab_lib_levylab_instruments>=1.15.5.40
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.15.9.45]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.9.45.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.9.45.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.9.45.spec
+Package.MD5=f35ebb4286c37b70f24bb005a82a731a
+Package.Release Date=Mon, 08 Sep 2025 13:49:07 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.1.7,levylab_lib_logger_pgsql>=1.2.2.14,levylab_lib_remote_control>=1.3.2.14,levylab_lib_remote_control_zmq>=1.3.1.22,prirvin_lib_json_schema>=0.2.0.9
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.1,levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
