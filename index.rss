@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 08 Sep 2025 13:49:07 -0400</pubDate>
+    <pubDate>Mon, 08 Sep 2025 14:09:34 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v1.1.4.11</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.1.4.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v1.1.4.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 08 Sep 2025 14:09:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.1.4]&lt;br&gt;#186: Change the following to dynamic dispatch: waitForMagnet.vi, waitForTemperature.vi, getDelay.vi&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 08 Sep 2025 14:09:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-1.1.4.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.15.9.45</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.9.45.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.0]&lt;br&gt;#136 This version consolidates Control Experimen
 &lt;br&gt;</description>
       <pubDate>Wed, 20 Aug 2025 15:42:55 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.0.0.26</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.0.0.25</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.0.25.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.0.0.25&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 20 Aug 2025 14:01:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0]&lt;br&gt;#136 This version consolidates Control Experiment, Transport, and Transport Server packages&lt;br&gt;#133 improve startup to verify Lockin and KH status&lt;br&gt;#134 Transport Server show/hide from Conigure Experiment.vi window&lt;br&gt;#135 Configure Experiment atomatically starts and is in control of Transport Server&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 Aug 2025 14:01:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.0.0.25</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
