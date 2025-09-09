@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 08 Sep 2025 17:45:42 -0400</pubDate>
+    <pubDate>Tue, 09 Sep 2025 11:58:56 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sweep Control v2.0.0.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-2.0.0.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Sweep Control v2.0.0.13&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 09 Sep 2025 11:58:56 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: [SweepControl.lvclass]&lt;br&gt;- Sweep Control.vi:&lt;br&gt;  - Sequencer for stepping multiple parameters. Calls VIs in Transport.lvclass&lt;br&gt;- Continuous B sweep.vi:&lt;br&gt;  - Sweep B continuously while asynchronously calling VIs in Transport.lvclass&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.0.0]&lt;br&gt;#141 Update compatibility with Transport 2.0&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 09 Sep 2025 11:58:56 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_sweep_control-2.0.0.13</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.25.5.28</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.25.5.28.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.1]&lt;br&gt;#138 new methods: getExptComments, getExptFolder
 &lt;br&gt;</description>
       <pubDate>Thu, 21 Aug 2025 21:18:11 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.0.1.30</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.0.0.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.0.0.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.0.0.27&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 20 Aug 2025 16:46:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.0.0]&lt;br&gt;#136 This version consolidates Control Experiment, Transport, and Transport Server packages&lt;br&gt;#133 improve startup to verify Lockin and KH status&lt;br&gt;#134 Transport Server show/hide from Conigure Experiment.vi window&lt;br&gt;#135 Configure Experiment atomatically starts and is in control of Transport Server&lt;br&gt;#137 path to user.lib is not resolved properly inside a compiled exe&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 Aug 2025 16:46:21 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.0.0.27</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
