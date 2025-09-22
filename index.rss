@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 18 Sep 2025 20:39:07 -0400</pubDate>
+    <pubDate>Mon, 22 Sep 2025 13:10:54 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krohn-Hite-7008 v2.4.2.24</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.4.2.24.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.4.2.24&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 22 Sep 2025 13:10:54 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.4.2]&lt;br&gt;build with latest Instrument Framework stack (1.15.9)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 22 Sep 2025 13:10:54 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.4.2.24</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v2.26.0.31</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-2.26.0.31.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.1.4]&lt;br&gt;#186: Change the following to dynamic dispatch: 
       <guid isPermaLink="false">levylab_lib_instrument_type-1.1.4.11</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>Instrument Framework v1.15.9.45</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.9.45.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.15.9.45&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 08 Sep 2025 13:49:07 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.15.9]&lt;br&gt;#185 update dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 08 Sep 2025 13:49:07 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.9.45</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
