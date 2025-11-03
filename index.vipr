@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=211
-Release.Date=Mon, 03 Nov 2025 15:28:04 -0500
-Self.ID=5410ae1293b0831e013600ee732a7698
+Release.Number=212
+Release.Date=Mon, 03 Nov 2025 16:21:00 -0500
+Self.ID=9ae64448a5bcac8020f4224bf91a76c1
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7769,4 +7769,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_postgresql>=0.6.2.48,levylab_lib_lvtoitx>=3.10.0.9
 Package.Display Name=LV-Data-PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-2.0.6.37]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-2.0.6.37.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-2.0.6.37.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-2.0.6.37.spec
+Package.MD5=72ec8cdef5afcdd576b63f394d38a762
+Package.Release Date=Mon, 03 Nov 2025 16:21:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
+Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
