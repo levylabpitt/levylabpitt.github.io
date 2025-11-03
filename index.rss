@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 30 Oct 2025 17:25:20 -0400</pubDate>
+    <pubDate>Mon, 03 Nov 2025 15:28:04 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data-PGSQL v3.10.2.11</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.2.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data-PGSQL v3.10.2.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 03 Nov 2025 15:28:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.10.2]&lt;br&gt;#118 #122 Improvements to data backup for invalid SQL or if database is unreachable&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 03 Nov 2025 15:28:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.2.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.0.0.42</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.0.0.42.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.0.5]&lt;br&gt;- Issue #143: fix bad state name in Lockin_time&
 &lt;br&gt;</description>
       <pubDate>Tue, 21 Oct 2025 22:34:42 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.0.5.35</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.5.2.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.2.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.5.2.8&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Oct 2025 13:38:03 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.2]&lt;br&gt;- Issue #18 fix slow/fast fill mode&lt;br&gt;- fix reply logging&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Oct 2025 13:38:03 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.5.2.8</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
