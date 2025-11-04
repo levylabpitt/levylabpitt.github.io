@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=213
-Release.Date=Mon, 03 Nov 2025 21:04:00 -0500
-Self.ID=cda126ed703d2666aa5657060988b56f
+Release.Number=214
+Release.Date=Mon, 03 Nov 2025 21:54:06 -0500
+Self.ID=2928fdb3cb8beb0f873c30b8f4e3f251
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7829,4 +7829,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.36
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_1820_api-1.5.3.9]
+Package.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.3.9.vip
+Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.3.9.bmp
+Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.3.9.spec
+Package.MD5=27b700d3b81c6af9f45c4a68d04c110b
+Package.Release Date=Mon, 03 Nov 2025 21:54:06 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-1820
 Platform.Exclusive_VIPM_Version=2017
