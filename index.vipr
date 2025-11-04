@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=216
-Release.Date=Tue, 04 Nov 2025 12:08:32 -0500
-Self.ID=5a1af8054c10b180e729854cfe31cd96
+Release.Number=217
+Release.Date=Tue, 04 Nov 2025 12:53:06 -0500
+Self.ID=5a14ec89ffbf2a0b4e99b4df972df189
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7865,4 +7865,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.1.3.10,levylab_lib_levylab_instruments>=1.15.5.40
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.1.12]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.12.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.12.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.12.spec
+Package.MD5=f851a2ea3a2c609d83b383675d80f14b
+Package.Release Date=Tue, 04 Nov 2025 12:53:06 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.36
+Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017
