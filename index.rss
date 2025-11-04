@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 04 Nov 2025 12:53:06 -0500</pubDate>
+    <pubDate>Tue, 04 Nov 2025 13:23:16 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.9.1.18</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.9.1.18.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.9.1.18&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 04 Nov 2025 13:23:16 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.9.1]&lt;br&gt;-build with pgsql/3.10.2.11&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 04 Nov 2025 13:23:16 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.9.1.18</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v2.2.1.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.12.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: [2.0.6]&lt;br&gt;- Issue #144 add checks for existing paths&lt;br
       <pubDate>Mon, 03 Nov 2025 16:21:00 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.0.6.37</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data-PGSQL v3.10.2.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.2.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data-PGSQL v3.10.2.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 03 Nov 2025 15:28:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.10.2]&lt;br&gt;#118 #122 Improvements to data backup for invalid SQL or if database is unreachable&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 03 Nov 2025 15:28:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.2.11</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
