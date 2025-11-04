@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=218
-Release.Date=Tue, 04 Nov 2025 13:23:16 -0500
-Self.ID=427ac7bd726a20f4642e0b455230bf51
+Release.Number=219
+Release.Date=Tue, 04 Nov 2025 14:01:12 -0500
+Self.ID=8ce8436a2a5619ffd121b96c831174e7
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7889,4 +7889,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_1820_api-1.5.3.10]
+Package.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.3.10.vip
+Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.3.10.bmp
+Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.3.10.spec
+Package.MD5=d313e17c9173c803910b22850ca41478
+Package.Release Date=Tue, 04 Nov 2025 14:01:12 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-1820
 Platform.Exclusive_VIPM_Version=2017
