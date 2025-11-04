@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=212
-Release.Date=Mon, 03 Nov 2025 16:21:00 -0500
-Self.ID=9ae64448a5bcac8020f4224bf91a76c1
+Release.Number=213
+Release.Date=Mon, 03 Nov 2025 21:04:00 -0500
+Self.ID=cda126ed703d2666aa5657060988b56f
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7781,4 +7781,52 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
 Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.4.1.9]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.1.9.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.1.9.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.1.9.spec
+Package.MD5=c430d44cb6de0a217b033ce5ccbedee7
+Package.Release Date=Mon, 03 Nov 2025 21:04:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.1.2.9
+Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-2.4.3.25]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.4.3.25.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.4.3.25.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.4.3.25.spec
+Package.MD5=57e45352f54e005319fc4c2e2078a4b2
+Package.Release Date=Mon, 03 Nov 2025 21:04:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_d2xx_lv>=1.3.0.8,levylab_lib_instrument_type>=1.1.4.11,levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.3.2.8]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.3.2.8.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.3.2.8.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.3.2.8.spec
+Package.MD5=cec5e0cf38b2ab3e9b4e5afa9a08d582
+Package.Release Date=Mon, 03 Nov 2025 21:04:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.1.11]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.11.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.11.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.11.spec
+Package.MD5=18e02f7e5f103d0c72a63d3c1819ac22
+Package.Release Date=Mon, 03 Nov 2025 21:04:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.36
+Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017
