@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=223
-Release.Date=Mon, 10 Nov 2025 11:14:48 -0500
-Self.ID=a0a48797152d75951ee9a84c16a57558
+Release.Number=224
+Release.Date=Wed, 12 Nov 2025 10:41:00 -0500
+Self.ID=119e1529fad17d4b26b848c3004d33cb
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7961,4 +7961,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-2.1.0.38]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-2.1.0.38.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-2.1.0.38.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-2.1.0.38.spec
+Package.MD5=82c7fe1e1158b6e2f35fbad06f2f0e6c
+Package.Release Date=Wed, 12 Nov 2025 10:40:59 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
+Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017

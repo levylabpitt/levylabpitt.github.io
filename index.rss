@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 10 Nov 2025 11:14:48 -0500</pubDate>
+    <pubDate>Wed, 12 Nov 2025 10:41:00 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.1.0.38</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.1.0.38.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.1.0.38&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 12 Nov 2025 10:40:59 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.1.0]&lt;br&gt;- #147, #149 better handling of errors when query lockin settings&lt;br&gt;- #148 fix bug in which instrument classes were not removed if user disabled the instrument&lt;br&gt;- #150 fix bug in which an instrument class was classified as the wrong instrument type&lt;br&gt;- #151 configure experiment logs the device, lockin, and krohn hite serial numbers to the database&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 12 Nov 2025 10:40:59 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.1.0.38</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.5.4.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.4.12.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [3.0.1]&lt;br&gt;#137 add buffer to guard against waveform timeou
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.0.1.45</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Oxford-VRM v1.9.1.17</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.9.1.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.9.1.17&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 03 Nov 2025 22:56:23 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.9.1]&lt;br&gt;-build with pgsql/3.10.2.11&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 03 Nov 2025 22:56:23 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.9.1.17</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
