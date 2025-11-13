@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 12 Nov 2025 10:41:00 -0500</pubDate>
+    <pubDate>Thu, 13 Nov 2025 09:02:19 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.5.5.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.5.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.5.5.13&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 13 Nov 2025 09:02:18 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.5.5]&lt;br&gt;hotfix cryogen graph&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 13 Nov 2025 09:02:18 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.5.5.13</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.1.0.38</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.1.0.38.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.2.1]&lt;br&gt;-build with pgsql/3.10.2.11&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.1.12</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.0.1.45</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.0.1.45.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.0.1.45&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 04 Nov 2025 12:08:32 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.0.1]&lt;br&gt;#137 add buffer to guard against waveform timeout&lt;br&gt;#138 fix updating AO channels to alert user during sweep&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 12:08:32 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.0.1.45</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
