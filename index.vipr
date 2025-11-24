@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=225
-Release.Date=Thu, 13 Nov 2025 09:02:19 -0500
-Self.ID=789110033174ca1840ae2938512bee5e
+Release.Number=226
+Release.Date=Mon, 24 Nov 2025 16:51:22 -0500
+Self.ID=5a0a21c43f20df862f1e1458cde76985
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -7985,4 +7985,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xy_utilities-1.7.0.8]
+Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.7.0.8.vip
+Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.7.0.8.bmp
+Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.7.0.8.spec
+Package.MD5=bdfb5e0a3446473ca80731e4deb5e77a
+Package.Release Date=Mon, 24 Nov 2025 16:51:22 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,mgi_lib_1d_array>=1.0.2.3,oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
+Package.Display Name=XY Utilities
 Platform.Exclusive_VIPM_Version=2017

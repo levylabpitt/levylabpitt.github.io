@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 13 Nov 2025 09:02:19 -0500</pubDate>
+    <pubDate>Mon, 24 Nov 2025 16:51:22 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.7.0.8</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.7.0.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.7.0.8&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Mon, 24 Nov 2025 16:51:22 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Issue #38: New method: Circular Buffer.vi&lt;br&gt;- Issue #39: Update Moving Average to use Circular Buffer.vi&lt;br&gt;- New Method: Get Size.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 24 Nov 2025 16:51:22 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.7.0.8</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>Oxford-1820 v1.5.5.13</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.5.13.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.9.1]&lt;br&gt;-build with pgsql/3.10.2.11&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Tue, 04 Nov 2025 13:23:16 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.9.1.18</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.2.1.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.1.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.2.1.12&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 04 Nov 2025 12:53:06 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.2.1]&lt;br&gt;-build with pgsql/3.10.2.11&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 04 Nov 2025 12:53:06 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.1.12</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
