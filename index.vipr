@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=230
-Release.Date=Wed, 26 Nov 2025 15:19:00 -0500
-Self.ID=ce48da307f6bfe4a3cb11d218988469e
+Release.Number=231
+Release.Date=Wed, 26 Nov 2025 16:53:14 -0500
+Self.ID=1ffd73e38a84898ff10cb7fe6e222089
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8041,6 +8041,18 @@ Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.8.0.10.bmp
 Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.8.0.10.spec
 Package.MD5=eec1739d3d2a7ae5b233fbf7e4fc9c74
 Package.Release Date=Wed, 26 Nov 2025 15:18:59 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,mgi_lib_1d_array>=1.0.2.3,oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
+Package.Display Name=XY Utilities
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xy_utilities-1.8.0.11]
+Package.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.8.0.11.vip
+Icon.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.8.0.11.bmp
+Spec.URL=packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.8.0.11.spec
+Package.MD5=2aee0930f3759be8d7ba70ef02f08e51
+Package.Release Date=Wed, 26 Nov 2025 16:53:13 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,mgi_lib_1d_array>=1.0.2.3,oglib_array>=4.1.1.14,oglib_string>=5.0.0.25
