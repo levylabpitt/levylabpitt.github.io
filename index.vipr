@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=232
-Release.Date=Thu, 11 Dec 2025 10:27:08 -0500
-Self.ID=d8af4b6d9646ffc7db49536a2c020504
+Release.Number=233
+Release.Date=Thu, 11 Dec 2025 11:44:34 -0500
+Self.ID=76c72f9664e2ca3bb5d3cf912b27738b
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8069,4 +8069,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7
 Package.Display Name=Progress Bar
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_build_support-1.6.0.20]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.6.0.20.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.6.0.20.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.6.0.20.spec
+Package.MD5=376268603b812fb977a23035cb54e7fd
+Package.Release Date=Thu, 11 Dec 2025 11:44:34 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=hse_lib_git_api>=2.1.1.98,jki_lib_dotnet_system_exec>=1.0.0.6,jki_lib_rest_client>=1.3.3.25,jki_lib_state_machine>=2018.0.7.45,jki_lib_vipm_api>=2020.0.3.80,jki_statemachineobjects>=1.4.0.69,labview_open_source_lib_unicity>=1.1.0.6,lvh_toolbox>=2.0.0.35,mgi_lib_1d_array>=1.0.2.3,mgi_lib_application_control>=1.1.1.10,mgi_lib_file>=1.1.0.4,mgi_lib_numeric>=1.1.0.2,mgi_lib_timing>=1.1.0.2,mgi_lib_user_interface>=1.0.1.11,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,wiresmith_technology_lib_g_cli>=3.0.1.98,levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.0.14
+Package.Display Name=Build Support
 Platform.Exclusive_VIPM_Version=2017

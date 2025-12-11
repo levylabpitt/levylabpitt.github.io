@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 11 Dec 2025 10:27:08 -0500</pubDate>
+    <pubDate>Thu, 11 Dec 2025 11:44:34 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.6.0.20</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.6.0.20.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.6.0.20&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 11 Dec 2025 11:44:34 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.0]&lt;br&gt;#19 Progress Bar (loaded as a dependency)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 11 Dec 2025 11:44:34 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.6.0.20</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Progress Bar v1.0.0.1</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_progress_bar/levylab_lib_progress_bar-1.0.0.1.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.1.0]&lt;br&gt;- #147, #149 better handling of errors when quer
 &lt;br&gt;</description>
       <pubDate>Wed, 12 Nov 2025 10:40:59 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.1.0.38</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.5.4.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.4.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.5.4.12&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 10 Nov 2025 11:14:48 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.4]&lt;br&gt;#20 fix issues with setting persistent switch and target field&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 10 Nov 2025 11:14:48 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.5.4.12</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
