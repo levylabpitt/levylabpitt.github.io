@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 12 Dec 2025 17:25:43 -0500</pubDate>
+    <pubDate>Sat, 13 Dec 2025 00:16:49 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.2.0.39</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.2.0.39.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.2.0.39&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 13 Dec 2025 00:16:49 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.2.0]&lt;br&gt;#155 tip strip&lt;br&gt;#154 speedup Lockin_time.vi&lt;br&gt;#153 fix write to DB SQL&lt;br&gt;improve support for multiple chassis&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 13 Dec 2025 00:16:49 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.2.0.39</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.2.0.49</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.2.0.49.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Issue #38: New method: Circular Buffer.vi&lt;br&gt;- Issue #39:
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.7.0.8</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>Oxford-1820 v1.5.5.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.5.5.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.5.5.13&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 13 Nov 2025 09:02:18 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.5.5]&lt;br&gt;hotfix cryogen graph&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 13 Nov 2025 09:02:18 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.5.5.13</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
