@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=235
-Release.Date=Sat, 13 Dec 2025 00:16:49 -0500
-Self.ID=c6df29d6ff75717b2fecd79688718078
+Release.Number=236
+Release.Date=Sat, 13 Dec 2025 09:18:32 -0500
+Self.ID=8ca9fe0de77c5e4875d574c2336ae8dc
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8105,4 +8105,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
 Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_instrument_type-1.2.0.12]
+Package.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.0.12.vip
+Icon.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.0.12.bmp
+Spec.URL=packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.0.12.spec
+Package.MD5=b6b39bc3de96129c216ef4e840eebfba
+Package.Release Date=Sat, 13 Dec 2025 09:18:32 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.25
+Package.Display Name=Instrument Type
 Platform.Exclusive_VIPM_Version=2017

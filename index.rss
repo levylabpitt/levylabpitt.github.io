@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 13 Dec 2025 00:16:49 -0500</pubDate>
+    <pubDate>Sat, 13 Dec 2025 09:18:32 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v1.2.0.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.0.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v1.2.0.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 13 Dec 2025 09:18:32 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.0]&lt;br&gt;#189 new methods for override:&lt;br&gt;- `getMagnetTarget`&lt;br&gt;- `getMagnetVectorTarget`&lt;br&gt;- `getTemperatureTarget`&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 13 Dec 2025 09:18:32 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-1.2.0.12</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.2.0.39</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.2.0.39.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [3.1.0]&lt;br&gt;#138 Improve status update during Sweep&lt;br&gt
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.0.2.47</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>XY Utilities v1.7.0.8</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.7.0.8.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.7.0.8&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Mon, 24 Nov 2025 16:51:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Issue #38: New method: Circular Buffer.vi&lt;br&gt;- Issue #39: Update Moving Average to use Circular Buffer.vi&lt;br&gt;- New Method: Get Size.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 24 Nov 2025 16:51:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.7.0.8</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
     </item>
   </channel>
 </rss>
