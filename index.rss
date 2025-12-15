@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 13 Dec 2025 14:13:33 -0500</pubDate>
+    <pubDate>Mon, 15 Dec 2025 16:50:18 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.9.0.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.9.0.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.9.0.13&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Mon, 15 Dec 2025 16:48:59 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: #44 add missing Test Dataset.vi&lt;br&gt;#43 User.vi method for injecting user code via User.lvclass override&lt;br&gt;#41 Python plugin example overrides User.lvclass&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 15 Dec 2025 16:48:59 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.9.0.13</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>LV-Data-PGSQL v3.10.3.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.3.12.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: New methods:&lt;br&gt;- Auto Correlation&lt;br&gt;- Cross Correla
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.8.0.9</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.1.0.48</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.1.0.48.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.1.0.48&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 25 Nov 2025 17:37:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.1.0]&lt;br&gt;#138 Improve status update during Sweep&lt;br&gt;#139 Information about hardware is now logged to the database&lt;br&gt;#141 Update Lockin chart&lt;br&gt;#142 Output filtering: Low pass filters are now cascade instead of direct form; F.output is calculated automatically based on Nyquist criteria and to minimize processing time; Lockin charts are updated with all new pionts (no longer simple sampling or averaging)&lt;br&gt;#146 Fix issue in which sweep would not be stopped&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 25 Nov 2025 17:37:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.1.0.48</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
