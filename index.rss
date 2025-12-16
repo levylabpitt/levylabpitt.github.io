@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 15 Dec 2025 21:04:27 -0500</pubDate>
+    <pubDate>Mon, 15 Dec 2025 23:07:17 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.11.0.26</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.0.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.11.0.26&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 15 Dec 2025 23:07:16 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.0]&lt;br&gt;#35 add methods getTemperatureTarget and getMagnetTarget&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 15 Dec 2025 23:07:16 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.11.0.26</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.11.0.25</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.0.25.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.0.0]&lt;br&gt;- This is the first stand-alone build of &#39;Pr
       <guid isPermaLink="false">levylab_lib_progress_bar-1.0.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>XY Utilities v1.8.0.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.8.0.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.8.0.11&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Wed, 26 Nov 2025 16:53:13 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: New methods:&lt;br&gt;- Auto Correlation&lt;br&gt;- Cross Correlation&lt;br&gt;- Max and Min&lt;br&gt;- XY to (x,y) and (x,y) to XY&lt;br&gt;&lt;br&gt;Other:&lt;br&gt;- Make better and more efficient use of indexing terminals and in-place element structures&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 26 Nov 2025 16:53:13 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.8.0.11</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
     </item>
   </channel>
 </rss>
