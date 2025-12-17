@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 15 Dec 2025 23:07:17 -0500</pubDate>
+    <pubDate>Tue, 16 Dec 2025 23:00:58 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.10.0.19</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.0.19.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.10.0.19&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 16 Dec 2025 23:00:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.0]&lt;br&gt;#15 add methods getMagnetTarget and getMagnetVectorTarget&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 16 Dec 2025 23:00:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.10.0.19</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-1820 v1.6.0.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.0.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.6.0.14&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 16 Dec 2025 23:00:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.0]&lt;br&gt;#41 getMagnetTarget method&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 16 Dec 2025 23:00:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.0.14</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Cryostation v1.4.0.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.4.0.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 16 Dec 2025 23:00:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.0]&lt;br&gt;#7 add method getTemperatureTarget&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 16 Dec 2025 23:00:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.0.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.11.0.26</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.0.26.bmp"&gt;&lt;br&gt;
@@ -129,60 +183,6 @@ Release Notes: [2.2.0]&lt;br&gt;#155 tip strip&lt;br&gt;#154 speedup Lockin_time
 &lt;br&gt;</description>
       <pubDate>Sat, 13 Dec 2025 00:16:49 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.2.0.39</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.2.0.49</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.2.0.49.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.2.0.49&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 12 Dec 2025 17:25:42 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.2.0]&lt;br&gt;#147:&lt;br&gt;- getResults.vi reverted Results dictionary containing scaler elements&lt;br&gt;- new API methods getResultsArray.vi and analogous Parse Results Array *.vi handles Results dictionary containing array elements&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 12 Dec 2025 17:25:42 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.2.0.49</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Build Support v1.6.0.20</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.6.0.20.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.6.0.20&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 11 Dec 2025 11:44:34 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.0]&lt;br&gt;#19 Progress Bar (loaded as a dependency)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 11 Dec 2025 11:44:34 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.6.0.20</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Progress Bar v1.0.0.1</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_progress_bar/levylab_lib_progress_bar-1.0.0.1.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Progress Bar v1.0.0.1&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 11 Dec 2025 10:27:07 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Simple progress bar using JKI SMOs.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.0.0]&lt;br&gt;- This is the first stand-alone build of &#39;Progress Bar.&#39; It was previously included as part of the &#39;build-support&#39; package.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 11 Dec 2025 10:27:07 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_progress_bar-1.0.0.1</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
