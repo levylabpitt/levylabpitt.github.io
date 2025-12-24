@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 22 Dec 2025 15:34:57 -0500</pubDate>
+    <pubDate>Wed, 24 Dec 2025 16:55:04 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.6.1.17</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.1.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.6.1.17&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 24 Dec 2025 16:55:02 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.1]&lt;br&gt;fix issues with setMagnet sequence&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 24 Dec 2025 16:55:02 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.1.17</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.6.0.15</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.0.15.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [3.10.3]&lt;br&gt;#124 Improve error handling inside Execute SQL 
 &lt;br&gt;</description>
       <pubDate>Sat, 13 Dec 2025 14:13:33 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.3.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Instrument Type v1.2.0.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.0.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v1.2.0.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 13 Dec 2025 09:18:32 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.0]&lt;br&gt;#189 new methods for override:&lt;br&gt;- `getMagnetTarget`&lt;br&gt;- `getMagnetVectorTarget`&lt;br&gt;- `getTemperatureTarget`&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 13 Dec 2025 09:18:32 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-1.2.0.12</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
