@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=248
-Release.Date=Wed, 24 Dec 2025 16:55:04 -0500
-Self.ID=f9a0a4defe0edb22b6699c2756570d30
+Release.Number=249
+Release.Date=Sat, 10 Jan 2026 09:28:47 -0500
+Self.ID=206a724da63f7dda400eca3dd9c70967
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8239,4 +8239,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_d2xx_lv-1.4.0.9]
+Package.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.4.0.9.vip
+Icon.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.4.0.9.bmp
+Spec.URL=packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.4.0.9.spec
+Package.MD5=58927c6a59a986c5b6f820fb817141c7
+Package.Release Date=Sat, 10 Jan 2026 09:28:47 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=Windows NT
+Dependencies.Requires=ftdi_lib_d2xx>=1.3.0.8
+Package.Display Name=D2XX-LV
 Platform.Exclusive_VIPM_Version=2017

@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 24 Dec 2025 16:55:04 -0500</pubDate>
+    <pubDate>Sat, 10 Jan 2026 09:28:47 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>D2XX-LV v1.4.0.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.4.0.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: D2XX-LV v1.4.0.9&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 10 Jan 2026 09:28:47 -0500&lt;br&gt;
+Packager: Patrick Irvin / LevyLab&lt;br&gt;
+&lt;br&gt;
+Description: This library provides an interface to FTDI&#39;s D2XX drivers, designed to align more closely with LabVIEW programming conventions.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issue #7&lt;br&gt;- improved list devices when multiple devices are present but some are already open&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 10 Jan 2026 09:28:47 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_d2xx_lv-1.4.0.9</guid>
+      <dc:creator>Levylab</dc:creator>
+      <link>https://github.com/levylabpitt/D2XX</link>
+    </item>
     <item>
       <title>Oxford-1820 v1.6.1.17</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.1.17.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: #44 add missing Test Dataset.vi&lt;br&gt;#43 User.vi method for i
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.9.0.13</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>LV-Data-PGSQL v3.10.3.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.10.3.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data-PGSQL v3.10.3.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 13 Dec 2025 14:13:33 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.10.3]&lt;br&gt;#124 Improve error handling inside Execute SQL Statement.vi&lt;br&gt;#125 Bug fixes in Administer Tables (create tables and delete columns)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 13 Dec 2025 14:13:33 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.10.3.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
