@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 10 Jan 2026 09:28:47 -0500</pubDate>
+    <pubDate>Mon, 02 Feb 2026 14:27:06 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data-PGSQL v3.11.0.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.11.0.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data-PGSQL v3.11.0.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 02 Feb 2026 14:27:06 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.11.0]&lt;br&gt;#128 Validate connection befroe executing SQL queries (and invalidate/reconnect)&lt;br&gt;- Store top level caller name in connections.ini&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 02 Feb 2026 14:27:06 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.11.0.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>D2XX-LV v1.4.0.9</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_d2xx_lv/levylab_lib_d2xx_lv-1.4.0.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.1]&lt;br&gt;Add HELP for:&lt;br&gt;- `getMagnetTarget`&lt;br
       <guid isPermaLink="false">levylab_lib_instrument_type-1.2.1.13</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>XY Utilities v1.9.0.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.9.0.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: XY Utilities v1.9.0.13&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Mon, 15 Dec 2025 16:48:59 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
-&lt;br&gt;
-Release Notes: #44 add missing Test Dataset.vi&lt;br&gt;#43 User.vi method for injecting user code via User.lvclass override&lt;br&gt;#41 Python plugin example overrides User.lvclass&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 15 Dec 2025 16:48:59 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_xy_utilities-1.9.0.13</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
     </item>
   </channel>
 </rss>
