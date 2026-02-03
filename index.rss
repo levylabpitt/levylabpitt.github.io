@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 02 Feb 2026 14:27:06 -0500</pubDate>
+    <pubDate>Mon, 02 Feb 2026 21:51:42 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN API v0.0.1.4</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.1.4.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN API v0.0.1.4&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 02 Feb 2026 21:51:40 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
+&lt;br&gt;
+Release Notes: [0.0.1]&lt;br&gt;#14 change configuration file location&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 02 Feb 2026 21:51:40 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.1.4</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>LV-Data-PGSQL v3.11.0.13</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.11.0.13.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.11.0]&lt;br&gt;#35 add methods getTemperatureTarget and getMag
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.11.0.25</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Instrument Type v1.2.1.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.1.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v1.2.1.13&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 15 Dec 2025 17:32:59 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.1]&lt;br&gt;Add HELP for:&lt;br&gt;- `getMagnetTarget`&lt;br&gt;- `getMagnetVectorTarget`&lt;br&gt;- `getTemperatureTarget`&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 15 Dec 2025 17:32:59 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-1.2.1.13</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
