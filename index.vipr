@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=251
-Release.Date=Mon, 02 Feb 2026 21:51:42 -0500
-Self.ID=2ba18d1cc21214313c940cf9d9e9d67f
+Release.Number=252
+Release.Date=Thu, 05 Feb 2026 08:08:09 -0500
+Self.ID=4f9ade4fac66a60e3d0468346e14cf2f
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8276,4 +8276,16 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33
 Dependencies.Conflicts=levylab_lib_leiden_fp>=0.0.0.0,levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tc>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
 Package.Display Name=LEIDEN API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lvtdatpgsql-3.12.0.14]
+Package.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.0.14.vip
+Icon.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.0.14.bmp
+Spec.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.0.14.spec
+Package.MD5=a96db55f60df8a867b7a180c84efd3c5
+Package.Release Date=Thu, 05 Feb 2026 08:08:09 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_postgresql>=0.6.2.48,levylab_lib_lvtoitx>=3.10.0.9
+Package.Display Name=LV-Data-PGSQL
 Platform.Exclusive_VIPM_Version=2017
