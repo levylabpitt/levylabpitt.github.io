@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=254
-Release.Date=Thu, 05 Feb 2026 16:01:00 -0500
-Self.ID=5f5c63374de85759525d3ce6196e71b6
+Release.Number=255
+Release.Date=Thu, 05 Feb 2026 17:48:16 -0500
+Self.ID=22d9235ab73e681ec45a155ba52d1b48
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8313,4 +8313,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
 Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_database_viewer-2026.2.5.7]
+Package.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.5.7.vip
+Icon.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.5.7.bmp
+Spec.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.5.7.spec
+Package.MD5=e686e639bbb47eba35a31d591388bc6b
+Package.Release Date=Thu, 05 Feb 2026 17:48:16 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_lvtdatpgsql>=3.12.0.14
+Package.Display Name=Database Viewer
 Platform.Exclusive_VIPM_Version=2017
