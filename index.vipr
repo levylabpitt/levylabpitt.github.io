@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=252
-Release.Date=Thu, 05 Feb 2026 08:08:09 -0500
-Self.ID=4f9ade4fac66a60e3d0468346e14cf2f
+Release.Number=254
+Release.Date=Thu, 05 Feb 2026 16:01:00 -0500
+Self.ID=5f5c63374de85759525d3ce6196e71b6
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8288,4 +8288,29 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_postgresql>=0.6.2.48,levylab_lib_lvtoitx>=3.10.0.9
 Package.Display Name=LV-Data-PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_leiden_api-0.0.2.5]
+Package.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.2.5.vip
+Icon.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.2.5.bmp
+Spec.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.2.5.spec
+Package.MD5=7976a158ad752ef6569e287884b88a65
+Package.Release Date=Thu, 05 Feb 2026 14:08:08 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
+Dependencies.Conflicts=levylab_lib_leiden_fp>=0.0.0.0,levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tc>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
+Package.Display Name=LEIDEN API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-2.5.0.27]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.0.27.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.0.27.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.0.27.spec
+Package.MD5=981281d585f92f920cacfb7a912e06a2
+Package.Release Date=Thu, 05 Feb 2026 16:01:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=Krohn-Hite-7008
 Platform.Exclusive_VIPM_Version=2017
