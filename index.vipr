@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=256
-Release.Date=Thu, 05 Feb 2026 22:37:21 -0500
-Self.ID=2d14dadfbf7453cd973f20efd1b06d59
+Release.Number=257
+Release.Date=Fri, 06 Feb 2026 09:05:11 -0500
+Self.ID=aba1d940d95155ba90782ba890753a20
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8337,4 +8337,40 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.4.2.11]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.2.11.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.2.11.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.2.11.spec
+Package.MD5=4edb477a6f4385cfa1557a00b2739c8b
+Package.Release Date=Fri, 06 Feb 2026 09:05:10 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.4.1.10]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.1.10.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.1.10.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.1.10.spec
+Package.MD5=684bccbde41493405d02f34082a2f6e2
+Package.Release Date=Fri, 06 Feb 2026 09:05:11 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.2.13]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.2.13.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.2.13.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.2.13.spec
+Package.MD5=f4d40d15d385d5b64307d267efdab48e
+Package.Release Date=Fri, 06 Feb 2026 09:05:11 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017
