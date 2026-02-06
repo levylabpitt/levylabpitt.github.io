@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=257
-Release.Date=Fri, 06 Feb 2026 09:05:11 -0500
-Self.ID=aba1d940d95155ba90782ba890753a20
+Release.Number=258
+Release.Date=Fri, 06 Feb 2026 15:41:23 -0500
+Self.ID=1c667eada59f82ab32769bfeb47c1429
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8373,4 +8373,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lvtdatpgsql-3.12.1.15]
+Package.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.1.15.vip
+Icon.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.1.15.bmp
+Spec.URL=packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.1.15.spec
+Package.MD5=0bd0b2677184541bd53da2c8a037894f
+Package.Release Date=Fri, 06 Feb 2026 15:41:22 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_postgresql>=0.6.2.48,levylab_lib_lvtoitx>=3.10.0.9
+Package.Display Name=LV-Data-PGSQL
 Platform.Exclusive_VIPM_Version=2017

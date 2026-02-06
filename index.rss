@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 06 Feb 2026 09:05:11 -0500</pubDate>
+    <pubDate>Fri, 06 Feb 2026 15:41:23 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data-PGSQL v3.12.1.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.1.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data-PGSQL v3.12.1.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 06 Feb 2026 15:41:22 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.12.1]&lt;br&gt;#130 Change connections section key&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 06 Feb 2026 15:41:22 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.12.1.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v2.2.2.13</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.2.13.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [0.0.1]&lt;br&gt;#14 change configuration file location&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 02 Feb 2026 21:51:40 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_leiden_api-0.0.1.4</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data-PGSQL v3.11.0.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.11.0.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data-PGSQL v3.11.0.13&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 02 Feb 2026 14:27:06 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.11.0]&lt;br&gt;#128 Validate connection befroe executing SQL queries (and invalidate/reconnect)&lt;br&gt;- Store top level caller name in connections.ini&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 02 Feb 2026 14:27:06 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.11.0.13</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
