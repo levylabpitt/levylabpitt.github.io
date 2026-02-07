@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=260
-Release.Date=Fri, 06 Feb 2026 22:20:01 -0500
-Self.ID=9afcd90c44081bb23ab717973dbef4c6
+Release.Number=261
+Release.Date=Sat, 07 Feb 2026 00:01:03 -0500
+Self.ID=a15773f447a6552f6f111b0e6e33989e
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8410,4 +8410,52 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.4.3.12]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.3.12.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.3.12.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.3.12.spec
+Package.MD5=b63c7b97aba3df85623d719dc4070f83
+Package.Release Date=Sat, 07 Feb 2026 00:01:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-2.5.1.28]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.1.28.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.1.28.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.1.28.spec
+Package.MD5=03e581ec437f80e1a38fc8dfa9990049
+Package.Release Date=Sat, 07 Feb 2026 00:01:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.3.14]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.14.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.14.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.14.spec
+Package.MD5=3356b1983e1e06b8709c2e39f13b563b
+Package.Release Date=Sat, 07 Feb 2026 00:01:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_database_viewer-2026.2.6.8]
+Package.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.6.8.vip
+Icon.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.6.8.bmp
+Spec.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.6.8.spec
+Package.MD5=b79780a3544766b5f1c0489edc55ad1c
+Package.Release Date=Sat, 07 Feb 2026 00:01:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_lvtdatpgsql>=3.12.0.14
+Package.Display Name=Database Viewer
 Platform.Exclusive_VIPM_Version=2017

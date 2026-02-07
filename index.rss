@@ -3,9 +3,81 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 06 Feb 2026 22:20:01 -0500</pubDate>
+    <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v2.2.3.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v2.2.3.14&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 00:01:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.2.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.3.14</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Krohn-Hite-7008 v2.5.1.28</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.1.28.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.5.1.28&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 00:01:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.5.1]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.5.1.28</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Database Viewer v2026.2.6.8</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.6.8.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Database Viewer v2026.2.6.8&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 00:01:03 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Yun-Yi Pai&lt;br&gt;
+&lt;br&gt;
+Description: Visualize data from database (postgres/timescale)&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_database_viewer-2026.2.6.8</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>AH2500A v1.4.3.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.3.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.4.3.12&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 00:01:03 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.3.12</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>PPMS Monitor and Control v1.11.2.28</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.2.28.bmp"&gt;&lt;br&gt;
@@ -112,78 +184,6 @@ Release Notes: [1.4.2]&lt;br&gt;- build with pgsql/1.12.0.14 (improve database c
       <pubDate>Fri, 06 Feb 2026 09:05:10 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_ah2500a-1.4.2.11</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.11.1.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.1.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.11.1.27&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Feb 2026 22:37:21 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.1]&lt;br&gt;- build with pgsql/1.12.0.14 (improve database connection management)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Feb 2026 22:37:21 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.11.1.27</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Database Viewer v2026.2.5.7</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.5.7.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Database Viewer v2026.2.5.7&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Feb 2026 17:48:16 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Yun-Yi Pai&lt;br&gt;
-&lt;br&gt;
-Description: Visualize data from database (postgres/timescale)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with pgsql/3.12.0.14 (improve database connection management)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Feb 2026 17:48:16 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_database_viewer-2026.2.5.7</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.5.0.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.0.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.5.0.27&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Feb 2026 16:01:00 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.5.0]&lt;br&gt;- build with pgsql/3.12.0.14 (improve database connection management)&lt;br&gt;- #34 fix reporting incorrect channel status&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Feb 2026 16:01:00 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.5.0.27</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LEIDEN API v0.0.2.5</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.2.5.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN API v0.0.2.5&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 05 Feb 2026 14:08:08 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
-&lt;br&gt;
-Release Notes: [0.0.2]&lt;br&gt;- build with pgsql/3.12.0.14 (with improved database connection management)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 05 Feb 2026 14:08:08 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.2.5</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
