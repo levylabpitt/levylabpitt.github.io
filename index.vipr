@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=261
-Release.Date=Sat, 07 Feb 2026 00:01:03 -0500
-Self.ID=a15773f447a6552f6f111b0e6e33989e
+Release.Number=266
+Release.Date=Sat, 07 Feb 2026 11:01:19 -0500
+Self.ID=1e0850466a7eb93450456bfac877d894
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8454,6 +8454,66 @@ Icon.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2
 Spec.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.6.8.spec
 Package.MD5=b79780a3544766b5f1c0489edc55ad1c
 Package.Release Date=Sat, 07 Feb 2026 00:01:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_lvtdatpgsql>=3.12.0.14
+Package.Display Name=Database Viewer
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.4.2.11]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.2.11.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.2.11.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.2.11.spec
+Package.MD5=fdc2bfc77dd8ce780a7714278e042286
+Package.Release Date=Sat, 07 Feb 2026 08:19:15 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_1820_api-1.6.3.21]
+Package.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.3.21.vip
+Icon.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.3.21.bmp
+Spec.URL=packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.3.21.spec
+Package.MD5=bce6006a4236475c924118c1e70be863
+Package.Release Date=Sat, 07 Feb 2026 08:47:16 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.1.34,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-1820
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_oxford_vrm_api-1.10.2.23]
+Package.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.2.23.vip
+Icon.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.2.23.bmp
+Spec.URL=packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.2.23.spec
+Package.MD5=187490d8f137f28249ede93192f11a66
+Package.Release Date=Sat, 07 Feb 2026 09:14:50 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33,oxford_lib_mercury_ixx>=2.0.0.6
+Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.3.15]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.15.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.15.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.15.spec
+Package.MD5=3deea0ca410fd64ec53edfc60d795003
+Package.Release Date=Sat, 07 Feb 2026 09:37:57 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_database_viewer-2026.2.7.9]
+Package.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.7.9.vip
+Icon.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.7.9.bmp
+Spec.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.7.9.spec
+Package.MD5=eaa27ffdf030b43267a9044d858b176d
+Package.Release Date=Sat, 07 Feb 2026 11:01:19 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_lvtdatpgsql>=3.12.0.14

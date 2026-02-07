@@ -3,9 +3,99 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
+    <pubDate>Sat, 07 Feb 2026 11:01:19 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Database Viewer v2026.2.7.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.7.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Database Viewer v2026.2.7.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 11:01:19 -0500&lt;br&gt;
+Packager: Patrick Irvin, Jack Maier, Yun-Yi Pai&lt;br&gt;
+&lt;br&gt;
+Description: Visualize data from database (postgres/timescale)&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 11:01:19 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_database_viewer-2026.2.7.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Razorbill RP100 v2.2.3.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v2.2.3.15&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 09:37:57 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.2.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 09:37:57 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.3.15</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-VRM v1.10.2.23</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.2.23.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.10.2.23&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 09:14:50 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.2]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 09:14:50 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.10.2.23</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-1820 v1.6.3.21</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.3.21.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.6.3.21&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 08:47:16 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.6.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 08:47:16 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.3.21</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Cryostation v1.4.2.11</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.2.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.4.2.11&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 07 Feb 2026 08:19:15 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.4.2]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 07 Feb 2026 08:19:15 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.2.11</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v2.2.3.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.14.bmp"&gt;&lt;br&gt;
@@ -95,96 +185,6 @@ Release Notes: [1.11.2]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connec
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.11.2.28</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>LEIDEN API v0.0.3.6</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.3.6.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN API v0.0.3.6&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Feb 2026 22:19:41 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
-&lt;br&gt;
-Release Notes: [0.0.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 22:19:41 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.3.6</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LV-Data-PGSQL v3.12.1.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.1.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data-PGSQL v3.12.1.15&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Feb 2026 15:41:22 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.12.1]&lt;br&gt;#130 Change connections section key&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 15:41:22 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.12.1.15</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.2.2.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.2.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.2.2.13&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 06 Feb 2026 09:05:11 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.2.2]&lt;br&gt;- build with pgsql/1.12.0.14 (improve database connection management)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 09:05:11 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.2.13</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.4.1.10</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.1.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.4.1.10&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Feb 2026 09:05:11 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.1]&lt;br&gt;- build with pgsql/1.12.0.14 (improve database connection management)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 09:05:11 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.1.10</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.2.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.2.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.2.11&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 06 Feb 2026 09:05:10 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.2]&lt;br&gt;- build with pgsql/1.12.0.14 (improve database connection management)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 09:05:10 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.2.11</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
