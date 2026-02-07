@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=258
-Release.Date=Fri, 06 Feb 2026 15:41:23 -0500
-Self.ID=1c667eada59f82ab32769bfeb47c1429
+Release.Number=260
+Release.Date=Fri, 06 Feb 2026 22:20:01 -0500
+Self.ID=9afcd90c44081bb23ab717973dbef4c6
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8385,4 +8385,29 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jdp_science_postgresql>=0.6.2.48,levylab_lib_lvtoitx>=3.10.0.9
 Package.Display Name=LV-Data-PGSQL
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_leiden_api-0.0.3.6]
+Package.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.3.6.vip
+Icon.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.3.6.bmp
+Spec.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.3.6.spec
+Package.MD5=8474628d12f635c745206f0025e54a5a
+Package.Release Date=Fri, 06 Feb 2026 22:19:41 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
+Dependencies.Conflicts=levylab_lib_leiden_fp>=0.0.0.0,levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tc>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
+Package.Display Name=LEIDEN API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.11.2.28]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.2.28.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.2.28.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.2.28.spec
+Package.MD5=cb718f5669e5e0f314461710f808757a
+Package.Release Date=Fri, 06 Feb 2026 22:19:59 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
