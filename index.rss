@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Sat, 07 Feb 2026 11:01:19 -0500</pubDate>
+    <pubDate>Thu, 12 Feb 2026 14:33:02 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support v1.7.0.22</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.7.0.22.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.7.0.22&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 12 Feb 2026 14:33:01 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- Change Post Build Script (G-CLI build).vi to not open Explorer window if Dry Run? == T&lt;br&gt;- Change 7zip.bat template to use %~dp0&lt;br&gt;- Store *.bat.template files in %localappdata%\LevyLab\build-support&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Feb 2026 14:33:01 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.7.0.22</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Database Viewer v2026.2.7.9</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.7.9.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.4.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connect
       <guid isPermaLink="false">levylab_lib_ah2500a-1.4.3.12</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.11.2.28</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.11.2.28.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.11.2.28&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Feb 2026 22:19:59 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.2]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 22:19:59 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.11.2.28</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
