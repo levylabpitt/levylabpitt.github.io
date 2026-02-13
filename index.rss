@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 12 Feb 2026 23:15:11 -0500</pubDate>
+    <pubDate>Fri, 13 Feb 2026 09:19:15 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.7.1.25</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.7.1.25.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.7.1.25&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 13 Feb 2026 09:19:15 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.1]&lt;br&gt;- store *.bat.template files in %localappdata%\LevyLab\build-support\templates&lt;br&gt;- other bug fixes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 13 Feb 2026 09:19:15 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.7.1.25</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.7.1.25</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.7.1.25.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.7.1.25&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 13 Feb 2026 09:19:15 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.1]&lt;br&gt;- store *.bat.template files in %localappdata%\LevyLab\build-support\templates&lt;br&gt;- other bug fixes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 13 Feb 2026 09:19:15 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.7.1.25</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.3.0.52</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.3.0.52.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [2.2.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connect
 &lt;br&gt;</description>
       <pubDate>Sat, 07 Feb 2026 09:37:57 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.3.15</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-VRM v1.10.2.23</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.2.23.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.10.2.23&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Sat, 07 Feb 2026 09:14:50 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.10.2]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 07 Feb 2026 09:14:50 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.10.2.23</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.6.3.21</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.3.21.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.6.3.21&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Sat, 07 Feb 2026 08:47:16 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 07 Feb 2026 08:47:16 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.3.21</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
