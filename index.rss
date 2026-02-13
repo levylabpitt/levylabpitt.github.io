@@ -3,9 +3,63 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 12 Feb 2026 15:07:25 -0500</pubDate>
+    <pubDate>Thu, 12 Feb 2026 23:15:11 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.3.0.52</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.3.0.52.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.3.0.52&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 12 Feb 2026 23:15:10 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.3.0]&lt;br&gt;#148 Enhanced Power Spectrum tab&lt;br&gt;#149 Improved Waveguide Simulation&lt;br&gt;#150 Synchronize AO/AI/Ref graphs with a selected Ref channel&lt;br&gt;&lt;br&gt;#### Dependencies&lt;br&gt;- Please ensure that [Visual C++ Redistributable Packages for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784) is installed. The bitness must match the application you&#39;re targeting.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Feb 2026 23:15:10 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.3.0.52</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
+    <item>
+      <title>Build Support (System) v1.7.0.24</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.7.0.24.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.7.0.24&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 12 Feb 2026 16:15:46 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- Change Post Build Script (G-CLI build).vi to not open Explorer window if Dry Run? == T&lt;br&gt;- Change 7zip.bat template to use %~dp0&lt;br&gt;- Store *.bat.template files in %localappdata%\LevyLab\build-support&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Feb 2026 16:15:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.7.0.24</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.7.0.24</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.7.0.24.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.7.0.24&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 12 Feb 2026 16:15:46 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- Change Post Build Script (G-CLI build).vi to not open Explorer window if Dry Run? == T&lt;br&gt;- Change 7zip.bat template to use %~dp0&lt;br&gt;- Store *.bat.template files in %localappdata%\LevyLab\build-support&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Feb 2026 16:15:46 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.7.0.24</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.7.0.23</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.7.0.23.bmp"&gt;&lt;br&gt;
@@ -130,60 +184,6 @@ Release Notes: [1.6.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connect
       <pubDate>Sat, 07 Feb 2026 08:47:16 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.3.21</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.4.2.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.2.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.4.2.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 07 Feb 2026 08:19:15 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.4.2]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 07 Feb 2026 08:19:15 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.2.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.2.3.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.3.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.2.3.14&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Sat, 07 Feb 2026 00:01:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.2.3]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.3.14</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.5.1.28</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.5.1.28.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.5.1.28&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 07 Feb 2026 00:01:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.5.1]&lt;br&gt;- build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 07 Feb 2026 00:01:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.5.1.28</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
