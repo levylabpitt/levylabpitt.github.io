@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 13 Feb 2026 15:10:11 -0500</pubDate>
+    <pubDate>Mon, 16 Feb 2026 11:44:13 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.7.2.26</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.7.2.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.7.2.26&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 16 Feb 2026 11:44:13 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.2]&lt;br&gt;- quit LabVIEW using LabVIEWCLI instead of g-cli&lt;br&gt;- build.bat.template uses github flow instead of git flow&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 16 Feb 2026 11:44:13 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.7.2.26</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.7.2.26</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.7.2.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.7.2.26&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 16 Feb 2026 11:44:13 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.2]&lt;br&gt;- quit LabVIEW using LabVIEWCLI instead of g-cli&lt;br&gt;- build.bat.template uses github flow instead of git flow&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 16 Feb 2026 11:44:13 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.7.2.26</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.3.0.53</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.3.0.53.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [1.7.0]&lt;br&gt;- Change Post Build Script (G-CLI build).vi to n
       <pubDate>Thu, 12 Feb 2026 15:07:25 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.7.0.23</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.7.0.22</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.7.0.22.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.7.0.22&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 12 Feb 2026 14:33:01 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- Change Post Build Script (G-CLI build).vi to not open Explorer window if Dry Run? == T&lt;br&gt;- Change 7zip.bat template to use %~dp0&lt;br&gt;- Store *.bat.template files in %localappdata%\LevyLab\build-support&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 12 Feb 2026 14:33:01 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.7.0.22</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Database Viewer v2026.2.7.9</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.2.7.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Database Viewer v2026.2.7.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 07 Feb 2026 11:01:19 -0500&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Yun-Yi Pai&lt;br&gt;
-&lt;br&gt;
-Description: Visualize data from database (postgres/timescale)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with pgsql/3.12.1.15 (hotfix for connection key)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 07 Feb 2026 11:01:19 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_database_viewer-2026.2.7.9</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
