@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=282
-Release.Date=Thu, 19 Feb 2026 12:01:19 -0500
-Self.ID=4aa407f8228b47ed34a350f29370dbf0
+Release.Number=283
+Release.Date=Thu, 19 Feb 2026 12:12:19 -0500
+Self.ID=f19bdff5ed1ca3e1de8822084169b803
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -8775,6 +8775,32 @@ Icon.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_sys
 Spec.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.0.27.spec
 Package.MD5=ffc7f85425f247355ece81d2f1e0fc99
 Package.Release Date=Thu, 19 Feb 2026 12:01:19 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15
+Package.Display Name=Build Support (System)
+Platform.Exclusive_VIPM_Version=2017
+System Package=TRUE
+
+[Package levylab_lib_build_support-1.8.1.28]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.8.1.28.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.8.1.28.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.8.1.28.spec
+Package.MD5=2489d5de65d8e2d0392b36c3030f1714
+Package.Release Date=Thu, 19 Feb 2026 12:12:18 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15,Levylab_lib_Build_Support_system=1.8.1.28
+Package.Display Name=Build Support
+Platform.Exclusive_VIPM_Version=2017
+Sub-Packages=levylab_lib_build_support_system-1.8.1.28
+
+[Package levylab_lib_build_support_system-1.8.1.28]
+Package.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.1.28.vip
+Icon.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.1.28.bmp
+Spec.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.1.28.spec
+Package.MD5=48045781fd452996380c217ee04c9b16
+Package.Release Date=Thu, 19 Feb 2026 12:12:19 -0500
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15
