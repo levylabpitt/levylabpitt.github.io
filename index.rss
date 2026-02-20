@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Fri, 20 Feb 2026 16:46:59 -0500</pubDate>
+    <pubDate>Fri, 20 Feb 2026 17:52:06 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.8.2.30</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.2.30.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.8.2.30&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 20 Feb 2026 17:52:06 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.2]&lt;br&gt;update template to better handle git branches&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 20 Feb 2026 17:52:06 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.8.2.30</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.8.2.30</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.8.2.30.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.8.2.30&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 20 Feb 2026 17:52:06 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.8.2]&lt;br&gt;update template to better handle git branches&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 20 Feb 2026 17:52:06 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.8.2.30</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.8.2.29</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.2.29.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.8.1]&lt;br&gt;- include G-CLI dependencies&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 19 Feb 2026 12:12:18 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.8.1.28</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support (System) v1.8.0.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.0.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support (System) v1.8.0.27&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 19 Feb 2026 12:01:19 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.0]&lt;br&gt;- reorganize folder, libraries, and classes into a more logical structure&lt;br&gt;- update 7zip.bat to better handle missing *.7z files&lt;br&gt;- update and rename build.bat to build_vip.bat, build 7zip is optional and executes only if 7zip.bat exists&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 19 Feb 2026 12:01:19 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support_system-1.8.0.27</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.8.0.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.8.0.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.8.0.27&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 19 Feb 2026 12:01:19 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.0]&lt;br&gt;- reorganize folder, libraries, and classes into a more logical structure&lt;br&gt;- update 7zip.bat to better handle missing *.7z files&lt;br&gt;- update and rename build.bat to build_vip.bat, build 7zip is optional and executes only if 7zip.bat exists&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 19 Feb 2026 12:01:19 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.8.0.27</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
