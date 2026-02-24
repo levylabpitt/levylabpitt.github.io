@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 24 Feb 2026 09:00:29 -0500</pubDate>
+    <pubDate>Tue, 24 Feb 2026 11:54:27 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.3.5.26</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.3.5.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.3.5.26&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 24 Feb 2026 11:54:27 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.5]&lt;br&gt;fixing issues with ZMQ logging&lt;br&gt;- move logging ownership to context manager&lt;br&gt;- add socket counter&lt;br&gt;- add context ID&lt;br&gt;- update ZMQ.connect and close to increment/decrement socket counter&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 24 Feb 2026 11:54:27 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.3.5.26</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Build Support (System) v1.8.4.32</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.8.4.32.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.8.3]&lt;br&gt;- build_vip.bat.template: Create tag after check
 &lt;br&gt;</description>
       <pubDate>Mon, 23 Feb 2026 08:39:30 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support_system-1.8.3.31</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.8.3.31</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.8.3.31.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.8.3.31&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 23 Feb 2026 08:39:30 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.8.3]&lt;br&gt;- build_vip.bat.template: Create tag after checking out main and merging, so the tag points to the commit on main, not develop. then finish by checking out develop&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 23 Feb 2026 08:39:30 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.8.3.31</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
