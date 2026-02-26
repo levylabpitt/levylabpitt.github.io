@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=302
-Release.Date=Wed, 25 Feb 2026 23:19:01 -0500
-Self.ID=39986fb8490090e7edfb3c196f063be6
+Release.Number=303
+Release.Date=Thu, 26 Feb 2026 07:12:00 -0500
+Self.ID=0c8a9928bee652f651c36c836fdd1064
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9139,4 +9139,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.4.4.13]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.4.13.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.4.13.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.4.13.spec
+Package.MD5=2fa0c3830b2c6a3aae30d240109cae7e
+Package.Release Date=Thu, 26 Feb 2026 07:12:00 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=AH2500A
 Platform.Exclusive_VIPM_Version=2017
