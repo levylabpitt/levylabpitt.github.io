@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 26 Feb 2026 12:06:31 -0500</pubDate>
+    <pubDate>Mon, 02 Mar 2026 16:18:49 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.3.7.28</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.3.7.28.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.3.7.28&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 02 Mar 2026 16:18:49 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.6]&lt;br&gt;#190 add recursive create folder&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 02 Mar 2026 16:18:49 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.3.7.28</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Razorbill RP100 v2.2.4.17</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.4.17.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - build with Remote-Control-ZMQ/1.3.6.27&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 26 Feb 2026 08:49:32 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.4.24</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.4.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.4.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.4.13&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 26 Feb 2026 07:12:00 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with Remote-Control-ZMQ/1.3.6.27&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 26 Feb 2026 07:12:00 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.4.13</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
