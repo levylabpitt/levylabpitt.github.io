@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 02 Mar 2026 17:47:46 -0500</pubDate>
+    <pubDate>Thu, 05 Mar 2026 15:20:58 -0500</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-VRM v1.10.4.27</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.4.27.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.10.4.27&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 05 Mar 2026 15:20:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with Remote-Control-ZMQ/1.3.7.28&lt;br&gt;- #16 fix HELP&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 05 Mar 2026 15:20:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.10.4.27</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-1820 v1.6.5.26</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.5.26.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.6.5.26&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 05 Mar 2026 15:20:58 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with Remote-Control-ZMQ/1.3.7.28&lt;br&gt;- #22 fix HELP&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 05 Mar 2026 15:20:58 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.5.26</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.3.1.43</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.1.43.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: - build with Remote-Control-ZMQ/1.3.6.27&lt;br&gt;
       <pubDate>Thu, 26 Feb 2026 12:06:30 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.3.13</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.4.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.4.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.4.14&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 26 Feb 2026 12:06:30 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with Remote-Control-ZMQ/1.3.6.27&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 26 Feb 2026 12:06:30 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.4.14</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-VRM v1.10.3.25</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.10.3.25.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.10.3.25&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 26 Feb 2026 08:49:32 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with Remote-Control-ZMQ/1.3.6.27&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 26 Feb 2026 08:49:32 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.10.3.25</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
