@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=308
-Release.Date=Thu, 05 Mar 2026 15:20:58 -0500
-Self.ID=c2cb36aa03072efb60100490174eb498
+Release.Number=309
+Release.Date=Thu, 05 Mar 2026 19:38:09 -0500
+Self.ID=ec4b8191cf8b34dde63a432f9b9b09e1
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9307,4 +9307,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.0.33,oxford_lib_mercury_ixx>=2.0.0.6
 Package.Display Name=Oxford-VRM
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_leiden_api-0.0.5.9]
+Package.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.5.9.vip
+Icon.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.5.9.bmp
+Spec.URL=packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.5.9.spec
+Package.MD5=2b05b9884262d3f87c2a77d3aa0dac9c
+Package.Release Date=Thu, 05 Mar 2026 19:38:09 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
+Dependencies.Conflicts=levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
+Package.Display Name=LEIDEN API
 Platform.Exclusive_VIPM_Version=2017
