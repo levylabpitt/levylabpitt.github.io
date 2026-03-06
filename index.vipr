@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=310
-Release.Date=Thu, 05 Mar 2026 20:00:25 -0500
-Self.ID=75ce17c75f485b7df28cf7518b6f181f
+Release.Number=311
+Release.Date=Thu, 05 Mar 2026 22:02:06 -0500
+Self.ID=877ba01e274cf7ddc223098419008d74
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9333,4 +9333,16 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
 Dependencies.Conflicts=levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
 Package.Display Name=LEIDEN API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_leiden_tc-4.61.7.12]
+Package.URL=packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-4.61.7.12.vip
+Icon.URL=packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-4.61.7.12.bmp
+Spec.URL=packages/levylab_lib_leiden_tc/levylab_lib_leiden_tc-4.61.7.12.spec
+Package.MD5=26fa771b5f3c217b6f29f7b1c4dadc4a
+Package.Release Date=Thu, 05 Mar 2026 22:02:06 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=LEIDEN TC
 Platform.Exclusive_VIPM_Version=2017
