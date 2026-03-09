@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 09 Mar 2026 11:24:49 -0400</pubDate>
+    <pubDate>Mon, 09 Mar 2026 14:47:02 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.PGSQL v1.3.0.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.3.0.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.PGSQL v1.3.0.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 09 Mar 2026 14:47:02 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: postgreSQL datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.3.0]&lt;br&gt;- #196 improve logger state resilience to disconnected and unconfigured connections&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 09 Mar 2026 14:47:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.3.0.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Instrument Type v1.2.2.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.2.14.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - build with Remote-Control-ZMQ/1.3.7.28&lt;br&gt;- #22 fix HELP&
 &lt;br&gt;</description>
       <pubDate>Thu, 05 Mar 2026 15:20:58 -0500</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.5.26</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.3.1.43</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.1.43.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.3.1.43&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 02 Mar 2026 17:47:46 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.3.1]&lt;br&gt;- fix an issue in which instruments would not be compared correctly on second iteration when Lockin_Sweep or Lockin_time are called as a subVI&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 02 Mar 2026 17:47:46 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.3.1.43</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
