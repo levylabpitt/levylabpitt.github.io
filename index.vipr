@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=313
-Release.Date=Fri, 06 Mar 2026 16:13:03 -0500
-Self.ID=d7937cc2c70713bae2dc0b484ada2c56
+Release.Number=314
+Release.Date=Mon, 09 Mar 2026 09:02:30 -0400
+Self.ID=67aaa3044977fcc642ca80ddfc2230d2
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9365,6 +9365,19 @@ Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instrument
 Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.10.46.spec
 Package.MD5=9ca3ab0bd127f388c4bae9efc8ee4c5a
 Package.Release Date=Fri, 06 Mar 2026 16:13:03 -0500
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.1.7,levylab_lib_logger_pgsql>=1.2.2.14,levylab_lib_remote_control>=1.3.2.14,levylab_lib_remote_control_zmq>=1.3.7.28,prirvin_lib_json_schema>=0.2.0.9
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.1,levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.15.10.47]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.10.47.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.10.47.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.10.47.spec
+Package.MD5=9a878fa85544c125ee516b7143f318c0
+Package.Release Date=Mon, 09 Mar 2026 09:02:29 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.1.7,levylab_lib_logger_pgsql>=1.2.2.14,levylab_lib_remote_control>=1.3.2.14,levylab_lib_remote_control_zmq>=1.3.7.28,prirvin_lib_json_schema>=0.2.0.9
