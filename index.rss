@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 09 Mar 2026 09:02:30 -0400</pubDate>
+    <pubDate>Mon, 09 Mar 2026 11:24:49 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v1.2.2.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.2.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v1.2.2.14&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 09 Mar 2026 11:24:49 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;- Instrument/1.15.10&lt;br&gt;- #194 add other dependencies&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 09 Mar 2026 11:24:49 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-1.2.2.14</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Instrument Framework v1.15.10.47</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.10.47.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.3.1]&lt;br&gt;- fix an issue in which instruments would not be
       <guid isPermaLink="false">levylab_lib_transport-2.3.1.43</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.3.7.28</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.3.7.28.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.3.7.28&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 02 Mar 2026 16:18:49 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.6]&lt;br&gt;#190 add recursive create folder&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 02 Mar 2026 16:18:49 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.3.7.28</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
