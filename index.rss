@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 11 Mar 2026 14:18:22 -0400</pubDate>
+    <pubDate>Thu, 12 Mar 2026 00:09:35 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.3.2.43</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.3.2.43&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 12 Mar 2026 00:09:34 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.3.2]&lt;br&gt;- #158 update Control Experiment.json to use URI for instrument address&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 12 Mar 2026 00:09:34 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.3.2.43</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.3.2.42</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.42.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.15.10]&lt;br&gt;#191 &#39;Read SMO Address.vi&#39; added termi
 &lt;br&gt;</description>
       <pubDate>Mon, 09 Mar 2026 09:02:29 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.10.47</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.15.10.46</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.10.46.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.15.10.46&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 06 Mar 2026 16:13:03 -0500&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.15.10]&lt;br&gt;#191 &#39;Read SMO Address.vi&#39; added terminal for SMO URI (&#39;tcp://address:port&#39;)&lt;br&gt;#193 make debug mode configurable via configuration.ini (OR override from front panel)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 06 Mar 2026 16:13:03 -0500</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.10.46</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
