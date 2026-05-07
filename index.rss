@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 07 May 2026 16:51:04 -0400</pubDate>
+    <pubDate>Thu, 07 May 2026 18:30:00 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.4.0.74</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.74.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.4.0.74&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 07 May 2026 18:30:00 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issues:&lt;br&gt;#152: use of 1 device is now supported (eg 1 PXI card or 1 USB device)&lt;br&gt;#155: acquisiton without demodulation is now supported&lt;br&gt;#156: add API for simplified synchronous measurments&lt;br&gt;#157: better support for USB-4431 devices&lt;br&gt;#158: &#39;clear graph&#39; option on waveform charts is better supported&lt;br&gt;#159: the number of input and output channels is better synchronized to the number of configured devices&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 07 May 2026 18:30:00 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.4.0.74</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.4.0.73</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.73.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.3.0]&lt;br&gt;- #196 improve logger state resilience to discon
       <guid isPermaLink="false">levylab_lib_logger_pgsql-1.3.0.15</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Type v1.2.2.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.2.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Type v1.2.2.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 09 Mar 2026 11:24:49 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.2]&lt;br&gt;- Instrument/1.15.10&lt;br&gt;- #194 add other dependencies&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 09 Mar 2026 11:24:49 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_instrument_type-1.2.2.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>

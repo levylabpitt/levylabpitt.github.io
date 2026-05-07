@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=324
-Release.Date=Thu, 07 May 2026 16:51:04 -0400
-Self.ID=eacf8cd96c52c67b6521d6bd6f14d727
+Release.Number=325
+Release.Date=Thu, 07 May 2026 18:30:00 -0400
+Self.ID=4cccce34aee3ad4d7194431c4a921da5
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9505,6 +9505,18 @@ Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichanne
 Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.73.spec
 Package.MD5=11c52c61e14b48ee08ffdaa8868735a1
 Package.Release Date=Thu, 07 May 2026 16:51:03 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.11.52
+Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-3.4.0.74]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.74.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.74.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.74.spec
+Package.MD5=94175c16f38160cc763c233f7f9fcec9
+Package.Release Date=Thu, 07 May 2026 18:30:00 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.11.52
