@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 07 May 2026 18:30:00 -0400</pubDate>
+    <pubDate>Wed, 13 May 2026 15:54:09 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.12.0.30</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.0.30.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.12.0.30&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 13 May 2026 15:54:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: #36 Add support for WPQIC PPMS (&#39;PPMS-W-1&#39;) (including support for Supporting DynaCool)&lt;br&gt;- fix issue with incorrectly reported public API list&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 13 May 2026 15:54:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.0.30</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.4.0.74</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.74.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.15.10]&lt;br&gt;#191 &#39;Read SMO Address.vi&#39; added termi
 &lt;br&gt;</description>
       <pubDate>Mon, 09 Mar 2026 15:13:15 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.10.48</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.PGSQL v1.3.0.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.3.0.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.PGSQL v1.3.0.15&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 09 Mar 2026 14:47:02 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: postgreSQL datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.3.0]&lt;br&gt;- #196 improve logger state resilience to disconnected and unconfigured connections&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 09 Mar 2026 14:47:02 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_pgsql-1.3.0.15</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
