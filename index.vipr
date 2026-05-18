@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=328
-Release.Date=Mon, 18 May 2026 14:02:05 -0400
-Self.ID=6ac9eb92ce4f6af2b0fd61c6d3a63765
+Release.Number=329
+Release.Date=Mon, 18 May 2026 14:14:31 -0400
+Self.ID=8dd72d9a35c4463af914f996b733936c
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9553,6 +9553,18 @@ Icon.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5
 Spec.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5.18.10.spec
 Package.MD5=f89834dc63bbfd94b8e6d8ea104d4062
 Package.Release Date=Mon, 18 May 2026 14:02:05 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_lvtdatpgsql>=3.12.0.14
+Package.Display Name=Database Viewer
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_database_viewer-2026.5.18.11]
+Package.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5.18.11.vip
+Icon.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5.18.11.bmp
+Spec.URL=packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5.18.11.spec
+Package.MD5=1c161852fd351453ae7dfbc7de5d3590
+Package.Release Date=Mon, 18 May 2026 14:14:31 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_lvtdatpgsql>=3.12.0.14
