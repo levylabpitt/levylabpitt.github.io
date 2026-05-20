@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Mon, 18 May 2026 14:14:31 -0400</pubDate>
+    <pubDate>Wed, 20 May 2026 17:29:37 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LV-Data-PGSQL v3.12.3.17</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.3.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LV-Data-PGSQL v3.12.3.17&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 20 May 2026 17:29:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [3.12.3]&lt;br&gt;#133: Change INSERTs to NOT query time column format&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 May 2026 17:29:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.12.3.17</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Database Viewer v2026.5.18.11</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5.18.11.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.15.11]&lt;br&gt;- remove LogData private data, LogData depreca
 &lt;br&gt;</description>
       <pubDate>Wed, 11 Mar 2026 11:57:00 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.11.52</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.15.11.51</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.11.51.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.15.11.51&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 11 Mar 2026 09:39:05 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.15.11]&lt;br&gt;- remove LogData private data, LogData deprecated methods from Instrument.lvclass, refactor process.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 11 Mar 2026 09:39:05 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.11.51</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
