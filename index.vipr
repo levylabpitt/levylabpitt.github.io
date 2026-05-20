@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=331
-Release.Date=Wed, 20 May 2026 18:08:51 -0400
-Self.ID=80fac73fd7c572a32d6226afeda04b4b
+Release.Number=332
+Release.Date=Wed, 20 May 2026 18:47:09 -0400
+Self.ID=8158dbeff5c19a792cd0d2f61b161c19
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9605,4 +9605,28 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-2.6.3.36]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.3.36.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.3.36.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.3.36.spec
+Package.MD5=6170700a74b1b5744c2a0461ad33fdc4
+Package.Release Date=Wed, 20 May 2026 18:47:09 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.4.4.14]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.4.14.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.4.14.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.4.14.spec
+Package.MD5=d361c8f92673a6ca5efdabca045342ad
+Package.Release Date=Wed, 20 May 2026 18:47:09 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Cryostation
 Platform.Exclusive_VIPM_Version=2017
