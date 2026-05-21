@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=334
-Release.Date=Wed, 20 May 2026 20:45:42 -0400
-Self.ID=162fd1b39963fd84b1559be53c87c1f0
+Release.Number=335
+Release.Date=Wed, 20 May 2026 21:05:50 -0400
+Self.ID=93acad492def152d7fa22c5ed3bd930c
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9653,4 +9653,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
 Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.5.19]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.5.19.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.5.19.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.5.19.spec
+Package.MD5=4313f25e8009058ed771125632297c72
+Package.Release Date=Wed, 20 May 2026 21:05:50 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017
