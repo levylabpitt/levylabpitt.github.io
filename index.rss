@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 20 May 2026 18:47:09 -0400</pubDate>
+    <pubDate>Wed, 20 May 2026 20:22:21 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cryostation v1.4.4.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.4.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.4.4.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 20 May 2026 20:22:21 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with LV-Data-PGSQL/3.12.3.17&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 20 May 2026 20:22:21 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.4.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.6.3.36</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.3.36.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: #36 Add support for WPQIC PPMS (&#39;PPMS-W-1&#39;) (including su
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.0.30</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.4.0.74</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.0.74.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.4.0.74&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 07 May 2026 18:30:00 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: Issues:&lt;br&gt;#152: use of 1 device is now supported (eg 1 PXI card or 1 USB device)&lt;br&gt;#155: acquisiton without demodulation is now supported&lt;br&gt;#156: add API for simplified synchronous measurments&lt;br&gt;#157: better support for USB-4431 devices&lt;br&gt;#158: &#39;clear graph&#39; option on waveform charts is better supported&lt;br&gt;#159: the number of input and output channels is better synchronized to the number of configured devices&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 07 May 2026 18:30:00 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.4.0.74</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
