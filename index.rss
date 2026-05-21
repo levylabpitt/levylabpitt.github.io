@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 20 May 2026 21:05:50 -0400</pubDate>
+    <pubDate>Thu, 21 May 2026 10:44:01 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.12.2.32</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.32.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.12.2.32&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 21 May 2026 10:44:01 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: #38 Fix enum/ring management and instantiate ppms child classes&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 21 May 2026 10:44:01 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.2.32</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Razorbill RP100 v2.2.5.19</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.5.19.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - build with pgsql/3.12.2.16 (timestamp fix)&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 18 May 2026 14:14:31 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_database_viewer-2026.5.18.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Database Viewer v2026.5.18.10</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_database_viewer/levylab_lib_database_viewer-2026.5.18.10.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Database Viewer v2026.5.18.10&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 18 May 2026 14:02:05 -0400&lt;br&gt;
-Packager: Patrick Irvin, Jack Maier, Yun-Yi Pai&lt;br&gt;
-&lt;br&gt;
-Description: Visualize data from database (postgres/timescale)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with pgsql/3.12.2.16 (timestamp fix)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 18 May 2026 14:02:05 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_database_viewer-2026.5.18.10</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>

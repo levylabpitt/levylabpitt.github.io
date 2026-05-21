@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=335
-Release.Date=Wed, 20 May 2026 21:05:50 -0400
-Self.ID=93acad492def152d7fa22c5ed3bd930c
+Release.Number=336
+Release.Date=Thu, 21 May 2026 10:44:01 -0400
+Self.ID=e0352b61e5210ef3a8ae232aec6952a6
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9665,4 +9665,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=Razorbill RP100
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.12.2.32]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.32.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.32.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.32.spec
+Package.MD5=d810093251fd3ed79d419c1e0caf1aa6
+Package.Release Date=Thu, 21 May 2026 10:44:01 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
