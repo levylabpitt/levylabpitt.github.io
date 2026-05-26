@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=336
-Release.Date=Thu, 21 May 2026 10:44:01 -0400
-Self.ID=e0352b61e5210ef3a8ae232aec6952a6
+Release.Number=337
+Release.Date=Tue, 26 May 2026 16:25:48 -0400
+Self.ID=f324c2320d2b47d0dd21aa5a06c56432
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9677,4 +9677,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW x86>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.4.5.16]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.5.16.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.5.16.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.5.16.spec
+Package.MD5=b1332c36ff8069426cd9a4ae1c7d2ec1
+Package.Release Date=Tue, 26 May 2026 16:25:48 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
+Package.Display Name=Cryostation
 Platform.Exclusive_VIPM_Version=2017
