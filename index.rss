@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 26 May 2026 16:25:48 -0400</pubDate>
+    <pubDate>Wed, 27 May 2026 17:02:17 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.Error v1.2.2.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.2.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.Error v1.2.2.9&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 27 May 2026 17:02:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Error datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.2]&lt;br&gt;#199 recursively search for dependencies to find more processes to monitor errors from&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 May 2026 17:02:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_error-1.2.2.9</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Cryostation v1.4.5.16</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.5.16.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - build with LV-Data-PGSQL/3.12.3.17&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.1.31</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>LV-Data-PGSQL v3.12.3.17</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lvtdatpgsql/levylab_lib_lvtdatpgsql-3.12.3.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LV-Data-PGSQL v3.12.3.17&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 20 May 2026 17:29:37 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: - Database management and Selects and Insert macros to PostgreSQL/timescaleDB.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [3.12.3]&lt;br&gt;#133: Change INSERTs to NOT query time column format&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 May 2026 17:29:37 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lvtdatpgsql-3.12.3.17</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>

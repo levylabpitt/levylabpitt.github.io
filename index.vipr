@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=337
-Release.Date=Tue, 26 May 2026 16:25:48 -0400
-Self.ID=f324c2320d2b47d0dd21aa5a06c56432
+Release.Number=338
+Release.Date=Wed, 27 May 2026 17:02:17 -0400
+Self.ID=e11b953e1517a7703dfd7cfeb5f7e81e
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9689,4 +9689,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13
 Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_error-1.2.2.9]
+Package.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.2.9.vip
+Icon.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.2.9.bmp
+Spec.URL=packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.2.9.spec
+Package.MD5=aed09a8c822be0869470aaf290869aec
+Package.Release Date=Wed, 27 May 2026 17:02:17 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_logger>=1.1.2.11
+Package.Display Name=Logger.Error
 Platform.Exclusive_VIPM_Version=2017
