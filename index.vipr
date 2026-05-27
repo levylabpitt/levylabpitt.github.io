@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=338
-Release.Date=Wed, 27 May 2026 17:02:17 -0400
-Self.ID=e11b953e1517a7703dfd7cfeb5f7e81e
+Release.Number=339
+Release.Date=Wed, 27 May 2026 17:18:38 -0400
+Self.ID=9d51fba7c7351b21872b7ca351eb3f28
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9701,4 +9701,17 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_lvdata>=5.0.0.27,oglib_string>=5.0.0.25,levylab_lib_logger>=1.1.2.11
 Package.Display Name=Logger.Error
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_levylab_instruments-1.15.12.53]
+Package.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.12.53.vip
+Icon.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.12.53.bmp
+Spec.URL=packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.12.53.spec
+Package.MD5=3624840258df7624d30e7a02c64315ed
+Package.Release Date=Wed, 27 May 2026 17:18:37 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_configuration>=1.1.0.6,levylab_lib_debug>=1.1.0.8,levylab_lib_logger>=1.1.2.11,levylab_lib_logger_error>=1.2.2.9,levylab_lib_logger_pgsql>=1.3.0.15,levylab_lib_remote_control>=1.3.2.14,levylab_lib_remote_control_zmq>=1.3.7.28,prirvin_lib_json_schema>=0.2.0.9
+Dependencies.Conflicts=levylab_lib_levylab_instruments>=2.0.0.1,levylab_lib_postgresql>=1.4.0.22
+Package.Display Name=Instrument Framework
 Platform.Exclusive_VIPM_Version=2017
