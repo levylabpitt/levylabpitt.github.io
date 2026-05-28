@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 27 May 2026 23:38:23 -0400</pubDate>
+    <pubDate>Thu, 28 May 2026 16:54:14 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.3.2.44</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.44.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.3.2.44&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 28 May 2026 16:54:14 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 28 May 2026 16:54:14 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.3.2.44</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.4.1.75</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.1.75.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: &lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 20 May 2026 18:47:09 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.3.36</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.4.4.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.4.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.4.4.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 20 May 2026 18:47:09 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: &lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 May 2026 18:47:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.4.14</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
