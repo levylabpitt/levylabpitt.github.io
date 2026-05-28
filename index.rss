@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Wed, 27 May 2026 17:18:38 -0400</pubDate>
+    <pubDate>Wed, 27 May 2026 23:38:23 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.4.1.75</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.4.1.75.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.4.1.75&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 27 May 2026 23:38:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Issues:&lt;br&gt;#160 Make changes to address lockin going to idle state&lt;br&gt;build with Instrument 1.15.12 for improved error logging&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 27 May 2026 23:38:22 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.4.1.75</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Instrument Framework v1.15.12.53</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.12.53.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: &lt;br&gt;
       <pubDate>Wed, 20 May 2026 18:47:09 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.4.14</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.2.5.18</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.5.18.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.2.5.18&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 20 May 2026 18:08:51 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with LV-Data-PGSQL/3.12.3.17&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 May 2026 18:08:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.5.18</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
