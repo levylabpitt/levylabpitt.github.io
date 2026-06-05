@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 04 Jun 2026 23:13:57 -0400</pubDate>
+    <pubDate>Thu, 04 Jun 2026 23:43:11 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Xeryon-Rotator v1.0.5.11</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.5.11.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Xeryon-Rotator v1.0.5.11&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 04 Jun 2026 23:43:11 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
+&lt;br&gt;
+Release Notes: #8 Instrument Framework 1.15.12 (from ca 1.13)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 04 Jun 2026 23:43:11 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.5.11</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.5.10</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.5.10.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: #38 Fix enum/ring management and instantiate ppms child classes&l
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.2.32</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.2.5.19</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.5.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.2.5.19&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 20 May 2026 21:05:50 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with LV-Data-PGSQL/3.12.3.17&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 May 2026 21:05:50 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.5.19</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
