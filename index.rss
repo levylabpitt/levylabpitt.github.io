@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 04 Jun 2026 21:47:45 -0400</pubDate>
+    <pubDate>Thu, 04 Jun 2026 22:31:47 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Xeryon-Rotator v1.0.5.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.5.9.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Xeryon-Rotator v1.0.5.9&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 04 Jun 2026 22:31:47 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
+&lt;br&gt;
+Release Notes: #8 Instrument Framework 1.15.12 (from ca 1.13)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 04 Jun 2026 22:31:47 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.5.9</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.5.8</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.5.8.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - build with LV-Data-PGSQL/3.12.3.17&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 20 May 2026 20:45:42 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.3.37</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.4.4.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.4.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.4.4.15&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 20 May 2026 20:22:21 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with LV-Data-PGSQL/3.12.3.17&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 20 May 2026 20:22:21 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.4.15</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
