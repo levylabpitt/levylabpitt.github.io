@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 04 Jun 2026 23:43:11 -0400</pubDate>
+    <pubDate>Mon, 08 Jun 2026 09:26:34 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.3.2.45</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.45.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.3.2.45&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 08 Jun 2026 09:26:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 08 Jun 2026 09:26:33 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.3.2.45</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Xeryon-Rotator v1.0.5.11</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.5.11.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - #8 fix shutdown behavior&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.5.16</guid>
       <dc:creator>LevyLab</dc:creator>
       
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.12.2.32</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.32.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.12.2.32&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 21 May 2026 10:44:01 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: #38 Fix enum/ring management and instantiate ppms child classes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 21 May 2026 10:44:01 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.2.32</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>

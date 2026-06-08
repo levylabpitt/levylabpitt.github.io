@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=345
-Release.Date=Thu, 04 Jun 2026 23:43:11 -0400
-Self.ID=7339a4ec13a5aa2b63e2cafaf8922eb7
+Release.Number=346
+Release.Date=Mon, 08 Jun 2026 09:26:34 -0400
+Self.ID=0455f754a934dfb0fd3eba563f161a9b
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9786,4 +9786,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.12.53
 Package.Display Name=Xeryon-Rotator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_transport-2.3.2.45]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-2.3.2.45.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-2.3.2.45.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-2.3.2.45.spec
+Package.MD5=1b7fb2d6c5b2af54c5885cc2809322be
+Package.Release Date=Mon, 08 Jun 2026 09:26:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
+Package.Display Name=Transport
 Platform.Exclusive_VIPM_Version=2017
