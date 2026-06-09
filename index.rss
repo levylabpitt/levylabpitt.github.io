@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 09 Jun 2026 10:58:52 -0400</pubDate>
+    <pubDate>Tue, 09 Jun 2026 11:44:54 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.4.0.47</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.4.0.47.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.4.0.47&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 09 Jun 2026 11:44:54 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 09 Jun 2026 11:44:54 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.4.0.47</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.3.2.46</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.46.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.15.12]&lt;br&gt;#198 fix Error Logger dependency declaration&l
 &lt;br&gt;</description>
       <pubDate>Wed, 27 May 2026 17:18:37 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.12.53</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Logger.Error v1.2.2.9</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.2.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.Error v1.2.2.9&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 27 May 2026 17:02:17 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Error datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.2]&lt;br&gt;#199 recursively search for dependencies to find more processes to monitor errors from&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 27 May 2026 17:02:17 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_error-1.2.2.9</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
