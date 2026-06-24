@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Packages</title>
     <description>LevyLab GitHub Packages</description>
-    <pubDate>Tue, 16 Jun 2026 14:44:39 -0400</pubDate>
+    <pubDate>Wed, 24 Jun 2026 16:16:32 -0400</pubDate>
     <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.12.2.33</title>
+      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.33.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.12.2.33&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 24 Jun 2026 16:16:32 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: #38 Fix enum/ring management and instantiate ppms child classes&lt;br&gt;&lt;br&gt;*build 1.12.2.33 allows installation on 64-bit LabVIEW, however you cannot communicate directly to MultiVu from 64-bit LabVIEW.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 24 Jun 2026 16:16:32 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.2.33</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.5.1.77</title>
       <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.5.1.77.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: #8 Instrument Framework 1.15.12 (from ca 1.13)&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 04 Jun 2026 21:47:44 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.0.5.8</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.3.2.44</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.44.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.3.2.44&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 28 May 2026 16:54:14 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 28 May 2026 16:54:14 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.3.2.44</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
