@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Packages
 Self.URL=file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io
-Release.Number=351
-Release.Date=Wed, 24 Jun 2026 16:16:32 -0400
-Self.ID=91560cdea5431563f87459f2c3749f43
+Release.Number=354
+Release.Date=Thu, 02 Jul 2026 12:08:42 -0400
+Self.ID=422ba953c7b2dce7642746e63b889a9d
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -9858,4 +9858,54 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14
 Package.Display Name=PPMS Monitor and Control
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_build_support-1.9.0.33]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.9.0.33.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.9.0.33.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.9.0.33.spec
+Package.MD5=ddeb2cc3a3205a6db024e7117fb68637
+Package.Release Date=Thu, 02 Jul 2026 12:07:30 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15,Levylab_lib_Build_Support_system=1.9.0.33
+Package.Display Name=Build Support
+Platform.Exclusive_VIPM_Version=2017
+Sub-Packages=levylab_lib_build_support_system-1.9.0.33
+
+[Package levylab_lib_build_support_system-1.9.0.33]
+Package.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.0.33.vip
+Icon.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.0.33.bmp
+Spec.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.0.33.spec
+Package.MD5=57f15fb1aedd056549bfa3816535f3e5
+Package.Release Date=Thu, 02 Jul 2026 12:07:30 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15
+Package.Display Name=Build Support (System)
+Platform.Exclusive_VIPM_Version=2017
+System Package=TRUE
+
+[Package wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9]
+Package.URL=packages/wiresmith_technology_lib_g_cli_labview_builder/wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9.vip
+Icon.URL=packages/wiresmith_technology_lib_g_cli_labview_builder/wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9.bmp
+Spec.URL=packages/wiresmith_technology_lib_g_cli_labview_builder/wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9.spec
+Package.MD5=e461b48c5f3c9883e71df2b0dcd1d5e4
+Package.Release Date=Thu, 02 Jul 2026 12:08:30 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=wiresmith_technology_lib_g_cli>=2.1.0.1520
+Package.Display Name=G CLI LabVIEW Builder
+Platform.Exclusive_VIPM_Version=2017
+
+[Package wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15]
+Package.URL=packages/wiresmith_technology_lib_g_cli_vi_package_manager_tools/wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15.vip
+Icon.URL=packages/wiresmith_technology_lib_g_cli_vi_package_manager_tools/wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15.bmp
+Spec.URL=packages/wiresmith_technology_lib_g_cli_vi_package_manager_tools/wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15.spec
+Package.MD5=c13cffee8ebab4bfe41ae4822e4fd084
+Package.Release Date=Thu, 02 Jul 2026 12:08:40 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_lib_vipm_api>=2017.0.0.55,wiresmith_technology_lib_g_cli>=2.1.0.1520
+Package.Display Name=G CLI VI Package Manager Tools
 Platform.Exclusive_VIPM_Version=2017
