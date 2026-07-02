@@ -1,190 +1,190 @@
 <?xml version="1.0" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>LevyLab GitHub Packages</title>
-    <description>LevyLab GitHub Packages</description>
-    <pubDate>Thu, 02 Jul 2026 14:00:20 -0400</pubDate>
-    <link>file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io</link>
-    <atom:link href="file:///C:/Users/patrick/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <title>LevyLab GitHub Repository</title>
+    <description>LevyLab GitHub Repository</description>
+    <pubDate>Thu, 02 Jul 2026 14:37:58 -0400</pubDate>
+    <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
+    <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
     <item>
       <title>G CLI VI Package Manager Tools v0.2.1.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/wiresmith_technology_lib_g_cli_vi_package_manager_tools/wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15.bmp"&gt;&lt;br&gt;
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/wiresmith_technology_lib_g_cli_vi_package_manager_tools/wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
 Product: G CLI VI Package Manager Tools v0.2.1.15&lt;br&gt;
 Company: Wiresmith Technology&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 12:08:40 -0400&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Contains a series of tools for automating VI package manager from the command line including:&lt;br&gt;&lt;br&gt;*vipBuild - Build a package from a VIPB file.&lt;br&gt;* vipcApply - Apply a VIPC file.&lt;br&gt;&lt;br&gt;This requires VI Package Manager Pro in order to have access to the API.&lt;br&gt;
 &lt;br&gt;
 Release Notes: * VIPBuild now returns path VIP file as &#39;BUILD_OUTPUT=&amp;quot;&amp;quot;&#39;&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 12:08:40 -0400</pubDate>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
       <guid isPermaLink="false">wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15</guid>
       <dc:creator>Wiresmith Technology</dc:creator>
       
     </item>
     <item>
       <title>G CLI LabVIEW Builder v0.2.0.9</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/wiresmith_technology_lib_g_cli_labview_builder/wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9.bmp"&gt;&lt;br&gt;
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/wiresmith_technology_lib_g_cli_labview_builder/wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
 Product: G CLI LabVIEW Builder v0.2.0.9&lt;br&gt;
 Company: Wiresmith Technology&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 12:08:30 -0400&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
 Description: Provides a G CLI tool to automate build specifications in LabVIEW&lt;br&gt;
 &lt;br&gt;
 Release Notes: * First Release&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 12:08:30 -0400</pubDate>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
       <guid isPermaLink="false">wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9</guid>
       <dc:creator>Wiresmith Technology</dc:creator>
       
     </item>
     <item>
-      <title>Build Support (System) v1.9.0.33</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.0.33.bmp"&gt;&lt;br&gt;
+      <title>PyByWire v1.2.3.5</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/pybywire/pybywire-1.2.3.5.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Build Support (System) v1.9.0.33&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 12:07:30 -0400&lt;br&gt;
+Product: PyByWire v1.2.3.5&lt;br&gt;
+Company: Monash University&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: &lt;br&gt;
+&lt;br&gt;
+Release Notes: &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">pybywire-1.2.3.5</guid>
+      <dc:creator>Monash University</dc:creator>
+      <link>http://pybywire.sf.net</link>
+    </item>
+    <item>
+      <title>PRIrvin-Palette v1.0.0.3</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_prirvin_palette/prirvin_lib_prirvin_palette-1.0.0.3.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PRIrvin-Palette v1.0.0.3&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+Description: &lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.9.0]&lt;br&gt;- fix bug in VIPM Increment Version Patch&lt;br&gt;- new methods to read and data from VIPB files&lt;br&gt;- add g-CLI tools for executing project builds without going through VIPM:&lt;br&gt;   - noVIPM_IncrementBuild&lt;br&gt;   - noVIPM_PostBuild&lt;br&gt;&lt;br&gt;
+Release Notes: &lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 12:07:30 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support_system-1.9.0.33</guid>
-      <dc:creator>Levylab</dc:creator>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_prirvin_palette-1.0.0.3</guid>
+      <dc:creator>PRIrvin</dc:creator>
       
     </item>
     <item>
-      <title>Build Support v1.9.0.33</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.9.0.33.bmp"&gt;&lt;br&gt;
+      <title>JSON-Schema v0.2.0.9</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.2.0.9.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Build Support v1.9.0.33&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 12:07:30 -0400&lt;br&gt;
+Product: JSON-Schema v0.2.0.9&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
 &lt;br&gt;
-Release Notes: [1.9.0]&lt;br&gt;- fix bug in VIPM Increment Version Patch&lt;br&gt;- new methods to read and data from VIPB files&lt;br&gt;- add g-CLI tools for executing project builds without going through VIPM:&lt;br&gt;   - noVIPM_IncrementBuild&lt;br&gt;   - noVIPM_PostBuild&lt;br&gt;&lt;br&gt;
+Release Notes: #2 fix Creat JSON Schema (Interactive).vi button logic&lt;br&gt;#3 fix schema formatting of cluster and nested clusters&lt;br&gt;#4 fix converting table data to json datatypes (converts to numeric rather than string)&lt;br&gt;- add tools for building and stripping JSON $Path&lt;br&gt;- recursively inspect schema to table and vice versa (useful for nested clusters)&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 12:07:30 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.9.0.33</guid>
-      <dc:creator>Levylab</dc:creator>
-      
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.2.0.9</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
     </item>
     <item>
-      <title>PPMS Monitor and Control v1.12.2.33</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.2.33.bmp"&gt;&lt;br&gt;
+      <title>JSON-Schema v0.1.4.8</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_schema/prirvin_lib_json_schema-0.1.4.8.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: PPMS Monitor and Control v1.12.2.33&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 24 Jun 2026 16:16:32 -0400&lt;br&gt;
+Product: JSON-Schema v0.1.4.8&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+Description: Library for converting LV objects into JSON Schema&lt;br&gt;
 &lt;br&gt;
-Release Notes: #38 Fix enum/ring management and instantiate ppms child classes&lt;br&gt;&lt;br&gt;*build 1.12.2.33 allows installation on 64-bit LabVIEW, however you cannot communicate directly to MultiVu from 64-bit LabVIEW.&lt;br&gt;
+Release Notes: enable 64 bit labview&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Wed, 24 Jun 2026 16:16:32 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.2.33</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_schema-0.1.4.8</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
     </item>
     <item>
-      <title>Multichannel Lockin v3.5.1.77</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.5.1.77.bmp"&gt;&lt;br&gt;
+      <title>JSON-RPC v1.2.6.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.6.15.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Multichannel Lockin v3.5.1.77&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 16 Jun 2026 14:44:38 -0400&lt;br&gt;
+Product: JSON-RPC v1.2.6.15&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
 &lt;br&gt;
-Release Notes: #163: fix issue in which empty results would result in NaN values on front panel&lt;br&gt;
+Release Notes: [1.2.6]&lt;br&gt;- enable 32/64 bit labview&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 16 Jun 2026 14:44:38 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.5.1.77</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.6.15</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
     </item>
     <item>
-      <title>Multichannel Lockin v3.5.0.76</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.5.0.76.bmp"&gt;&lt;br&gt;
+      <title>JSON-RPC v1.2.5.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.5.14.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Multichannel Lockin v3.5.0.76&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 12 Jun 2026 17:53:46 -0400&lt;br&gt;
+Product: JSON-RPC v1.2.5.14&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
 Packager: Patrick Irvin&lt;br&gt;
 &lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
 &lt;br&gt;
-Release Notes: #161: low pass filters after demodulation: change to cascaded RC filters, limit n to 1..4, new calculation of f_out, ENBW, etc&lt;br&gt;#162: Fix bug in output sampling; add Nyquist filter to downsample AI and AO channels; preserve state in decimator to improve behavior when N/M is not an integer&lt;br&gt;* Input filters: these are retained to allow the user to filter data going to the front panel scope; they are not applied before lockin demodulation.&lt;br&gt;
+Release Notes: [1.2.5]&lt;br&gt;- new install locatation&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Fri, 12 Jun 2026 17:53:46 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.5.0.76</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.5.14</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
     </item>
     <item>
-      <title>Transport v2.4.0.47</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.4.0.47.bmp"&gt;&lt;br&gt;
+      <title>Mercury iXX (System) v2.0.0.6</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/oxford_lib_mercury_ixx_system/oxford_lib_mercury_ixx_system-2.0.0.6.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Transport v2.4.0.47&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 09 Jun 2026 11:44:54 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
+Product: Mercury iXX (System) v2.0.0.6&lt;br&gt;
+Company: Oxford&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
+Packager: Oxford Instruments&lt;br&gt;
 &lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+Description: A library of  VIs for NI LabVIEW used to built simple application to communicate with Mercury system or complex graphical interfaces to take advantage of full system functionality.&lt;br&gt;
 &lt;br&gt;
-Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
+Release Notes: An updated revision of the Mercury LabVIEW function library containing new features, many new examples and many bug fixes.  It can be used with LV 13.0f2 or later and Mercury firmware 2.0 or later. &lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 09 Jun 2026 11:44:54 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.4.0.47</guid>
-      <dc:creator>Levylab</dc:creator>
-      
+      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
+      <guid isPermaLink="false">oxford_lib_mercury_ixx_system-2.0.0.6</guid>
+      <dc:creator>Oxford</dc:creator>
+      <link>https://mymercurysupport.com</link>
     </item>
     <item>
-      <title>Transport v2.3.2.46</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.46.bmp"&gt;&lt;br&gt;
+      <title>Mercury iXX v2.0.0.6</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/oxford_lib_mercury_ixx/oxford_lib_mercury_ixx-2.0.0.6.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: Transport v2.3.2.46&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 09 Jun 2026 10:58:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
+Product: Mercury iXX v2.0.0.6&lt;br&gt;
+Company: Oxford&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 14:37:56 -0400&lt;br&gt;
+Packager: Oxford Instruments&lt;br&gt;
 &lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+Description: A library of  VIs for NI LabVIEW used to built simple application to communicate with Mercury system or complex graphical interfaces to take advantage of full system functionality.&lt;br&gt;
 &lt;br&gt;
-Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
+Release Notes: An updated revision of the Mercury LabVIEW function library containing new features, many new examples and many bug fixes.  It can be used with LV 13.0f2 or later and Mercury firmware 2.0 or later. &lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Tue, 09 Jun 2026 10:58:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.3.2.46</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.3.2.45</title>
-      <description>&lt;img alt="" src="file:///C:/Users/patrick/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.3.2.45.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.3.2.45&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 08 Jun 2026 09:26:33 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.4.0]&lt;br&gt;#159 Fix issue where Lockin_time would generate two data files per run (@pgwijesinghe)&lt;br&gt;#160 add setRefreshTime API command (used by Lockin_time)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 08 Jun 2026 09:26:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.3.2.45</guid>
-      <dc:creator>Levylab</dc:creator>
-      
+      <pubDate>Thu, 02 Jul 2026 14:37:56 -0400</pubDate>
+      <guid isPermaLink="false">oxford_lib_mercury_ixx-2.0.0.6</guid>
+      <dc:creator>Oxford</dc:creator>
+      <link>https://mymercurysupport.com</link>
     </item>
   </channel>
 </rss>
