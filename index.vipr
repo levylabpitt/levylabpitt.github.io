@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=1
-Release.Date=Thu, 02 Jul 2026 14:37:58 -0400
-Self.ID=e4ed0c4332abaa681beb9e88aabbd198
+Release.Number=2
+Release.Date=Thu, 02 Jul 2026 15:31:37 -0400
+Self.ID=e65cb3b54052053a09a7d30beb23e53d
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -1551,3 +1551,29 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_vipm_api>=2017.0.0.55,wiresmith_technology_lib_g_cli>=2.1.0.1520
 Package.Display Name=G CLI VI Package Manager Tools
 Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_build_support-1.9.1.34]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.9.1.34.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.9.1.34.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.9.1.34.spec
+Package.MD5=93dca480af5d57c621a477e99fbab761
+Package.Release Date=Thu, 02 Jul 2026 15:31:37 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15,Levylab_lib_Build_Support_system=1.9.1.34
+Package.Display Name=Build Support
+Platform.Exclusive_VIPM_Version=2017
+Sub-Packages=levylab_lib_build_support_system-1.9.1.34
+
+[Package levylab_lib_build_support_system-1.9.1.34]
+Package.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.1.34.vip
+Icon.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.1.34.bmp
+Spec.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.1.34.spec
+Package.MD5=af1283872f4d9463618b6718dc5a8fe7
+Package.Release Date=Thu, 02 Jul 2026 15:31:37 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15
+Package.Display Name=Build Support (System)
+Platform.Exclusive_VIPM_Version=2017
+System Package=TRUE
