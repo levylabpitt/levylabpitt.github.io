@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 02 Jul 2026 15:31:37 -0400</pubDate>
+    <pubDate>Thu, 02 Jul 2026 16:17:54 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.4.1.48</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.4.1.48.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.4.1.48&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 02 Jul 2026 16:17:54 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: #161 Lockin_time plot angle vs time&lt;br&gt;show/hide vector maget control&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 02 Jul 2026 16:17:54 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.4.1.48</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.9.1.34</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.9.1.34.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.2.6]&lt;br&gt;- enable 32/64 bit labview&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
       <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.6.15</guid>
-      <dc:creator>PRIrvin</dc:creator>
-      <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>JSON-RPC v1.2.5.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.5.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: JSON-RPC v1.2.5.14&lt;br&gt;
-Company: PRIrvin&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.2.5]&lt;br&gt;- new install locatation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
-      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.5.14</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
     </item>
