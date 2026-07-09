@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=4
-Release.Date=Wed, 08 Jul 2026 16:30:00 -0400
-Self.ID=4545fc5eff88f1eaaf84b31cfb8298d6
+Release.Number=5
+Release.Date=Thu, 09 Jul 2026 07:18:27 -0400
+Self.ID=468af4a99416cfe1318abe2b6a8bd005
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -1600,4 +1600,28 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
 Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_krohn_hite_7008-2.6.4.40]
+Package.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.4.40.vip
+Icon.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.4.40.bmp
+Spec.URL=packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.4.40.spec
+Package.MD5=128e1f10ea3db1eb15e13bb6e433cf01
+Package.Release Date=Thu, 09 Jul 2026 07:18:26 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.9.45
+Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xeryon_rotator-1.0.7.13]
+Package.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.7.13.vip
+Icon.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.7.13.bmp
+Spec.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.0.7.13.spec
+Package.MD5=7aca7a781757297fb00fa3906a7aa718
+Package.Release Date=Thu, 09 Jul 2026 07:18:27 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.12.53
+Package.Display Name=Xeryon-Rotator
 Platform.Exclusive_VIPM_Version=2017
