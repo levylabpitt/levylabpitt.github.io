@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 10 Jul 2026 12:30:46 -0400</pubDate>
+    <pubDate>Fri, 10 Jul 2026 13:56:30 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.10.0.37</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.10.0.37.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.10.0.37&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 10 Jul 2026 13:56:30 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependencis with Inno Setup&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jul 2026 13:56:30 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.10.0.37</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.10.0.37</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.10.0.37.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.10.0.37&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 10 Jul 2026 13:56:29 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependencis with Inno Setup&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jul 2026 13:56:29 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.10.0.37</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.10.0.36</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.10.0.36.bmp"&gt;&lt;br&gt;
@@ -148,42 +184,6 @@ Release Notes: [1.9.1]&lt;br&gt;- fix bug in Write Node to VIPB.vi to release fi
       <pubDate>Thu, 02 Jul 2026 15:31:37 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.9.1.34</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>G CLI VI Package Manager Tools v0.2.1.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/wiresmith_technology_lib_g_cli_vi_package_manager_tools/wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: G CLI VI Package Manager Tools v0.2.1.15&lt;br&gt;
-Company: Wiresmith Technology&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Contains a series of tools for automating VI package manager from the command line including:&lt;br&gt;&lt;br&gt;*vipBuild - Build a package from a VIPB file.&lt;br&gt;* vipcApply - Apply a VIPC file.&lt;br&gt;&lt;br&gt;This requires VI Package Manager Pro in order to have access to the API.&lt;br&gt;
-&lt;br&gt;
-Release Notes: * VIPBuild now returns path VIP file as &#39;BUILD_OUTPUT=&amp;quot;&amp;quot;&#39;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
-      <guid isPermaLink="false">wiresmith_technology_lib_g_cli_vi_package_manager_tools-0.2.1.15</guid>
-      <dc:creator>Wiresmith Technology</dc:creator>
-      
-    </item>
-    <item>
-      <title>G CLI LabVIEW Builder v0.2.0.9</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/wiresmith_technology_lib_g_cli_labview_builder/wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: G CLI LabVIEW Builder v0.2.0.9&lt;br&gt;
-Company: Wiresmith Technology&lt;br&gt;
-Release Date: Thu, 02 Jul 2026 14:37:57 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Provides a G CLI tool to automate build specifications in LabVIEW&lt;br&gt;
-&lt;br&gt;
-Release Notes: * First Release&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 02 Jul 2026 14:37:57 -0400</pubDate>
-      <guid isPermaLink="false">wiresmith_technology_lib_g_cli_labview_builder-0.2.0.9</guid>
-      <dc:creator>Wiresmith Technology</dc:creator>
       
     </item>
   </channel>
