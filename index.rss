@@ -3,9 +3,81 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 10 Jul 2026 19:02:25 -0400</pubDate>
+    <pubDate>Sat, 11 Jul 2026 09:14:46 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.11.0.44</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.0.44.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.11.0.44&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 11 Jul 2026 09:14:46 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.0]&lt;br&gt;- builds now controlled through configuration build.conf and univeral build.bat&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 11 Jul 2026 09:14:46 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.11.0.44</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.11.0.44</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.0.44.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.11.0.44&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 11 Jul 2026 09:14:46 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.0]&lt;br&gt;- builds now controlled through configuration build.conf and univeral build.bat&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 11 Jul 2026 09:14:46 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.11.0.44</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support (System) v1.10.2.43</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.10.2.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.10.2.43&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 10 Jul 2026 19:44:02 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.2]&lt;br&gt;fix cross linking and remove unused VIs&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jul 2026 19:44:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.10.2.43</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.10.2.43</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.10.2.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.10.2.43&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 10 Jul 2026 19:44:02 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.10.2]&lt;br&gt;fix cross linking and remove unused VIs&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 10 Jul 2026 19:44:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.10.2.43</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.10.1.42</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.10.1.42.bmp"&gt;&lt;br&gt;
@@ -111,78 +183,6 @@ Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependen
 &lt;br&gt;</description>
       <pubDate>Fri, 10 Jul 2026 14:40:47 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.10.0.40</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support (System) v1.10.0.39</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.10.0.39.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support (System) v1.10.0.39&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 10 Jul 2026 14:25:55 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependencis with Inno Setup&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Jul 2026 14:25:55 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support_system-1.10.0.39</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.10.0.39</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.10.0.39.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.10.0.39&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 10 Jul 2026 14:25:55 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependencis with Inno Setup&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Jul 2026 14:25:55 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.10.0.39</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support (System) v1.10.0.38</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.10.0.38.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support (System) v1.10.0.38&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 10 Jul 2026 14:11:26 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependencis with Inno Setup&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Jul 2026 14:11:26 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support_system-1.10.0.38</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.10.0.38</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.10.0.38.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.10.0.38&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 10 Jul 2026 14:11:25 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Miscellaneous VIs help build applications and packages&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.10.0]&lt;br&gt;#9 Add option to package installer and dependencis with Inno Setup&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 10 Jul 2026 14:11:25 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.10.0.38</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
