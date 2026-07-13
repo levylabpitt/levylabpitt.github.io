@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=20
-Release.Date=Mon, 13 Jul 2026 18:04:53 -0400
-Self.ID=7033acde3b7dbf8a4919315216d32e1a
+Release.Number=21
+Release.Date=Mon, 13 Jul 2026 18:47:55 -0400
+Self.ID=371026bf4b246aa199bff70a8967098a
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -1957,6 +1957,32 @@ Icon.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_sys
 Spec.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.1.48.spec
 Package.MD5=c12b3a327d8bd79e30ac37dbb4e9273f
 Package.Release Date=Mon, 13 Jul 2026 18:04:53 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15
+Package.Display Name=Build Support (System)
+Platform.Exclusive_VIPM_Version=2017
+System Package=TRUE
+
+[Package levylab_lib_build_support-1.11.1.49]
+Package.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.11.1.49.vip
+Icon.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.11.1.49.bmp
+Spec.URL=packages/levylab_lib_build_support/levylab_lib_build_support-1.11.1.49.spec
+Package.MD5=751b7f06035057af5ef27467d71626f4
+Package.Release Date=Mon, 13 Jul 2026 18:47:55 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15,Levylab_lib_Build_Support_system=1.11.1.49
+Package.Display Name=Build Support
+Platform.Exclusive_VIPM_Version=2017
+Sub-Packages=levylab_lib_build_support_system-1.11.1.49
+
+[Package levylab_lib_build_support_system-1.11.1.49]
+Package.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.1.49.vip
+Icon.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.1.49.bmp
+Spec.URL=packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.1.49.spec
+Package.MD5=41db7e229628f51d96d5880f80f50989
+Package.Release Date=Mon, 13 Jul 2026 18:47:55 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib_g_cli>=3.0.1.98,wiresmith_technology_lib_g_cli_labview_builder>=0.2.0.9,wiresmith_technology_lib_g_cli_vi_package_manager_tools>=0.2.1.15
