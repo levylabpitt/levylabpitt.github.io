@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Mon, 13 Jul 2026 18:47:55 -0400</pubDate>
+    <pubDate>Tue, 14 Jul 2026 12:17:44 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.11.2.50</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.2.50.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.11.2.50&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 14 Jul 2026 12:17:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.2]&lt;br&gt;1. Release notes from the vipb - gh release now pulls its body from &amp;lt;Release_Notes&amp;gt; If the vipb has no notes, it falls back to --generate-notes. The old release_notes.txt path is gone.&lt;br&gt;&lt;br&gt;2. Build number always increments on every successful build (after the build/release steps). It writes the bumped version into the vipb but does not commit or push it. DO_RELEASE now gates only the git release (commit/merge/tag/push) + the GitHub release.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 14 Jul 2026 12:17:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.11.2.50</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.11.2.50</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.2.50.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.11.2.50&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 14 Jul 2026 12:17:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.2]&lt;br&gt;1. Release notes from the vipb - gh release now pulls its body from &amp;lt;Release_Notes&amp;gt; If the vipb has no notes, it falls back to --generate-notes. The old release_notes.txt path is gone.&lt;br&gt;&lt;br&gt;2. Build number always increments on every successful build (after the build/release steps). It writes the bumped version into the vipb but does not commit or push it. DO_RELEASE now gates only the git release (commit/merge/tag/push) + the GitHub release.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 14 Jul 2026 12:17:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.11.2.50</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.11.1.49</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.1.49.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Jul 2026 13:42:47 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support-1.11.1.46</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support (System) v1.11.1.45</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.1.45.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support (System) v1.11.1.45&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Jul 2026 10:04:04 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Jul 2026 10:04:04 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support_system-1.11.1.45</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.11.1.45</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.1.45.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.11.1.45&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Jul 2026 10:04:04 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Jul 2026 10:04:04 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.11.1.45</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
