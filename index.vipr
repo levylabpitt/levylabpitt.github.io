@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=22
-Release.Date=Tue, 14 Jul 2026 12:17:44 -0400
-Self.ID=3a4718b7c6c5dece13794ddecdcb3314
+Release.Number=23
+Release.Date=Mon, 03 Aug 2026 17:19:43 -0400
+Self.ID=192a6b5a6f1e0f3905b59d92ac106e0d
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2015,3 +2015,15 @@ Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib
 Package.Display Name=Build Support (System)
 Platform.Exclusive_VIPM_Version=2017
 System Package=TRUE
+
+[Package levylab_lib_debug-1.2.0.9]
+Package.URL=packages/levylab_lib_debug/levylab_lib_debug-1.2.0.9.vip
+Icon.URL=packages/levylab_lib_debug/levylab_lib_debug-1.2.0.9.bmp
+Spec.URL=packages/levylab_lib_debug/levylab_lib_debug-1.2.0.9.spec
+Package.MD5=bb7f3e4c3868d391c118264bf284c9fc
+Package.Release Date=Mon, 03 Aug 2026 17:19:43 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jki_statemachineobjects>=1.4.0.69
+Package.Display Name=Debug
+Platform.Exclusive_VIPM_Version=2017
