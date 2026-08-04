@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=25
-Release.Date=Tue, 04 Aug 2026 00:43:02 -0400
-Self.ID=bbdd2911c3f3dc42bf01594b937fbdc1
+Release.Number=26
+Release.Date=Tue, 04 Aug 2026 07:27:07 -0400
+Self.ID=78876ff11b21ea7f0da8498eb490b753
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2050,4 +2050,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_debug>=1.1.0.8
 Package.Display Name=RemoteControl
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_logger_pgsql-1.3.1.16]
+Package.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.3.1.16.vip
+Icon.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.3.1.16.bmp
+Spec.URL=packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.3.1.16.spec
+Package.MD5=b37311bd7381abf9c11e5724dd913e4a
+Package.Release Date=Tue, 04 Aug 2026 07:27:07 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_lib_common_utilities>=1.4.2.19,jdp_science_postgresql>=0.6.2.48,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview_open_source_lib_epoch_datetime>=1.3.0.8,levylab_lib_fileutilities>=1.2.6.13,levylab_lib_lvtdatpgsql>=3.12.3.17,levylab_lib_lvtoitx>=3.10.0.9,levylab_lib_xy_utilities>=1.9.0.13,mgi_lib_1d_array>=1.0.4.8,mgi_lib_numeric>=1.1.0.2,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_array>=4.1.1.14,oglib_dictionary>=4.0.0.4,oglib_error>=4.2.0.23,oglib_file>=4.0.1.22,oglib_lvdata>=5.0.0.27,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,levylab_lib_logger>=1.1.2.11
+Package.Display Name=Logger.PGSQL
 Platform.Exclusive_VIPM_Version=2017
