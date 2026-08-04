@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 04 Aug 2026 07:27:07 -0400</pubDate>
+    <pubDate>Tue, 04 Aug 2026 13:50:29 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Debug v1.2.1.10</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_debug/levylab_lib_debug-1.2.1.10.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Debug v1.2.1.10&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 04 Aug 2026 13:50:29 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Shared Debug SMO Attribute&lt;br&gt;
+&lt;br&gt;
+Release Notes: rename SMO out terminal&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 04 Aug 2026 13:50:29 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_debug-1.2.1.10</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Logger.PGSQL v1.3.1.16</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_logger_pgsql/levylab_lib_logger_pgsql-1.3.1.16.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Jul 2026 18:04:53 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support_system-1.11.1.48</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.11.1.48</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.1.48.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.11.1.48&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Jul 2026 18:04:53 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Jul 2026 18:04:53 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.11.1.48</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
