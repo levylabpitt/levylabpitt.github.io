@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 04 Aug 2026 16:09:24 -0400</pubDate>
+    <pubDate>Wed, 05 Aug 2026 11:56:27 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl v1.4.1.19</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.4.1.19.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl v1.4.1.19&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 05 Aug 2026 11:56:27 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
+&lt;br&gt;
+Release Notes: fix timeout error and handling Message.error&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 05 Aug 2026 11:56:27 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control-1.4.1.19</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>RemoteControl v1.4.0.17</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.4.0.17.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Mon, 13 Jul 2026 18:47:55 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support_system-1.11.1.49</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.11.1.49</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.1.49.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.11.1.49&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 13 Jul 2026 18:47:55 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.1]&lt;br&gt;- organize scripts and templates&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 13 Jul 2026 18:47:55 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.11.1.49</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
