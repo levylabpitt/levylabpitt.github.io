@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=33
-Release.Date=Fri, 04 Sep 2026 16:21:33 -0400
-Self.ID=39a27a5d09aae3ada92520ae0f7ae21a
+Release.Number=34
+Release.Date=Tue, 08 Sep 2026 10:43:47 -0400
+Self.ID=32eb5fc33e0b65de11c6c512fc3c5e97
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2142,6 +2142,18 @@ Icon.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.0.15
 Spec.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.0.15.spec
 Package.MD5=f27ec203b3d1242a257a64826c66e3ae
 Package.Release Date=Fri, 04 Sep 2026 16:21:33 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.12.53
+Package.Display Name=Xeryon-Rotator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xeryon_rotator-1.1.1.17]
+Package.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.1.17.vip
+Icon.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.1.17.bmp
+Spec.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.1.17.spec
+Package.MD5=660efe98e5f9438c96f23fe975fe8034
+Package.Release Date=Tue, 08 Sep 2026 10:43:47 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.12.53
