@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 08 Sep 2026 17:17:29 -0400</pubDate>
+    <pubDate>Tue, 08 Sep 2026 17:48:55 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Xeryon-Rotator v1.1.3.25</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.3.25.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Xeryon-Rotator v1.1.3.25&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 08 Sep 2026 17:48:55 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
+&lt;br&gt;
+Release Notes: - move serial parameters.ctl&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 17:48:55 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.3.25</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Xeryon-Rotator v1.1.2.23</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.2.23.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: fix timeout error and handling Message.error&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Wed, 05 Aug 2026 11:56:27 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_remote_control-1.4.1.19</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>RemoteControl v1.4.0.17</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control/levylab_lib_remote_control-1.4.0.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl v1.4.0.17&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 04 Aug 2026 16:09:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Parent library for sending messages to programs occupying different application instances, ie, LabVIEW running on different computers, multiple instances of LabVIEW on a single computer, or compiled applications. By itself this library does not implement a specific or even working communication protocol, but provides abstract methods that can be overridden by, for example, ZMQ, MQTT, etc.&lt;br&gt;
-&lt;br&gt;
-Release Notes: Add Error information to Message cluster&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 04 Aug 2026 16:09:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control-1.4.0.17</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
