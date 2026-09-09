@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=39
-Release.Date=Wed, 09 Sep 2026 15:14:49 -0400
-Self.ID=bd79b24e2356a14fc29cbc45bcfc952b
+Release.Number=40
+Release.Date=Wed, 09 Sep 2026 16:39:59 -0400
+Self.ID=c97469c2bd1ce08cbe995daab8bc938a
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2233,3 +2233,15 @@ Dependencies.Requires=levylab_lib_progress_bar>=1.0.0.1,wiresmith_technology_lib
 Package.Display Name=Build Support (System)
 Platform.Exclusive_VIPM_Version=2017
 System Package=TRUE
+
+[Package levylab_lib_transport-2.4.2.50]
+Package.URL=packages/levylab_lib_transport/levylab_lib_transport-2.4.2.50.vip
+Icon.URL=packages/levylab_lib_transport/levylab_lib_transport-2.4.2.50.bmp
+Spec.URL=packages/levylab_lib_transport/levylab_lib_transport-2.4.2.50.spec
+Package.MD5=d6fe9cef0e9befe26edba6184b253491
+Package.Release Date=Wed, 09 Sep 2026 16:39:58 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
+Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
