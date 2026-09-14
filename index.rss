@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Mon, 14 Sep 2026 08:31:10 -0400</pubDate>
+    <pubDate>Mon, 14 Sep 2026 11:24:13 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.11.5.56</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.5.56.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.11.5.56&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 14 Sep 2026 11:24:13 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.5]&lt;br&gt;- close LabVIEW a second time after the build completes (succesfully or on failure)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 14 Sep 2026 11:24:13 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.11.5.56</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.11.5.56</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.5.56.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.11.5.56&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 14 Sep 2026 11:24:12 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.5]&lt;br&gt;- close LabVIEW a second time after the build completes (succesfully or on failure)&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 14 Sep 2026 11:24:12 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.11.5.56</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Build Support (System) v1.11.4.55</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.4.55.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: Fixes&lt;br&gt;- change default Baud = 9600&lt;br&gt;- change set
 &lt;br&gt;</description>
       <pubDate>Tue, 08 Sep 2026 17:17:29 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.2.23</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.1.2.20</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.2.20.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.1.2.20&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 08 Sep 2026 16:44:19 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: Fixes&lt;br&gt;- change default Baud = 9600&lt;br&gt;- change settings installation location&lt;br&gt;- SettingsFileDialog: add check for exsiting files and copy from Application directory if they don&#39;t exist&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 08 Sep 2026 16:44:19 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.2.20</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.1.2.19</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.2.19.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.1.2.19&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 08 Sep 2026 14:48:06 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: Fixes&lt;br&gt;- change default Baud = 9600&lt;br&gt;- change settings installation location&lt;br&gt;- SettingsFileDialog: add check for exsiting files and copy from Application directory if they don&#39;t exist&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 08 Sep 2026 14:48:06 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.2.19</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
