@@ -3,9 +3,45 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 10 Sep 2026 14:58:28 -0400</pubDate>
+    <pubDate>Mon, 14 Sep 2026 08:31:10 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Build Support (System) v1.11.4.55</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support_system/levylab_lib_build_support_system-1.11.4.55.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support (System) v1.11.4.55&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 14 Sep 2026 08:31:10 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.4]&lt;br&gt;- close LabVIEW gracefully, fail when vipBuild produces no package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 14 Sep 2026 08:31:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support_system-1.11.4.55</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Build Support v1.11.4.55</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.4.55.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Build Support v1.11.4.55&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Mon, 14 Sep 2026 08:31:10 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.11.4]&lt;br&gt;- close LabVIEW gracefully, fail when vipBuild produces no package&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 14 Sep 2026 08:31:10 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_build_support-1.11.4.55</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.4.3.52</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.4.3.52.bmp"&gt;&lt;br&gt;
@@ -147,42 +183,6 @@ Release Notes: Fixes&lt;br&gt;- change default Baud = 9600&lt;br&gt;- change set
 &lt;br&gt;</description>
       <pubDate>Tue, 08 Sep 2026 14:48:06 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.2.19</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.1.1.17</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.1.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.1.1.17&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 08 Sep 2026 10:43:47 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: Fixes&lt;br&gt;- deleted Example Two Stages.vi&lt;br&gt;- removed diagram disable structures from Open Hardward.vi (remove INDX=0 call)&lt;br&gt;- removed shift registers and add merge errors to receiveData.vi&lt;br&gt;- changed default SSPD=1000&lt;br&gt;- removed dead code convertMilliMeterToEncoderUnits, Private/Inst.Xeryon-Rotator.Stop.vi, , Private/Inst.Xeryon-Rotator.DoSomething.vi, Axis/TEMPORARY getReceivedString.vi&lt;br&gt;- removed Axis Letters: [String] from Controller.LV.lvclass; delete overrides AddAxis.vi and readSettingsFile.vi; modify readSettingsFile.vi to prompt user for path&lt;br&gt;&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 08 Sep 2026 10:43:47 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.1.17</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.1.0.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.0.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.1.0.15&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 04 Sep 2026 16:21:33 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: Fixed&lt;br&gt;- Reworked serial communication so the driver reads the entire buffer instead of one line per call. Fixes the unbounded Bytes at Port growth and stale position readings.&lt;br&gt;- Received axis data is no longer discarded on its way out of the parse loop.&lt;br&gt;- Soft limits and zone widths were being sent 57x too large, which left both end-stop bits set and the stage refusing to move.&lt;br&gt;- =? queries no longer overwrite the parameter they query. HLIM=? previously wrote HLIM=0.&lt;br&gt;- MIMP and the OFSA/OFSB offsets are now scaled correctly; MASS to CFRQ restored to its full six-step table.&lt;br&gt;&lt;br&gt;Changed&lt;br&gt;- Axes are stored in a map keyed by axis letter, with resolution centralised in one method that errors rather than guessing when the axis is ambiguous.&lt;br&gt;- Amplitude and phase scale factors are derived on the diagram instead of appearing as unexplained constants.&lt;br&gt;- Settings file parser rewritten to handle comments and decimal values.&lt;br&gt;&lt;br&gt;Removed&lt;br&gt;- The Controller.LV:receiveData override and its unbounded blocking wait, which could hang the process loop.&lt;br&gt;- Controller:setSpeed deprecated: it applies a position conversion to a speed.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 04 Sep 2026 16:21:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.0.15</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
