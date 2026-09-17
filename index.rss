@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 16 Sep 2026 17:16:50 -0400</pubDate>
+    <pubDate>Thu, 17 Sep 2026 09:46:22 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.7.0.29</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.0.29.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.7.0.29&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 17 Sep 2026 09:46:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.0]&lt;br&gt;- 1.6.7 should have been 1.7.0&lt;br&gt;- this release has minor changes to calling abort sequence after connection lost&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 17 Sep 2026 09:46:22 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.0.29</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Oxford-1820 v1.6.7.28</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.7.28.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: #164: fix Lockin_sweep to better handle when V+ = V-&lt;br&gt;
 &lt;br&gt;</description>
       <pubDate>Thu, 10 Sep 2026 14:58:28 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.4.3.52</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.4.2.50</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.4.2.50.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.4.2.50&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 09 Sep 2026 16:39:58 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: #162: fix error in R/G_2T calculation&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 09 Sep 2026 16:39:58 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.4.2.50</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
