@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 18 Sep 2026 16:45:14 -0400</pubDate>
+    <pubDate>Sat, 19 Sep 2026 18:24:57 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.5.1.55</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.1.55.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.5.1.55&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Sat, 19 Sep 2026 18:24:57 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.5.1.55]&lt;br&gt;&lt;br&gt;Fixes #166: the Transport Server was unresponsive while an experiment ran.&lt;br&gt;&lt;br&gt;- Experiments (Lockin_time, Lockin_sweep, THz_TimeDelay) now launch asynchronously&lt;br&gt;  (call and forget), so the server keeps handling commands during a run.&lt;br&gt;  `setRefreshTime` now takes effect immediately, the status text updates, and&lt;br&gt;  `getStatus` reports `running` instead of `idle`.&lt;br&gt;- `startTransport` is refused with &amp;quot;Experiment already running&amp;quot; when an experiment&lt;br&gt;  is running, instead of starting a second one.&lt;br&gt;- A refresh time that was never set is ignored, so an experiment keeps its own&lt;br&gt;  configured refresh rate instead of being set to 0 ms.&lt;br&gt;- `stopTransport` on a running Lockin_sweep now stops it the same way its own stop&lt;br&gt;  button does.&lt;br&gt;- The stopTransport button no longer closes the experiment&#39;s front panel.&lt;br&gt;- Stopping the server now stops a running experiment and waits for it (up to 5 s)&lt;br&gt;  before releasing the notifiers.&lt;br&gt;&lt;br&gt;**Note:** errors that occur inside an experiment VI are no longer returned to the&lt;br&gt;server, as a consequence of the asynchronous launch.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 19 Sep 2026 18:24:57 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.5.1.55</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.5.0.54</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.0.54.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.11.5]&lt;br&gt;- close LabVIEW a second time after the build c
 &lt;br&gt;</description>
       <pubDate>Mon, 14 Sep 2026 11:24:13 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_build_support_system-1.11.5.56</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Build Support v1.11.5.56</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_build_support/levylab_lib_build_support-1.11.5.56.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Build Support v1.11.5.56&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 14 Sep 2026 11:24:12 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description:  VIs and scripts to help automate package and application builds&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.11.5]&lt;br&gt;- close LabVIEW a second time after the build completes (succesfully or on failure)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 14 Sep 2026 11:24:12 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_build_support-1.11.5.56</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
