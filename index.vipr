@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=51
-Release.Date=Sat, 19 Sep 2026 18:24:57 -0400
-Self.ID=6e3749c1882158207b02fde3ba72942d
+Release.Number=52
+Release.Date=Mon, 21 Sep 2026 14:51:16 -0400
+Self.ID=ce7c27e356c6f1b0515dc31f70cc5d5f
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2418,4 +2418,40 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
 Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.4.5.15]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.15.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.15.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.15.spec
+Package.MD5=14cbe3d8ce3276c5e59b33a93fd5e1d9
+Package.Release Date=Mon, 21 Sep 2026 14:51:16 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
+Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_cryostation_instrument-1.4.6.17]
+Package.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.6.17.vip
+Icon.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.6.17.bmp
+Spec.URL=packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.6.17.spec
+Package.MD5=2ea904b1f04fc57e45f85b0e7ed5f53e
+Package.Release Date=Mon, 21 Sep 2026 14:51:16 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
+Package.Display Name=Cryostation
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_xeryon_rotator-1.1.4.27]
+Package.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.4.27.vip
+Icon.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.4.27.bmp
+Spec.URL=packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.4.27.spec
+Package.MD5=35ae692b6ec203b6baf8e32d3c9974fd
+Package.Release Date=Mon, 21 Sep 2026 14:51:16 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.13.55
+Package.Display Name=Xeryon-Rotator
 Platform.Exclusive_VIPM_Version=2017
