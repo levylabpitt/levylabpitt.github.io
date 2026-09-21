@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=52
-Release.Date=Mon, 21 Sep 2026 14:51:16 -0400
-Self.ID=ce7c27e356c6f1b0515dc31f70cc5d5f
+Release.Number=53
+Release.Date=Mon, 21 Sep 2026 15:36:35 -0400
+Self.ID=55ff65a18c9afd032c5bc0f1d5580c5d
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2454,4 +2454,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.13.55
 Package.Display Name=Xeryon-Rotator
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_lockin_multichannel-3.6.0.78]
+Package.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.0.78.vip
+Icon.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.0.78.bmp
+Spec.URL=packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.0.78.spec
+Package.MD5=d0f6d6067ba18e6f021a39b9f8f8a3c0
+Package.Release Date=Mon, 21 Sep 2026 15:36:35 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.1.13,levylab_lib_levylab_instruments>=1.15.12.53
+Package.Display Name=Multichannel Lockin
 Platform.Exclusive_VIPM_Version=2017

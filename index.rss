@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Mon, 21 Sep 2026 14:51:16 -0400</pubDate>
+    <pubDate>Mon, 21 Sep 2026 15:36:35 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.6.0.78</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.0.78.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.6.0.78&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 21 Sep 2026 15:36:35 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: # Multichannel Lockin 3.6.0 (pre-release)&lt;br&gt;&lt;br&gt;## Fixes&lt;br&gt;&lt;br&gt;- **#160** The lock-in no longer stops and sits in idle after an AO buffer underflow (-200621) or another recoverable DAQmx error, including mid-sweep. It now tears down and restarts its tasks on its own. Sporadic faults always recover; it gives up only after 3 attempts within 10 s of each other. The UI and API keep showing the running state during a recovery. The error log records **5160** for each successful recovery and **5161** if it gives up.&lt;br&gt;- Fixed errors -200488 / -200486 at start in `DAQmx.Clip AO Waveforms.vi`.&lt;br&gt;- Removed a broken automatic restart in Instrument.DAQ that discarded sweep data instead of restarting.&lt;br&gt;&lt;br&gt;## Breaking changes&lt;br&gt;&lt;br&gt;- **#164** Sweep configuration fields renamed to match the Transport Server: `Sweep Time (s)` -&amp;gt; `sweepTime`, `Initial Wait (s)` -&amp;gt; `initialWaitTime`, `Return to Start` -&amp;gt; `returnToStart`, `Channels` -&amp;gt; `sweepChannels`. These are JSON keys on the wire. **Requires Transport 1.5.2 or later.** Older Transport versions send keys this version ignores, and sweeps then run with default settings.&lt;br&gt;- Waveform attribute VIs (`Get/Set Waveform AI Channel`, `AO Channel`, `Reference Channel`, `Quadrature`, `Sweep Status`) moved into the new `Waveform.Attributes.lvlib`. Code that calls them from their old location in the Generator must be relinked.&lt;br&gt;&lt;br&gt;## Changes&lt;br&gt;&lt;br&gt;- Generator reworked into a proper SMO and separated from Instrument.DAQ.&lt;br&gt;- Removed obsolete gain-change behaviour; AO gain scaling now happens only in Instrument.DAQ.&lt;br&gt;- Removed dead code, including unreachable sweep states in Instrument.DAQ.&lt;br&gt;&lt;br&gt;## Experimental&lt;br&gt;&lt;br&gt;- **#5 External reference (PLL / FLL)** Prototype code for locking the reference to an external signal is included but switched off, and is not exposed in the UI or API. See `documentation/issue-5-external-reference.md`.&lt;br&gt;&lt;br&gt;## Testing&lt;br&gt;&lt;br&gt;- The #160 recovery has been verified by code review and has not yet run on hardware.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 21 Sep 2026 15:36:35 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.0.78</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Xeryon-Rotator v1.1.4.27</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.4.27.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [1.6.7]&lt;br&gt;- reconnect automatically when the TCP connectio
 &lt;br&gt;</description>
       <pubDate>Wed, 16 Sep 2026 17:16:50 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.7.28</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.6.6.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.6.6.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.6.6.27&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 16 Sep 2026 08:52:13 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.6.6]&lt;br&gt;- build with Instrument-Framework/1.15.13.55&lt;br&gt;  - Handle GET / Handle SET now return error 5402 &amp;quot;parameter not supported&amp;quot; for unhandled parameters&lt;br&gt;  - State History moved to Debug library (history depth 100 normal / 1000 debug)&lt;br&gt;  - requires Debug &amp;gt;= 1.2.1.10, Logger-Error &amp;gt;= 1.2.3.10, Logger-PGSQL &amp;gt;= 1.3.1.16&lt;br&gt;- build with Remote-Control/1.4.2.21 and Remote-Control-ZMQ/1.3.7.30&lt;br&gt;  - improved error handling for timeouts and dropped connections in Send Message&lt;br&gt;  - default message timeout is now 500 ms (was 0)&lt;br&gt;- build with Logger-PGSQL/1.3.1.16 (#196 DB logger reconnects after losing its connection)&lt;br&gt;- package dependency: levylab_lib_levylab_instruments &amp;gt;=1.15.13.55&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 16 Sep 2026 08:52:13 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.6.6.27</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
