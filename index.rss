@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 22 Sep 2026 09:30:54 -0400</pubDate>
+    <pubDate>Tue, 22 Sep 2026 12:42:53 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.7.1.31</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.1.31.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.7.1.31&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 22 Sep 2026 12:42:53 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.1]&lt;br&gt;#25 fix current and voltage display on front panel&lt;br&gt;#26 add &amp;quot;Set Magnet&amp;quot; feature to front panel UI&lt;br&gt;#27 add getLHeLevel and getLN2Level&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 22 Sep 2026 12:42:53 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.1.31</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.6.0.80</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.0.80.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: #17:&lt;br&gt;- reconnect automatically when the TCP connection t
 &lt;br&gt;</description>
       <pubDate>Thu, 17 Sep 2026 10:33:52 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.11.0.28</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.7.0.30</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.0.30.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.7.0.30&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 17 Sep 2026 10:33:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.0]&lt;br&gt;- 1.6.7 should have been 1.7.0&lt;br&gt;- this release has minor changes to calling abort sequence after connection lost&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 17 Sep 2026 10:33:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.0.30</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
