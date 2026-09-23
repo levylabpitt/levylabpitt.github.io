@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 23 Sep 2026 12:58:51 -0400</pubDate>
+    <pubDate>Wed, 23 Sep 2026 16:34:05 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.7.3.33</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.3.33.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.7.3.33&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 23 Sep 2026 16:34:05 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.3]&lt;br&gt;- #28 change UI refresh to not update with incomplete data&lt;br&gt;- update persistent switch buttons&lt;br&gt;- add button for quickly scaling cryogen Y scale&lt;br&gt;- #26 verified on hardware&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Sep 2026 16:34:05 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.3.33</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.6.2.82</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.2.82.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - update linking for Instrument Framework 1.15.13&lt;br&gt;
       <pubDate>Mon, 21 Sep 2026 14:51:16 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.6.17</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.5.15</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.15.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.5.15&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 21 Sep 2026 14:51:16 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update linking and update to Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 21 Sep 2026 14:51:16 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.5.15</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
