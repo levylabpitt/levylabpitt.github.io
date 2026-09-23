@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 22 Sep 2026 12:42:53 -0400</pubDate>
+    <pubDate>Wed, 23 Sep 2026 07:35:08 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.6.1.81</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.1.81.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.6.1.81&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 23 Sep 2026 07:35:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: # Multichannel Lockin 3.6.1&lt;br&gt;&lt;br&gt;## Fixes&lt;br&gt;&lt;br&gt;- **#165** Channels with a non-unity output gain now report and drive the amplitude and offset you set. Offset was not gain-compensated at all before.&lt;br&gt;- **#165** Sweep setpoints are gain-compensated too: a 0 to 1 V sweep on a gain-10 channel no longer reads back as 0 to 0.1 V.&lt;br&gt;- **#160** AO buffer underflows (-200621) should now be rare. The lock-in keeps two AO blocks ahead of the hardware instead of one, so ordinary Windows jitter no longer starves the output.&lt;br&gt;- **#160** A sweep that hits an underflow no longer steps at the recovery point: the block that failed to write is replayed instead of skipped.&lt;br&gt;- **#160** The first data point after a start or a recovery was demodulated against the wrong reference waveform. Visible only during a frequency sweep.&lt;br&gt;&lt;br&gt;No API or wire-protocol changes.&lt;br&gt;&lt;br&gt;## Known issues&lt;br&gt;&lt;br&gt;- Sweeps started from Transport 2.5.1.55 and earlier run with default settings: they send the old sweep field names, which this version ignores. Rebuild Transport against this package to fix.&lt;br&gt;&lt;br&gt;## Testing&lt;br&gt;&lt;br&gt;- Automatic recovery was confirmed on hardware: 27 underflows, 26 recoveries, no manual restarts.&lt;br&gt;- The lower underflow rate, the reference fix and the #165 gain fixes have not yet run on hardware.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Sep 2026 07:35:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.1.81</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Oxford-1820 v1.7.1.31</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.1.31.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: Changes related to #160:&lt;br&gt;- change setRefreshTime paramet
 &lt;br&gt;</description>
       <pubDate>Fri, 18 Sep 2026 16:45:13 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.5.0.54</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-VRM v1.11.0.28</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.11.0.28.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-VRM v1.11.0.28&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 17 Sep 2026 10:33:52 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: #17:&lt;br&gt;- reconnect automatically when the TCP connection to the IPS/ITC is lost&lt;br&gt;  - detects VISA timeout, connection lost, I/O error, invalid session, resource not found and ID query errors&lt;br&gt;  - reports the error once per outage, then retries in the background (5 s, doubling to a 60 s maximum)&lt;br&gt;  - stops polling and database logging while disconnected&lt;br&gt;  - aborts a running SetMagnet sequence when the connection is lost&lt;br&gt;- close hardware with a 1 s VISA timeout so the program exits quickly when the instrument is unreachable&lt;br&gt;- fix exit hanging when closing the program while disconnected&lt;br&gt;- add Handle Error override (Connection Error Reported?) and Is Connection Error.vi&lt;br&gt;&lt;br&gt;- build with Instrument-Framework/1.15.13.55&lt;br&gt;  - Handle GET / Handle SET now return error 5402 &amp;quot;parameter not supported&amp;quot; for unhandled parameters&lt;br&gt;  - State History moved to Debug library (history depth 100 normal / 1000 debug)&lt;br&gt;  - requires Debug &amp;gt;= 1.2.1.10, Logger-Error &amp;gt;= 1.2.3.10, Logger-PGSQL &amp;gt;= 1.3.1.16&lt;br&gt;- build with Remote-Control/1.4.2.21 and Remote-Control-ZMQ/1.3.7.30&lt;br&gt;  - improved error handling for timeouts and dropped connections in Send Message&lt;br&gt;  - default message timeout is now 500 ms (was 0)&lt;br&gt;- build with Logger-PGSQL/1.3.1.16 (#196 DB logger reconnects after losing its connection)&lt;br&gt;- package dependency: levylab_lib_levylab_instruments &amp;gt;=1.15.13.55&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 17 Sep 2026 10:33:52 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.11.0.28</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
