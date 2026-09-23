@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 23 Sep 2026 07:35:08 -0400</pubDate>
+    <pubDate>Wed, 23 Sep 2026 09:23:17 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Oxford-1820 v1.7.2.32</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.2.32.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.7.2.32&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Wed, 23 Sep 2026 09:23:17 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.7.2]&lt;br&gt;- #26 &amp;quot;SET B = TARGET&amp;quot; sequence now waits for each ramp to finish rather than for it to start&lt;br&gt;  - fixes the sequence stalling on very small field changes, and when setting the field to 0 T in persistent mode&lt;br&gt;- #26 the sequence stops and reports an error if the supply does not reach the target in time, is clamped, or the IPS rejects the setpoint; the magnet is left holding&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 23 Sep 2026 09:23:17 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.2.32</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.6.1.81</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.1.81.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: [2.5.1.55]&lt;br&gt;&lt;br&gt;Fixes #166: the Transport Server wa
 &lt;br&gt;</description>
       <pubDate>Sat, 19 Sep 2026 18:24:57 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.5.1.55</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.5.0.54</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.0.54.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.5.0.54&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 18 Sep 2026 16:45:13 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: Changes related to #160:&lt;br&gt;- change setRefreshTime parameter name to &amp;quot;RefreshTime&amp;quot;&lt;br&gt;- allow changing RefreshTime after experiment VI has started&lt;br&gt;- enable changing RefreshTime for all three experiment VIs&lt;br&gt;- enable stopTransport for all three experiment VIs&lt;br&gt;- improved reporting of Status for all VIs&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 18 Sep 2026 16:45:13 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.5.0.54</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
