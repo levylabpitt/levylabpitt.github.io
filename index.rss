@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 23 Sep 2026 17:56:05 -0400</pubDate>
+    <pubDate>Thu, 24 Sep 2026 13:37:37 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.5.2.56</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.2.56.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.5.2.56&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 24 Sep 2026 13:37:37 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.5.2]&lt;br&gt;&lt;br&gt;Fixes&lt;br&gt;#169: Fix issue that would cause Transport Server to report incorrect status&lt;br&gt;#171: configure stopTransport button in Transport Server UI&lt;br&gt;&lt;br&gt;New Features&lt;br&gt;- Transport Server UI now has a &amp;quot;startTransport&amp;quot; button.&lt;br&gt;NOTE: Lockin_time.vi, Lockin_sweep.vi, THz_TimeDelay.vi have their run buttons DISABLED. The VIs must be started from Transport Server UI.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 24 Sep 2026 13:37:37 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.5.2.56</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.6.3.83</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.3.83.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: # Multichannel Lockin 3.6.0 (pre-release)&lt;br&gt;&lt;br&gt;## F
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.0.78</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.1.4.27</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.4.27.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.1.4.27&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 21 Sep 2026 14:51:16 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 21 Sep 2026 14:51:16 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.4.27</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
