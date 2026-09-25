@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 24 Sep 2026 16:36:18 -0400</pubDate>
+    <pubDate>Fri, 25 Sep 2026 07:07:40 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.5.3.57</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.3.57.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.5.3.57&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 25 Sep 2026 07:07:40 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: [2.5.3]&lt;br&gt;&lt;br&gt;Fixes&lt;br&gt;#169: The Transport Server now reports &amp;quot;running&amp;quot; while an experiment runs. The 2.5.2.56 notes listed this fix, but it was not in that build: the status read &amp;quot;idle&amp;quot; during a run, and a second startTransport could launch a second experiment instead of being refused with &amp;quot;Experiment already running&amp;quot;.&lt;br&gt;- The startTransport button in the Transport Server UI now prepares a run the same way the startTransport command does. It selects the experiment VI, writes the experiment folder and dependencies, and clears any earlier stop. In 2.5.2.56 the button skipped these steps, so a run started after a stop could end immediately.&lt;br&gt;&lt;br&gt;Preview&lt;br&gt;#163: Configure Experiment no longer loses the configured instruments.&lt;br&gt;- An instrument whose class can&#39;t be found stays in its list as &amp;quot;&amp;lt;name&amp;gt; (not installed)&amp;quot; instead of being cleared.&lt;br&gt;- Closing the Configure dialog with the window X no longer changes the instrument set.&lt;br&gt;- If any instruments can&#39;t be found when you click OK, a message lists them, and the saved configuration is kept.&lt;br&gt;- A missing or unreadable Control Experiment.json is reported at startup, and no empty configuration is written over it.&lt;br&gt;- Instrument classes with similar names (for example Instrument.Lockin and Instrument.LockinAPI) are no longer mixed up.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 25 Sep 2026 07:07:40 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.5.3.57</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.6.4.84</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.4.84.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: # Multichannel Lockin 3.6.0 (pre-release)&lt;br&gt;&lt;br&gt;## F
 &lt;br&gt;</description>
       <pubDate>Tue, 22 Sep 2026 09:30:53 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.0.80</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.6.0.79</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.0.79.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.6.0.79&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 21 Sep 2026 22:57:51 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: # Multichannel Lockin 3.6.0 (pre-release)&lt;br&gt;&lt;br&gt;## Fixes&lt;br&gt;&lt;br&gt;- **#160** The lock-in no longer stops and sits in idle after an AO buffer underflow (-200621) or another recoverable DAQmx error, including mid-sweep. It now tears down and restarts its tasks on its own. Sporadic faults always recover; it gives up only after 3 attempts within 10 s of each other. The UI and API keep showing the running state during a recovery. The error log records **5160** for each successful recovery and **5161** if it gives up.&lt;br&gt;- Fixed errors -200488 / -200486 at start in `DAQmx.Clip AO Waveforms.vi`.&lt;br&gt;- Removed a broken automatic restart in Instrument.DAQ that discarded sweep data instead of restarting.&lt;br&gt;&lt;br&gt;## Breaking changes&lt;br&gt;&lt;br&gt;- **#164** Sweep configuration fields renamed to match the Transport Server: `Sweep Time (s)` -&amp;gt; `sweepTime`, `Initial Wait (s)` -&amp;gt; `initialWaitTime`, `Return to Start` -&amp;gt; `returnToStart`, `Channels` -&amp;gt; `sweepChannels`. These are JSON keys on the wire. **Requires Transport 1.5.2 or later.** Older Transport versions send keys this version ignores, and sweeps then run with default settings.&lt;br&gt;- Waveform attribute VIs (`Get/Set Waveform AI Channel`, `AO Channel`, `Reference Channel`, `Quadrature`, `Sweep Status`) moved into the new `Waveform.Attributes.lvlib`. Code that calls them from their old location in the Generator must be relinked.&lt;br&gt;&lt;br&gt;## Changes&lt;br&gt;&lt;br&gt;- Generator reworked into a proper SMO and separated from Instrument.DAQ.&lt;br&gt;- Removed obsolete gain-change behaviour; AO gain scaling now happens only in Instrument.DAQ.&lt;br&gt;- Removed dead code, including unreachable sweep states in Instrument.DAQ.&lt;br&gt;&lt;br&gt;## Experimental&lt;br&gt;&lt;br&gt;- **#5 External reference (PLL / FLL)** Prototype code for locking the reference to an external signal is included but switched off, and is not exposed in the UI or API. See `documentation/issue-5-external-reference.md`.&lt;br&gt;&lt;br&gt;## Testing&lt;br&gt;&lt;br&gt;- The #160 recovery has been verified by code review and has not yet run on hardware.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 21 Sep 2026 22:57:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.0.79</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
