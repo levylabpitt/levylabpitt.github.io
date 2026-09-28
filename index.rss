@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Mon, 28 Sep 2026 08:56:05 -0400</pubDate>
+    <pubDate>Mon, 28 Sep 2026 11:56:41 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.12.3.34</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.3.34.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.12.3.34&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 28 Sep 2026 11:56:41 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with Instrument Framework 1.15.13&lt;br&gt;&lt;br&gt;*from build 1.12.2.33 allows installation on 64-bit LabVIEW, however you cannot communicate directly to MultiVu from 64-bit LabVIEW.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 28 Sep 2026 11:56:41 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.3.34</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Krohn-Hite-7008 v2.6.5.42</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.5.42.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: # Multichannel Lockin 3.6.1&lt;br&gt;&lt;br&gt;## Fixes&lt;br&gt;
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.1.81</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Oxford-1820 v1.7.1.31</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.1.31.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.7.1.31&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 22 Sep 2026 12:42:53 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.1]&lt;br&gt;#25 fix current and voltage display on front panel&lt;br&gt;#26 add &amp;quot;Set Magnet&amp;quot; feature to front panel UI&lt;br&gt;#27 add getLHeLevel and getLN2Level&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 22 Sep 2026 12:42:53 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.1.31</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>

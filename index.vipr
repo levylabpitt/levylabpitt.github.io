@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=65
-Release.Date=Mon, 28 Sep 2026 08:56:05 -0400
-Self.ID=b230fee54ea7e0a7434d1336aa342b74
+Release.Number=66
+Release.Date=Mon, 28 Sep 2026 11:56:41 -0400
+Self.ID=b4e985654aa6a82d09b286d03eab8ede
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2611,4 +2611,16 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_d2xx_lv>=1.4.0.9,levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
 Package.Display Name=Krohn-Hite-7008
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ppms_instrument-1.12.3.34]
+Package.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.3.34.vip
+Icon.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.3.34.bmp
+Spec.URL=packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.3.34.spec
+Package.MD5=38f8a0cc631ff464dd8e38d95a883bea
+Package.Release Date=Mon, 28 Sep 2026 11:56:41 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
+Package.Display Name=PPMS Monitor and Control
 Platform.Exclusive_VIPM_Version=2017
