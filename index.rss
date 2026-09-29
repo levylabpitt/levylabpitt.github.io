@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 29 Sep 2026 09:01:48 -0400</pubDate>
+    <pubDate>Tue, 29 Sep 2026 09:13:27 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AH2500A v1.4.5.16</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.16.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.4.5.16&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 29 Sep 2026 09:13:27 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update linking and update to Instrument Framework 1.15.13&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 29 Sep 2026 09:13:27 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.5.16</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Razorbill RP100 v2.2.6.20</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.6.20.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ## 3.6.3&lt;br&gt;&lt;br&gt;### Fixes&lt;br&gt;- Sweeps: fixed an
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.3.83</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Oxford-1820 v1.7.3.33</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.3.33.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.7.3.33&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Wed, 23 Sep 2026 16:34:05 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.7.3]&lt;br&gt;- #28 change UI refresh to not update with incomplete data&lt;br&gt;- update persistent switch buttons&lt;br&gt;- add button for quickly scaling cryogen Y scale&lt;br&gt;- #26 verified on hardware&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Sep 2026 16:34:05 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.3.33</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
