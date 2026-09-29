@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=68
-Release.Date=Tue, 29 Sep 2026 08:09:24 -0400
-Self.ID=dacc481af4c76cf65c71d657c4af3a97
+Release.Number=69
+Release.Date=Tue, 29 Sep 2026 09:01:48 -0400
+Self.ID=410e63d4cf1594ed973e463b4952a516
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2649,4 +2649,16 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.13.55
 Dependencies.Conflicts=levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
 Package.Display Name=LEIDEN API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_razorbill_rp100-2.2.6.20]
+Package.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.6.20.vip
+Icon.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.6.20.bmp
+Spec.URL=packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.6.20.spec
+Package.MD5=e9663a88b8342d634cbc4ca82bb2d1d8
+Package.Release Date=Tue, 29 Sep 2026 09:01:48 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
+Package.Display Name=Razorbill RP100
 Platform.Exclusive_VIPM_Version=2017

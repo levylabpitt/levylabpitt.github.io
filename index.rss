@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 29 Sep 2026 08:09:24 -0400</pubDate>
+    <pubDate>Tue, 29 Sep 2026 09:01:48 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Razorbill RP100 v2.2.6.20</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.6.20.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v2.2.6.20&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 29 Sep 2026 09:01:48 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: - build with Instrument Framework 1.15.13&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 29 Sep 2026 09:01:48 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.6.20</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>LEIDEN API v0.0.6.11</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.6.11.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.7.3]&lt;br&gt;- #28 change UI refresh to not update with incom
       <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.3.33</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.6.2.82</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.2.82.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.6.2.82&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Sep 2026 12:58:51 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: # Multichannel Lockin 3.6.2&lt;br&gt;&lt;br&gt;## Fixes&lt;br&gt;&lt;br&gt;- **#167** 3.6.1 could not start acquisition: every start failed with DAQmx error -200547. The AO output buffer is now set to two blocks before the first write, so the two-block lead introduced in 3.6.1 works as intended. Do not use 3.6.1.81.&lt;br&gt;- DAQmx read and write timeouts cut from 10 s to 5 s, so a stalled acquisition is detected and recovered sooner&lt;br&gt;&lt;br&gt;No API or wire-protocol changes.&lt;br&gt;&lt;br&gt;## Known issues&lt;br&gt;&lt;br&gt;- Sweeps started from Transport 2.5.1.55 and earlier run with default settings: they send the old sweep field names, which this version ignores. Rebuild Transport against this package to fix.&lt;br&gt;&lt;br&gt;## Testing&lt;br&gt;&lt;br&gt;- Confirmed on hardware: the AO buffer is two blocks (20480 samples per task) and the tasks start without error.&lt;br&gt;- Because 3.6.1 never acquired, its changes (#160 underflow rate and reference pairing, #165 output gain) have still not run on hardware.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Sep 2026 12:58:51 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.2.82</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
