@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 29 Sep 2026 09:13:27 -0400</pubDate>
+    <pubDate>Tue, 29 Sep 2026 09:55:44 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AH2500A v1.4.5.17</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.4.5.17&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Tue, 29 Sep 2026 09:55:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: - update linking and update to Instrument Framework 1.15.13&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 29 Sep 2026 09:55:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.5.17</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>AH2500A v1.4.5.16</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.16.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [2.5.2]&lt;br&gt;&lt;br&gt;Fixes&lt;br&gt;#169: Fix issue that wo
       <guid isPermaLink="false">levylab_lib_transport-2.5.2.56</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.6.3.83</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.3.83.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.6.3.83&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 23 Sep 2026 17:56:05 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ## 3.6.3&lt;br&gt;&lt;br&gt;### Fixes&lt;br&gt;- Sweeps: fixed an intermittent problem where reading the sweep data right after a sweep finished returned only the last few points (~20) instead of the full sweep. (#168)&lt;br&gt;- Startup without a saved DAQ configuration: the lock-in now sets itself up from the installed hardware without needing a restart. (#166)&lt;br&gt;&lt;br&gt;### Changes&lt;br&gt;- DAQ read/write timeout set to 5 s.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 23 Sep 2026 17:56:05 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.3.83</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>

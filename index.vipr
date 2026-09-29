@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=70
-Release.Date=Tue, 29 Sep 2026 09:13:27 -0400
-Self.ID=9bc0c65205d2fdaa5e661813d37cd063
+Release.Number=71
+Release.Date=Tue, 29 Sep 2026 09:55:44 -0400
+Self.ID=e6d094211ee5301cb931b997ac947db8
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2669,6 +2669,18 @@ Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.16.bmp
 Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.16.spec
 Package.MD5=0362dec2db4ecec651dbb3568cf4c4be
 Package.Release Date=Tue, 29 Sep 2026 09:13:27 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
+Package.Display Name=AH2500A
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_ah2500a-1.4.5.17]
+Package.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.17.vip
+Icon.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.17.bmp
+Spec.URL=packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.17.spec
+Package.MD5=24e09e79f3b8935257549697c88b4c5b
+Package.Release Date=Tue, 29 Sep 2026 09:55:44 -0400
 Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
