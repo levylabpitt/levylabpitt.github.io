@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 01 Oct 2026 13:17:24 -0400</pubDate>
+    <pubDate>Thu, 01 Oct 2026 15:28:12 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>XY Utilities v1.9.1.14</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.9.1.14.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: XY Utilities v1.9.1.14&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 15:28:11 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Utilities for working with XY-data type (Cluster of 1D X and Y arrays).&lt;br&gt;&lt;br&gt;Supported methods:&lt;br&gt;- &amp;lt;b&amp;gt;Arithmetic&amp;lt;/b&amp;gt;: Add, Subtract, Multiply, Divide, Square, Log&lt;br&gt;- &amp;lt;b&amp;gt;Array&amp;lt;/b&amp;gt;: Sort, Reverse, Decimate, Decimate Array, Subset, Swap X and Y, Get X and Y, Append, Restrict X Range, Remove Outliers&lt;br&gt;- &amp;lt;b&amp;gt;Signal Processing&amp;lt;/b&amp;gt;: Derivative, Average, Moving Average, Interpolate, Interpolate Parameter, Resample, FFT Spectrum, FFT Power Spectrum, Symmetrize&lt;br&gt;- &amp;lt;b&amp;gt;Filters&amp;lt;/b&amp;gt;: Zero Phase Low Pass, Savitsky-Golay, &lt;br&gt;- &amp;lt;b&amp;gt;Conversion&amp;lt;/b&amp;gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D&lt;br&gt;
+&lt;br&gt;
+Release Notes: change Circular Buffer subVI reentrancy &lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 15:28:11 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xy_utilities-1.9.1.14</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>Logger.Error v1.2.4.12</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.4.12.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - build with Instrument Framework 1.15.13&lt;br&gt;&lt;br&gt;*fro
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.3.34</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.6.5.42</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.5.42.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.6.5.42&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 28 Sep 2026 08:56:05 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - fix linking to Instrument Framework v1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 28 Sep 2026 08:56:05 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.5.42</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
