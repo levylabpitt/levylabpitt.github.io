@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 30 Sep 2026 12:50:24 -0400</pubDate>
+    <pubDate>Thu, 01 Oct 2026 13:17:24 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Logger.Error v1.2.4.12</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.4.12.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Logger.Error v1.2.4.12&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 13:17:24 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Error datalogger class.&lt;br&gt;
+&lt;br&gt;
+Release Notes: #1 fix memory leak in which list of dependencies would grow. Improve recursive list dependency performance.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 13:17:24 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_logger_error-1.2.4.12</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.6.5.85</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.5.85.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - fix linking to Instrument Framework v1.15.13&lt;br&gt;
       <pubDate>Mon, 28 Sep 2026 08:56:05 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.5.42</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.5.3.57</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.3.57.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.5.3.57&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 25 Sep 2026 07:07:40 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.5.3]&lt;br&gt;&lt;br&gt;Fixes&lt;br&gt;#169: The Transport Server now reports &amp;quot;running&amp;quot; while an experiment runs. The 2.5.2.56 notes listed this fix, but it was not in that build: the status read &amp;quot;idle&amp;quot; during a run, and a second startTransport could launch a second experiment instead of being refused with &amp;quot;Experiment already running&amp;quot;.&lt;br&gt;- The startTransport button in the Transport Server UI now prepares a run the same way the startTransport command does. It selects the experiment VI, writes the experiment folder and dependencies, and clears any earlier stop. In 2.5.2.56 the button skipped these steps, so a run started after a stop could end immediately.&lt;br&gt;&lt;br&gt;Preview&lt;br&gt;#163: Configure Experiment no longer loses the configured instruments.&lt;br&gt;- An instrument whose class can&#39;t be found stays in its list as &amp;quot;&amp;lt;name&amp;gt; (not installed)&amp;quot; instead of being cleared.&lt;br&gt;- Closing the Configure dialog with the window X no longer changes the instrument set.&lt;br&gt;- If any instruments can&#39;t be found when you click OK, a message lists them, and the saved configuration is kept.&lt;br&gt;- A missing or unreadable Control Experiment.json is reported at startup, and no empty configuration is written over it.&lt;br&gt;- Instrument classes with similar names (for example Instrument.Lockin and Instrument.LockinAPI) are no longer mixed up.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 25 Sep 2026 07:07:40 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.5.3.57</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
