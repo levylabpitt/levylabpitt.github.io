@@ -3,9 +3,153 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 01 Oct 2026 15:28:12 -0400</pubDate>
+    <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Xeryon-Rotator v1.1.5.28</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.5.28.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Xeryon-Rotator v1.1.5.28&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.5.28</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Razorbill RP100 v2.2.7.21</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.7.21.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Razorbill RP100 v2.2.7.21&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.7.21</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-VRM v1.11.1.29</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_vrm_api/levylab_lib_oxford_vrm_api-1.11.1.29.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-VRM v1.11.1.29&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford VRM PS that controls the CF900&#39;s 3D magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.11.1.29</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Oxford-1820 v1.7.4.34</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.4.34.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Oxford-1820 v1.7.4.34&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:09 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.4.34</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Multichannel Lockin v3.7.0.86</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.0.86.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.7.0.86&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ## 3.6.5.86&lt;br&gt;&lt;br&gt;- #175 The actual sample clock rate is reported to the Generator and the UI. DAQmx can coerce the requested rate (on a USB-4431 with AO sharing the clock, 102.4 kS/s runs at 96 kS/s). The event carries only the sample rate and samples per block.&lt;br&gt;- #160 DAQmx self-recovery after AO underflow (-200621) works again.&lt;br&gt;- Performance: `Mixer subVI.vi` (#173), `Initialize Filter State.vi` and `Wrap Phase.vi` are inlined; `Match Key Regex.vi` no longer uses a regex (130 to 30 us per call); Generator `Process.vi` no longer queues extra states on every 10 ms timeout; duplicate State History VIs are replaced by `Instrument:State History.vi`.&lt;br&gt;- Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.0.86</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
+    <item>
+      <title>Krohn-Hite-7008 v2.6.6.43</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.6.43.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Krohn-Hite-7008 v2.6.6.43&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.6.43</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>Cryostation v1.4.7.18</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.7.18.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Cryostation v1.4.7.18&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.7.18</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
+    <item>
+      <title>AH2500A v1.4.6.18</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.6.18.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: AH2500A v1.4.6.18&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.6.18</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>XY Utilities v1.9.1.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xy_utilities/levylab_lib_xy_utilities-1.9.1.14.bmp"&gt;&lt;br&gt;
@@ -41,150 +185,6 @@ Release Notes: #1 fix memory leak in which list of dependencies would grow. Impr
       <guid isPermaLink="false">levylab_lib_logger_error-1.2.4.12</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.6.5.85</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.6.5.85.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.6.5.85&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 30 Sep 2026 12:50:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ## 3.6.5&lt;br&gt;&lt;br&gt;#173 Change `Mixer subVI.vi` execution from non-reentrant to inline (preallocated-clone reentrant)&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 30 Sep 2026 12:50:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.6.5.85</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Transport v2.6.0.59</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.0.59.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.6.0.59&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 29 Sep 2026 14:05:46 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 2.6.0&lt;br&gt;&lt;br&gt;#172: Experiment Folder/Description are controlled in Transport Server (or API)&lt;br&gt;- Sweep configuration is configured in Transport Server (or API)&lt;br&gt;- callers of setSweepConfig() should verify new data format&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 29 Sep 2026 14:05:46 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.6.0.59</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.5.17</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.17.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.5.17&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 29 Sep 2026 09:55:44 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update linking and update to Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 29 Sep 2026 09:55:44 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.5.17</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.5.16</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.5.16.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.5.16&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 29 Sep 2026 09:13:27 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - update linking and update to Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 29 Sep 2026 09:13:27 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.5.16</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Razorbill RP100 v2.2.6.20</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_razorbill_rp100/levylab_lib_razorbill_rp100-2.2.6.20.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Razorbill RP100 v2.2.6.20&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 29 Sep 2026 09:01:48 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers for Razorbill RP100 HV amplifier&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 29 Sep 2026 09:01:48 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_razorbill_rp100-2.2.6.20</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LEIDEN API v0.0.6.11</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.6.11.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN API v0.0.6.11&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 29 Sep 2026 08:09:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 29 Sep 2026 08:09:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.6.11</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.5.4.58</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.5.4.58.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.5.4.58&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 28 Sep 2026 15:48:00 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: [2.5.4]&lt;br&gt;&lt;br&gt;Transport Server fixes&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 28 Sep 2026 15:48:00 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.5.4.58</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>PPMS Monitor and Control v1.12.3.34</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.3.34.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: PPMS Monitor and Control v1.12.3.34&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 28 Sep 2026 11:56:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
-&lt;br&gt;
-Release Notes: - build with Instrument Framework 1.15.13&lt;br&gt;&lt;br&gt;*from build 1.12.2.33 allows installation on 64-bit LabVIEW, however you cannot communicate directly to MultiVu from 64-bit LabVIEW.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 28 Sep 2026 11:56:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.3.34</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
     </item>
   </channel>
 </rss>
