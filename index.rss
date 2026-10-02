@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
+    <pubDate>Thu, 01 Oct 2026 23:52:32 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PPMS Monitor and Control v1.12.4.35</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ppms_instrument/levylab_lib_ppms_instrument-1.12.4.35.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: PPMS Monitor and Control v1.12.4.35&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 01 Oct 2026 23:52:31 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Monitor and Control application inheritng from Instrument Framework and SMO&lt;br&gt;- Log instrument status to the PGSQL database.&lt;br&gt;- UI and API for controlling magnet field, temperature, and rotator angle (PPMS2 only)&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;&lt;br&gt;*from build 1.12.2.33 allows installation on 64-bit LabVIEW, however you cannot communicate directly to MultiVu from 64-bit LabVIEW.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 01 Oct 2026 23:52:31 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.4.35</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
+    </item>
     <item>
       <title>Xeryon-Rotator v1.1.5.28</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.5.28.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: change Circular Buffer subVI reentrancy &lt;br&gt;
       <guid isPermaLink="false">levylab_lib_xy_utilities-1.9.1.14</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>Logger.Error v1.2.4.12</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_logger_error/levylab_lib_logger_error-1.2.4.12.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Logger.Error v1.2.4.12&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 01 Oct 2026 13:17:24 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Error datalogger class.&lt;br&gt;
-&lt;br&gt;
-Release Notes: #1 fix memory leak in which list of dependencies would grow. Improve recursive list dependency performance.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Oct 2026 13:17:24 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_logger_error-1.2.4.12</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
