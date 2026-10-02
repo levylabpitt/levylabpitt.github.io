@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 02 Oct 2026 01:07:21 -0400</pubDate>
+    <pubDate>Fri, 02 Oct 2026 09:22:43 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>LEIDEN API v0.0.6.13</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.6.13.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: LEIDEN API v0.0.6.13&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 02 Oct 2026 09:22:42 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
+&lt;br&gt;
+Release Notes: - Instrument Framework 1.15.13&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 09:22:42 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.6.13</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.7.1.87</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.1.87.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logg
       <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.7.18</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>AH2500A v1.4.6.18</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_ah2500a/levylab_lib_ah2500a-1.4.6.18.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: AH2500A v1.4.6.18&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW drivers for Andeen-Hagerling 2500A capacitance bridge&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_ah2500a-1.4.6.18</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
