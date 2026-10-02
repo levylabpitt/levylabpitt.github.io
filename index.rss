@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 02 Oct 2026 12:04:44 -0400</pubDate>
+    <pubDate>Fri, 02 Oct 2026 14:41:40 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.6.2.61</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.2.61.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.6.2.61&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 02 Oct 2026 14:41:40 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 2.6.2&lt;br&gt;&lt;br&gt;#177: fix for calling startTransport from FLEX&lt;br&gt;#178: fix to set Sweep Config from Transport Server UI&lt;br&gt;- fix Lockin_Sweep tab control&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 14:41:40 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.6.2.61</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Transport v2.6.1.60</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.1.60.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ## 3.6.5.86&lt;br&gt;&lt;br&gt;- #175 The actual sample clock rat
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.0.86</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Krohn-Hite-7008 v2.6.6.43</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_krohn_hite_7008/levylab_lib_krohn_hite_7008-2.6.6.43.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Krohn-Hite-7008 v2.6.6.43&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Drivers and UI for Krohn-Hite 7008 multichannel amplifiers.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.6.43</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
