@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 02 Oct 2026 09:22:43 -0400</pubDate>
+    <pubDate>Fri, 02 Oct 2026 12:04:44 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.6.1.60</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.1.60.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.6.1.60&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 02 Oct 2026 12:04:44 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 2.6.1&lt;br&gt;&lt;br&gt;#176: Lockin_time.vi, Lockin_sweep, THz_TimeDelay.vi are now privately scoped&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 12:04:44 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.6.1.60</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>LEIDEN API v0.0.6.13</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.6.13.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logg
 &lt;br&gt;</description>
       <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_krohn_hite_7008-2.6.6.43</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Cryostation v1.4.7.18</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_cryostation_instrument/levylab_lib_cryostation_instrument-1.4.7.18.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Cryostation v1.4.7.18&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 01 Oct 2026 19:18:08 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Program for logging Montana Instruments Cryostation status to the SQL DB. Provides a UI and API for getting information from the Cryostation.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Oct 2026 19:18:08 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_cryostation_instrument-1.4.7.18</guid>
       <dc:creator>LevyLab</dc:creator>
       
     </item>
