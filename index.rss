@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 02 Oct 2026 15:46:45 -0400</pubDate>
+    <pubDate>Sat, 03 Oct 2026 01:09:42 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.7.2.88</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.2.88.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.7.2.88&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 03 Oct 2026 01:09:42 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ## 3.7.1&lt;br&gt;&lt;br&gt;#177 Per-channel Limit? flags are no longer overwritten by the global limit at startup; each channel&#39;s own flag decides clamping, and the global Limit? is replaced by Limit All/None buttons.&lt;br&gt;#178 Sweep graphs are published only when the sweep finishes, instead of one chunk at a time with a jumping time axis.&lt;br&gt;#179 A sweep shorter than one update now runs as a single update instead of dividing by zero.&lt;br&gt;#180 Changing the output gain re-sends AO and sweep settings to the Generator, and the gains are restored first at startup, so amplified outputs are no longer applied 25x too large.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 03 Oct 2026 01:09:42 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.2.88</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Sweep Control v2.0.0.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_sweep_control/levylab_lib_sweep_control-2.0.0.14.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logg
 &lt;br&gt;</description>
       <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_oxford_vrm_api-1.11.1.29</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Oxford-1820 v1.7.4.34</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_oxford_1820_api/levylab_lib_oxford_1820_api-1.7.4.34.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Oxford-1820 v1.7.4.34&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 01 Oct 2026 19:18:09 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for controlling the Oxford 18/20 magnet&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_oxford_1820_api-1.7.4.34</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
