@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Mon, 05 Oct 2026 14:47:03 -0400</pubDate>
+    <pubDate>Tue, 06 Oct 2026 20:07:19 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.7.4.90</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.4.90.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.7.4.90&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 06 Oct 2026 20:07:19 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.7.4&lt;br&gt;&lt;br&gt;- Auto DAQ now gives a default sample rate, and the input/output gains and offsets are rebuilt to match the detected hardware (new channels get gain 1 and offset 0). You no longer need to restart before the first acquisition.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 06 Oct 2026 20:07:19 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.4.90</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.7.3.89</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.3.89.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logg
       <guid isPermaLink="false">levylab_lib_ppms_instrument-1.12.4.35</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/PPMS-Monitor-and-Control</link>
-    </item>
-    <item>
-      <title>Xeryon-Rotator v1.1.5.28</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_xeryon_rotator/levylab_lib_xeryon_rotator-1.1.5.28.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Xeryon-Rotator v1.1.5.28&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Thu, 01 Oct 2026 19:18:09 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: instrument framework smo for controlling xeryon rotation stage. initializes communication, monitors rotator status, logs status, and exposed api to for other labview vis to set and get the angle&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger&#39;s CPU use grew with uptime).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 01 Oct 2026 19:18:09 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_xeryon_rotator-1.1.5.28</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
