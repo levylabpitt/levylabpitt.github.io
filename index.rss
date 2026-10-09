@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 08 Oct 2026 16:53:42 -0400</pubDate>
+    <pubDate>Fri, 09 Oct 2026 12:32:04 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Transport v2.6.5.64</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.5.64.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Transport v2.6.5.64&lt;br&gt;
+Company: Levylab&lt;br&gt;
+Release Date: Fri, 09 Oct 2026 12:32:04 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 2.6.5&lt;br&gt;&lt;br&gt;- fix Lockin_Sweep front panel tab _control_&lt;br&gt;- Transport Server initialize front panel controls at startup&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 09 Oct 2026 12:32:04 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_transport-2.6.5.64</guid>
+      <dc:creator>Levylab</dc:creator>
+      
+    </item>
     <item>
       <title>Multichannel Lockin v3.8.0.91</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.0.91.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: ### 2.6.1&lt;br&gt;&lt;br&gt;#176: Lockin_time.vi, Lockin_sweep, 
       <pubDate>Fri, 02 Oct 2026 12:04:44 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.6.1.60</guid>
       <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>LEIDEN API v0.0.6.13</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.6.13.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN API v0.0.6.13&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 02 Oct 2026 09:22:42 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
-&lt;br&gt;
-Release Notes: - Instrument Framework 1.15.13&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 02 Oct 2026 09:22:42 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.6.13</guid>
-      <dc:creator>LevyLab</dc:creator>
       
     </item>
   </channel>
