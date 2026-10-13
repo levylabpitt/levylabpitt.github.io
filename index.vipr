@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=89
-Release.Date=Fri, 09 Oct 2026 12:32:04 -0400
-Self.ID=2608c7de7664e0ca1ce130020116c339
+Release.Number=90
+Release.Date=Tue, 13 Oct 2026 17:52:14 -0400
+Self.ID=20e62f9310caf3074eeed9ac2b64f418
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -2992,4 +2992,16 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_plym>=1.0.1.3
 Dependencies.Conflicts=levylab_lib_control_experiment>=1.0.0.2,levylab_lib_transport_server>=0.0.0.1
 Package.Display Name=Transport
+Platform.Exclusive_VIPM_Version=2017
+
+[Package levylab_lib_remote_control_zmq-1.4.0.32]
+Package.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.4.0.32.vip
+Icon.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.4.0.32.bmp
+Spec.URL=packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.4.0.32.spec
+Package.MD5=195300b57845875aebd2c44de4406e02
+Package.Release Date=Tue, 13 Oct 2026 17:52:14 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.1.125,jdp_science_lib_common_utilities>=1.4.2.19,jki_lib_state_machine>=2018.0.7.45,jki_statemachineobjects>=1.4.0.69,labview-zmq>=3.6.3.113,national_instruments_lib_guid_generator>=1.0.2.3,oglib_appcontrol>=4.1.0.7,oglib_error>=4.2.0.23,oglib_numeric>=4.1.0.8,oglib_string>=5.0.0.25,oglib_time>=4.0.1.3,prirvin_lib_json_rpc>=1.2.6.15,levylab_lib_remote_control>=1.4.1.19
+Package.Display Name=RemoteControl.ZMQ
 Platform.Exclusive_VIPM_Version=2017

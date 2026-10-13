@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 09 Oct 2026 12:32:04 -0400</pubDate>
+    <pubDate>Tue, 13 Oct 2026 17:52:14 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.4.0.32</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.4.0.32.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.4.0.32&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 13 Oct 2026 17:52:14 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Fixes client timeouts and retries (levylabpitt/RemoteControl.ZMQ#1).&lt;br&gt;&lt;br&gt;- A request that gets no reply now returns error 123 (timeout). In 1.3.7.30 it returned an empty reply with no error, which callers saw as other errors (error 91 in the Lockin getStatus).&lt;br&gt;- Retries re-send the original command with the caller&#39;s timeout. Before, they sent HELP and switched to a fixed 500 ms timeout.&lt;br&gt;- Close Connection always closes the socket, and releases the ZMQ context only for a socket it closed. This fixes a LabVIEW hang in zmq_ctx_destroy after a timeout.&lt;br&gt;- Unit tests added under tests/ (not part of the package).&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 13 Oct 2026 17:52:14 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.4.0.32</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Transport v2.6.5.64</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.5.64.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: ### 2.6.2&lt;br&gt;&lt;br&gt;#177: fix for calling startTransport
 &lt;br&gt;</description>
       <pubDate>Fri, 02 Oct 2026 14:41:40 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_transport-2.6.2.61</guid>
-      <dc:creator>Levylab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.6.1.60</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.1.60.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.6.1.60&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 02 Oct 2026 12:04:44 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 2.6.1&lt;br&gt;&lt;br&gt;#176: Lockin_time.vi, Lockin_sweep, THz_TimeDelay.vi are now privately scoped&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 02 Oct 2026 12:04:44 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.6.1.60</guid>
       <dc:creator>Levylab</dc:creator>
       
     </item>
