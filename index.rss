@@ -3,24 +3,24 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 15 Oct 2026 12:38:50 -0400</pubDate>
+    <pubDate>Thu, 15 Oct 2026 13:25:02 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
     <item>
-      <title>ZeroMQ Socket Library v3.7.0.114</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/labview-zmq/labview-zmq-3.7.0.114.bmp"&gt;&lt;br&gt;
+      <title>ZeroMQ Socket Library v3.7.0.119</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/labview-zmq/labview-zmq-3.7.0.119.bmp"&gt;&lt;br&gt;
 &lt;br&gt;
-Product: ZeroMQ Socket Library v3.7.0.114&lt;br&gt;
+Product: ZeroMQ Socket Library v3.7.0.119&lt;br&gt;
 Company: Martijn Jasperse&lt;br&gt;
-Release Date: Thu, 15 Oct 2026 12:38:50 -0400&lt;br&gt;
+Release Date: Thu, 15 Oct 2026 13:24:45 -0400&lt;br&gt;
 Packager: Martijn Jasperse&lt;br&gt;
 &lt;br&gt;
 Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
 &lt;br&gt;
 Release Notes: - Ships libzmq 4.3.4 (was 4.3.2) for 32-bit and 64-bit LabVIEW. Fixes an abort (&amp;#147;Socket operation on non-socket&amp;#148;) or error 1097 in lvzmq_recv_multi_timeout when a client is waiting while its server restarts.&lt;br&gt;- lvzmq32.dll and lvzmq64.dll are the 3.6.x binaries with their import name changed from libzmq-v120-mt-4_3_2.dll to libzmq-v120-mt-4_3_4.dll (one-byte patch, not recompiled). libsodium.dll from the same libzmq 4.3.4 release.&lt;br&gt;- Includes the 3.6.3 changes: compiled code separated from all library VIs and classes; debugging and automatic error handling disabled in all library VIs; zmq_recv_multi.vi reentrancy set to &amp;#147;preallocated shared&amp;#148;.&lt;br&gt;&lt;br&gt;*This version is a fork of labview-zmq by Martijn Jasperse, compiled by Patrick Irvin (ciozi137) with LabVIEW 2019 and VIPM 2025&lt;br&gt;
 &lt;br&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 12:38:50 -0400</pubDate>
-      <guid isPermaLink="false">labview-zmq-3.7.0.114</guid>
+      <pubDate>Thu, 15 Oct 2026 13:24:45 -0400</pubDate>
+      <guid isPermaLink="false">labview-zmq-3.7.0.119</guid>
       <dc:creator>Martijn Jasperse</dc:creator>
       <link>http://labview-zmq.sf.net</link>
     </item>
