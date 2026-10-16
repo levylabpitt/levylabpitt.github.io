@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 15 Oct 2026 23:54:27 -0400</pubDate>
+    <pubDate>Fri, 16 Oct 2026 16:54:02 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.5.1.34</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.1.34.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.5.1.34&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 16 Oct 2026 16:54:02 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 1.5.1&lt;br&gt;&lt;br&gt;Fixes LabVIEW crashing (&amp;quot;ZeroMQ Abort&amp;quot;, then error 1097) when a client keeps retrying while its server is down (levylabpitt/RemoteControl.ZMQ#2).&lt;br&gt;&lt;br&gt;- A client now checks that the server&#39;s port is open before creating a ZeroMQ connection, so it no longer makes refused connections inside libzmq.&lt;br&gt;- Opening a client succeeds even if the server is not running yet; the first request connects once the server is up.&lt;br&gt;- While the server is down or restarting, a request waits for it and returns error 123 if it does not come back in time (about 15 s at most).&lt;br&gt;- Fixed a socket leak on connect errors that could stop the shared ZeroMQ context from shutting down.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 16 Oct 2026 16:54:02 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.1.34</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.8.2.93</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.2.93.bmp"&gt;&lt;br&gt;
@@ -165,24 +183,6 @@ Release Notes: ### 3.7.4&lt;br&gt;&lt;br&gt;- Auto DAQ now gives a default sampl
 &lt;br&gt;</description>
       <pubDate>Tue, 06 Oct 2026 20:07:19 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.4.90</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.7.3.89</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.3.89.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.7.3.89&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 05 Oct 2026 14:47:03 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ## 3.7.3&lt;br&gt;&lt;br&gt;#180 improved handling of gains and default offsets&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 05 Oct 2026 14:47:03 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.3.89</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
