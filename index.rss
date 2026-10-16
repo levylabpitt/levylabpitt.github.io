@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 15 Oct 2026 14:00:58 -0400</pubDate>
+    <pubDate>Thu, 15 Oct 2026 22:37:48 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.5.0.33</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.0.33.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.5.0.33&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 15 Oct 2026 22:37:48 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: Requires labview-zmq 3.7.0 or later (libzmq 4.3.4), which fixes LabVIEW aborting (&amp;#147;Socket operation on non-socket&amp;#148;) or error 1097 when a client is waiting while its server restarts.&lt;br&gt;&lt;br&gt;- The ZMQ context is now owned by a background VI and lives until Force Cleanup or application exit. Before, it was tied to whichever VI first used ZeroMQ and stopped working for everyone when that VI stopped.&lt;br&gt;- Reconnects back off (50 ms doubling) while a server is down, instead of about 8 per second.&lt;br&gt;- Fixed a socket leak when a connect fails. Servers keep their last reply on close (LINGER 200 ms).&lt;br&gt;- The ZMQ context owner now stops after 2 s with no connections, so applications exit cleanly when closed.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 22:37:48 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.0.33</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>ZeroMQ Socket Library v3.7.0.120</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/labview-zmq/labview-zmq-3.7.0.120.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 2.6.3&lt;br&gt;&lt;br&gt;#179 Move *.CallByReference.vi from 
       <guid isPermaLink="false">levylab_lib_transport-2.6.3.62</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.7.2.88</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.7.2.88.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.7.2.88&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 03 Oct 2026 01:09:42 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ## 3.7.1&lt;br&gt;&lt;br&gt;#177 Per-channel Limit? flags are no longer overwritten by the global limit at startup; each channel&#39;s own flag decides clamping, and the global Limit? is replaced by Limit All/None buttons.&lt;br&gt;#178 Sweep graphs are published only when the sweep finishes, instead of one chunk at a time with a jumping time axis.&lt;br&gt;#179 A sweep shorter than one update now runs as a single update instead of dividing by zero.&lt;br&gt;#180 Changing the output gain re-sends AO and sweep settings to the Generator, and the gains are restored first at startup, so amplified outputs are no longer applied 25x too large.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 03 Oct 2026 01:09:42 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.2.88</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
