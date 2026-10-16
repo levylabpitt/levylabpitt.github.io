@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 15 Oct 2026 22:37:48 -0400</pubDate>
+    <pubDate>Thu, 15 Oct 2026 23:54:27 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.8.2.93</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.2.93.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.8.2.93&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 15 Oct 2026 23:54:27 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.8.2&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.5.0 and labview-zmq 3.7.0 (libzmq 4.3.4).&lt;br&gt;&lt;br&gt;- Fixes LabVIEW and the lock-in crashing (&amp;quot;ZeroMQ Abort: Socket operation on non-socket&amp;quot;, or error 1097) when the lock-in restarts while a client such as Transport is polling it. The cause was a bug in libzmq 4.3.2 (levylabpitt/RemoteControl.ZMQ#1).&lt;br&gt;- The lock-in process now exits cleanly when closed.&lt;br&gt;&lt;br&gt;Machines that run Transport or other LabVIEW clients need labview-zmq 3.7.0 and RemoteControl.ZMQ 1.5.0 installed as well; updating the lock-in alone does not fix the crash on the client side.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 15 Oct 2026 23:54:27 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.2.93</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v1.5.0.33</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.0.33.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ## 3.7.3&lt;br&gt;&lt;br&gt;#180 improved handling of gains and d
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.7.3.89</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>Transport v2.6.3.62</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.3.62.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.6.3.62&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Mon, 05 Oct 2026 12:33:28 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 2.6.3&lt;br&gt;&lt;br&gt;#179 Move *.CallByReference.vi from Inst.Transport [Transport Server] to Transport.vi and give ownership to Transport.vi&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 05 Oct 2026 12:33:28 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.6.3.62</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
