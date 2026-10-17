@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Sat, 17 Oct 2026 11:38:13 -0400</pubDate>
+    <pubDate>Sat, 17 Oct 2026 13:12:23 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.8.4.95</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.4.95.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.8.4.95&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Sat, 17 Oct 2026 13:12:22 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.8.4&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.5.2: improvements in ZMQ error logging&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Sat, 17 Oct 2026 13:12:22 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.4.95</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v1.5.2.35</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.2.35.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 2.6.5&lt;br&gt;&lt;br&gt;- fix Lockin_Sweep front panel tab _
       <guid isPermaLink="false">levylab_lib_transport-2.6.5.64</guid>
       <dc:creator>Levylab</dc:creator>
       
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.8.0.91</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.0.91.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.8.0.91&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 08 Oct 2026 16:53:41 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 3.8.0&lt;br&gt;&lt;br&gt;- Simulated NI-DAQmx devices work again (#182). Simulated inputs now keep one waveform per AI channel, with each card&#39;s AO looped back to its own AI plus noise. Previously AI was replaced by a copy of AO, so with more inputs than outputs the extra channels were empty: no lock-in results, a sweep that never finished, and error -20003 from DFD Filter Array.vi on every block.&lt;br&gt;- The Simulation mode control is hidden for now; simulated inputs are always AO loopback plus noise. The waveguide simulation is unavailable until it is moved to the DAQmx layer.&lt;br&gt;- The Nyquist low-pass filter in front of decimation is now redesigned when the sample rate or output rate changes. Before, it was designed once per session and kept whatever rate it first saw. An invalid sample rate or cutoff now returns an error instead of leaving a bad filter in place.&lt;br&gt;- Sampling settings are reduced to Fs, #s and Fs_Out.&lt;br&gt;-  API methods getSamplingFsMode and setSamplingFsMode are removed, along with the sampling mode, Fs multiplier, refresh rate and decimation settings. Clients that send these commands must be updated.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 08 Oct 2026 16:53:41 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.0.91</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
