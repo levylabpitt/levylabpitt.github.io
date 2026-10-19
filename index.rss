@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Sat, 17 Oct 2026 13:12:23 -0400</pubDate>
+    <pubDate>Mon, 19 Oct 2026 12:02:26 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.5.3.36</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.3.36.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.5.3.36&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Mon, 19 Oct 2026 12:02:25 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 1.5.3&lt;br&gt;&lt;br&gt;- Fixes error 5559 (&amp;quot;ZMQ context owner did not start&amp;quot;) after a socket was left open: a stuck ZeroMQ context no longer blocks new connections; a fresh context is started instead.&lt;br&gt;- Known issue: a context stuck this way can still keep LabVIEW or an application from quitting (&amp;quot;Resetting VI&amp;quot;); end it from Task Manager if that happens.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Mon, 19 Oct 2026 12:02:25 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.3.36</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.8.4.95</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.4.95.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: Fixes client timeouts and retries (levylabpitt/RemoteControl.ZMQ#
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.4.0.32</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Transport v2.6.5.64</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.6.5.64.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.6.5.64&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Fri, 09 Oct 2026 12:32:04 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 2.6.5&lt;br&gt;&lt;br&gt;- fix Lockin_Sweep front panel tab _control_&lt;br&gt;- Transport Server initialize front panel controls at startup&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 09 Oct 2026 12:32:04 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.6.5.64</guid>
-      <dc:creator>Levylab</dc:creator>
-      
     </item>
   </channel>
 </rss>
