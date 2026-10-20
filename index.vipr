@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=104
-Release.Date=Mon, 19 Oct 2026 13:39:03 -0400
-Self.ID=90335ea42175306b48750dda06ed0103
+Release.Number=107
+Release.Date=Tue, 20 Oct 2026 12:58:40 -0400
+Self.ID=6025688a0b08eac9e343ece73f929867
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -3123,4 +3123,15 @@ Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
 Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_instrument_type>=1.2.2.14,levylab_lib_levylab_instruments>=1.15.13.55
 Package.Display Name=Multichannel Lockin
+Platform.Exclusive_VIPM_Version=2017
+
+[Package labview-zmq-3.7.1.116]
+Package.URL=packages/labview-zmq/labview-zmq-3.7.1.116.vip
+Icon.URL=packages/labview-zmq/labview-zmq-3.7.1.116.bmp
+Spec.URL=packages/labview-zmq/labview-zmq-3.7.1.116.spec
+Package.MD5=dcc8756fe2f28412d4d736bce08cdc38
+Package.Release Date=Tue, 20 Oct 2026 12:57:52 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=Windows NT,Linux
+Package.Display Name=ZeroMQ Socket Library
 Platform.Exclusive_VIPM_Version=2017

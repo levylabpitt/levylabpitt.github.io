@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Mon, 19 Oct 2026 13:39:03 -0400</pubDate>
+    <pubDate>Tue, 20 Oct 2026 12:58:40 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ZeroMQ Socket Library v3.7.1.116</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/labview-zmq/labview-zmq-3.7.1.116.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: ZeroMQ Socket Library v3.7.1.116&lt;br&gt;
+Company: Martijn Jasperse&lt;br&gt;
+Release Date: Tue, 20 Oct 2026 12:57:52 -0400&lt;br&gt;
+Packager: Martijn Jasperse&lt;br&gt;
+&lt;br&gt;
+Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: - libzmq 4.3.5 built with select instead of WSAPoll;&lt;br&gt;- fixes signaler.cpp assertion crashes (&amp;quot;pfd.revents &amp;amp; POLLIN&amp;quot;, ZeroMQ Abort then error 1097) when a client retries against a closed port.&lt;br&gt;- Static C runtime and static libsodium: no libsodium.dll or VC++ redistributable needed.&lt;br&gt;- ipc:// remains unavailable on Windows, as in 4.3.4.&lt;br&gt;&lt;br&gt;*This version is a fork of labview-zmq by Martijn Jasperse, compiled by Patrick Irvin (ciozi137) with LabVIEW 2019 and VIPM 2025&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 20 Oct 2026 12:57:52 -0400</pubDate>
+      <guid isPermaLink="false">labview-zmq-3.7.1.116</guid>
+      <dc:creator>Martijn Jasperse</dc:creator>
+      <link>http://labview-zmq.sf.net</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.8.5.96</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.5.96.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: - Ships libzmq 4.3.4 (was 4.3.2) for 32-bit and 64-bit LabVIEW. F
       <guid isPermaLink="false">labview-zmq-3.7.0.120</guid>
       <dc:creator>Martijn Jasperse</dc:creator>
       <link>http://labview-zmq.sf.net</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.8.1.92</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.1.92.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.8.1.92&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 14 Oct 2026 20:15:44 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 3.8.1&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.4.0.32. Clients now get a timeout error (123) when the lock-in doesn&amp;#146;t answer, instead of error 91; retries re-send the original command instead of HELP; and a connection-cleanup bug that could hang or crash LabVIEW is fixed (levylabpitt/RemoteControl.ZMQ#1).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 14 Oct 2026 20:15:44 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.1.92</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
