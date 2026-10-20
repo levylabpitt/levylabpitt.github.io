@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Tue, 20 Oct 2026 13:22:01 -0400</pubDate>
+    <pubDate>Tue, 20 Oct 2026 16:00:59 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.8.6.97</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.6.97.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.8.6.97&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Tue, 20 Oct 2026 16:00:59 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.8.6&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.5.4 and labview-zmq 3.7.1.&lt;br&gt;- Fixes occasional crashes (&amp;quot;ZeroMQ Abort&amp;quot; dialog, then error 1097) in the lock-in and in LabVIEW clients: labview-zmq 3.7.1 ships a libzmq built without WSAPoll (levylabpitt/RemoteControl.ZMQ#2).&lt;br&gt;- #183 getStatus replies in ~8 ms around startSweep; fixes getStatus timeouts during Transport sweeps (requires RemoteControl.ZMQ 1.5.4 and labview-zmq 3.7.1)&lt;br&gt;- #184 Improved DAQmx error classification (recoverable vs. fatal errors)&lt;br&gt;- #185 setSweepTable, and the sweep-pattern table in the UI, applied only the last table when several channels were given one; all tables are applied now. New method names setSweepTime and setSweepTable; setSweep_Time and setSweep_Table still work but are deprecated.&lt;br&gt;Machines that run Transport, FLEX or other clients need RemoteControl.ZMQ 1.5.4 and labview-zmq 3.7.1 installed too; the crash fix only applies where they are installed.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 20 Oct 2026 16:00:59 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.6.97</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>RemoteControl.ZMQ v1.5.4.37</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.4.37.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 3.8.2&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.2.93</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.5.0.33</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.0.33.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.5.0.33&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 15 Oct 2026 22:37:48 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: Requires labview-zmq 3.7.0 or later (libzmq 4.3.4), which fixes LabVIEW aborting (&amp;#147;Socket operation on non-socket&amp;#148;) or error 1097 when a client is waiting while its server restarts.&lt;br&gt;&lt;br&gt;- The ZMQ context is now owned by a background VI and lives until Force Cleanup or application exit. Before, it was tied to whichever VI first used ZeroMQ and stopped working for everyone when that VI stopped.&lt;br&gt;- Reconnects back off (50 ms doubling) while a server is down, instead of about 8 per second.&lt;br&gt;- Fixed a socket leak when a connect fails. Servers keep their last reply on close (LINGER 200 ms).&lt;br&gt;- The ZMQ context owner now stops after 2 s with no connections, so applications exit cleanly when closed.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 15 Oct 2026 22:37:48 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.0.33</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
