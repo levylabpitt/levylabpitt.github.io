@@ -1,9 +1,9 @@
 [Self]
 Self.Name=LevyLab GitHub Repository
 Self.URL=file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io
-Release.Number=111
-Release.Date=Wed, 21 Oct 2026 13:01:33 -0400
-Self.ID=4e9c0a7a25d0187fde4615d24edb5459
+Release.Number=112
+Release.Date=Thu, 22 Oct 2026 10:31:48 -0400
+Self.ID=ac62d3f66f037b75a5765e15c443f722
 Client.GlobalAccess=TRUE
 
 [Package 3t_lib_pythonview-1.0.1.2]
@@ -3184,4 +3184,16 @@ Platform.Exclusive_OS=ALL
 Dependencies.Requires=levylab_lib_levylab_instruments>=1.15.13.55
 Dependencies.Conflicts=levylab_lib_leiden_mnk>=0.0.0.0,levylab_lib_leiden_tools>=0.0.0.0
 Package.Display Name=LEIDEN API
+Platform.Exclusive_VIPM_Version=2017
+
+[Package prirvin_lib_json_rpc-1.2.7.16]
+Package.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.7.16.vip
+Icon.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.7.16.bmp
+Spec.URL=packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.7.16.spec
+Package.MD5=e9d37190acf4e30b4206c8938003fcef
+Package.Release Date=Thu, 22 Oct 2026 10:31:48 -0400
+Platform.Exclusive_LabVIEW_Version=LabVIEW>=19.0
+Platform.Exclusive_OS=ALL
+Dependencies.Requires=jdp_science_jsontext>=1.9.1.125,jdp_science_lib_common_utilities>=1.4.2.19,oglib_numeric>=4.1.0.8,prirvin_lib_prirvin_palette>=1.0.0.3
+Package.Display Name=JSON-RPC
 Platform.Exclusive_VIPM_Version=2017

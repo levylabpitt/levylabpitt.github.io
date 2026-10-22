@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 21 Oct 2026 13:01:33 -0400</pubDate>
+    <pubDate>Thu, 22 Oct 2026 10:31:48 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.2.7.16</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.7.16.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.7.16&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Thu, 22 Oct 2026 10:31:48 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.7]&lt;br&gt;&lt;br&gt;Add JSON to Variant.vi; JSON to LVtype.vim is a thin wrapper to JSON to Variant.vi&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 10:31:48 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.7.16</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>LEIDEN API v0.0.7.14</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.7.14.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 1.5.2&lt;br&gt;&lt;br&gt;- Fixes an error 4 dialog (&amp;quot
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.2.35</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>Multichannel Lockin v3.8.3.94</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.3.94.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Multichannel Lockin v3.8.3.94&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Fri, 16 Oct 2026 20:22:36 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 3.8.3&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.5.1.&lt;br&gt;&lt;br&gt;- Fixes LabVIEW crashing (&amp;quot;ZeroMQ Abort&amp;quot;, then error 1097) when a client keeps polling the lock-in while it is closed or restarting (levylabpitt/RemoteControl.ZMQ#2). Clients now wait for the lock-in to come back, reconnect within about a second once it is up, and otherwise return error 123.&lt;br&gt;&lt;br&gt;Machines that run Transport or other LabVIEW clients need RemoteControl.ZMQ 1.5.1 and labview-zmq 3.7.0 installed too; the crash happens in the client, so updating the lock-in alone does not fix it.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Fri, 16 Oct 2026 20:22:36 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.3.94</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
     </item>
   </channel>
 </rss>
