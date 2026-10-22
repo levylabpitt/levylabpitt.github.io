@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 22 Oct 2026 10:31:48 -0400</pubDate>
+    <pubDate>Thu, 22 Oct 2026 11:21:14 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Instrument Type v1.2.3.15</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_instrument_type/levylab_lib_instrument_type-1.2.3.15.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Instrument Type v1.2.3.15&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 22 Oct 2026 11:21:14 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Instrument Framework Interfaces / Instrument Types&lt;br&gt;
+&lt;br&gt;
+Release Notes: [1.2.3]&lt;br&gt;- Instrument/1.15.13&lt;br&gt;- JSON-RPC 1.2.7 reduces calls to nested VIM&lt;br&gt;- #202 make default Temperature channel &#39;-1&#39; and shift responsibility to override to decide which channel is &#39;default&#39;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 22 Oct 2026 11:21:14 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_instrument_type-1.2.3.15</guid>
+      <dc:creator>LevyLab</dc:creator>
+      
+    </item>
     <item>
       <title>JSON-RPC v1.2.7.16</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.7.16.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 3.8.4&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.4.95</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.5.2.35</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.2.35.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.5.2.35&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Sat, 17 Oct 2026 11:38:13 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 1.5.2&lt;br&gt;&lt;br&gt;- Fixes an error 4 dialog (&amp;quot;End of file encountered&amp;quot; in Log Status.vi) that could appear when an instrument closed while ZMQ diagnostic logging was on. Logging errors are now ignored and never reach the caller.&lt;br&gt;- The logging setting (%LOCALAPPDATA%\LevyLab\ZMQ\confg.ini) is read once per process; restart LabVIEW or the application after changing it.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Sat, 17 Oct 2026 11:38:13 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.2.35</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
