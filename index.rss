@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 22 Oct 2026 14:00:57 -0400</pubDate>
+    <pubDate>Tue, 27 Oct 2026 21:16:33 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.2.8.17</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.2.8.17.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.2.8.17&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Tue, 27 Oct 2026 21:16:33 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: JSON-RPC 1.2.8&lt;br&gt;&lt;br&gt;Fixed&lt;br&gt;Instrument errors are no longer sent as a bare null (PRIrvin/JSON-RPC#2). Until now, Create Response.vi produced a real error reply only for the reserved JSON-RPC codes (-32700, -32600, -32603..-32601, -32099..-32000). Any other code, such as the Instrument Framework&amp;#146;s 4001 &amp;#147;command not supported&amp;#148;, 5402, or DAQmx errors, went out as the literal null with no envelope. Every error code now produces a standard reply:&lt;br&gt;{&amp;quot;jsonrpc&amp;quot;:&amp;quot;2.0&amp;quot;,&amp;quot;error&amp;quot;:{&amp;quot;code&amp;quot;:4001,&amp;quot;message&amp;quot;:&amp;quot;command not supported&amp;quot;},&amp;quot;id&amp;quot;:&amp;quot;1&amp;quot;}&lt;br&gt;&lt;br&gt;The message is the LabVIEW error&amp;#146;s source text. Codes are sent as they are; 4001 is not remapped to -32601.&lt;br&gt;&lt;br&gt;Behavior change&lt;br&gt;Clients that used to get an empty result with no error for an unsupported or failed command will now get an error. LabVIEW clients (Parse Response.vi, RemoteControl.ZMQ) return it on error out with the original code. Python clients get an error member instead of None. Check scripts that relied on the old silent result.&lt;br&gt;&lt;br&gt;Tests&lt;br&gt;New UNITTEST-JSON-RPC-Error-Object.vi, added to UNITTESTS.vi. It covers non-reserved, DAQmx and reserved codes, the no-error and notification (id &amp;#147;-1&amp;#148;) cases, and a Create Response / Parse Response round trip.&lt;br&gt;&lt;br&gt;Upgrading&lt;br&gt;Instrument Type and RemoteControl.ZMQ accept this version without being rebuilt.&lt;br&gt;Multichannel-Lockin: its ApplyMe_2.23.0.vipc pins JSON-RPC 1.2.6.15 exactly, so regenerate it with 1.2.8.&lt;br&gt;Instrument executables (lock-in, KH7008, Transport Server) must be rebuilt to include the fix.&lt;br&gt;&lt;br&gt;Known issue&lt;br&gt;A request that isn&amp;#146;t valid JSON still gets no reply, which leaves the server&amp;#146;s ZMQ REP socket stuck until the instrument is restarted. The fix is planned mainly in RemoteControl.ZMQ. Don&amp;#146;t send malformed requests to running instruments.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Tue, 27 Oct 2026 21:16:33 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.8.17</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>Instrument Framework v1.15.14.56</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.14.56.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 3.8.5&lt;br&gt;&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.5.96</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.5.3.36</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.3.36.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.5.3.36&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Mon, 19 Oct 2026 12:02:25 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 1.5.3&lt;br&gt;&lt;br&gt;- Fixes error 5559 (&amp;quot;ZMQ context owner did not start&amp;quot;) after a socket was left open: a stuck ZeroMQ context no longer blocks new connections; a fresh context is started instead.&lt;br&gt;- Known issue: a context stuck this way can still keep LabVIEW or an application from quitting (&amp;quot;Resetting VI&amp;quot;); end it from Task Manager if that happens.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Mon, 19 Oct 2026 12:02:25 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.3.36</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
