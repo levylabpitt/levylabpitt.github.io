@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 28 Oct 2026 16:37:11 -0400</pubDate>
+    <pubDate>Wed, 28 Oct 2026 16:49:52 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>RemoteControl.ZMQ v1.5.5.38</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.5.38.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: RemoteControl.ZMQ v1.5.5.38&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Wed, 28 Oct 2026 16:49:52 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 1.5.5&lt;br&gt;&lt;br&gt;A server (REP) now replies to a request that is not valid JSON instead of leaving the socket stuck (#9). The reply is a JSON-RPC 2.0 error: `{&amp;quot;jsonrpc&amp;quot;:&amp;quot;2.0&amp;quot;,&amp;quot;id&amp;quot;:null,&amp;quot;error&amp;quot;:{&amp;quot;code&amp;quot;:-32700,&amp;quot;message&amp;quot;:&amp;quot;Parse error&amp;quot;}}`. A request that is valid JSON but malformed (for example, missing or with an empty `method`) gets `-32600 Invalid Request`. In both cases the server keeps answering the requests that follow, so no restart is needed. Before this, a non-JSON request got no reply, and REQ/REP lockstep kept the server from answering anything else.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 28 Oct 2026 16:49:52 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.5.38</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Instrument-Framework</link>
+    </item>
     <item>
       <title>JSON-RPC v1.3.1.19</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.3.1.19.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 3.8.6&lt;br&gt;Rebuilt against RemoteControl.ZMQ 1.5.4 and la
       <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.8.6.97</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
-    </item>
-    <item>
-      <title>RemoteControl.ZMQ v1.5.4.37</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_remote_control_zmq/levylab_lib_remote_control_zmq-1.5.4.37.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: RemoteControl.ZMQ v1.5.4.37&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Tue, 20 Oct 2026 13:22:01 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Override library implementing ZMQ lazy pirate reliable request reply (RRR) protocal using RemoteControl SMO framework.&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 1.5.4&lt;br&gt;&lt;br&gt;built with labview-zmq 3.7.1, which ships libzmq 4.3.5 built with select instead of WSAPoll and fixes the &amp;#147;pfd.revents &amp;amp; POLLIN&amp;#148; assertion crashes (ZeroMQ Abort, then error 1097) when a client retries against a closed port or a restarting server.&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 13:22:01 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.4.37</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
