@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Wed, 28 Oct 2026 15:12:34 -0400</pubDate>
+    <pubDate>Wed, 28 Oct 2026 16:37:11 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JSON-RPC v1.3.1.19</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.3.1.19.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: JSON-RPC v1.3.1.19&lt;br&gt;
+Company: PRIrvin&lt;br&gt;
+Release Date: Wed, 28 Oct 2026 16:37:11 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Library for encoding and decoding JSON-RPC 2.0 request and response objects &lt;br&gt;&lt;br&gt;https://www.jsonrpc.org/specification&lt;br&gt;
+&lt;br&gt;
+Release Notes: JSON-RPC 1.3.1&lt;br&gt;- fix issue in which Create Response would wrap message id in extra &amp;quot;&amp;quot;&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Wed, 28 Oct 2026 16:37:11 -0400</pubDate>
+      <guid isPermaLink="false">prirvin_lib_json_rpc-1.3.1.19</guid>
+      <dc:creator>PRIrvin</dc:creator>
+      <link>https://github.com/PRIrvin</link>
+    </item>
     <item>
       <title>JSON-RPC v1.3.0.18</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/prirvin_lib_json_rpc/prirvin_lib_json_rpc-1.3.0.18.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: ### 1.5.4&lt;br&gt;&lt;br&gt;built with labview-zmq 3.7.1, which 
       <guid isPermaLink="false">levylab_lib_remote_control_zmq-1.5.4.37</guid>
       <dc:creator>LevyLab</dc:creator>
       <link>https://github.com/levylabpitt/Instrument-Framework</link>
-    </item>
-    <item>
-      <title>ZeroMQ Socket Library v3.7.1.116</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/labview-zmq/labview-zmq-3.7.1.116.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: ZeroMQ Socket Library v3.7.1.116&lt;br&gt;
-Company: Martijn Jasperse&lt;br&gt;
-Release Date: Tue, 20 Oct 2026 12:57:52 -0400&lt;br&gt;
-Packager: Martijn Jasperse&lt;br&gt;
-&lt;br&gt;
-Description: LabVIEW bindings for ZeroMQ, the communication library that provides simple many-many messaging and other topologies.&lt;br&gt;
-&lt;br&gt;
-Release Notes: - libzmq 4.3.5 built with select instead of WSAPoll;&lt;br&gt;- fixes signaler.cpp assertion crashes (&amp;quot;pfd.revents &amp;amp; POLLIN&amp;quot;, ZeroMQ Abort then error 1097) when a client retries against a closed port.&lt;br&gt;- Static C runtime and static libsodium: no libsodium.dll or VC++ redistributable needed.&lt;br&gt;- ipc:// remains unavailable on Windows, as in 4.3.4.&lt;br&gt;&lt;br&gt;*This version is a fork of labview-zmq by Martijn Jasperse, compiled by Patrick Irvin (ciozi137) with LabVIEW 2019 and VIPM 2025&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 12:57:52 -0400</pubDate>
-      <guid isPermaLink="false">labview-zmq-3.7.1.116</guid>
-      <dc:creator>Martijn Jasperse</dc:creator>
-      <link>http://labview-zmq.sf.net</link>
     </item>
   </channel>
 </rss>
