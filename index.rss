@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 30 Oct 2026 09:13:49 -0400</pubDate>
+    <pubDate>Fri, 30 Oct 2026 14:00:48 -0400</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.9.0.99</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.9.0.99.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.9.0.99&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 30 Oct 2026 14:00:47 -0400&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.9.0&lt;br&gt;#186/#188: gain and offset tracking, plus new get/set InputOffset and OutputOffset commands&lt;br&gt;#187: getInputDAQ and getOutputDAQ&lt;br&gt;#189: measureInputOffset&lt;br&gt;#190: setLinkFrequency and getLinkFrequency&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 30 Oct 2026 14:00:47 -0400</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.9.0.99</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.8.6.98</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.8.6.98.bmp"&gt;&lt;br&gt;
@@ -166,24 +184,6 @@ Release Notes: change methods to return temperature in kelvin not millikelvin&lt
       <pubDate>Wed, 21 Oct 2026 13:01:33 -0400</pubDate>
       <guid isPermaLink="false">levylab_lib_leiden_api-0.0.7.14</guid>
       <dc:creator>LevyLab</dc:creator>
-      
-    </item>
-    <item>
-      <title>Transport v2.7.0.65</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_transport/levylab_lib_transport-2.7.0.65.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Transport v2.7.0.65&lt;br&gt;
-Company: Levylab&lt;br&gt;
-Release Date: Tue, 20 Oct 2026 18:20:12 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: VIs for scripting and performing transport measurments.&lt;br&gt;&lt;br&gt;[Control Experiment]&lt;br&gt;- Control Experiment.vi&lt;br&gt;  - provides a uniform way to record information about your sample &amp;amp; device&lt;br&gt;  - record how the lockin is connected to the device&lt;br&gt;  - configure the Krohn Hite amplifier&lt;br&gt;  - set the base path for saving data&lt;br&gt;  - configure peripheral instruments&lt;br&gt;- APIs for recording sample data, instrument status&lt;br&gt;&lt;br&gt;[Transport]&lt;br&gt;Basic transport measurments:&lt;br&gt;- Lockin vs time (Lockin_time.vi)&lt;br&gt;- Lockin Sweep Mode (Lockin_sweep.vi)&lt;br&gt;&lt;br&gt;[Transport Server]&lt;br&gt;Server used for scripting and performing asynchronous transport measurments.&lt;br&gt;&lt;br&gt;
-&lt;br&gt;
-Release Notes: ### 2.7.0&lt;br&gt;&lt;br&gt;Experiments no longer stop for an error dialog, and a lock-in that is briefly unreachable no longer ends a sweep (levylabpitt/Transport#180).&lt;br&gt;&lt;br&gt;- Lockin_sweep, Lockin_time and THz_TimeDelay: errors are logged to &amp;quot;Transport errors.log&amp;quot; in the experiment folder instead of opening a dialog. Brief communication errors (timeouts) are retried; any other error stops the run cleanly, saving what was acquired.&lt;br&gt;- Lockin_sweep: keeps polling through short lock-in outages and stops with error 5162 only if the lock-in does not answer for 60 s. Sweep data is read with retries.&lt;br&gt;- Lockin_sweep files now include:&lt;br&gt;  - &amp;quot;Sweep-Data-Valid&amp;quot;: False if the sweep data could not be read, so the file holds no sweep arrays;&lt;br&gt;  - &amp;quot;Time-Array&amp;quot;: the timestamp of each data point, derived from t0 and dt of the waveforms.&lt;br&gt;- Configure Experiment: opens each instrument once and keeps the connection for the session, instead of reconnecting on every poll.&lt;br&gt;- Experiment windows have a button to open the experiment folder in Explorer.&lt;br&gt;- Transport Server: experiments are started by method (LockinSweep, LockinTime, LockinTimeDelay), and their front panels can be shown or hidden.&lt;br&gt;- Transport Server front panel controls are preserved&lt;br&gt;- Deprecated: Sweep Control and Continuous B Sweep can no longer be started from the Transport Server.&lt;br&gt;&lt;br&gt;Requires RemoteControl.ZMQ 1.5.4 and labview-zmq 3.7.1 (install both on every machine that runs Transport).&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Tue, 20 Oct 2026 18:20:12 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_transport-2.7.0.65</guid>
-      <dc:creator>Levylab</dc:creator>
       
     </item>
   </channel>
