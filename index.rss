@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Fri, 30 Oct 2026 14:00:48 -0400</pubDate>
+    <pubDate>Thu, 05 Nov 2026 13:30:50 -0500</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.10.0.100</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.10.0.100.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.10.0.100&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Thu, 05 Nov 2026 13:30:49 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.10.0&lt;br&gt;&lt;br&gt;#191: Start no longer hangs on an empty or stale DAQ configuration; it reports an error, and AUTO configures the DAQ on Start&lt;br&gt;#192: AI/AO graph legends and plot visibility follow the channel count; Mean matches AI keys only&lt;br&gt;#193: Fs Output follows the fastest enabled REF (Auto) or a manual rate, with an Fs/#s floor; Auto/Manual selector in the UI&lt;br&gt;#194: AO-to-AI loopback phase is deterministic: AO and REF phases reset together, and the converter delay table uses NI&#39;s published delays plus measured corrections for each Fs band (USB-4431, PXI-4461), with band edges matching NI&#39;s tables&lt;br&gt;#195: output gain and offset arrays are sized to the AO channel count on every AO config change&lt;br&gt;- Offsets: controls are moved to gain tab; users are warned that output values will change when measuring input offsets, indicator moved to main tab&lt;br&gt;- Sampling rate and buffer size are now shown on main tab&lt;br&gt;&lt;br&gt;## Phase accuracy: following improvemnts under #194 the remaining internal delay is under half a sample (phase error at most 180&amp;#176;&amp;#183;f/Fs). Delays in external circuitry (amplifiers, filters, cables) are not compensated; zero the phase in your setup at your operating frequency and sample rate.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Thu, 05 Nov 2026 13:30:49 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.10.0.100</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.9.0.99</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.9.0.99.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: [1.2.7]&lt;br&gt;&lt;br&gt;Add JSON to Variant.vi; JSON to LVtype
       <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.7.16</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>LEIDEN API v0.0.7.14</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_leiden_api/levylab_lib_leiden_api-0.0.7.14.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: LEIDEN API v0.0.7.14&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Wed, 21 Oct 2026 13:01:33 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: Tools used by LevyLab to interact with Leiden Cryostats &lt;br&gt;&lt;br&gt;Front Panel (FP) API:&lt;br&gt;- pushButton({Start, 3He, 4He, Normal, Recovery, Auto, Reset, LED Test})&lt;br&gt;- setMode({Auto Off, Start, Condense 3He, Condense 4He, Normal Circulation, Recovery})&lt;br&gt;- getMode()&lt;br&gt;&lt;br&gt;Temperature Control (TC) API:&lt;br&gt;- getTemperature()&lt;br&gt;- setHeater()&lt;br&gt;- getHeater()&lt;br&gt;
-&lt;br&gt;
-Release Notes: change methods to return temperature in kelvin not millikelvin&lt;br&gt;add logic to getTemperature.vi to poll channels 3(6),4(7) for mx RuOx(PT1000) when channel = -1&lt;br&gt;&lt;br&gt;built with RemoteControl.ZMQ 1.5.4/labview-zmq 3.7.1&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Wed, 21 Oct 2026 13:01:33 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_leiden_api-0.0.7.14</guid>
-      <dc:creator>LevyLab</dc:creator>
-      
     </item>
   </channel>
 </rss>
