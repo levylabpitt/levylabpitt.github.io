@@ -3,9 +3,27 @@
   <channel>
     <title>LevyLab GitHub Repository</title>
     <description>LevyLab GitHub Repository</description>
-    <pubDate>Thu, 05 Nov 2026 16:45:03 -0500</pubDate>
+    <pubDate>Fri, 06 Nov 2026 19:06:24 -0500</pubDate>
     <link>file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io</link>
     <atom:link href="file:///C:/Users/ansom/Documents/GitHub/levylabpitt.github.io/index.rss" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Multichannel Lockin v3.10.3.103</title>
+      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.10.3.103.bmp"&gt;&lt;br&gt;
+&lt;br&gt;
+Product: Multichannel Lockin v3.10.3.103&lt;br&gt;
+Company: LevyLab&lt;br&gt;
+Release Date: Fri, 06 Nov 2026 19:06:23 -0500&lt;br&gt;
+Packager: Patrick Irvin&lt;br&gt;
+&lt;br&gt;
+Description: Multichannel Lockin for National Instruments&#39; Dynamic Signal Acquisition hardware (4431, 4461, 4462).&lt;br&gt;- This version is configured to handle multiple cards for simultaneous, synchronized AI/AO.&lt;br&gt;- The analog outputs can be configured to output sine, square, sawtooth, or triangle functions with (swept) DC offsets.&lt;br&gt;- Each of the analog inputs can be demodulated at multiple frequencies.&lt;br&gt;
+&lt;br&gt;
+Release Notes: ### 3.10.3&lt;br&gt;&lt;br&gt;#196: measureInputOffset takes a &amp;quot;zero&amp;quot; option: both (default, as before), ac, dc or none. With none, the input offset is measured at the current AO settings instead of stepping the outputs to 0 V. setAO is ignored while the measurement runs.&lt;br&gt;
+&lt;br&gt;</description>
+      <pubDate>Fri, 06 Nov 2026 19:06:23 -0500</pubDate>
+      <guid isPermaLink="false">levylab_lib_lockin_multichannel-3.10.3.103</guid>
+      <dc:creator>LevyLab</dc:creator>
+      <link>https://github.com/levylabpitt/Multichannel-Lockin</link>
+    </item>
     <item>
       <title>Multichannel Lockin v3.10.2.102</title>
       <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_lockin_multichannel/levylab_lib_lockin_multichannel-3.10.2.102.bmp"&gt;&lt;br&gt;
@@ -167,24 +185,6 @@ Release Notes: JSON-RPC 1.2.8&lt;br&gt;&lt;br&gt;Fixed&lt;br&gt;Instrument error
       <guid isPermaLink="false">prirvin_lib_json_rpc-1.2.8.17</guid>
       <dc:creator>PRIrvin</dc:creator>
       <link>https://github.com/PRIrvin</link>
-    </item>
-    <item>
-      <title>Instrument Framework v1.15.14.56</title>
-      <description>&lt;img alt="" src="file:///C:/Users/ansom/Documents/GitHub/packages/levylab_lib_levylab_instruments/levylab_lib_levylab_instruments-1.15.14.56.bmp"&gt;&lt;br&gt;
-&lt;br&gt;
-Product: Instrument Framework v1.15.14.56&lt;br&gt;
-Company: LevyLab&lt;br&gt;
-Release Date: Thu, 22 Oct 2026 14:00:57 -0400&lt;br&gt;
-Packager: Patrick Irvin&lt;br&gt;
-&lt;br&gt;
-Description: An object-oriented framework based on JKI SMOs, developed by the LevyLab at the University of Pittsburgh.&lt;br&gt;&lt;br&gt;An Instrument developed using this framework will have the access to the following capabilities:&lt;br&gt;&lt;br&gt;- Framework for communicating with hardware (Hardware Abstraction Layer (HAL))&lt;br&gt;- Periodically polls the instrument for its settings and logs them to a PGSQL database&lt;br&gt;- Defines an API to allow external programs to control compiled instances of the application and remotely across a network (Either NI&#39;s Simple Messaging Library (STM) (deprecated in v1.9) or cross-platform protocol ZMQ (preferred beginning with v1.9))&lt;br&gt;- Provide a user interface (optional but probably desirable).&lt;br&gt;- Methods for reading and writing configuration from disk.&lt;br&gt;
-&lt;br&gt;
-Release Notes: [1.15.14]&lt;br&gt;#201 Open SMO.vi tests for existing connection and preserves connection if one already exists&lt;br&gt;
-&lt;br&gt;</description>
-      <pubDate>Thu, 22 Oct 2026 14:00:57 -0400</pubDate>
-      <guid isPermaLink="false">levylab_lib_levylab_instruments-1.15.14.56</guid>
-      <dc:creator>LevyLab</dc:creator>
-      <link>https://github.com/levylabpitt/Instrument-Framework</link>
     </item>
   </channel>
 </rss>
